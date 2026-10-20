@@ -1,0 +1,2844 @@
+{
+  "batch": 3,
+  "proteins": [
+    "plant-based",
+    "breakfast"
+  ],
+  "count": 78,
+  "recipes": [
+    {
+      "id": 31,
+      "name": "Black Bean Tacos",
+      "protein": "plant-based",
+      "cal": 340,
+      "time": 10,
+      "servings": 6,
+      "desc": "Spiced black beans, corn tortillas, avocado, pickled onion, cilantro",
+      "ingredients": [
+        "3 cans black beans, drained",
+        "12 small corn tortillas",
+        "3 avocados",
+        "1 red onion, thinly sliced",
+        "1/3 cup lime juice",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "Fresh cilantro",
+        "Salsa"
+      ],
+      "recipe": [
+        "Quick-pickle onion in lime juice and salt 10 min.",
+        "Heat beans with cumin, chili powder, salt. Mash slightly.",
+        "Warm tortillas in dry skillet.",
+        "Fill with beans, avocado, pickled onion, cilantro, salsa."
+      ],
+      "tip": "Quick-pickle the onions for at least 15 minutes - longer is better. The lime juice turns them bright pink and mellows their raw sharpness into something sweet and tangy.",
+      "cuisine": "mexican"
+    },
+    {
+      "id": 32,
+      "name": "Chickpea Tikka Masala",
+      "protein": "plant-based",
+      "cal": 360,
+      "time": 20,
+      "servings": 6,
+      "desc": "Chickpeas in rich tomato-spiced sauce, spinach, jasmine rice",
+      "ingredients": [
+        "3 cans chickpeas, drained",
+        "2 cans crushed tomatoes",
+        "4 cups baby spinach",
+        "1 onion, diced",
+        "5 cloves garlic",
+        "1.5 tbsp ginger",
+        "3 tbsp tikka masala spice",
+        "3/4 cup coconut milk",
+        "Cauliflower rice",
+        "Fresh cilantro"
+      ],
+      "recipe": [
+        "Sauté onion until golden, 5 min. Add garlic and ginger 1 min.",
+        "Add tikka masala spice, toast 30 sec.",
+        "Add tomatoes and chickpeas. Simmer 10 min.",
+        "Stir in coconut milk and spinach. Serve over cauliflower rice, topped with fresh cilantro."
+      ],
+      "tip": "Add a small pinch of sugar to the tikka sauce. It balances the acidity of the tomatoes and rounds out the spice blend without making it sweet.",
+      "tip2": "Toast the spices dry for 30 seconds before adding liquid. You'll know they're ready when the kitchen smells incredible — that's the volatile oils releasing. Don't walk away during this step, they burn fast.",
+      "recipe_detailed": [
+        "Heat oil in a large pan over medium heat. Add the onion and cook 5–6 min, stirring occasionally, until golden and soft — not just translucent, you want some color here. It builds sweetness.",
+        "Add garlic and ginger and stir 1 min until fragrant. Add the tikka masala spice blend and toast it in the oil for 30 seconds, stirring constantly. The kitchen should smell incredible. Don't walk away — spices burn fast and turn bitter.",
+        "Pour in the crushed tomatoes and add the chickpeas. Stir to combine and bring to a simmer. Add a small pinch of sugar. Cook 10 min, stirring occasionally, until the sauce thickens and the color deepens to a rich orange-red.",
+        "Stir in coconut milk and spinach. Cook 2–3 min until the spinach wilts and the sauce is creamy and uniform. Taste and adjust salt. Serve over basmati rice with naan for scooping."
+      ],
+      "cuisine": "indian"
+    },
+    {
+      "id": 33,
+      "name": "Lentil Veggie Soup",
+      "protein": "plant-based",
+      "cal": 280,
+      "time": 25,
+      "servings": 6,
+      "desc": "Red lentils, kale, carrots, tomatoes, cumin-turmeric broth",
+      "ingredients": [
+        "2 cups red lentils",
+        "5 cups kale, chopped",
+        "3 carrots, diced",
+        "1 can diced tomatoes",
+        "1 onion, diced",
+        "5 cloves garlic",
+        "1.5 tsp cumin",
+        "1.5 tsp turmeric",
+        "1 tsp coriander",
+        "6 cups vegetable broth",
+        "Lemon to finish"
+      ],
+      "recipe": [
+        "Sauté onion and carrots 5 min. Add garlic and spices 1 min.",
+        "Add lentils, tomatoes, broth. Bring to boil.",
+        "Simmer 15 min until lentils are soft.",
+        "Stir in kale 3 min. Season and squeeze lemon over top."
+      ],
+      "tip": "Red lentils break down completely as they cook, naturally thickening the soup. If it gets too thick, thin with a splash of water - don't add more broth, which concentrates salt.",
+      "tip2": "Red lentils dissolve completely as they cook — that is by design. They are the thickener. Green or brown lentils hold their shape if you prefer texture; just add 10 more min of simmering.",
+      "recipe_detailed": [
+        "Heat oil in a large pot over medium. Cook onion, carrot, and celery 5-6 min until softened. Add garlic, cook 1 min.",
+        "Add cumin, coriander, and smoked paprika. Stir for 30 seconds until fragrant. Add diced tomatoes, lentils, and broth. Stir to combine.",
+        "Bring to a boil, then reduce to a simmer. Cook 20-25 min, stirring occasionally, until lentils are completely soft and have dissolved into the broth, thickening it.",
+        "Add any leafy greens and stir until wilted. Squeeze lemon juice in at the end — it brightens the whole soup. Season with salt and pepper."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 39,
+      "name": "Three Bean Chili",
+      "protein": "plant-based",
+      "cal": 310,
+      "time": 25,
+      "servings": 6,
+      "desc": "Black, kidney & pinto beans, tomatoes, peppers, chili spices",
+      "ingredients": [
+        "1 can black beans",
+        "1 can kidney beans",
+        "1 can pinto beans",
+        "1 can diced tomatoes",
+        "1 can tomato sauce",
+        "2 bell peppers, diced",
+        "1 onion, diced",
+        "3 cloves garlic",
+        "2 tbsp chili powder",
+        "1 tsp cumin",
+        "1 tsp smoked paprika"
+      ],
+      "recipe": [
+        "Sauté onion and peppers 5 min. Add garlic and spices 1 min.",
+        "Add all beans (drained), tomatoes, tomato sauce.",
+        "Simmer 15 min, stirring occasionally.",
+        "Season. Serve with avocado, sour cream, cilantro."
+      ],
+      "tip": "Let the chili sit for 15 minutes off heat before serving. Like any braise, resting allows the flavors to settle and meld - it genuinely tastes better.",
+      "tip2": "Don't rush the spices — add them to the hot fat and stir for a full 30-60 seconds before adding liquid. This blooms them in oil, releasing the volatile flavor compounds that make chili taste complex instead of flat.",
+      "recipe_detailed": [
+        "Heat oil in a large pot over medium-high. Cook onion and peppers 5-6 min until softened. Add garlic, cook 1 min.",
+        "Add all the spices: chili powder, cumin, smoked paprika, oregano, and cayenne. Stir for 30-60 seconds in the hot oil until intensely fragrant.",
+        "Add drained beans, crushed tomatoes, and broth. Stir well. Bring to a boil, then reduce to a simmer.",
+        "Simmer uncovered 25-30 min, stirring occasionally, until the chili thickens and the flavors meld. Taste and adjust seasoning — chili often needs more salt and sometimes a splash of vinegar at the end. Serve with sour cream, shredded cheese, and warm cornbread."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 35,
+      "name": "Plant-Based Taco Bowls",
+      "protein": "plant-based",
+      "cal": 370,
+      "time": 12,
+      "servings": 6,
+      "desc": "Plant-based ground, black beans, salsa, avocado, romaine",
+      "ingredients": [
+        "1.5 lb plant-based ground (Beyond/Impossible)",
+        "2 cans black beans, drained",
+        "3 avocados",
+        "6 cups romaine, chopped",
+        "1.5 cups salsa",
+        "1.5 tbsp taco seasoning",
+        "Lime wedges"
+      ],
+      "recipe": [
+        "Cook plant-based ground 5 min, breaking up.",
+        "Add taco seasoning + 2 tbsp water, stir 1 min.",
+        "Warm beans separately.",
+        "Build bowls: romaine, ground, beans, avocado, salsa, lime."
+      ],
+      "tip": "Cook plant-based meat on high heat without stirring for the first 2 minutes. It needs to develop a crust just like real beef, and won't if you stir constantly.",
+      "tip2": "Season the base heavily — whether it is lentils, cauliflower, or a blend, it needs to taste like taco meat on its own before it goes in the bowl. Bland filling makes a bland bowl.",
+      "recipe_detailed": [
+        "Cook your taco base: for lentils, simmer in broth with taco seasoning 20 min until soft. For cauliflower, roast at 425F with taco spices 20 min until caramelized. Season aggressively — it should taste boldly spiced on its own.",
+        "Warm black or pinto beans in a pan with cumin, garlic powder, and a pinch of salt. Smash a few beans for a creamier texture.",
+        "Cook rice and season with lime juice and fresh cilantro.",
+        "Build bowls: rice base, beans, taco filling, salsa, guacamole, shredded cabbage, pickled jalapenos, and sour cream or cashew cream. Squeeze lime over everything."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 128,
+      "name": "Red Beans & Rice with Sausage",
+      "protein": "plant-based",
+      "cal": 420,
+      "time": 30,
+      "servings": 6,
+      "desc": "Creamy Louisiana red beans with Andouille sausage, the Holy Trinity, and rice",
+      "ingredients": [
+        "2 cans red kidney beans, drained",
+        "1 lb Andouille sausage, sliced",
+        "1 onion, diced",
+        "3 stalks celery, diced",
+        "1 green bell pepper, diced",
+        "4 cloves garlic",
+        "1 tsp thyme",
+        "1 tsp smoked paprika",
+        "1/2 tsp cayenne",
+        "2 bay leaves",
+        "2 cups chicken broth",
+        "3 cups cooked white or brown rice",
+        "Hot sauce to serve",
+        "Green onion to top"
+      ],
+      "recipe": [
+        "Sauté sausage until browned, 5 min. Remove.",
+        "In drippings, cook onion, celery, and bell pepper until soft, 6 min.",
+        "Add garlic, thyme, paprika, cayenne, bay leaves. Cook 1 min.",
+        "Add beans and broth. Simmer 15 min, smashing some beans for creaminess.",
+        "Return sausage, simmer 5 more min. Remove bay leaves. Serve over rice with hot sauce."
+      ],
+      "tip": "Smashing some beans against the pot is the difference between a watery dish and a creamy, restaurant-style red beans. Use the back of a spoon and press firmly against the pot wall.",
+      "tip2": "Smash some of the beans against the side of the pot toward the end. This releases starch and creates a thick, creamy sauce that coats the rice rather than sitting watery around it.",
+      "recipe_detailed": [
+        "Cook the Holy Trinity — onion, celery, and bell pepper — in oil 5-7 min until soft. Add garlic and Andouille sausage, cook 3 min until sausage starts to render.",
+        "Add drained beans, broth, bay leaves, thyme, and cayenne. Bring to a boil, then reduce to a low simmer. Cook 20-45 min depending on whether using canned or soaked dried beans.",
+        "In the last 10 min, smash some beans against the side of the pot until the sauce is thick and creamy. Season with salt, pepper, and a splash of hot sauce.",
+        "Serve over white rice. Top with sliced sausage and fresh green onions."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 130,
+      "name": "Shakshuka",
+      "protein": "breakfast",
+      "cal": 310,
+      "time": 25,
+      "servings": 4,
+      "desc": "Eggs poached in a spiced tomato and pepper sauce - a Middle Eastern classic that's ready in one pan",
+      "ingredients": [
+        "2 tbsp olive oil",
+        "1 onion, diced",
+        "1 red bell pepper, diced",
+        "4 garlic cloves, minced",
+        "1 tsp cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp chili flakes",
+        "2 cans (14 oz) crushed tomatoes",
+        "6 eggs",
+        "Salt and pepper",
+        "Fresh parsley or cilantro",
+        "Crusty bread or pita to serve",
+        "Crumbled feta (optional)"
+      ],
+      "recipe": [
+        "Heat oil in a large skillet over medium. Cook onion and pepper until soft, 6 min.",
+        "Add garlic, cumin, paprika, and chili flakes. Cook 1 min.",
+        "Pour in crushed tomatoes. Season, simmer 10 min until thickened.",
+        "Make 6 wells in the sauce and crack an egg into each. Cover and cook 5-8 min until whites are set but yolks still runny.",
+        "Top with parsley and feta. Serve straight from the pan with bread."
+      ],
+      "tip": "Don't overcook the eggs - pull them when the whites are just set. Residual heat will finish the yolks.",
+      "tip2": "If your sauce looks too thin before adding the eggs, let it simmer uncovered an extra 3–5 min. Eggs need a thick sauce to nestle into — too thin and they spread and cook unevenly.",
+      "recipe_detailed": [
+        "Heat oil in a large, deep skillet or oven-safe pan over medium heat. Add the onion and pepper and cook 6–7 min, stirring occasionally, until fully softened and the onion is translucent. Don't rush this — soft vegetables are the base of the sauce.",
+        "Add garlic, cumin, paprika, and chili flakes. Stir constantly for 1 min — the spices will bloom in the oil and smell intensely fragrant. This is the flavor foundation of the dish.",
+        "Pour in the crushed tomatoes. Season with salt and pepper. Stir to combine and simmer over medium-low heat for 10 min, stirring occasionally, until the sauce thickens and deepens in color. It should be thick enough that a spoon dragged through holds a line for a moment.",
+        "Use the back of a spoon to make 6 shallow wells in the sauce. Crack one egg into each well, being careful not to break the yolks. Cover the pan with a lid and cook 5–8 min — check at 5 min. The whites should be fully set and opaque but the yolks should still be soft and jiggly when you gently shake the pan.",
+        "Remove from heat immediately and top with parsley, feta, and a drizzle of olive oil. Serve straight from the pan with crusty bread or pita for scooping."
+      ],
+      "cuisine": "middleeastern"
+    },
+    {
+      "id": 131,
+      "name": "Breakfast Burritos",
+      "protein": "breakfast",
+      "cal": 490,
+      "time": 20,
+      "servings": 4,
+      "desc": "Scrambled eggs, crispy potatoes, sausage, and cheese wrapped in a warm flour tortilla",
+      "ingredients": [
+        "8 large eggs",
+        "1/2 lb breakfast sausage",
+        "2 cups frozen diced potatoes or hash browns",
+        "1/2 onion, diced",
+        "1 cup shredded cheddar",
+        "4 large flour tortillas",
+        "Salsa and sour cream to serve",
+        "Salt and pepper",
+        "Hot sauce optional"
+      ],
+      "recipe": [
+        "Cook sausage in a skillet, breaking it up, until browned. Remove.",
+        "Add potatoes and onion to the same skillet. Cook until golden and crispy, 8-10 min.",
+        "Whisk eggs with salt and pepper. Pour into the pan over the potatoes. Scramble until just set.",
+        "Return sausage to pan. Mix to combine.",
+        "Warm tortillas. Fill each with egg mixture and cheese. Roll tightly. Serve with salsa and sour cream."
+      ],
+      "tip": "Wrap the burritos in foil and you can make them ahead. They reheat perfectly in the oven at 350°F for 15 min.",
+      "tip2": "Toasting the burrito in a dry pan after wrapping seals it shut and adds a satisfying crispy exterior. It also prevents it from unwrapping as you eat.",
+      "recipe_detailed": [
+        "Cook sausage or bacon in a skillet, breaking it up. Remove and leave some fat in the pan.",
+        "Whisk eggs with a splash of milk, salt, and pepper. Add to the same pan over medium-low heat. Stir slowly with a spatula — you want large, soft curds. Pull off the heat while they look slightly underdone. Residual heat finishes them.",
+        "Warm flour tortillas. Layer down the center: eggs, meat, cheese, potatoes, salsa, and sour cream. Don't overfill or they won't wrap.",
+        "Fold sides in first, then roll tightly from the bottom up. Toast the burrito seam-side down in a dry pan 1-2 min per side until golden and sealed."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 132,
+      "name": "French Toast Casserole",
+      "protein": "breakfast",
+      "cal": 430,
+      "time": 40,
+      "servings": 6,
+      "desc": "Thick-cut brioche soaked in a custard, baked until golden and served with maple syrup",
+      "ingredients": [
+        "1 loaf brioche or challah, cut thick",
+        "6 eggs",
+        "1 1/2 cups whole milk",
+        "1/2 cup heavy cream",
+        "3 tbsp sugar",
+        "2 tsp vanilla",
+        "1 1/2 tsp cinnamon",
+        "1/4 tsp nutmeg",
+        "2 tbsp butter",
+        "Powdered sugar to serve",
+        "Maple syrup to serve",
+        "Fresh berries to serve"
+      ],
+      "recipe": [
+        "Butter a 9x13 baking dish. Arrange bread slices overlapping in the dish.",
+        "Whisk eggs, milk, cream, sugar, vanilla, cinnamon, and nutmeg. Pour over bread. Press down gently.",
+        "Cover and refrigerate 30 min (or overnight).",
+        "Preheat oven to 350°F. Bake uncovered 35-40 min until golden and puffed.",
+        "Dust with powdered sugar. Serve with maple syrup and berries."
+      ],
+      "tip": "Using day-old bread is key - it absorbs the custard without going soggy. Brioche or challah make this genuinely special.",
+      "tip2": "The longer the bread soaks, the more custardy the interior. Assemble the night before and refrigerate — the bread fully saturates and you just bake it in the morning.",
+      "recipe_detailed": [
+        "Tear or slice bread into thick chunks. Day-old bread is better — it is drier and absorbs more custard without getting soggy.",
+        "Whisk together eggs, milk, cream, sugar, vanilla, cinnamon, and a pinch of salt.",
+        "Pour custard over bread in a baking dish. Press the bread down gently so every piece soaks up the liquid. Let soak 30 min minimum. Overnight is best.",
+        "Bake at 350F for 40-45 min until puffed, golden, and set in the center — a knife inserted in the middle should come out clean. Let rest 5 min before scooping. Serve with maple syrup."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 133,
+      "name": "Chicken & Waffle Stack",
+      "protein": "breakfast",
+      "cal": 560,
+      "time": 35,
+      "servings": 4,
+      "desc": "Crispy fried chicken on golden Belgian waffles with maple syrup and hot sauce",
+      "ingredients": [
+        "4 boneless chicken thighs",
+        "1 cup buttermilk",
+        "1 cup flour",
+        "1 tsp garlic powder",
+        "1 tsp smoked paprika",
+        "Salt and pepper",
+        "Oil for frying",
+        "2 cups waffle mix",
+        "Eggs and oil per waffle mix instructions",
+        "Maple syrup",
+        "Hot sauce",
+        "Butter"
+      ],
+      "recipe": [
+        "Marinate chicken in buttermilk, salt, and pepper 20 min.",
+        "Mix flour with garlic powder, paprika, salt, and pepper. Dredge chicken pieces.",
+        "Fry in 350°F oil, 5-6 min per side until golden and cooked through. Drain on rack.",
+        "Make waffles per package instructions.",
+        "Stack waffles and chicken. Serve with maple syrup, butter, and hot sauce."
+      ],
+      "tip": "The contrast of the sweet syrup and the hot sauce is the whole point - don't skip either one.",
+      "tip2": "Fry the chicken at 325-350F — not higher. Too hot and the outside burns before the inside cooks. Use a thermometer; consistent oil temperature is the difference between crispy and greasy.",
+      "recipe_detailed": [
+        "Brine chicken pieces in buttermilk for at least 1 hour, preferably overnight. This tenderizes the meat and keeps it moist through frying.",
+        "Season flour generously with salt, pepper, garlic powder, paprika, and cayenne. Dredge chicken in the flour, back in buttermilk, then back in flour — the double dredge creates a thick, craggy crust.",
+        "Heat 2-3 inches of oil to 325-350F. Fry chicken in batches 12-15 min, turning once, until deep golden and a thermometer reads 165F. Drain on a wire rack.",
+        "Make waffles. Stack: waffle, chicken, waffle, chicken. Drizzle with maple syrup and hot sauce."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 134,
+      "name": "Huevos Rancheros",
+      "protein": "breakfast",
+      "cal": 370,
+      "time": 20,
+      "servings": 4,
+      "desc": "Fried eggs on warm corn tortillas with ranchero sauce, refried beans, and fresh toppings",
+      "ingredients": [
+        "8 eggs",
+        "8 corn tortillas",
+        "1 can refried beans",
+        "1 can diced tomatoes with green chiles",
+        "1 onion, diced",
+        "2 garlic cloves",
+        "1 jalapeño, diced",
+        "1 tsp cumin",
+        "1/2 cup chicken broth",
+        "Oil for frying",
+        "Avocado, sliced",
+        "Cotija cheese, crumbled",
+        "Cilantro and lime to serve"
+      ],
+      "recipe": [
+        "Make ranchero sauce: sauté onion, jalapeño, and garlic until soft. Add tomatoes, cumin, and broth. Simmer 10 min.",
+        "Warm refried beans. Lightly fry tortillas in oil until just crisp at edges.",
+        "Fry eggs sunny side up.",
+        "Spread beans on tortillas. Top with egg and ranchero sauce.",
+        "Finish with avocado, cotija, cilantro, and a squeeze of lime."
+      ],
+      "tip": "If you want to make this faster on a weeknight, use store-bought salsa instead of making the ranchero sauce from scratch.",
+      "tip2": "Simmer the ranchero sauce longer than you think — 15 min of simmering concentrates it from thin tomato liquid into a thick, deeply flavored sauce. Don't rush it.",
+      "recipe_detailed": [
+        "Make ranchero sauce: saute onion, jalapeno, and garlic in oil until soft. Add crushed tomatoes, cumin, chili powder, and salt. Simmer 12-15 min until thickened and the color deepens. Taste and adjust heat.",
+        "Warm corn tortillas in a dry skillet or directly over a gas flame. Keep warm wrapped in a towel.",
+        "Fry eggs in oil or butter over medium heat. For sunny-side: cover the pan with a lid and cook 2-3 min until whites are set and yolks are still runny.",
+        "Assemble: tortilla, spoonful of black beans, egg, ranchero sauce, crumbled cotija or feta, sliced avocado, and fresh cilantro."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 135,
+      "name": "Hash Brown Egg Bake",
+      "protein": "breakfast",
+      "cal": 400,
+      "time": 40,
+      "servings": 6,
+      "desc": "A hearty one-dish dinner: crispy hash brown crust loaded with eggs, bacon, and cheese",
+      "ingredients": [
+        "1 bag (20 oz) frozen shredded hash browns, thawed",
+        "4 tbsp butter, melted",
+        "1 tsp garlic powder",
+        "Salt and pepper",
+        "6 eggs",
+        "1/2 cup milk",
+        "1 cup shredded cheddar",
+        "6 slices bacon, cooked and crumbled",
+        "3 green onions, sliced",
+        "1/2 cup sour cream to serve"
+      ],
+      "recipe": [
+        "Preheat oven to 400°F. Grease a 9x13 baking dish.",
+        "Toss hash browns with butter, garlic powder, salt, and pepper. Press into dish forming a crust. Bake 25 min until golden.",
+        "Whisk eggs with milk, salt, and pepper. Pour over crust. Scatter bacon and half the cheese.",
+        "Bake 15 min until eggs are set. Top with remaining cheese and melt 2 more min.",
+        "Garnish with green onions. Serve with sour cream."
+      ],
+      "tip": "Fully thaw the hash browns and squeeze out excess moisture - that's what gets you the crispy crust instead of a soggy mess.",
+      "tip2": "Press the hash brown layer firmly into the pan and bake it for 15 min before adding eggs. You want it golden and set, not soft — otherwise you get a mushy base instead of a crispy crust.",
+      "recipe_detailed": [
+        "Preheat oven to 400F. Squeeze all moisture out of shredded potatoes in a towel — really wring it out. Season with salt, pepper, and garlic powder.",
+        "Press hash brown mixture firmly into a greased baking dish or cast iron, making an even layer. Bake 15 min until the edges start to turn golden and the center is set.",
+        "Meanwhile, cook your mix-ins: saute sausage, peppers, onion, and any vegetables until cooked through.",
+        "Spread mix-ins over the hash brown crust. Make wells and crack eggs in. Season eggs. Scatter cheese over everything. Bake 12-15 min until whites are fully set. Let rest 5 min before slicing."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 136,
+      "name": "Egg Fried Rice",
+      "protein": "breakfast",
+      "cal": 390,
+      "time": 15,
+      "servings": 4,
+      "desc": "Quick weeknight fried rice loaded with eggs, vegetables, and soy sauce",
+      "ingredients": [
+        "3 cups cooked day-old rice",
+        "4 eggs, beaten",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp oyster sauce",
+        "3 garlic cloves, minced",
+        "1 cup frozen peas and carrots",
+        "4 green onions, sliced",
+        "2 tbsp vegetable oil",
+        "White pepper to taste",
+        "Sriracha to serve"
+      ],
+      "recipe": [
+        "Heat oil in a wok or large skillet over high heat.",
+        "Add garlic, cook 30 seconds. Add peas and carrots, stir fry 2 min.",
+        "Push vegetables to the side. Pour in eggs, scramble until just set.",
+        "Add rice. Toss everything together over high heat 2-3 min.",
+        "Add soy sauce, oyster sauce, sesame oil, and white pepper. Toss. Serve with sriracha."
+      ],
+      "tip": "Day-old refrigerated rice is mandatory - fresh rice is too wet and turns to mush. Make the rice the night before.",
+      "tip2": "Day-old cold rice is essential — freshly cooked rice is too moist and clumps. Spread leftover rice on a sheet pan and refrigerate uncovered overnight to dry it out. This single step is why restaurant fried rice beats home attempts.",
+      "recipe_detailed": [
+        "Use cold, day-old rice. Break up any clumps with your hands before adding to the pan.",
+        "Heat a wok or large pan over the highest heat you have. Add oil until shimmering. Add the cold rice and spread in an even layer. Don't stir for 1-2 min — let it crisp on the bottom. Toss and repeat.",
+        "Push rice to the sides. Add a little more oil to the center, then the eggs. Scramble until just barely set, then toss through the rice.",
+        "Add soy sauce, sesame oil, and any vegetables or protein. Toss everything over high heat for 1-2 min until fragrant. Finish with green onions."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 137,
+      "name": "Smoked Salmon Frittata",
+      "protein": "breakfast",
+      "cal": 340,
+      "time": 25,
+      "servings": 4,
+      "desc": "A light oven-baked Italian egg dish with smoked salmon, cream cheese, and fresh dill",
+      "ingredients": [
+        "8 eggs",
+        "1/4 cup milk",
+        "4 oz smoked salmon, torn",
+        "3 oz cream cheese, dolloped",
+        "2 tbsp fresh dill",
+        "2 tbsp capers",
+        "1/2 red onion, thinly sliced",
+        "2 tbsp olive oil",
+        "Salt and pepper",
+        "Lemon wedges to serve"
+      ],
+      "recipe": [
+        "Preheat oven to 375°F. Whisk eggs with milk, salt, and pepper.",
+        "Heat olive oil in an oven-safe skillet. Cook red onion 3 min until soft.",
+        "Pour in egg mixture. Arrange salmon, cream cheese dollops, capers, and dill on top.",
+        "Cook on stove 2 min until edges set, then transfer to oven.",
+        "Bake 12-15 min until center is just set. Slice into wedges and serve with lemon."
+      ],
+      "tip": "Don't overbake - a frittata should still have a slight jiggle in the center when you pull it. It firms as it rests.",
+      "tip2": "Don't beat the eggs too aggressively — overbeaten eggs are rubbery. Whisk just until the yolks and whites are combined. Some visible streaks are fine; they even out during cooking.",
+      "recipe_detailed": [
+        "Preheat oven broiler to high. Whisk eggs with cream, salt, and pepper just until combined.",
+        "Heat an oven-safe skillet over medium. Add butter and cook shallots until soft, 2-3 min. Add capers and any other fillings.",
+        "Pour in the egg mixture. Cook undisturbed over medium-low for 4-5 min until the edges are set but the center is still slightly jiggly.",
+        "Scatter smoked salmon and cream cheese over the top. Transfer to the broiler for 2-3 min until just set and lightly golden. Watch closely — it goes from perfect to rubbery quickly. Slide onto a plate, top with fresh dill and lemon zest."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 138,
+      "name": "Pancake Dinner Board",
+      "protein": "breakfast",
+      "cal": 460,
+      "time": 25,
+      "servings": 4,
+      "desc": "A fun spread of fluffy buttermilk pancakes with maple syrup, fruit, whipped cream, and bacon",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "2 tbsp sugar",
+        "2 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1/2 tsp salt",
+        "2 cups buttermilk",
+        "2 eggs",
+        "4 tbsp butter, melted",
+        "8 slices bacon",
+        "Fresh berries",
+        "Whipped cream",
+        "Maple syrup",
+        "Powdered sugar"
+      ],
+      "recipe": [
+        "Cook bacon until crispy. Set aside.",
+        "Whisk dry ingredients. In another bowl, mix buttermilk, eggs, and melted butter. Combine wet and dry - don't overmix.",
+        "Heat a griddle to medium. Butter lightly. Pour 1/4 cup batter per pancake. Cook until bubbles form, flip, cook 1 min more.",
+        "Arrange on a large board or platter with bacon, berries, whipped cream, and syrup.",
+        "Serve immediately and let everyone build their own stack."
+      ],
+      "tip": "Lumpy batter is good batter - overmixing develops gluten and makes pancakes tough. Mix until just combined.",
+      "tip2": "Let the batter rest 5 min after mixing — the baking powder activates fully and the gluten relaxes, giving you fluffier, more tender pancakes. Don't skip this.",
+      "recipe_detailed": [
+        "Mix dry ingredients in one bowl. Mix wet ingredients in another. Combine wet into dry and stir until just combined — lumps are fine. Overmixing develops gluten and makes tough pancakes.",
+        "Let batter rest 5 min while you heat the griddle to medium. A drop of water should sizzle and dance. Lightly grease with butter.",
+        "Pour batter in circles. When bubbles form across the whole surface and the edges look matte, flip. Cook 1-2 min on the second side.",
+        "Build the board: stack pancakes in the center, surround with toppings — berries, sliced banana, whipped cream, maple syrup, chocolate chips, and powdered sugar. Let everyone customize."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 139,
+      "name": "Biscuits & Gravy",
+      "protein": "breakfast",
+      "cal": 520,
+      "time": 30,
+      "servings": 4,
+      "desc": "Southern-style fluffy biscuits smothered in creamy sausage gravy",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 tbsp baking powder",
+        "1 tsp salt",
+        "1/3 cup cold butter, cubed",
+        "3/4 cup buttermilk",
+        "1 lb breakfast sausage",
+        "3 tbsp flour",
+        "2 1/2 cups whole milk",
+        "Salt and black pepper to taste",
+        "Pinch of cayenne"
+      ],
+      "recipe": [
+        "Preheat oven to 450°F. Mix flour, baking powder, and salt. Cut in cold butter until crumbly. Add buttermilk, mix until just combined.",
+        "Drop biscuits onto a parchment-lined baking sheet. Bake 12-14 min until golden.",
+        "Cook sausage in a skillet over medium-high, breaking it up. Don't drain the fat.",
+        "Sprinkle flour over sausage. Stir and cook 1 min. Slowly whisk in milk. Simmer until thick, 4-5 min. Season generously.",
+        "Split biscuits and smother with gravy."
+      ],
+      "tip": "The fat from the sausage is what makes the gravy. Don't drain it - that's the flavor.",
+      "tip2": "Cold butter in biscuits is non-negotiable. Warm butter melts into the dough and you lose the flakiness. Freeze the butter and grate it in, or cut it in quickly and keep everything cold.",
+      "recipe_detailed": [
+        "For biscuits: mix flour, baking powder, salt. Cut in very cold butter until the mixture looks like coarse crumbs. Stir in cold buttermilk until just combined.",
+        "Turn out on a floured surface, pat to 1-inch thickness. Fold in half and pat again — this creates layers. Cut straight down with a sharp cutter, no twisting. Bake at 425F for 12-14 min until golden.",
+        "For gravy: cook sausage in a skillet until browned and crumbly. Sprinkle flour directly over the meat and stir 1-2 min to cook out the raw flour taste. Pour in milk slowly, stirring constantly to prevent lumps.",
+        "Simmer gravy 5 min until thick and creamy. Season aggressively with black pepper. Split biscuits and ladle gravy generously over."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 140,
+      "name": "Saag Paneer",
+      "protein": "plant-based",
+      "cal": 360,
+      "time": 30,
+      "servings": 4,
+      "desc": "Indian creamed spinach with golden pan-fried paneer cheese - rich, aromatic, and warming",
+      "ingredients": [
+        "400g paneer, cubed",
+        "1 lb fresh spinach or frozen spinach, thawed",
+        "1 onion, finely chopped",
+        "4 garlic cloves, minced",
+        "1 tbsp ginger, grated",
+        "2 tbsp ghee or oil",
+        "1 tsp cumin seeds",
+        "1 tsp garam masala",
+        "1 tsp turmeric",
+        "1/2 tsp chili powder",
+        "1/2 cup heavy cream or coconut cream",
+        "Salt to taste",
+        "Naan or basmati rice to serve"
+      ],
+      "recipe": [
+        "Pan-fry paneer cubes in ghee until golden on all sides. Set aside.",
+        "In the same pan, toast cumin seeds until fragrant. Add onion, cook until golden, 8 min.",
+        "Add garlic, ginger, turmeric, chili powder. Cook 2 min. Add spinach, cook until wilted.",
+        "Blend or mash the spinach mixture to a rough puree. Return to pan.",
+        "Add cream, garam masala, and paneer. Simmer 5 min. Serve with naan."
+      ],
+      "tip": "Blending half the spinach and leaving the rest chunky gives you the best texture - not too smooth, not too rough.",
+      "tip2": "Frying the paneer first until golden gives it a slightly firm exterior that holds up in the sauce. Skip this step and it turns soft and crumbly. Either is delicious, but golden paneer holds its shape.",
+      "recipe_detailed": [
+        "Cut paneer into cubes and pan-fry in oil over medium-high heat 2-3 min per side until golden. Remove and set aside.",
+        "Wilt spinach in the same pan with a splash of water. Once cooled, blend to a rough puree — some texture is nice.",
+        "In the same pan, heat ghee or oil. Add onion, cook 5 min until golden. Add garlic, ginger, and spices. Cook 1 min — they should smell intensely fragrant.",
+        "Add the spinach puree and cream. Simmer 5 min until the flavors meld. Fold in the paneer gently. Season with salt and a squeeze of lemon. Serve with basmati rice and warm naan."
+      ],
+      "cuisine": "indian"
+    },
+    {
+      "id": 141,
+      "name": "Mushroom Bourguignon",
+      "protein": "plant-based",
+      "cal": 320,
+      "time": 45,
+      "servings": 4,
+      "desc": "A hearty French stew with mushrooms, carrots, and red wine - vegetarian comfort at its finest",
+      "ingredients": [
+        "1 lb cremini mushrooms, halved",
+        "1 lb portobello mushrooms, cubed",
+        "2 carrots, sliced",
+        "1 onion, diced",
+        "3 garlic cloves",
+        "1 cup red wine",
+        "2 cups vegetable broth",
+        "2 tbsp tomato paste",
+        "1 tsp thyme",
+        "2 bay leaves",
+        "2 tbsp olive oil",
+        "2 tbsp flour",
+        "Salt and pepper",
+        "Mashed potatoes or crusty bread to serve"
+      ],
+      "recipe": [
+        "Heat oil in a Dutch oven. Brown mushrooms in batches over high heat until golden. Remove.",
+        "Cook onion and carrots until soft. Add garlic, tomato paste, and flour. Cook 1 min.",
+        "Pour in wine and deglaze. Add broth, thyme, and bay leaves. Simmer 10 min.",
+        "Return mushrooms. Simmer 20 min until sauce is rich and vegetables are tender.",
+        "Remove bay leaves. Serve over mashed potatoes."
+      ],
+      "tip": "Brown the mushrooms in batches over really high heat - crowding the pan steams them instead of browning them.",
+      "tip2": "Don't add salt to mushrooms at the start — it draws out water and they steam instead of sear. Cook them dry until the liquid evaporates, then season. That is when they start to brown.",
+      "recipe_detailed": [
+        "Heat oil and butter in a large Dutch oven over high heat. Add mushrooms in a single layer — work in batches. Cook without stirring 3-4 min until they release their liquid and it evaporates, then they start to brown. Season with salt once golden.",
+        "Remove mushrooms. In the same pot over medium, cook onion, carrot, and celery 5 min. Add garlic and tomato paste, cook 1 min.",
+        "Add red wine and let it bubble and reduce by half — about 5 min. Scrape up all the browned bits from the bottom. Add broth and herbs.",
+        "Return mushrooms to the pot. Simmer 20 min until sauce reduces and thickens. Stir in butter for gloss. Serve over mashed potatoes or with crusty bread."
+      ],
+      "cuisine": "french"
+    },
+    {
+      "id": 142,
+      "name": "Korean Bibimbap (Veg)",
+      "protein": "plant-based",
+      "cal": 400,
+      "time": 30,
+      "servings": 4,
+      "desc": "Korean rice bowl topped with sautéed vegetables, a fried egg, and gochujang chili paste",
+      "ingredients": [
+        "3 cups cooked short-grain rice",
+        "2 cups spinach",
+        "1 cup bean sprouts",
+        "1 zucchini, julienned",
+        "1 carrot, julienned",
+        "1 cup shiitake mushrooms, sliced",
+        "4 eggs",
+        "2 tbsp sesame oil",
+        "2 tbsp soy sauce",
+        "2 tbsp gochujang",
+        "1 tbsp sesame seeds",
+        "2 garlic cloves",
+        "Salt"
+      ],
+      "recipe": [
+        "Blanch spinach and bean sprouts separately 1 min. Drain and season each with sesame oil, garlic, salt.",
+        "Sauté zucchini, carrot, and mushrooms separately with a little oil and soy. Each should be tender but not mushy.",
+        "Fry eggs sunny side up.",
+        "Divide warm rice into bowls. Arrange vegetables in sections. Top with egg and gochujang.",
+        "Drizzle with sesame oil and sesame seeds. Mix everything together before eating."
+      ],
+      "tip": "The whole point is to mix everything together - crack that egg yolk and stir until the rice turns a beautiful orange color.",
+      "tip2": "The crispy rice is the point of bibimbap. Heat the bowl or skillet until very hot before adding the rice, and let it sit undisturbed for 2-3 min to form a crust on the bottom. That crunch is what makes it.",
+      "recipe_detailed": [
+        "Prepare each vegetable separately: blanch or saute spinach, carrots, zucchini, and bean sprouts with a little sesame oil and garlic. Keep each component separate and seasoned.",
+        "Cook rice. Heat a stone bowl or cast iron skillet over high heat. Add sesame oil, then the rice, pressing it in. Let it sit undisturbed 2-3 min — you should hear it crackling as a crust forms.",
+        "Arrange vegetables in sections over the rice. Make a well in the center and add a fried or raw egg yolk. Add a spoonful of gochujang.",
+        "At the table, mix everything vigorously — the hot rice cooks the egg, the gochujang spreads through, and the crispy rice bits distribute throughout."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 144,
+      "name": "Chana Masala",
+      "protein": "plant-based",
+      "cal": 340,
+      "time": 30,
+      "servings": 4,
+      "desc": "Punjabi spiced chickpeas in a tangy tomato sauce - one of India's great street food dishes",
+      "ingredients": [
+        "2 cans (15 oz) chickpeas, drained",
+        "1 onion, finely chopped",
+        "3 tomatoes, diced (or 1 can)",
+        "4 garlic cloves, minced",
+        "1 tbsp ginger, grated",
+        "2 tbsp oil",
+        "1 tsp cumin seeds",
+        "1 tsp garam masala",
+        "1 tsp coriander",
+        "1 tsp turmeric",
+        "1/2 tsp chili powder",
+        "1 tsp amchur (dry mango powder) or lemon juice",
+        "Cilantro to top",
+        "Rice or roti to serve"
+      ],
+      "recipe": [
+        "Heat oil in a pan. Toast cumin seeds until they splutter.",
+        "Add onion, cook until dark golden, 10 min. Add garlic and ginger. Cook 2 min.",
+        "Add all spices except garam masala. Stir, add tomatoes. Cook until oil separates, 8 min.",
+        "Add chickpeas and 1/2 cup water. Simmer 10 min until sauce thickens.",
+        "Add garam masala and amchur. Stir. Serve with cilantro and rice."
+      ],
+      "tip": "Cooking the onions until they're truly golden (not just soft) is the foundation of the dish's depth. Don't rush this step.",
+      "tip2": "Mash about a quarter of the chickpeas against the side of the pot with a spoon partway through simmering. This thickens the sauce naturally and gives it body without any flour or cream.",
+      "recipe_detailed": [
+        "Heat oil in a large pot over medium. Cook onion 6-8 min until deeply golden. Add garlic and ginger, cook 1 min.",
+        "Add cumin seeds, coriander, turmeric, garam masala, and chili powder. Stir for 30 seconds — they should bloom and become intensely fragrant.",
+        "Add crushed tomatoes and a pinch of sugar. Cook 5 min until the tomatoes darken slightly. Add drained chickpeas and broth. Simmer 15 min.",
+        "Use the back of a spoon to mash about a quarter of the chickpeas against the pot's side to thicken the sauce. Add a squeeze of lemon. Serve over basmati rice with fresh cilantro."
+      ],
+      "cuisine": "indian"
+    },
+    {
+      "id": 145,
+      "name": "Caprese Gnocchi",
+      "protein": "plant-based",
+      "cal": 440,
+      "time": 20,
+      "servings": 4,
+      "desc": "Pillowy potato gnocchi with cherry tomatoes, fresh mozzarella, and basil in a light sauce",
+      "ingredients": [
+        "1 lb potato gnocchi (store-bought)",
+        "2 cups cherry tomatoes, halved",
+        "8 oz fresh mozzarella, cubed",
+        "1/4 cup fresh basil",
+        "3 garlic cloves, minced",
+        "3 tbsp olive oil",
+        "1 tbsp balsamic glaze",
+        "Salt and pepper",
+        "Red pepper flakes"
+      ],
+      "recipe": [
+        "Cook gnocchi in salted boiling water until they float, about 2-3 min. Drain.",
+        "Heat olive oil in a large skillet over medium-high. Add garlic and cherry tomatoes. Cook until tomatoes begin to burst, 4-5 min.",
+        "Add gnocchi to the pan. Toss and let them get a little golden, 2 min.",
+        "Remove from heat. Fold in mozzarella and basil.",
+        "Season, drizzle with balsamic glaze, and serve immediately."
+      ],
+      "tip": "Let the gnocchi sit in the pan after adding them - don't stir immediately. That contact time is what gets you the golden crust.",
+      "tip2": "Pan-frying the gnocchi instead of boiling gives them a crispy shell and chewy interior. Use a non-stick pan and don't move them for 2 min per side.",
+      "recipe_detailed": [
+        "Pan-fry store-bought gnocchi directly in an oiled non-stick skillet over medium-high for 2-3 min per side until golden and crispy. No boiling needed.",
+        "In the same pan, heat olive oil and add halved cherry tomatoes. Cook 3-4 min until they burst and release their juices. Add garlic and cook 30 seconds.",
+        "Return gnocchi to the pan. Add fresh mozzarella and toss gently — you want it just barely melted.",
+        "Finish with torn fresh basil, a drizzle of good olive oil, and flaky salt. Serve immediately."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 146,
+      "name": "Roasted Veggie Grain Bowl",
+      "protein": "plant-based",
+      "cal": 380,
+      "time": 35,
+      "servings": 4,
+      "desc": "A hearty bowl of farro or quinoa, roasted seasonal vegetables, tahini dressing, and chickpeas",
+      "ingredients": [
+        "1 1/2 cups farro or quinoa",
+        "1 head broccoli, cut into florets",
+        "2 cups cherry tomatoes",
+        "1 red onion, wedged",
+        "1 zucchini, sliced",
+        "1 can chickpeas, drained",
+        "3 tbsp olive oil",
+        "2 tsp za'atar or Italian seasoning",
+        "Salt and pepper",
+        "3 tbsp tahini",
+        "2 tbsp lemon juice",
+        "1 garlic clove, grated",
+        "2-3 tbsp water",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Cook farro per package directions. Season with salt.",
+        "Toss vegetables and chickpeas with olive oil, za'atar, salt, and pepper on a baking sheet. Roast at 425°F, 25 min.",
+        "Whisk tahini, lemon juice, garlic, and water until smooth and pourable. Season with salt.",
+        "Build bowls: grain base, roasted veg and chickpeas, tahini drizzle.",
+        "Top with fresh parsley."
+      ],
+      "tip": "Za'atar on roasted vegetables is genuinely transformative - worth buying if you don't have it.",
+      "tip2": "Roast vegetables on a very hot pan at 425F with plenty of space between pieces. Crowding causes steaming — you want caramelization on the edges, not softened veg sitting in its own steam.",
+      "recipe_detailed": [
+        "Preheat oven to 425F. Cut vegetables into similar-sized pieces. Toss with olive oil, salt, and pepper. Spread in a single layer on a sheet pan — leave space between pieces.",
+        "Roast 25-30 min, flipping halfway, until edges are caramelized and vegetables are tender with some golden-brown spots.",
+        "Cook farro, quinoa, or your chosen grain. Season the warm grain with olive oil, lemon juice, and salt.",
+        "Build bowls: grain base, roasted vegetables, a dollop of hummus, sliced avocado. Top with seeds or nuts for crunch and drizzle with tahini dressing or lemon vinaigrette."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 147,
+      "name": "Tofu Tikka Masala",
+      "protein": "plant-based",
+      "cal": 350,
+      "time": 30,
+      "servings": 4,
+      "desc": "Crispy pan-fried tofu in a luscious tikka masala sauce - all the restaurant flavors, plant-based",
+      "ingredients": [
+        "1 block firm tofu, pressed and cubed",
+        "2 tbsp oil",
+        "1 onion, diced",
+        "3 garlic cloves",
+        "1 tbsp ginger",
+        "1 can (14 oz) crushed tomatoes",
+        "1 cup coconut cream",
+        "2 tbsp tikka masala or curry paste",
+        "1 tsp garam masala",
+        "1 tsp cumin",
+        "Salt",
+        "Rice to serve",
+        "Cilantro to top"
+      ],
+      "recipe": [
+        "Press tofu 15 min. Cube and pan-fry in oil until golden on all sides, 8-10 min. Set aside.",
+        "In the same pan, sauté onion until golden. Add garlic, ginger, and tikka paste. Cook 2 min.",
+        "Add crushed tomatoes. Simmer 8 min until thickened.",
+        "Add coconut cream, garam masala, cumin. Simmer 5 min. Fold in tofu.",
+        "Serve over rice with cilantro."
+      ],
+      "tip": "Pressing the tofu removes moisture so it crisps instead of steams. A clean dish towel and a heavy pan for 15 min does the job.",
+      "tip2": "Press the tofu for at least 30 min before cooking. Unpressed tofu holds water and won't crisp in the pan; pressed tofu sears beautifully.",
+      "recipe_detailed": [
+        "Press tofu: wrap in a clean towel, place something heavy on top, and let sit 30 min. Cut into cubes. Toss with oil and tikka seasoning.",
+        "Pan-fry tofu in a hot non-stick skillet 3-4 min per side until golden and slightly crispy on the outside. Remove and set aside.",
+        "In the same pan, saute onion 5 min until golden. Add garlic, ginger, and tikka masala spice blend, cook 1 min. Add crushed tomatoes, cook 8 min until thickened.",
+        "Stir in coconut milk and simmer 5 min. Add the tofu and warm through 2 min. Serve over basmati rice with naan and fresh cilantro."
+      ],
+      "cuisine": "indian"
+    },
+    {
+      "id": 148,
+      "name": "French Onion Soup",
+      "protein": "plant-based",
+      "cal": 390,
+      "time": 55,
+      "servings": 4,
+      "desc": "Rich, deeply caramelized onion broth topped with crusty baguette and broiled Gruyère",
+      "ingredients": [
+        "3 lbs yellow onions, thinly sliced",
+        "4 tbsp butter",
+        "1 tbsp olive oil",
+        "1 tsp sugar",
+        "1/2 cup dry white wine or sherry",
+        "4 cups vegetable or beef broth",
+        "2 thyme sprigs",
+        "1 bay leaf",
+        "Salt and pepper",
+        "1 baguette, sliced",
+        "1 1/2 cups Gruyère, grated"
+      ],
+      "recipe": [
+        "Melt butter and oil in a Dutch oven over medium. Add onions and sugar. Cook, stirring every 5-10 min, for 45 min until deep golden brown.",
+        "Add wine and cook until absorbed. Add broth, thyme, and bay leaf. Simmer 15 min. Season.",
+        "Ladle soup into oven-safe bowls. Top with baguette slices and Gruyère.",
+        "Broil 3-4 min until cheese is bubbly and golden.",
+        "Serve immediately."
+      ],
+      "tip": "45 minutes for the onions is not an exaggeration. Rushing this step is the most common mistake. Low and slow is the only way.",
+      "tip2": "Truly caramelized onions take 45 min to 1 hour over low heat. If a recipe says 10 min, those are not caramelized — they are just cooked. The long, slow cook transforms them from sharp and pungent to sweet and deeply savory.",
+      "recipe_detailed": [
+        "Melt butter in a large heavy pot over medium-low. Add thinly sliced onions and a pinch of salt. Cook, stirring every 5-10 min, for 45-60 min until they shrink dramatically and turn deep amber-brown. Don't rush this.",
+        "Add garlic and thyme, cook 1 min. Deglaze with white wine or sherry, scraping up all the caramelized bits. Let the wine reduce almost completely.",
+        "Add beef broth and simmer 15-20 min. Season with salt and pepper — the broth should be deeply savory and sweet.",
+        "Ladle soup into oven-safe bowls. Top with toasted baguette slices and a very generous amount of Gruyere cheese. Broil 3-4 min until the cheese is melted, bubbly, and starting to brown."
+      ],
+      "cuisine": "french"
+    },
+    {
+      "id": 149,
+      "name": "Spanakopita Bake",
+      "protein": "plant-based",
+      "cal": 340,
+      "time": 45,
+      "servings": 6,
+      "desc": "Greek spinach and feta pie baked in crispy phyllo - easier than it looks and absolutely delicious",
+      "ingredients": [
+        "1 lb frozen spinach, thawed and squeezed dry",
+        "8 oz feta cheese, crumbled",
+        "3 eggs",
+        "1/4 cup fresh dill",
+        "3 green onions, sliced",
+        "1/4 tsp nutmeg",
+        "Salt and pepper",
+        "12 sheets phyllo dough, thawed",
+        "1/2 cup melted butter"
+      ],
+      "recipe": [
+        "Preheat oven to 375°F. Mix spinach, feta, eggs, dill, onions, nutmeg, salt, and pepper.",
+        "Brush a 9x13 baking dish with butter. Layer 6 phyllo sheets, brushing each with butter.",
+        "Spread spinach filling evenly.",
+        "Layer remaining 6 phyllo sheets on top, brushing each with butter. Score top into portions with a sharp knife.",
+        "Bake 40-45 min until deeply golden. Cool 10 min before cutting."
+      ],
+      "tip": "Squeeze the spinach as dry as you possibly can - excess water will make the bottom layers soggy.",
+      "tip2": "Brush every single layer of phyllo with butter — each buttered layer crisps separately and creates that signature shattering flakiness. A dry layer of phyllo turns into cardboard.",
+      "recipe_detailed": [
+        "Thaw phyllo dough completely before using. Keep it covered with a damp towel while you work — it dries out and becomes brittle within minutes of air exposure.",
+        "Squeeze all liquid from the wilted spinach — really wring it out. Mix squeezed spinach with crumbled feta, ricotta, eggs, onion, garlic, nutmeg, and salt.",
+        "Butter a baking dish. Layer 6-8 sheets of phyllo on the bottom, brushing each one generously with melted butter. Spread filling evenly. Layer 6-8 more sheets on top, each buttered.",
+        "Score the top layers with a sharp knife before baking. Bake at 375F for 35-40 min until deep golden brown."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 152,
+      "name": "Turkish Menemen",
+      "protein": "breakfast",
+      "cal": 290,
+      "time": 20,
+      "servings": 4,
+      "desc": "A beloved Turkish breakfast - soft scrambled eggs cooked in spiced tomato and pepper sauce",
+      "ingredients": [
+        "6 eggs",
+        "3 ripe tomatoes, roughly chopped",
+        "2 green peppers, sliced",
+        "1 onion, diced",
+        "3 tbsp olive oil",
+        "1 tsp dried red pepper flakes",
+        "1 tsp cumin",
+        "Salt",
+        "Fresh parsley",
+        "Crusty bread to serve",
+        "Feta optional"
+      ],
+      "recipe": [
+        "Heat oil over medium. Cook onion 5 min. Add peppers, cook 3 min.",
+        "Add tomatoes, pepper flakes, cumin, salt. Cook until tomatoes break down, 8 min.",
+        "Crack eggs directly into the pan. Stir very gently to create a soft, custardy scramble.",
+        "Top with parsley and feta. Serve with bread."
+      ],
+      "tip": "Menemen should be soft and slightly runny - pull off heat while still a little underdone.",
+      "tip2": "Menemen is a soft-scrambled egg dish — it should be creamy and custardy, not dry and rubbery. Stir constantly over medium-low heat and pull it while it still looks slightly underdone. Residual heat finishes it.",
+      "recipe_detailed": [
+        "Heat olive oil in a wide pan over medium. Add onion and green pepper and cook 5-6 min until completely soft. Add garlic and cook 1 min.",
+        "Add diced tomatoes and season with salt, pepper, and red pepper flakes. Cook 8-10 min until tomatoes break down into a thick sauce.",
+        "Crack eggs directly into the sauce. Stir gently and constantly with a spatula over medium-low heat, folding the eggs through the tomatoes as they set. Cook until the eggs are just barely set — soft, silky curds. Remove from heat while they still look slightly underdone.",
+        "Crumble feta over the top and add fresh herbs. Serve straight from the pan with crusty bread for scooping."
+      ],
+      "cuisine": "middleeastern"
+    },
+    {
+      "id": 153,
+      "name": "Croque Madame",
+      "protein": "breakfast",
+      "cal": 520,
+      "time": 20,
+      "servings": 2,
+      "desc": "The French classic - ham and gruyère sandwich smothered in béchamel and topped with a fried egg",
+      "ingredients": [
+        "4 slices thick sourdough",
+        "4 oz sliced ham",
+        "3 oz Gruyère, grated",
+        "2 tbsp butter",
+        "1 tbsp flour",
+        "3/4 cup whole milk",
+        "1 tsp Dijon mustard",
+        "Pinch nutmeg",
+        "2 eggs",
+        "Salt"
+      ],
+      "recipe": [
+        "Make béchamel: melt butter, whisk in flour 1 min. Add milk slowly, simmer until thick. Add mustard, nutmeg, salt.",
+        "Spread béchamel on bread. Layer ham and Gruyère. Grill in buttered pan 2-3 min per side until golden.",
+        "Top with remaining béchamel and Gruyère. Broil 2-3 min until bubbling. Fry eggs sunny-side up. Place one on each sandwich."
+      ],
+      "tip": "The béchamel on top is what makes this special. Broil until properly bubbling and golden brown.",
+      "tip2": "Bechamel is just a roux cooked into milk — stir constantly and don't stop. If lumps form, keep stirring over heat; they usually dissolve. If they don't, push the sauce through a sieve.",
+      "recipe_detailed": [
+        "Make bechamel: melt butter in a small saucepan over medium heat. Add flour and stir constantly for 1-2 min. Pour in warm milk slowly while whisking. Cook 3-4 min until thickened enough to coat a spoon. Season with salt, pepper, and nutmeg.",
+        "Butter two slices of bread. Spread Dijon on the inside faces. Layer with ham and Gruyere. Close the sandwich and butter the outside too.",
+        "Cook in a skillet over medium heat 3-4 min per side until golden. Spread bechamel over the top and add more Gruyere. Transfer to a baking sheet and broil 2-3 min until bubbly and spotted brown.",
+        "Fry an egg sunny-side up with a runny yolk. Place on top of the finished sandwich. Eat immediately."
+      ],
+      "cuisine": "french"
+    },
+    {
+      "id": 154,
+      "name": "Congee with Toppings",
+      "protein": "breakfast",
+      "cal": 260,
+      "time": 40,
+      "servings": 4,
+      "desc": "Silky Chinese rice porridge with soft-boiled eggs, scallion, ginger, and sesame oil",
+      "ingredients": [
+        "1 cup jasmine rice",
+        "6 cups chicken broth",
+        "1 cup water",
+        "1 tbsp ginger, grated",
+        "3 garlic cloves",
+        "Salt",
+        "4 soft-boiled eggs, halved",
+        "4 green onions, sliced",
+        "2 tbsp sesame oil",
+        "Soy sauce",
+        "White pepper",
+        "Chili oil"
+      ],
+      "recipe": [
+        "Combine rice, broth, water, ginger, garlic. Bring to boil. Reduce to a low simmer.",
+        "Cook uncovered 30-40 min, stirring occasionally, until rice breaks down into thick creamy porridge.",
+        "Season with salt and white pepper. Ladle into bowls. Top with egg, green onion, sesame oil, soy sauce, and chili oil."
+      ],
+      "tip": "More water (up to 10:1) makes it silkier. It looks thin hot but thickens as it cools.",
+      "tip2": "The ratio for congee is 1 cup rice to 8-10 cups water or broth — much more liquid than regular rice. The grains need to fully break down into a creamy porridge. Stir occasionally and it gets there over 45-60 min.",
+      "recipe_detailed": [
+        "Rinse rice until water runs clear. Combine rice, broth, ginger, and any aromatics in a large pot. Bring to a boil, then reduce to the lowest possible simmer.",
+        "Cook 45-60 min, stirring every 10 min to prevent sticking, until the rice has completely broken down into a smooth, creamy porridge. Add more broth or water if it gets too thick.",
+        "Season the congee with salt and white pepper. Taste — it should be subtly savory and comforting on its own.",
+        "Serve in deep bowls with a spread of toppings: soft-boiled eggs, sliced green onion, fried shallots, crispy garlic, sesame oil, soy sauce, white pepper, and chili oil."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 155,
+      "name": "Israeli Breakfast Spread",
+      "protein": "breakfast",
+      "cal": 380,
+      "time": 20,
+      "servings": 4,
+      "desc": "A Mediterranean spread of hummus, Israeli salad, labneh, olives, and jammy eggs with warm pita",
+      "ingredients": [
+        "1 can hummus",
+        "4 eggs",
+        "2 Persian cucumbers, diced",
+        "3 roma tomatoes, diced",
+        "1/4 red onion, diced",
+        "2 tbsp parsley",
+        "Juice of 1/2 lemon",
+        "2 tbsp olive oil",
+        "Salt",
+        "1 cup labneh",
+        "1/2 cup olives",
+        "Za'atar",
+        "Warm pita"
+      ],
+      "recipe": [
+        "Boil eggs 7 min. Ice bath 5 min, peel.",
+        "Combine cucumbers, tomatoes, red onion, parsley, lemon, oil, salt for salad.",
+        "Arrange hummus, labneh, olives, and salad on a platter. Halve eggs and nestle in. Drizzle with za'atar and olive oil.",
+        "Serve with warm pita."
+      ],
+      "tip": "Israeli breakfast is meant to be social - put everything in the center and let people graze.",
+      "tip2": "The quality of an Israeli breakfast is entirely in the produce — peak-season tomatoes and cucumbers make or break it. Salt the tomato pieces lightly and let them sit 5 min so they release juice, then drain before adding to the salad.",
+      "recipe_detailed": [
+        "Make Israeli salad: dice cucumber and tomato into very small pieces, about 5mm cubes. Add finely diced red onion, flat-leaf parsley, lemon juice, olive oil, and salt. The small cut is essential. Toss and let sit 5 min.",
+        "Soft-boil eggs: into boiling water for exactly 7 min, then ice bath. Peel when cool — the yolk should be set at the edges and jammy in the center.",
+        "Arrange the spread: a big bowl of salad, halved eggs, sliced cucumber, good quality olives, labneh or thick yogurt drizzled with olive oil, hummus, and warm pita or fresh bread.",
+        "The idea is everything on the table at once — no formal plating. Tear bread and eat mezze-style."
+      ],
+      "cuisine": "middleeastern"
+    },
+    {
+      "id": 156,
+      "name": "Ham & Cheese Savory Crepes",
+      "protein": "breakfast",
+      "cal": 350,
+      "time": 25,
+      "servings": 4,
+      "desc": "Thin French crepes filled with ham, egg, and melted Gruyère - a Paris street food classic",
+      "ingredients": [
+        "1 cup flour",
+        "2 eggs",
+        "1 1/4 cups milk",
+        "2 tbsp butter, melted",
+        "Pinch salt",
+        "4 slices ham",
+        "4 eggs for filling",
+        "1 cup Gruyère, grated",
+        "2 tbsp chives",
+        "Butter for pan"
+      ],
+      "recipe": [
+        "Whisk flour, eggs, milk, melted butter, and salt into smooth batter. Rest 15 min.",
+        "Heat nonstick skillet. Add butter. Pour 1/4 cup batter, tilt to coat thinly. Cook 1-2 min, flip, cook 30 sec.",
+        "Return crepe to pan. Add ham and Gruyère to half. Crack egg on top. Fold to half-moon. Cook 2-3 min until set.",
+        "Garnish with chives."
+      ],
+      "tip": "Resting the batter relaxes gluten - gives thin, elastic crepes that don't tear when folded.",
+      "tip2": "Crepe batter needs to rest 30 min before cooking — the gluten relaxes and the batter thins slightly. Rested batter makes smooth, flexible crepes; fresh batter tears.",
+      "recipe_detailed": [
+        "Make batter: blend eggs, milk, flour, butter, and a pinch of salt until completely smooth. Let rest 30 min at room temperature — this is essential.",
+        "Heat a non-stick skillet over medium-high. Brush with a thin film of butter. Pour in just enough batter to coat the pan thinly — tilt and swirl immediately to spread it before it sets. Cook 1-2 min until the edges look dry and lift slightly, then flip for 30 seconds.",
+        "Fill each crepe with sliced ham, Gruyere, and a spoonful of Dijon. Fold in half, then in half again. Return to the pan to melt the cheese.",
+        "Optionally top with a fried egg and a handful of dressed greens. Serve immediately."
+      ],
+      "cuisine": "french"
+    },
+    {
+      "id": 157,
+      "name": "Sweet Potato Breakfast Bowl",
+      "protein": "breakfast",
+      "cal": 410,
+      "time": 30,
+      "servings": 4,
+      "desc": "Roasted sweet potatoes with fried eggs, black beans, avocado, and chipotle crema",
+      "ingredients": [
+        "2 large sweet potatoes, cubed",
+        "3 tbsp olive oil",
+        "1 tsp smoked paprika",
+        "1/2 tsp cumin",
+        "Salt",
+        "1 can black beans, drained",
+        "4 eggs",
+        "1 avocado, sliced",
+        "1/2 cup sour cream",
+        "1 chipotle in adobo, minced",
+        "2 tbsp lime juice",
+        "Cilantro",
+        "Hot sauce"
+      ],
+      "recipe": [
+        "Toss sweet potato with oil, paprika, cumin, salt. Roast at 425°F 25 min until caramelized.",
+        "Warm black beans. Stir together sour cream, chipotle, lime for crema. Fry eggs.",
+        "Build bowls: sweet potato, beans, egg, avocado, crema, cilantro, hot sauce."
+      ],
+      "tip": "Roast cut-side down without stirring the first 15 min for caramelized edges, not steamed pieces.",
+      "tip2": "Roasted sweet potato is far better than microwaved for this bowl — the dry heat caramelizes the natural sugars and creates a deeper, sweeter flavor. Cube it and roast at 425F while everything else comes together.",
+      "recipe_detailed": [
+        "Cube sweet potato and toss with oil, salt, and cinnamon. Roast at 425F for 20-25 min until caramelized on the edges and tender throughout.",
+        "Soft-boil or fry your eggs to preference. While they cook, cook breakfast sausage or bacon if using.",
+        "Prepare toppings: slice avocado, wash greens, toast nuts, and prepare any sauces such as tahini or maple-sriracha.",
+        "Build the bowl: sweet potato as the base, greens, egg, protein, avocado. Drizzle with tahini or maple-sriracha sauce."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 158,
+      "name": "Dutch Baby Pancake",
+      "protein": "breakfast",
+      "cal": 380,
+      "time": 25,
+      "servings": 4,
+      "desc": "A dramatic puffed oven pancake served with lemon, powdered sugar, and fresh berries",
+      "ingredients": [
+        "3 eggs, room temperature",
+        "3/4 cup whole milk, room temperature",
+        "3/4 cup flour",
+        "1 tbsp sugar",
+        "1/2 tsp vanilla",
+        "Pinch salt",
+        "3 tbsp unsalted butter",
+        "Powdered sugar",
+        "Lemon juice",
+        "Fresh berries"
+      ],
+      "recipe": [
+        "Preheat oven to 425°F with a 10-inch cast iron skillet inside.",
+        "Blend eggs, milk, flour, sugar, vanilla, and salt until very smooth. Rest 5 min.",
+        "Remove hot skillet. Add butter - sizzles immediately. Swirl to coat. Pour in all batter at once. Return to oven.",
+        "Bake 20 min without opening. Dust with powdered sugar, squeeze lemon, top with berries."
+      ],
+      "tip": "Room temperature eggs and milk are essential - cold ingredients prevent the dramatic puff.",
+      "tip2": "The pan must be screaming hot when the batter goes in — preheat it in the oven at 425F for 10 min. The thermal shock from cold batter hitting the hot pan is what creates the dramatic puff and crispy, custardy edges.",
+      "recipe_detailed": [
+        "Place a cast iron skillet in the oven and preheat to 425F for at least 10 min — the pan must be very hot.",
+        "While the pan heats, blend eggs, milk, flour, vanilla, and a pinch of salt until completely smooth. The batter should be thin.",
+        "When the pan is very hot, carefully add butter and swirl to coat. Immediately pour in all the batter at once — it should sizzle as it hits the pan.",
+        "Bake 18-22 min without opening the oven door — peeking causes it to deflate. Serve immediately dusted with powdered sugar and lemon juice."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 159,
+      "name": "Smashed Potato Breakfast Skillet",
+      "protein": "breakfast",
+      "cal": 440,
+      "time": 35,
+      "servings": 4,
+      "desc": "Crispy smashed potatoes with caramelized onions, bacon, and runny eggs in a cast iron skillet",
+      "ingredients": [
+        "1.5 lbs small potatoes, boiled",
+        "4 slices bacon, chopped",
+        "1 onion, thinly sliced",
+        "4 eggs",
+        "2 tbsp olive oil",
+        "2 garlic cloves",
+        "1 tsp smoked paprika",
+        "Salt and pepper",
+        "Chives",
+        "Sour cream or hot sauce"
+      ],
+      "recipe": [
+        "Cook bacon until crispy. Remove, keep fat. Add oil. Smash potatoes flat. Cook undisturbed 4-5 min until golden. Flip.",
+        "Add onion and garlic around potatoes. Cook until golden. Season with paprika, salt, pepper.",
+        "Make 4 wells. Crack an egg into each. Bake at 400°F 6-8 min. Top with bacon and chives. Serve with sour cream or hot sauce on the side."
+      ],
+      "tip": "Don't stir the potatoes for the first 5 min - that contact time builds the crust.",
+      "tip2": "Boil the potatoes all the way through before smashing and frying — they should be cooked completely, not al dente. Undercooked potatoes don't smash flat and won't crisp evenly.",
+      "recipe_detailed": [
+        "Boil small potatoes until completely tender — a fork should slide through with zero resistance. Drain and let steam dry for 5 min.",
+        "Heat oil in a large cast iron over medium-high. Place potatoes in the pan and smash each one flat with the bottom of a glass or a spatula. Season with salt, pepper, garlic powder, and paprika.",
+        "Cook undisturbed 4-5 min until the bottom is deeply golden and crispy. Flip and cook 3 more min. Remove to a plate.",
+        "In the same pan, cook breakfast sausage or bacon. Add peppers and onions and cook until softened. Return potatoes. Make wells and add eggs. Cover and cook until whites are set. Scatter cheese and serve straight from the pan."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 160,
+      "name": "Japanese Miso Breakfast Bowl",
+      "protein": "breakfast",
+      "cal": 280,
+      "time": 15,
+      "servings": 4,
+      "desc": "A traditional Japanese breakfast - warm miso soup with tofu alongside steamed rice, pickles, and nori",
+      "ingredients": [
+        "3 cups dashi or vegetable broth",
+        "3 tbsp white miso paste",
+        "1/2 block soft tofu, cubed",
+        "1 tbsp dried wakame",
+        "2 green onions, sliced",
+        "2 cups cooked short-grain rice",
+        "Pickled ginger and cucumber",
+        "Soy sauce",
+        "Nori strips"
+      ],
+      "recipe": [
+        "Heat dashi over medium - do not boil. Dissolve miso in a ladle of warm dashi, whisk back in.",
+        "Add tofu and wakame. Warm 2 min. Top with green onion.",
+        "Serve alongside warm rice with pickles, nori, and soy sauce."
+      ],
+      "tip": "Miso must never boil - it kills the probiotics and dulls the flavor. Always dissolve in a ladle of warm broth first.",
+      "tip2": "Never boil miso — add it off the heat or in water below simmering. Boiling destroys the beneficial enzymes and mutes the delicate, complex flavor.",
+      "recipe_detailed": [
+        "Cook rice the night before if possible — cold rice is better for this bowl since it firms up and separates more easily.",
+        "Make miso soup: bring dashi or water to a near-simmer, not boiling. Remove from heat. Whisk in miso paste until dissolved. Add cubed silken tofu and wakame seaweed. Keep warm but don't boil.",
+        "Soft-boil an egg: 7 min in boiling water, then ice bath, then peel. Optionally marinate peeled egg in soy sauce, mirin, and water for 1 hour.",
+        "Assemble: warm rice, miso soup on the side, halved egg, pickled ginger, nori strips, sliced green onion, and a drizzle of sesame oil."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 161,
+      "name": "Eggplant Parmigiana",
+      "protein": "plant-based",
+      "cal": 420,
+      "time": 50,
+      "servings": 4,
+      "desc": "Classic Italian baked eggplant in tomato sauce layered with mozzarella and parmesan",
+      "ingredients": [
+        "2 large eggplants, sliced 1/2\"thick",
+        "Salt",
+        "2 cups flour",
+        "3 eggs, beaten",
+        "2 cups breadcrumbs",
+        "1 cup parmesan, grated",
+        "2 cups marinara sauce",
+        "2 cups fresh mozzarella, sliced",
+        "Fresh basil",
+        "Olive oil"
+      ],
+      "recipe": [
+        "Salt eggplant slices, let sit 20 min, pat dry. Dredge: flour → egg → breadcrumbs. Fry in olive oil until golden, 2 min per side.",
+        "Layer in baking dish: marinara, eggplant, mozzarella, parmesan. Repeat.",
+        "Bake at 400°F 25 min until bubbling. Rest 10 min. Top with basil."
+      ],
+      "tip": "Salting and pressing the eggplant removes water so slices crisp instead of steam. Paper towels and something heavy for 20 min.",
+      "tip2": "Salt the eggplant slices and let them sit for 30 min before cooking — they release bitter water and absorb far less oil during frying. Rinse and pat completely dry before breading.",
+      "recipe_detailed": [
+        "Slice eggplant into half-inch rounds. Salt both sides and spread on a rack for 30 min — you will see water bead on the surface. Rinse thoroughly and pat completely dry.",
+        "Set up a breading station: flour, beaten eggs, and seasoned breadcrumbs. Dredge eggplant in flour, then egg, then press firmly into breadcrumbs.",
+        "Fry in half an inch of oil over medium-high, 2-3 min per side, until deep golden. Drain on a wire rack.",
+        "Layer in a baking dish: marinara, eggplant, mozzarella, Parmesan. Repeat layers, ending with cheese. Bake at 375F for 25-30 min until bubbly and golden. Rest 10 min before serving."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 162,
+      "name": "Thai Green Curry (Veg)",
+      "protein": "plant-based",
+      "cal": 380,
+      "time": 25,
+      "servings": 4,
+      "desc": "Fragrant Thai green curry with tofu, zucchini, and Thai basil in creamy coconut broth",
+      "ingredients": [
+        "1 block firm tofu, pressed and cubed",
+        "2 tbsp coconut oil",
+        "2-3 tbsp green curry paste",
+        "2 cans (14 oz) coconut milk",
+        "1 cup vegetable broth",
+        "2 zucchini, sliced",
+        "1 cup green beans",
+        "1 tbsp soy sauce",
+        "1 tbsp brown sugar",
+        "Lime juice",
+        "1 cup Thai basil",
+        "Jasmine rice"
+      ],
+      "recipe": [
+        "Pan-fry tofu in coconut oil until golden, 8 min. Remove. Fry curry paste 1-2 min. Add one can coconut milk.",
+        "Add broth and second can coconut milk. Add vegetables. Season with soy, sugar, lime.",
+        "Add tofu and Thai basil. Serve over jasmine rice."
+      ],
+      "tip": "Fry the curry paste in oil before adding liquid - this blooms the aromatics and is the step most home cooks skip.",
+      "tip2": "Fry the green curry paste in coconut cream until the oil separates — you will see it start to pool around the paste. This cracking step blooms the paste and is where the soup transitions from flat to deeply layered.",
+      "recipe_detailed": [
+        "Open the coconut milk and spoon the thick cream from the top into the pan. Heat over medium until simmering. Add green curry paste and fry in the cream 2-3 min, stirring constantly, until the oil separates and pools around the paste.",
+        "Add the thinner coconut milk, broth, and fish sauce or soy sauce to keep it vegan. Stir to combine and bring to a gentle simmer.",
+        "Add denser vegetables first and simmer 5-7 min. Add quick-cooking vegetables in the last 2 min.",
+        "Squeeze lime juice in at the very end. Taste — it should be fragrant, slightly spicy, and balanced. Serve over jasmine rice with extra lime wedges."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 163,
+      "name": "Roasted Beet & Feta Salad",
+      "protein": "plant-based",
+      "cal": 310,
+      "time": 40,
+      "servings": 4,
+      "desc": "Roasted beets with creamy goat cheese, candied walnuts, and honey-dijon dressing over arugula",
+      "ingredients": [
+        "4 medium beets",
+        "4 oz feta cheese, crumbled",
+        "1/2 cup walnuts",
+        "3 tbsp honey",
+        "4 cups arugula",
+        "3 tbsp olive oil",
+        "2 tbsp balsamic vinegar",
+        "1 tsp Dijon",
+        "Salt",
+        "Fresh thyme"
+      ],
+      "recipe": [
+        "Wrap beets in foil. Roast at 400°F 45 min. Cool, peel, slice.",
+        "Toss walnuts with 1 tbsp honey. Toast in dry pan 3 min until caramelized.",
+        "Whisk oil, balsamic, Dijon, 2 tbsp honey, salt for dressing. Toss arugula with half. Arrange beets. Add goat cheese and walnuts. Drizzle remaining dressing."
+      ],
+      "tip": "Roasting beets in foil makes them steam-roast - much sweeter than boiling. Skin slips off with a paper towel once cooled.",
+      "tip2": "To avoid staining everything magenta, dress the beets separately and add them last. Or embrace it and toss everything together — it all turns a beautiful pink anyway.",
+      "recipe_detailed": [
+        "Wrap beets individually in foil with a drizzle of olive oil. Roast at 400F for 45-60 min until a knife slides in without resistance. Cool, then rub the skins off with a paper towel.",
+        "Make honey-Dijon vinaigrette: whisk together Dijon, honey, red wine vinegar, olive oil, salt, and pepper.",
+        "Toast walnuts in a dry pan 3-4 min until golden and smelling nutty. Watch them — they burn fast.",
+        "Arrange arugula on a platter. Slice beets and add. Scatter crumbled feta and toasted walnuts. Drizzle dressing just before serving and toss gently at the table."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 164,
+      "name": "Mushroom & Spinach Quesadillas",
+      "protein": "plant-based",
+      "cal": 360,
+      "time": 20,
+      "servings": 4,
+      "desc": "Crispy flour tortillas filled with sautéed mushrooms, wilted spinach, and melted pepper jack",
+      "ingredients": [
+        "8 flour tortillas",
+        "1 lb cremini mushrooms, sliced",
+        "3 cups baby spinach",
+        "1 onion, diced",
+        "3 garlic cloves",
+        "2 cups pepper jack, shredded",
+        "2 tbsp olive oil",
+        "1 tsp smoked paprika",
+        "1 tsp cumin",
+        "Salt",
+        "Sour cream and guacamole"
+      ],
+      "recipe": [
+        "Sauté onion. Add mushrooms, cook over HIGH heat without stirring until golden, 5 min. Add garlic, paprika, cumin, salt.",
+        "Add spinach, wilt 1 min. Layer filling on half of each tortilla, top with cheese, fold.",
+        "Cook in buttered pan 2-3 min per side until crispy. Serve with sour cream and guac."
+      ],
+      "tip": "High heat without stirring is everything for mushrooms - they need to brown, not steam.",
+      "tip2": "Cook the filling completely before adding it to the quesadilla — you only have 2-3 min of pan time for the cheese to melt and the tortilla to crisp. Any underdone filling stays underdone.",
+      "recipe_detailed": [
+        "Heat oil in a skillet over medium-high. Add mushrooms in a single layer — cook without stirring 3 min until browned on one side. Stir and cook 2 more min. Season with salt.",
+        "Add garlic and spinach. Stir until spinach wilts, 1-2 min. Season and let any excess moisture cook off completely. The filling should be dry, not watery.",
+        "Heat a clean skillet over medium. Place a tortilla flat. Add cheese on half, then the filling, then more cheese. Fold in half.",
+        "Cook 2-3 min per side, pressing gently, until golden and crispy and the cheese is fully melted. Cut into wedges and serve with sour cream, guacamole, and salsa."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 165,
+      "name": "Lemon Ricotta Pasta",
+      "protein": "plant-based",
+      "cal": 430,
+      "time": 20,
+      "servings": 4,
+      "desc": "Silky pasta with whipped ricotta, lemon, fresh basil, and toasted pine nuts - ready in 20 minutes",
+      "ingredients": [
+        "1 lb spaghetti",
+        "1 cup whole milk ricotta",
+        "Zest and juice of 2 lemons",
+        "1/4 cup parmesan",
+        "3 tbsp olive oil",
+        "3 garlic cloves, minced",
+        "1/2 cup fresh basil",
+        "1/4 cup toasted pine nuts",
+        "Salt, black pepper, red pepper flakes",
+        "1/2 cup pasta water"
+      ],
+      "recipe": [
+        "Cook pasta in heavily salted water. Reserve 1 cup pasta water before draining.",
+        "Whip ricotta with lemon zest, juice, parmesan, olive oil, salt, pepper until smooth.",
+        "Toss hot pasta with garlic and olive oil. Add ricotta and pasta water a splash at a time until creamy. Fold in basil. Top with pine nuts."
+      ],
+      "tip": "Starchy pasta water turns ricotta into a sauce - add a splash at a time until it coats the noodles like cream.",
+      "tip2": "Reserve more pasta water than you think you need — at least a full cup. Ricotta is thick and the starchy pasta water is what makes it flow into a silky sauce rather than clumping.",
+      "recipe_detailed": [
+        "Cook pasta in generously salted water. Reserve at least 1 cup pasta water before draining.",
+        "In a large bowl, mix ricotta with lemon zest, lemon juice, a drizzle of olive oil, salt, and pepper. Taste — it should be bright and creamy.",
+        "Add hot drained pasta to the ricotta bowl. Toss vigorously, adding pasta water a splash at a time until the sauce is silky and coats every strand.",
+        "Finish with Parmesan, more lemon zest, black pepper, and fresh basil. Serve immediately — ricotta pasta tightens up as it cools."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 166,
+      "name": "Pumpkin & Black Bean Enchiladas",
+      "protein": "plant-based",
+      "cal": 390,
+      "time": 40,
+      "servings": 4,
+      "desc": "Corn tortillas filled with spiced pumpkin and black beans, smothered in red sauce and cheese",
+      "ingredients": [
+        "8 corn tortillas",
+        "1 can (15 oz) pumpkin puree",
+        "1 can black beans, drained",
+        "1 cup corn",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "1 can (19 oz) red enchilada sauce",
+        "1.5 cups Monterey Jack, shredded",
+        "Sour cream, green onion, cilantro"
+      ],
+      "recipe": [
+        "Mix pumpkin, beans, corn, spices, 1/4 cup enchilada sauce. Season. Warm tortillas in dry pan.",
+        "Fill, roll, place seam-side down in greased 9x13 dish. Pour remaining sauce over. Top with cheese.",
+        "Bake at 375°F 25 min until bubbling. Top with sour cream, green onion, cilantro."
+      ],
+      "tip": "Warm tortillas before rolling - cold corn tortillas crack and split.",
+      "tip2": "Dip each tortilla briefly in warm sauce before rolling — it softens it and prevents cracking when you fold, plus builds flavor into the tortilla itself.",
+      "recipe_detailed": [
+        "Make enchilada sauce: saute onion and garlic, add chili powder, cumin, and oregano, then tomato sauce and broth. Simmer 10 min until slightly thickened. Season.",
+        "Make filling: mix pumpkin puree with drained black beans, cumin, chili powder, garlic powder, salt, and pepper.",
+        "Warm tortillas briefly in a dry pan so they are pliable. Dip each in warm sauce, fill with the pumpkin-bean mixture and a little cheese, roll tightly and place seam-side down in a baking dish.",
+        "Pour remaining sauce over the enchiladas. Scatter cheese over the top. Bake at 375F for 25 min until bubbly. Top with sour cream, avocado, and cilantro."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 167,
+      "name": "Roasted Cauliflower Steaks",
+      "protein": "plant-based",
+      "cal": 280,
+      "time": 35,
+      "servings": 4,
+      "desc": "Thick-cut cauliflower steaks roasted with harissa, chickpeas, and tahini dressing",
+      "ingredients": [
+        "2 large heads cauliflower",
+        "3 tbsp harissa paste",
+        "4 tbsp olive oil",
+        "1 can chickpeas, drained",
+        "1 tsp cumin",
+        "1 tsp smoked paprika",
+        "Salt",
+        "3 tbsp tahini",
+        "2 tbsp lemon juice",
+        "1 garlic clove",
+        "3-4 tbsp water",
+        "Parsley and pomegranate seeds"
+      ],
+      "recipe": [
+        "Slice cauliflower into 1-inch steaks. Brush with harissa and 2 tbsp oil. Season. Toss chickpeas with remaining oil, cumin, paprika, salt on the same pan.",
+        "Roast at 425°F 30 min, flipping cauliflower once, until charred at edges.",
+        "Whisk tahini, lemon, garlic, water into sauce. Drizzle over steaks. Top with parsley and pomegranate."
+      ],
+      "tip": "Roast at the highest heat your oven can do - the char on the edges is the entire point.",
+      "tip2": "Sear the cauliflower steaks in a hot pan before roasting — 2 min per side in olive oil. The oven alone gives you color, but the sear gives you a Maillard-browned, nutty crust.",
+      "recipe_detailed": [
+        "Cut the cauliflower vertically into 1-inch steaks. You will get 2-3 good steaks from the center. Pat dry.",
+        "Season both sides with olive oil, salt, pepper, and your spices. Heat an oven-safe skillet over high heat. Sear steaks 2 min per side until golden.",
+        "Transfer skillet to 425F oven and roast 15-20 min until tender through the core. Test with a thin knife — it should slide through without resistance.",
+        "Serve over hummus or grain, drizzled with tahini, pomegranate seeds, toasted pine nuts, and fresh herbs."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 168,
+      "name": "Mujaddara",
+      "protein": "plant-based",
+      "cal": 360,
+      "time": 40,
+      "servings": 4,
+      "desc": "A humble but extraordinary Middle Eastern dish of lentils and rice with deeply caramelized onions",
+      "ingredients": [
+        "1 cup green or brown lentils",
+        "3/4 cup long-grain rice",
+        "3 large onions, thinly sliced",
+        "4 tbsp olive oil",
+        "1 tsp cumin",
+        "1/2 tsp allspice",
+        "1/4 tsp cinnamon",
+        "Salt",
+        "Plain yogurt",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Cook lentils in salted water 20 min until almost tender. Drain, reserve liquid.",
+        "Cook onions in oil over medium-low with a pinch of salt for 35-40 min until deeply golden and jammy.",
+        "Remove half the onions. Add lentils, rice, spices to pan. Add reserved liquid. Cover, simmer 18 min.",
+        "Top with reserved caramelized onions. Serve with yogurt and parsley."
+      ],
+      "tip": "40 minutes for the onions is not an exaggeration. Patience transforms humble ingredients.",
+      "tip2": "The crispy onions are not a garnish — they are the whole point. Cook them in enough oil at medium heat for 20-25 min until deeply golden and caramelized. Under-done onions on mujaddara is like a burger without a patty.",
+      "recipe_detailed": [
+        "Cook lentils in salted water 20 min until tender but not mushy. Drain.",
+        "Meanwhile, caramelize onions: slice thinly and cook in olive oil over medium heat for 20-25 min, stirring frequently, until deep golden-brown. Season with salt. Don't rush — this is the heart of the dish.",
+        "Cook rice separately until fluffy. Combine lentils and rice, season well with cumin, coriander, cinnamon, salt, and pepper.",
+        "Serve topped very generously with the caramelized onions. Add a dollop of plain yogurt and fresh herbs."
+      ],
+      "cuisine": "indian"
+    },
+    {
+      "id": 169,
+      "name": "Chickpea Stew with Feta",
+      "protein": "plant-based",
+      "cal": 340,
+      "time": 30,
+      "servings": 4,
+      "desc": "A Spanish-inspired quick stew of chickpeas in smoky tomato broth with wilted greens and feta",
+      "ingredients": [
+        "2 cans chickpeas, drained",
+        "1 can (14 oz) diced tomatoes",
+        "3 cups vegetable broth",
+        "1 onion, diced",
+        "4 garlic cloves",
+        "1 tsp smoked paprika",
+        "1 tsp cumin",
+        "1/2 tsp turmeric",
+        "3 cups kale or spinach",
+        "4 oz feta, crumbled",
+        "2 tbsp olive oil",
+        "Salt",
+        "Crusty bread"
+      ],
+      "recipe": [
+        "Sauté onion 5 min. Add garlic and spices, cook 1 min. Add tomatoes and broth. Simmer 10 min.",
+        "Smash a handful of chickpeas against the pot to thicken. Add remaining chickpeas. Simmer 8 min.",
+        "Add greens, wilt 2 min. Top with feta. Serve with bread."
+      ],
+      "tip": "Smashing some chickpeas is what makes this thick and creamy instead of brothy.",
+      "tip2": "Add the feta after plating, not into the pot — it dissolves and disappears if you stir it into the hot stew. Added cold on top, it stays in creamy chunks and you get bursts of salty richness in every bite.",
+      "recipe_detailed": [
+        "Heat olive oil in a large pot. Cook onion and garlic 5 min until soft. Add tomato paste and cook 1-2 min until it darkens slightly.",
+        "Add drained chickpeas, crushed tomatoes, broth, and spices. Stir and bring to a simmer. Cook 20 min uncovered until the sauce reduces and thickens.",
+        "Add spinach and stir until wilted. Taste and season. A splash of red wine vinegar at the end brightens it.",
+        "Ladle into bowls and top with crumbled feta, a drizzle of good olive oil, and crusty bread for dipping."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 170,
+      "name": "Shakshuka Verde",
+      "protein": "plant-based",
+      "cal": 300,
+      "time": 25,
+      "servings": 4,
+      "desc": "A green twist on shakshuka - eggs poached in tomatillo, jalapeño, and spinach sauce",
+      "ingredients": [
+        "6 eggs",
+        "1 can (14 oz) tomatillos, drained",
+        "2 jalapeños, roughly chopped",
+        "1 onion, diced",
+        "3 garlic cloves",
+        "2 cups baby spinach",
+        "1 tsp cumin",
+        "1/2 tsp coriander",
+        "2 tbsp olive oil",
+        "Salt",
+        "Cotija or feta",
+        "Fresh cilantro",
+        "Warm tortillas"
+      ],
+      "recipe": [
+        "Blend tomatillos and jalapeños until smooth. Heat oil. Cook onion and garlic until soft. Add cumin, coriander.",
+        "Pour in tomatillo sauce. Simmer 8 min until almost jammy. Add spinach, wilt.",
+        "Make 6 wells. Crack an egg into each. Cover and cook 5-7 min. Top with cotija, cilantro. Serve with tortillas."
+      ],
+      "tip": "Let the tomatillo sauce cook down until almost jammy before adding the eggs - this concentrates flavor and prevents a watery result.",
+      "tip2": "Tomatillos are naturally acidic and bitter raw. A short simmer after adding them is enough to mellow the bitterness — taste the sauce before adding eggs and adjust salt and a pinch of sugar if needed.",
+      "recipe_detailed": [
+        "Husk and rinse tomatillos — they are sticky, rinse thoroughly. Quarter or roughly chop. Saute onion, garlic, and jalapeno in oil until soft. Add tomatillos and cook 5 min until they break down into a sauce.",
+        "Add cumin, salt, and a handful of cilantro. Use an immersion blender to blend partially — a slightly rough texture is nice. Taste and adjust salt, lime juice, or a pinch of sugar to balance.",
+        "Bring the sauce to a gentle simmer. Make shallow wells and crack eggs in. Cover and cook 5-7 min until whites are set and yolks are still runny.",
+        "Top with crumbled cotija or feta, extra cilantro, sliced avocado, and warm corn tortillas on the side."
+      ],
+      "cuisine": "middleeastern"
+    },
+    {
+      "id": 251,
+      "name": "Polenta Florentine",
+      "protein": "plant-based",
+      "time": 30,
+      "servings": 4,
+      "cal": 420,
+      "desc": "Creamy soft polenta topped with garlicky sauteed spinach, a poached egg, and shaved Parmesan.",
+      "ingredients": [
+        "2 cups polenta",
+        "6 cups water or vegetable broth",
+        "1 cup Parmesan (grated)",
+        "2 tbsp butter",
+        "1 lb fresh spinach",
+        "4 eggs",
+        "3 garlic cloves (sliced)",
+        "Pinch of nutmeg",
+        "Salt and pepper"
+      ],
+      "recipe": [
+        "Bring 6 cups salted water to a boil. Whisk in polenta, reduce heat, stir 5 min. Cook on low 15-20 min stirring often until thick and creamy.",
+        "Stir in butter and Parmesan. Season with salt and pepper. Keep warm.",
+        "Saute garlic in olive oil 1 min. Add spinach in batches, cook until wilted 3-4 min. Season with nutmeg, salt, and pepper.",
+        "Poach eggs in barely simmering water with a splash of vinegar, 3 min for runny yolks.",
+        "Spoon polenta into bowls, top with spinach, a poached egg, and extra Parmesan."
+      ],
+      "tip": "Use a wide pan and plenty of water for poaching - fresh eggs hold together best.",
+      "cuisine": "italian"
+    },
+    {
+      "id": 226,
+      "name": "Lentil Bolognese",
+      "protein": "plant-based",
+      "time": 40,
+      "servings": 4,
+      "cal": 380,
+      "desc": "Rich lentil & tomato ragu over pappardelle with Parmesan.",
+      "ingredients": [
+        "1 lb pappardelle",
+        "1.5 cups green lentils",
+        "28oz crushed tomatoes",
+        "1 onion",
+        "3 garlic cloves",
+        "2 carrots",
+        "2 celery stalks",
+        "2 tbsp tomato paste",
+        "1 tsp oregano",
+        "Parmesan"
+      ],
+      "recipe": [
+        "Saute diced onion, carrot, celery in olive oil 8 min.",
+        "Add garlic, tomato paste, and oregano, cook 2 min.",
+        "Add lentils, tomatoes, and 2 cups water. Simmer 25 min.",
+        "Toss with cooked pasta and Parmesan."
+      ],
+      "tip": "Use red lentils for a creamier sauce.",
+      "tip2": "Don't rush the soffritto at the start — the onion, carrot, and celery need a full 8 min to soften and sweeten. This is the flavor base the whole dish is built on.",
+      "recipe_detailed": [
+        "Finely dice onion, carrot, and celery into roughly equal small pieces. Cook in olive oil over medium heat 8-10 min, stirring occasionally, until very soft and the onion is translucent.",
+        "Add garlic and tomato paste, cook 2 min until the paste darkens slightly.",
+        "Add lentils, crushed tomatoes, and 2 cups water or broth. Bring to a boil, then reduce to a gentle simmer. Cook 25-30 min, stirring occasionally, until lentils are completely soft and the sauce is thick.",
+        "Cook pappardelle in heavily salted boiling water until al dente. Reserve 1 cup pasta water before draining. Toss pasta with the ragu, adding pasta water to loosen. Finish with Parmesan and olive oil."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 227,
+      "name": "Black Bean Burgers",
+      "protein": "plant-based",
+      "time": 25,
+      "servings": 4,
+      "cal": 420,
+      "desc": "Smoky black bean patties with avocado and chipotle mayo on brioche.",
+      "ingredients": [
+        "2 cans black beans (drained)",
+        "0.5 cup breadcrumbs",
+        "1 egg",
+        "1 tsp cumin",
+        "1 tsp smoked paprika",
+        "4 brioche buns",
+        "1 avocado",
+        "Chipotle mayo"
+      ],
+      "recipe": [
+        "Mash beans, mix with breadcrumbs, egg, and spices. Form 4 patties.",
+        "Chill 15 min. Pan-fry in oil 4 min per side until crisp.",
+        "Serve on buns with avocado and chipotle mayo."
+      ],
+      "tip": "Chilling the patties before cooking helps them hold together.",
+      "tip2": "Over-mashing the beans makes a dense, gummy patty. Mash only until most beans are broken but some chunks remain — the texture of partly whole beans is what holds the patty together.",
+      "recipe_detailed": [
+        "Drain and rinse beans thoroughly, then spread on a baking sheet and bake at 350F for 10 min — this dries them out slightly and makes for a firmer patty.",
+        "Mash beans roughly — stop when you still have some visible chunks. Overmashing creates a gummy, wet paste that won't hold a patty shape.",
+        "Mix with breadcrumbs, egg, cumin, smoked paprika, garlic powder, and salt. The mixture should hold its shape when squeezed. If too wet, add more breadcrumbs.",
+        "Form into patties, refrigerate 15-30 min, then pan-fry in oil over medium 4 min per side until deeply golden and crispy on both faces."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 228,
+      "name": "Tofu Stir-Fry with Bok Choy",
+      "protein": "plant-based",
+      "time": 25,
+      "servings": 4,
+      "cal": 310,
+      "desc": "Crispy tofu and bok choy in a ginger-sesame sauce over rice.",
+      "ingredients": [
+        "14oz extra-firm tofu (pressed)",
+        "4 baby bok choy (halved)",
+        "3 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp rice vinegar",
+        "2 tsp ginger",
+        "2 garlic cloves",
+        "1 tsp cornstarch",
+        "Cooked rice"
+      ],
+      "recipe": [
+        "Cube and pan-fry tofu until golden, ~10 min.",
+        "Whisk soy sauce, sesame oil, vinegar, ginger, garlic, cornstarch.",
+        "Add bok choy, cook 3 min. Pour sauce, toss until thickened.",
+        "Serve over rice."
+      ],
+      "tip": "Press tofu at least 30 min for best crispiness.",
+      "tip2": "Pat the tofu dry multiple times with paper towels even after pressing. Any surface moisture creates steam in the pan and prevents browning.",
+      "recipe_detailed": [
+        "Press tofu for 30 min under a weighted towel. Then pat dry again with paper towels. Cut into cubes. Toss lightly with cornstarch and salt — the cornstarch creates a thin crust.",
+        "Heat oil in a non-stick pan over medium-high until shimmering. Add tofu in a single layer. Don't touch for 3-4 min until the bottom is deeply golden and releases naturally. Flip and cook 2 more min on each side.",
+        "Make sauce: whisk soy sauce, sesame oil, rice vinegar, ginger, garlic, and cornstarch.",
+        "In the same pan, cook halved baby bok choy cut-side down 2 min until charred. Add sauce and tofu, toss 1-2 min until sauce thickens and coats everything. Serve over rice."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 229,
+      "name": "Margherita Flatbread Pizza",
+      "protein": "plant-based",
+      "time": 20,
+      "servings": 4,
+      "cal": 390,
+      "desc": "Crispy flatbreads with San Marzano tomatoes, fresh mozzarella, and basil.",
+      "ingredients": [
+        "4 flatbreads or naan",
+        "1 cup crushed San Marzano tomatoes",
+        "8oz fresh mozzarella",
+        "Fresh basil",
+        "2 tbsp olive oil",
+        "1 garlic clove"
+      ],
+      "recipe": [
+        "Preheat oven to 450F. Rub flatbreads with garlic and olive oil.",
+        "Spread tomatoes, top with mozzarella.",
+        "Bake 10-12 min until cheese bubbles.",
+        "Top with fresh basil."
+      ],
+      "tip": "Add red pepper flakes for heat.",
+      "tip2": "Less is more with Margherita. Restrain the toppings — a thin spread of crushed tomato, a few torn pieces of mozzarella, and a small drizzle of olive oil. Overloaded flatbread steams and turns soggy.",
+      "recipe_detailed": [
+        "Preheat oven to 450F with a baking sheet inside — you want the surface already hot.",
+        "Rub flatbreads with a cut garlic clove and a light brush of olive oil.",
+        "Spread a thin layer of crushed San Marzano tomatoes. Don't spread all the way to the edges — leave a half-inch border. Tear mozzarella into pieces and scatter — leave gaps.",
+        "Bake 10-12 min until cheese is melted and bubbly with some golden spots and the edges are crispy. Remove and immediately top with fresh basil added after baking. A drizzle of olive oil and flaky salt to finish."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 230,
+      "name": "Vegetable Gyoza",
+      "protein": "plant-based",
+      "time": 35,
+      "servings": 4,
+      "cal": 340,
+      "desc": "Pan-fried dumplings filled with cabbage, shiitake, and ginger.",
+      "ingredients": [
+        "30 gyoza wrappers",
+        "2 cups napa cabbage (shredded)",
+        "1 cup shiitake mushrooms (minced)",
+        "2 scallions",
+        "2 tsp ginger",
+        "2 tbsp soy sauce",
+        "1 tsp sesame oil",
+        "Dipping sauce"
+      ],
+      "recipe": [
+        "Salt cabbage, rest 10 min, squeeze dry. Mix with mushrooms, scallions, ginger, soy, sesame oil.",
+        "Fill wrappers with 1 tsp filling, fold and pleat to seal.",
+        "Pan-fry flat side down 3 min. Add water, cover, steam 4 min.",
+        "Serve with dipping sauce."
+      ],
+      "tip": "Freeze extras in a single layer before bagging.",
+      "tip2": "The pan-fry then steam technique gives you the best of both worlds: a crispy, golden bottom and a tender, steamed top. Use a lid that fits tightly — the steam is what finishes the filling.",
+      "recipe_detailed": [
+        "Salt shredded cabbage, let sit 10 min, then squeeze very dry in a towel. Mix with minced shiitake mushrooms also squeezed dry, scallions, ginger, soy sauce, and sesame oil.",
+        "Fill each wrapper with about 1 teaspoon of filling. Moisten the edge with water, fold in half, and pleat the front edge to seal. They should stand flat with a curved shape.",
+        "Heat oil in a flat-bottomed skillet over medium-high. Place gyoza flat-side down in a single layer. Cook 2-3 min until the bottoms are golden and crispy.",
+        "Add enough water to come a quarter inch up the gyoza. Cover immediately with a tight lid. Steam 4 min. Remove lid, let any remaining water evaporate, and cook 1 more minute. Serve with soy sauce, rice vinegar, and chili oil."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 231,
+      "name": "Stuffed Bell Peppers",
+      "protein": "plant-based",
+      "time": 45,
+      "servings": 4,
+      "cal": 370,
+      "desc": "Peppers filled with quinoa, black beans, corn, and melted cheese.",
+      "ingredients": [
+        "4 large bell peppers (halved)",
+        "1 cup cooked quinoa",
+        "1 can black beans",
+        "1 cup corn",
+        "1 cup salsa",
+        "1 tsp cumin",
+        "1 cup shredded Mexican cheese",
+        "Cilantro"
+      ],
+      "recipe": [
+        "Preheat oven to 375F. Hollow out peppers.",
+        "Mix quinoa, beans, corn, salsa, and cumin.",
+        "Fill peppers, top with cheese. Bake 30 min.",
+        "Garnish with cilantro."
+      ],
+      "tip": "Add a jalapeno to the filling for heat.",
+      "tip2": "Pre-bake the empty pepper halves 10 min before stuffing — they will be tender all the way through when the filling is done, rather than underdone and crunchy around the finished filling.",
+      "recipe_detailed": [
+        "Halve peppers lengthwise, remove seeds. Place cut-side up on a baking sheet, brush with oil, and roast at 400F for 10 min — just enough to soften slightly.",
+        "Mix filling: cooked quinoa, drained black beans, corn, salsa, cumin, and salt. Taste — it should be well-seasoned on its own.",
+        "Spoon filling generously into each pepper half, mounding it slightly. Top each with shredded cheese.",
+        "Return to 375F oven and bake 25 min until filling is heated through and cheese is melted. Rest 5 min before serving. Top with cilantro."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 232,
+      "name": "Mushroom Risotto",
+      "protein": "plant-based",
+      "time": 40,
+      "servings": 4,
+      "cal": 450,
+      "desc": "Creamy arborio rice with mixed mushrooms and Parmesan.",
+      "ingredients": [
+        "1.5 cups arborio rice",
+        "1oz dried porcini (soaked)",
+        "2 cups cremini mushrooms",
+        "1 shallot",
+        "0.5 cup white wine",
+        "4 cups warm vegetable broth",
+        "0.5 cup Parmesan",
+        "2 tbsp butter"
+      ],
+      "recipe": [
+        "Saute shallot in butter. Add cremini, cook until golden.",
+        "Add rice, stir 1 min. Deglaze with wine.",
+        "Add porcini liquid then broth one ladle at a time, stirring 25 min.",
+        "Stir in Parmesan and butter. Rest 2 min."
+      ],
+      "tip": "Never rinse arborio - the starch makes it creamy.",
+      "tip2": "The stirring serves a purpose — it rubs the starch off the rice grains into the cooking liquid, which is how you get that characteristic creamy texture. But constant stirring is not required; stir frequently, not constantly.",
+      "recipe_detailed": [
+        "Soak dried porcini in 2 cups hot water for 15 min. Squeeze mushrooms out and save the soaking liquid — strain it through a paper towel to remove grit.",
+        "Saute shallot in butter until soft and translucent. Add fresh cremini mushrooms and cook until golden, 5-6 min. Add garlic and porcini, cook 1 min. Remove mushrooms and set aside.",
+        "Add arborio rice to the same pan and stir 1 min until the edges turn translucent. Deglaze with white wine and stir until absorbed.",
+        "Add warm broth one ladle at a time, stirring and waiting for each addition to absorb before adding the next — about 20 min. Use the porcini soaking liquid as part of the total liquid. When rice is al dente and sauce is creamy, remove from heat. Stir in cold butter and Parmesan. Rest 2 min."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 233,
+      "name": "Veggie Sushi Bowls",
+      "protein": "plant-based",
+      "time": 25,
+      "servings": 4,
+      "cal": 380,
+      "desc": "Sushi rice with avocado, cucumber, edamame, and pickled ginger.",
+      "ingredients": [
+        "2 cups sushi rice",
+        "3 tbsp rice vinegar",
+        "1 tbsp sugar",
+        "2 avocados",
+        "1 cucumber",
+        "1 cup edamame",
+        "Pickled ginger",
+        "Nori",
+        "Soy sauce",
+        "Sriracha mayo"
+      ],
+      "recipe": [
+        "Cook rice. Mix vinegar and sugar; fold into warm rice.",
+        "Slice avocado and cucumber.",
+        "Build bowls: rice, avocado, cucumber, edamame, ginger, nori.",
+        "Drizzle with soy sauce and sriracha mayo."
+      ],
+      "tip": "A rice cooker makes perfectly sticky sushi rice.",
+      "tip2": "Season sushi rice while it is still very warm — the starch cells are open and it absorbs the vinegar seasoning much better than cold rice. Mix gently with a wooden spoon using folding motions, not stirring.",
+      "recipe_detailed": [
+        "Rinse sushi rice until water runs clear. Cook per package. While still hot, mix rice vinegar, sugar, and salt until dissolved. Fold gently into the rice with a wooden spoon. The rice should be glossy and slightly sticky.",
+        "Slice avocado and cucumber just before serving — both deteriorate quickly if cut too far ahead.",
+        "Make sriracha mayo: whisk sriracha with mayo. Thin with a little water if you want it drizzle-able.",
+        "Build bowls: rice base, then arranged sections of avocado, cucumber, edamame, and pickled ginger. Lay torn nori over everything. Drizzle with soy sauce and sriracha mayo. Eat immediately."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 234,
+      "name": "Falafel Bowls",
+      "protein": "plant-based",
+      "time": 35,
+      "servings": 4,
+      "cal": 440,
+      "desc": "Crispy baked falafel over rice with tzatziki, tomatoes, and cucumbers.",
+      "ingredients": [
+        "2 cans chickpeas",
+        "0.25 cup parsley",
+        "3 garlic cloves",
+        "1 tsp cumin",
+        "1 tsp coriander",
+        "3 tbsp flour",
+        "Cooked rice",
+        "1 cup tzatziki",
+        "Cherry tomatoes",
+        "Cucumber",
+        "Pita"
+      ],
+      "recipe": [
+        "Pulse chickpeas, parsley, garlic, and spices. Mix in flour.",
+        "Form balls, bake at 425F 25 min, flipping halfway.",
+        "Serve over rice with tzatziki, tomatoes, and cucumber."
+      ],
+      "tip": "Dried chickpeas make crispier falafel than canned.",
+      "tip2": "Use dried chickpeas soaked overnight — not canned. Canned chickpeas are too wet and the falafel will fall apart. Dried soaked chickpeas are raw but softened, which gives the right texture to hold a ball shape.",
+      "recipe_detailed": [
+        "Soak dried chickpeas in cold water overnight. Drain completely — they should be plump but still raw.",
+        "Pulse drained chickpeas, parsley, cilantro, garlic, onion, cumin, coriander, salt, and pepper in a food processor until it resembles coarse wet sand — not a smooth paste. Add flour and pulse to combine.",
+        "Form into balls or patties. Bake at 425F on an oiled baking sheet 25 min, flipping once, until deeply golden and firm. Or fry in 350F oil for 3 min until golden.",
+        "Serve over rice with tzatziki, halved cherry tomatoes, cucumber, and warm pita. Drizzle everything with tahini sauce: tahini, lemon juice, garlic, and water to thin."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 235,
+      "name": "Pad Thai with Tofu",
+      "protein": "plant-based",
+      "time": 30,
+      "servings": 4,
+      "cal": 420,
+      "desc": "Classic pad thai with pressed tofu, rice noodles, peanuts, and tamarind sauce.",
+      "ingredients": [
+        "8oz rice noodles",
+        "14oz extra-firm tofu (cubed)",
+        "3 eggs",
+        "2 cups bean sprouts",
+        "3 scallions",
+        "0.25 cup tamarind paste",
+        "3 tbsp soy sauce",
+        "2 tbsp brown sugar",
+        "2 tbsp lime juice",
+        "0.25 cup roasted peanuts"
+      ],
+      "recipe": [
+        "Soak noodles 10 min. Mix tamarind, soy, sugar, and lime.",
+        "Fry tofu until golden. Push aside, scramble eggs.",
+        "Add noodles and sauce, toss 3 min. Add sprouts and scallions.",
+        "Top with peanuts and lime wedges."
+      ],
+      "tip": "High heat is essential - use a wok if you have one.",
+      "tip2": "Add the noodles last and toss quickly — they need only 2-3 min once they hit the hot pan. Overcooked pad thai noodles turn mushy and clump together. When in doubt, undercook slightly in the soak step.",
+      "recipe_detailed": [
+        "Soak rice noodles in room temperature water 30 min until pliable but still firm — they finish cooking in the pan. Don't soak in boiling water or they overcook.",
+        "Press tofu dry, cube, and fry in oil until golden and slightly crispy, 6-8 min. Remove and set aside.",
+        "Make sauce: whisk tamarind paste, fish sauce or soy for vegan, brown sugar, and lime juice. It should taste bold — intensely sour, sweet, and savory.",
+        "In a very hot wok, add oil, then drained noodles, then sauce. Toss 2 min. Push to sides, scramble eggs in center, then mix through. Add tofu, bean sprouts, and scallions. Toss 1 min. Top with roasted peanuts, lime, and fresh chili."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 236,
+      "name": "Butternut Squash Soup",
+      "protein": "plant-based",
+      "time": 40,
+      "servings": 4,
+      "cal": 280,
+      "desc": "Silky roasted butternut squash soup with coconut milk and toasted pepitas.",
+      "ingredients": [
+        "1 large butternut squash (cubed)",
+        "1 onion",
+        "3 garlic cloves",
+        "1 can coconut milk",
+        "3 cups vegetable broth",
+        "1 tsp cumin",
+        "0.5 tsp nutmeg",
+        "Pepitas"
+      ],
+      "recipe": [
+        "Roast squash at 425F with olive oil 25 min.",
+        "Saute onion and garlic. Add squash, broth, spices. Simmer 10 min.",
+        "Blend until smooth. Stir in coconut milk.",
+        "Top with toasted pepitas."
+      ],
+      "tip": "Roasting first adds depth you cannot get from boiling.",
+      "tip2": "Roasting concentrates flavor through caramelization — don't skip it for boiling to save time. The golden edges on the roasted squash add a depth of sweetness that boiled squash simply doesn't have.",
+      "recipe_detailed": [
+        "Peel and cube butternut squash into roughly even pieces. Toss with olive oil, salt, and pepper. Spread on a sheet pan with space between pieces. Roast at 425F for 25-30 min until golden and caramelized on the edges.",
+        "Meanwhile, cook onion in butter or oil until soft, 5 min. Add garlic and cook 1 min.",
+        "Add roasted squash, broth, and spices. Simmer 10 min together to marry the flavors. Blend until completely smooth.",
+        "Stir in coconut milk and heat gently — don't boil after adding coconut milk. Taste and adjust salt. Serve topped with toasted pepitas and a drizzle of coconut milk."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 237,
+      "name": "White Bean and Kale Soup",
+      "protein": "plant-based",
+      "time": 30,
+      "servings": 4,
+      "cal": 310,
+      "desc": "Tuscan-style soup with cannellini beans, kale, and a Parmesan rind.",
+      "ingredients": [
+        "2 cans cannellini beans",
+        "4 cups kale (chopped)",
+        "1 onion",
+        "4 garlic cloves",
+        "1 can diced tomatoes",
+        "4 cups vegetable broth",
+        "1 Parmesan rind",
+        "Fresh rosemary"
+      ],
+      "recipe": [
+        "Saute onion and garlic. Add tomatoes, broth, beans, and Parmesan rind.",
+        "Simmer 15 min. Add kale, cook 5 min.",
+        "Remove rind. Season with salt and red pepper flakes.",
+        "Serve with crusty bread."
+      ],
+      "tip": "The Parmesan rind adds remarkable umami depth.",
+      "tip2": "Keep the Parmesan rind in the whole time it simmers — it won't fully melt but it slowly releases a rich, savory umami that builds the broth's body. Remove it before serving.",
+      "recipe_detailed": [
+        "Saute onion in olive oil until soft, 5 min. Add garlic and fresh rosemary and cook 1 min.",
+        "Add drained cannellini beans, diced tomatoes, broth, and the Parmesan rind. The rind slowly dissolves rich depth into the broth.",
+        "Simmer 15 min. Add chopped kale and stir until wilted, 3-5 min. The kale should be bright green and tender but still have some texture.",
+        "Remove the Parmesan rind. Season generously with salt, pepper, and red pepper flakes. Finish with a drizzle of good olive oil. Serve with crusty bread for dunking."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 238,
+      "name": "Tempeh Tacos",
+      "protein": "plant-based",
+      "time": 25,
+      "servings": 4,
+      "cal": 390,
+      "desc": "Crumbled tempeh with taco spices in corn tortillas with avocado and slaw.",
+      "ingredients": [
+        "2 blocks tempeh (crumbled)",
+        "2 tbsp taco seasoning",
+        "2 tbsp soy sauce",
+        "1 tbsp lime juice",
+        "Corn tortillas",
+        "Shredded cabbage",
+        "Pico de gallo",
+        "Avocado"
+      ],
+      "recipe": [
+        "Crumble tempeh, cook in oil 5 min until browned.",
+        "Add taco seasoning, soy sauce, and splash of water. Cook 3 min.",
+        "Fill warm tortillas with tempeh, cabbage, pico, and avocado.",
+        "Finish with lime juice."
+      ],
+      "tip": "Steam tempeh 10 min before cooking to remove bitterness.",
+      "tip2": "Steam the tempeh before cooking to remove its natural bitterness. 10 min in a steamer or microwave with a splash of water softens it and opens the structure so it absorbs the taco seasoning.",
+      "recipe_detailed": [
+        "Steam tempeh for 10 min — place in a steamer basket or microwave in a bowl with 2 tablespoons water, covered, for 3 min. Let cool slightly, then crumble into rough pieces.",
+        "Cook crumbled tempeh in oil over medium-high heat 4-5 min until golden and starting to crisp.",
+        "Add taco seasoning and soy sauce with a splash of water. Stir and cook 2-3 min until the liquid evaporates and the spices cling to the tempeh.",
+        "Warm corn tortillas over a flame or dry pan. Fill with tempeh, shredded cabbage, pico de gallo, and avocado. Squeeze lime over everything."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 239,
+      "name": "Caprese Pesto Pasta",
+      "protein": "plant-based",
+      "time": 20,
+      "servings": 4,
+      "cal": 520,
+      "desc": "Pasta with fresh basil pesto, cherry tomatoes, and torn mozzarella.",
+      "ingredients": [
+        "1 lb fusilli or penne",
+        "0.5 cup basil pesto",
+        "2 cups cherry tomatoes (halved)",
+        "8oz fresh mozzarella (torn)",
+        "Fresh basil",
+        "Olive oil"
+      ],
+      "recipe": [
+        "Cook pasta in salted water, reserve 0.5 cup pasta water.",
+        "Toss drained pasta with pesto, adding pasta water to loosen.",
+        "Fold in tomatoes and mozzarella.",
+        "Top with fresh basil and olive oil."
+      ],
+      "tip": "Pasta water starch helps the pesto cling to every piece.",
+      "tip2": "Never heat pesto — the fresh basil will oxidize and turn an unappetizing brown-grey. Always add it off the heat and let the warm pasta and pasta water bring it together.",
+      "recipe_detailed": [
+        "Cook pasta in heavily salted boiling water until al dente. Reserve at least 3/4 cup starchy pasta water before draining.",
+        "Drain pasta and return to the pot off the heat immediately. Add pesto and toss — do not put it back on the burner.",
+        "Add pasta water a splash at a time, tossing continuously, until the pesto loosens into a silky sauce that coats every piece.",
+        "Fold in halved cherry tomatoes and torn fresh mozzarella. Add fresh basil at the very end and toss once more. Serve immediately."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 240,
+      "name": "Chickpea and Sweet Potato Curry",
+      "protein": "plant-based",
+      "time": 35,
+      "servings": 4,
+      "cal": 400,
+      "desc": "Coconut milk curry with chickpeas, sweet potato, and spinach over basmati.",
+      "ingredients": [
+        "2 cans chickpeas",
+        "1 large sweet potato (cubed)",
+        "2 cups spinach",
+        "1 can coconut milk",
+        "1 can diced tomatoes",
+        "1 onion",
+        "3 garlic cloves",
+        "1 tbsp curry powder",
+        "1 tsp turmeric",
+        "Basmati rice"
+      ],
+      "recipe": [
+        "Saute onion and garlic. Add spices, stir 1 min.",
+        "Add sweet potato, tomatoes, and coconut milk. Simmer 15 min.",
+        "Add chickpeas and spinach, cook 5 min.",
+        "Serve over basmati."
+      ],
+      "tip": "A squeeze of lemon at the end brightens the whole dish.",
+      "tip2": "Add spinach off the heat — stir it in and put the lid on for 60 seconds. It wilts perfectly without overcooking to a dull green mush.",
+      "recipe_detailed": [
+        "Heat oil in a large pan over medium. Cook onion 5 min until golden. Add garlic and cook 1 min. Add curry powder and turmeric, stir 30 seconds — they should bloom and smell intensely fragrant.",
+        "Add sweet potato cubes, diced tomatoes, and coconut milk. Stir to combine. Bring to a simmer and cook 15 min until the sweet potato is completely tender when pierced.",
+        "Add drained chickpeas and warm through 3 min. Remove from heat, add spinach, and cover the pan for 60 seconds — it will wilt perfectly from the residual heat.",
+        "Squeeze lemon juice in and season with salt. Serve over basmati rice with a dollop of plain yogurt and fresh cilantro."
+      ],
+      "cuisine": "indian"
+    },
+    {
+      "id": 241,
+      "name": "Zucchini Corn Fritters",
+      "protein": "plant-based",
+      "time": 25,
+      "servings": 4,
+      "cal": 320,
+      "desc": "Golden fritters with zucchini, corn, and feta served with herby yogurt.",
+      "ingredients": [
+        "3 zucchini (grated)",
+        "1 cup corn",
+        "0.5 cup feta (crumbled)",
+        "2 eggs",
+        "0.5 cup flour",
+        "Greek yogurt",
+        "Fresh dill",
+        "Lemon"
+      ],
+      "recipe": [
+        "Salt grated zucchini, rest 10 min, squeeze dry.",
+        "Mix zucchini, corn, feta, eggs, and flour.",
+        "Pan-fry spoonfuls 3 min per side until golden.",
+        "Serve with yogurt mixed with dill and lemon zest."
+      ],
+      "tip": "Squeezing out all moisture is the most important step.",
+      "tip2": "Removing water from the zucchini is the single most important step — grate it, salt it, wait 10 min, and then squeeze as hard as you can in a clean towel. Any remaining moisture and you will get soggy fritters that fall apart.",
+      "recipe_detailed": [
+        "Grate zucchini and spread in a colander. Toss with a generous pinch of salt and let sit 10 min. Take handfuls and squeeze very firmly in a clean dish towel until you are getting almost no more moisture.",
+        "Mix squeezed zucchini with corn, crumbled feta, eggs, flour, salt, and pepper. The mixture should hold its shape when a spoonful is dropped.",
+        "Heat a thin film of oil in a skillet over medium-high. Drop spoonfuls of batter and flatten slightly. Cook 3 min undisturbed until the edges look set and the bottom is golden. Flip and cook 2-3 more min.",
+        "Mix yogurt with fresh dill, lemon zest, garlic, and salt. Serve fritters hot with the yogurt sauce."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 242,
+      "name": "Portobello Mushroom Tacos",
+      "protein": "plant-based",
+      "time": 20,
+      "servings": 4,
+      "cal": 350,
+      "desc": "Meaty portobello mushrooms and peppers in tortillas with chipotle crema.",
+      "ingredients": [
+        "4 large portobello caps (sliced)",
+        "2 bell peppers (sliced)",
+        "1 red onion",
+        "2 tbsp taco seasoning",
+        "Flour tortillas",
+        "Chipotle crema",
+        "Cilantro",
+        "Lime"
+      ],
+      "recipe": [
+        "Toss mushrooms, peppers, and onion with oil and taco seasoning.",
+        "Roast at 425F 20 min or cook in cast iron until charred.",
+        "Fill warm tortillas, top with chipotle crema and cilantro.",
+        "Squeeze lime over everything."
+      ],
+      "tip": "High heat gives mushrooms a meaty texture.",
+      "tip2": "Portobello mushrooms release a lot of water as they cook. Roasting at high heat drives that moisture off quickly — if you roast too low or too crowded, the mushrooms steam and turn slimy instead of getting meaty and charred.",
+      "recipe_detailed": [
+        "Slice portobello caps into thick strips. Slice peppers and red onion. Toss all together with oil and taco seasoning.",
+        "Spread in a single layer on sheet pans — use two if needed, no crowding. Roast at 425F for 18-22 min, flipping halfway, until the mushrooms have shrunk and the edges are charred and caramelized.",
+        "Make chipotle crema: blend sour cream, a chipotle in adobo, lime juice, and salt until smooth.",
+        "Warm flour tortillas. Fill with the mushroom mixture and drizzle generously with chipotle crema. Top with fresh cilantro, a squeeze of lime, and diced avocado."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 243,
+      "name": "Paneer Butter Masala",
+      "protein": "plant-based",
+      "time": 35,
+      "servings": 4,
+      "cal": 480,
+      "desc": "Cubes of paneer in a rich, creamy tomato-butter sauce with warm spices.",
+      "ingredients": [
+        "14oz paneer (cubed)",
+        "1 can crushed tomatoes",
+        "1 onion",
+        "3 garlic cloves",
+        "1 tsp ginger",
+        "0.5 cup heavy cream",
+        "2 tbsp butter",
+        "1 tsp garam masala",
+        "1 tsp cumin",
+        "0.5 tsp turmeric",
+        "Basmati rice",
+        "Naan"
+      ],
+      "recipe": [
+        "Saute onion, garlic, ginger in butter. Add spices, cook 1 min.",
+        "Add tomatoes, simmer 15 min. Blend smooth.",
+        "Return to pan, stir in cream. Add paneer, simmer 5 min.",
+        "Serve with rice and naan."
+      ],
+      "tip": "Lightly fry paneer first for a golden crust.",
+      "tip2": "Fry the paneer before adding to the sauce — 2 min per side in hot oil until golden. Unfried paneer is soft and crumbly and dissolves into the sauce. Fried paneer holds its shape and has a satisfying bite.",
+      "recipe_detailed": [
+        "Cut paneer into cubes and fry in a thin layer of oil over medium-high heat, 2 min per side until golden. Remove and set aside.",
+        "In the same pan, saute diced onion in butter 5 min until soft. Add garlic and ginger, cook 1 min. Add garam masala, cumin, and turmeric — stir 30 seconds until fragrant.",
+        "Add crushed tomatoes and simmer 12-15 min until the sauce thickens and you can drag a spoon through it and see the pan. Blend smooth with an immersion blender.",
+        "Return sauce to medium heat, stir in heavy cream. Simmer gently 5 min. Add paneer and heat through 2 min. Season with salt and finish with a small piece of butter. Serve with basmati rice and warm naan."
+      ],
+      "cuisine": "indian"
+    },
+    {
+      "id": 244,
+      "name": "Vegetarian Ramen",
+      "protein": "plant-based",
+      "time": 30,
+      "servings": 4,
+      "cal": 430,
+      "desc": "Rich miso broth with soft-boiled eggs, tofu, corn, and noodles.",
+      "ingredients": [
+        "4 portions ramen noodles",
+        "4 cups vegetable broth",
+        "2 tbsp miso paste",
+        "1 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "14oz tofu (cubed)",
+        "4 soft-boiled eggs",
+        "1 cup corn",
+        "4 scallions",
+        "Nori",
+        "Sesame seeds"
+      ],
+      "recipe": [
+        "Heat broth, whisk in miso off the boil, add soy and sesame oil.",
+        "Pan-fry tofu until golden.",
+        "Cook noodles. Divide into bowls, ladle broth over.",
+        "Top with tofu, halved eggs, corn, scallions, nori, and sesame seeds."
+      ],
+      "tip": "Never boil miso - add it off the heat to preserve flavor.",
+      "tip2": "Don't boil the broth after adding miso — whisk it in off the heat. Boiling miso kills its probiotic enzymes and significantly dulls its complex, fermented flavor.",
+      "recipe_detailed": [
+        "Make soft-boiled ramen eggs: bring water to a boil, lower eggs in gently, cook exactly 7 min, then transfer immediately to an ice bath. Peel when cool. Marinate in soy sauce, mirin, and water for at least 1 hour.",
+        "Bring vegetable broth to a near-simmer, not boiling. Remove from heat. Whisk in miso paste, soy sauce, and sesame oil until completely dissolved.",
+        "Pan-fry tofu cubes in oil until golden on all sides, 6-8 min.",
+        "Cook ramen noodles separately. Divide into bowls. Ladle hot miso broth over. Arrange toppings: tofu, halved marinated egg, corn, sliced scallions, nori, and a drizzle of sesame oil."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 245,
+      "name": "Sweet Potato Black Bean Burrito",
+      "protein": "plant-based",
+      "time": 30,
+      "servings": 4,
+      "cal": 510,
+      "desc": "Burritos with roasted sweet potato, black beans, rice, and salsa verde.",
+      "ingredients": [
+        "2 large sweet potatoes (cubed)",
+        "1 can black beans",
+        "2 cups cooked rice",
+        "1 cup salsa verde",
+        "1 cup shredded cheese",
+        "4 large flour tortillas",
+        "Sour cream",
+        "Cilantro"
+      ],
+      "recipe": [
+        "Roast sweet potato at 425F 20 min.",
+        "Layer rice, beans, sweet potato, cheese, and salsa verde on tortillas.",
+        "Fold and roll tightly. Toast in a dry pan 2 min per side.",
+        "Serve with sour cream, extra salsa verde, and cilantro."
+      ],
+      "tip": "Toasting the burrito seals it and adds a satisfying crunch.",
+      "tip2": "Toast the burrito seam-side down first in a dry pan — the heat seals it shut so it stays closed when you eat it. Without toasting, it unfurls and everything falls out.",
+      "recipe_detailed": [
+        "Roast sweet potato cubes at 425F for 20 min until caramelized. Season with cumin, chili powder, salt, and pepper before roasting.",
+        "Warm flour tortillas until pliable — microwave 30 sec wrapped in a damp paper towel, or heat in a dry pan.",
+        "Layer down the center: rice, black beans, sweet potato, shredded cheese, and salsa verde. Don't overfill.",
+        "Fold sides in first, then fold the bottom flap up and over the filling, tuck tightly, and roll forward. Toast seam-side down in a dry pan 2 min until golden and sealed. Flip and toast the other side."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 246,
+      "name": "Spanakopita Quesadillas",
+      "protein": "plant-based",
+      "time": 20,
+      "servings": 4,
+      "cal": 370,
+      "desc": "Spinach and feta in crispy flour tortillas with tzatziki.",
+      "ingredients": [
+        "4 large flour tortillas",
+        "3 cups spinach (wilted, squeezed dry)",
+        "1 cup feta (crumbled)",
+        "0.5 cup ricotta",
+        "2 garlic cloves",
+        "0.25 tsp nutmeg",
+        "Tzatziki"
+      ],
+      "recipe": [
+        "Mix spinach, feta, ricotta, garlic, and nutmeg.",
+        "Spread over half of each tortilla, fold closed.",
+        "Cook in dry pan 3 min per side until golden.",
+        "Slice and serve with tzatziki."
+      ],
+      "tip": "Squeeze every drop of moisture from the spinach.",
+      "tip2": "Squeeze all moisture from the wilted spinach — really commit to it. Wet spinach makes the quesadilla soggy from the inside and prevents the tortilla from crisping.",
+      "recipe_detailed": [
+        "Cook spinach in a pan with a splash of water until fully wilted. Drain in a colander, then take small handfuls and squeeze as firmly as you can to remove all the water.",
+        "Mix squeezed spinach with crumbled feta, ricotta, minced garlic, and nutmeg. Season — feta is salty so taste before adding salt.",
+        "Heat a dry non-stick pan over medium heat. Lay a tortilla flat. Spread filling over half, leaving a border. Fold in half and press flat.",
+        "Cook 3 min per side, pressing gently with a spatula. The tortilla should be golden and crispy. Cut into wedges and serve with tzatziki."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 247,
+      "name": "Red Lentil Dal",
+      "protein": "plant-based",
+      "time": 30,
+      "servings": 4,
+      "cal": 360,
+      "desc": "Comforting spiced red lentil dal with a crispy cumin tadka.",
+      "ingredients": [
+        "1.5 cups red lentils",
+        "1 can diced tomatoes",
+        "1 onion",
+        "3 garlic cloves",
+        "1 tsp turmeric",
+        "1 tsp cumin seeds",
+        "1 tsp garam masala",
+        "2 tbsp ghee",
+        "Cilantro",
+        "Basmati rice or naan"
+      ],
+      "recipe": [
+        "Simmer lentils with turmeric and 4 cups water 15 min.",
+        "Saute onion and garlic in ghee. Add tomatoes and garam masala, cook 5 min.",
+        "Combine with lentils, simmer 5 min.",
+        "Fry cumin seeds in ghee until they pop, drizzle over dal."
+      ],
+      "tip": "The tadka poured at the end is where all the flavor lives.",
+      "tip2": "The tadka at the end is the most important step — heating cumin seeds in ghee until they pop and turn fragrant, then pouring the sizzling fat over the dal. Don't skip it. It is the difference between flat and finished.",
+      "recipe_detailed": [
+        "Rinse red lentils until water runs clear. Add to a pot with 4 cups water and turmeric. Bring to a boil, skim any foam, reduce to a simmer. Cook 15-20 min until completely soft and falling apart.",
+        "Meanwhile, saute diced onion in ghee until golden, 7 min. Add garlic and cook 1 min. Add diced tomatoes and garam masala, cook 5 min until the tomatoes break down.",
+        "Combine the tomato mixture with the cooked lentils. Stir and simmer together 5 min. Season with salt. The dal should be thick and pourable.",
+        "Make the tadka: heat ghee in a small pan until very hot. Add cumin seeds and let them sizzle and pop for 30 seconds until fragrant. Pour the sizzling ghee and cumin over the dal immediately. Serve with rice or warm naan."
+      ],
+      "cuisine": "indian"
+    },
+    {
+      "id": 248,
+      "name": "Cauliflower Fried Rice",
+      "protein": "plant-based",
+      "time": 25,
+      "servings": 4,
+      "cal": 290,
+      "desc": "Low-carb cauliflower rice wok-fried with vegetables and soy-sesame sauce.",
+      "ingredients": [
+        "1 large cauliflower (riced)",
+        "3 eggs",
+        "1 cup peas",
+        "2 carrots (diced)",
+        "3 scallions",
+        "3 garlic cloves",
+        "3 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "2 tsp ginger"
+      ],
+      "recipe": [
+        "Pulse cauliflower in food processor to rice-sized pieces.",
+        "Stir-fry carrots and garlic 3 min. Push aside, scramble eggs.",
+        "Add cauliflower, peas, soy sauce, sesame oil, and ginger. Toss 5 min.",
+        "Top with sliced scallions."
+      ],
+      "tip": "Very hot pan and minimal stirring gives the best caramelization.",
+      "tip2": "Let the cauliflower rice sit in contact with the hot pan for 30 seconds at a time without stirring — this creates light browning and a slightly nutty flavor. Constant stirring keeps it pale and bland.",
+      "recipe_detailed": [
+        "Pulse cauliflower florets in a food processor until they look like rice. Spread on a clean towel and squeeze out as much moisture as possible.",
+        "Heat a wok over very high heat. Add sesame oil, then diced carrots and garlic. Stir fry 2-3 min until carrots soften. Push to the side.",
+        "Add more oil if needed. Crack eggs into the center and scramble until just barely set, then break up and mix through.",
+        "Add cauliflower rice and spread in a layer. Don't stir for 30 seconds — let it sit and get slightly golden. Then toss. Add peas, soy sauce, and ginger. Toss and cook 3 more min. Top with sliced scallions."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 249,
+      "name": "Veggie Banh Mi Bowls",
+      "protein": "plant-based",
+      "time": 30,
+      "servings": 4,
+      "cal": 410,
+      "desc": "Lemongrass tofu over jasmine rice with pickled daikon, carrots, and sriracha mayo.",
+      "ingredients": [
+        "14oz tofu (pressed, sliced)",
+        "2 tbsp lemongrass paste",
+        "3 tbsp soy sauce",
+        "1 tbsp brown sugar",
+        "Jasmine rice",
+        "1 cup daikon (julienned)",
+        "1 cup carrots (julienned)",
+        "Rice vinegar",
+        "Cilantro",
+        "Jalapeno",
+        "Sriracha mayo"
+      ],
+      "recipe": [
+        "Quick-pickle daikon and carrots in rice vinegar, sugar, and salt 20 min.",
+        "Marinate tofu in lemongrass, soy, and sugar. Pan-fry until caramelized.",
+        "Build bowls: rice, tofu, pickled veggies, jalapeno, cilantro.",
+        "Drizzle with sriracha mayo."
+      ],
+      "tip": "The quick-pickled vegetables are what make this dish.",
+      "tip2": "Make the quick pickles first — they need at least 20 min but are dramatically better after an hour or refrigerated overnight. The acidity is what makes banh mi; without enough tangy pickles the bowl is flat.",
+      "recipe_detailed": [
+        "Make quick pickles first: julienne daikon and carrots finely. Toss with rice vinegar, 1 tablespoon sugar, and a pinch of salt. Let sit 20 min minimum.",
+        "Marinate pressed tofu slices in lemongrass paste, soy sauce, and brown sugar for 15 min. Pan-fry in a hot skillet 2-3 min per side until the edges caramelize.",
+        "Make sriracha mayo: mix mayo with sriracha, lime juice, and a pinch of garlic.",
+        "Build bowls: cooked rice base, sliced caramelized tofu, drained pickled vegetables, sliced cucumber, jalapeno, and plenty of fresh cilantro. Drizzle sriracha mayo over everything."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 250,
+      "name": "Spinach Ricotta Stuffed Shells",
+      "protein": "plant-based",
+      "time": 45,
+      "servings": 4,
+      "cal": 490,
+      "desc": "Jumbo pasta shells with spinach-ricotta, baked in marinara and mozzarella.",
+      "ingredients": [
+        "20 jumbo pasta shells",
+        "2 cups ricotta",
+        "2 cups spinach (wilted, squeezed)",
+        "1 egg",
+        "1 cup Parmesan",
+        "2 cups marinara",
+        "1.5 cups shredded mozzarella",
+        "Basil"
+      ],
+      "recipe": [
+        "Cook shells al dente. Mix ricotta, spinach, egg, and Parmesan.",
+        "Spread half the marinara in a baking dish. Fill shells.",
+        "Top with remaining marinara and mozzarella. Bake 375F 25 min.",
+        "Garnish with basil."
+      ],
+      "tip": "Undercook the shells slightly - they finish in the oven.",
+      "tip2": "Use a piping bag or a zip-lock bag with the corner snipped to fill the shells — it is dramatically faster and cleaner than using a spoon, and you can fill each shell more completely without tearing.",
+      "recipe_detailed": [
+        "Cook jumbo pasta shells 2 min less than the package time. They are al dente now and will finish cooking in the oven. Rinse with cool water and lay flat on an oiled sheet pan.",
+        "Wilt spinach, drain, and squeeze completely dry. Mix with ricotta, egg, most of the Parmesan, salt, pepper, and nutmeg. Transfer to a piping bag or zip-lock bag.",
+        "Spread half the marinara in a baking dish. Pipe filling into each shell and place snugly in the dish, open side up. Pour remaining marinara over the shells. Scatter mozzarella and remaining Parmesan generously over the top.",
+        "Cover with foil and bake at 375F for 25 min. Remove foil and bake 15 more min until the cheese is bubbly and golden. Rest 5 min before serving with fresh basil."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 310,
+      "name": "Japanese Souffle Pancakes",
+      "protein": "breakfast",
+      "time": 30,
+      "servings": 4,
+      "cal": 410,
+      "desc": "Tall, jiggly, cloud-like pancakes with a delicate vanilla flavor, dusted with powdered sugar.",
+      "premium": true,
+      "ingredients": [
+        "4 eggs, separated",
+        "0.25 cup milk",
+        "1 tsp vanilla extract",
+        "0.5 cup flour",
+        "0.5 tsp baking powder",
+        "0.33 cup sugar",
+        "0.25 tsp cream of tartar",
+        "Butter for the pan",
+        "Powdered sugar and maple syrup to serve"
+      ],
+      "recipe": [
+        "Whisk egg yolks, milk, and vanilla. Sift in flour and baking powder, whisk until smooth.",
+        "In a separate clean bowl, beat egg whites with cream of tartar until foamy. Gradually add sugar, beating to stiff, glossy peaks.",
+        "Fold a third of the whites into the yolk batter to lighten it, then gently fold in the rest in two more additions — don't overmix.",
+        "Heat a nonstick pan over low heat, butter lightly. Spoon batter into tall mounds, cover, and cook 4-5 min per side, adding a splash of water to the pan before covering to steam them.",
+        "Carefully flip, cover, cook 4-5 min more until set and cooked through. Dust with powdered sugar and serve with syrup."
+      ],
+      "tip": "Low and slow is everything here — these puff from steam and gentle heat, and a hot pan will brown the outside before the inside sets.",
+      "recipe_detailed": [
+        "Separate the eggs carefully, making sure absolutely no yolk gets into the whites — even a trace of fat will keep the whites from whipping to full volume, which is what gives these pancakes their signature height.",
+        "Whisk the yolks with milk and vanilla until smooth, then sift the flour and baking powder directly into the bowl to avoid lumps, whisking just until combined. This is your flavor base, and it should be a thick, smooth batter.",
+        "In a completely clean, dry bowl, beat the egg whites with cream of tartar (which stabilizes the foam) starting on low speed until foamy, then gradually stream in the sugar while increasing speed. Beat until the peaks stand up firmly and glossy when you lift the beater — this usually takes 3 to 5 minutes and is the single most important step in the recipe.",
+        "Fold, don't stir: add about a third of the meringue into the yolk batter first and mix it in fully to loosen the batter, then add the rest in two more additions, using a spatula to cut down through the center and fold up the sides. Stop as soon as no white streaks remain — overfolding deflates the air you worked to build.",
+        "Cook over the lowest heat your stove allows, in a lightly buttered nonstick pan. Mound the batter tall rather than spreading it, add a spoonful of water to the pan away from the batter, and cover immediately to trap steam — this is what cooks the inside gently while the pancakes rise. Expect 4 to 5 minutes per side with the lid on, and flip gently with two spatulas to keep them from collapsing."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 311,
+      "name": "Chorizo and Egg Breakfast Tacos",
+      "protein": "breakfast",
+      "time": 20,
+      "servings": 4,
+      "cal": 460,
+      "desc": "Spicy Mexican chorizo scrambled with eggs and potatoes, piled into warm tortillas.",
+      "premium": true,
+      "ingredients": [
+        "12 oz Mexican chorizo, casing removed",
+        "2 potatoes, small-diced",
+        "8 eggs, beaten",
+        "8 small flour or corn tortillas",
+        "1 cup shredded cheddar or queso fresco",
+        "0.5 cup salsa",
+        "Cilantro",
+        "Lime wedges"
+      ],
+      "recipe": [
+        "Cook diced potatoes in a skillet with a little oil over medium heat 10-12 min, stirring occasionally, until golden and tender.",
+        "Push potatoes to one side. Add chorizo, breaking it up, and cook 5-6 min until browned and cooked through.",
+        "Drain excess grease if needed. Pour in beaten eggs and stir gently, cooking until just set and creamy — don't overcook.",
+        "Warm tortillas in a dry skillet or over a flame until lightly charred.",
+        "Fill tortillas with the chorizo-egg-potato mixture, top with cheese, salsa, and cilantro. Serve with lime wedges."
+      ],
+      "tip": "Mexican chorizo is raw and needs to be fully cooked through, unlike the cured Spanish kind — cook it until no pink remains before adding the eggs.",
+      "recipe_detailed": [
+        "Start the potatoes first since they take the longest: dice them small and uniform so they cook evenly, and give them a full 10 to 12 minutes in the skillet, stirring only occasionally so each side gets a chance to brown rather than just steaming in a crowded pan.",
+        "Once the potatoes are fork-tender with golden edges, push them to one side of the skillet to make room. Add the chorizo directly to the empty side, breaking it apart with your spatula as it cooks — Mexican chorizo is sold raw, so cook it thoroughly, about 5 to 6 minutes, until no pink remains and it's rendered its bright red fat into the pan.",
+        "If there's a lot of excess grease pooled in the pan, spoon some off before adding the eggs, or your scramble will taste greasy rather than rich. Pour the beaten eggs directly over the chorizo and potatoes.",
+        "Stir gently and continuously over medium-low heat, pulling the eggs from the edges of the pan toward the center as they set. Pull the pan off the heat while the eggs still look slightly underdone and glossy — they'll keep cooking from residual heat and end up perfectly creamy rather than dry and rubbery.",
+        "Char the tortillas directly over a gas flame for a few seconds per side if you have one, or in a dry hot skillet — this small step adds real flavor that a microwaved tortilla can't match. Build the tacos immediately while everything is hot, and let each person add their own cheese, salsa, and lime to taste."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 312,
+      "name": "Classic Belgian Waffles with Berries",
+      "protein": "breakfast",
+      "time": 25,
+      "servings": 4,
+      "cal": 480,
+      "desc": "Crisp-edged, fluffy Belgian waffles topped with macerated berries and whipped cream.",
+      "premium": true,
+      "ingredients": [
+        "2 cups flour",
+        "1 tbsp baking powder",
+        "0.25 cup sugar",
+        "0.5 tsp salt",
+        "2 eggs, separated",
+        "1.75 cups milk",
+        "0.5 cup melted butter",
+        "1 tsp vanilla extract",
+        "2 cups mixed berries",
+        "2 tbsp sugar (for berries)",
+        "Whipped cream and maple syrup to serve"
+      ],
+      "recipe": [
+        "Toss berries with 2 tbsp sugar and let macerate at room temperature while you make the batter.",
+        "Whisk flour, baking powder, sugar, and salt. In another bowl, whisk egg yolks, milk, melted butter, and vanilla.",
+        "Pour wet into dry ingredients, whisking just until combined — a few lumps are fine.",
+        "Beat egg whites to soft peaks and fold into the batter gently.",
+        "Cook in a preheated waffle iron per its instructions until golden and crisp. Top with macerated berries and whipped cream."
+      ],
+      "tip": "Folding in beaten egg whites instead of just adding whole eggs is what gives Belgian waffles their extra-light, crisp texture.",
+      "recipe_detailed": [
+        "Toss the berries with sugar well before you plan to serve — even 15 to 20 minutes lets the sugar draw out their juices and create a light natural syrup, which is far better than plain fruit on top.",
+        "Whisk the dry ingredients together thoroughly so the baking powder is evenly distributed — clumped baking powder means some bites of waffle rise more than others. In a separate bowl or large measuring cup, whisk the egg yolks, milk, melted butter, and vanilla until fully combined.",
+        "Pour the wet mixture into the dry and whisk just until no dry streaks of flour remain. Overmixing develops gluten and makes waffles tough and chewy instead of tender, so a few small lumps in the batter are completely fine — better than overworking it.",
+        "In a clean bowl, whisk the egg whites until they hold soft, floppy peaks — not stiff, just enough to trap air. Fold them into the batter gently with a spatula, cutting and folding rather than stirring, to keep as much air in as possible. This extra step is what separates a Belgian waffle's light interior from a denser standard waffle.",
+        "Preheat your waffle iron fully before adding batter — a properly hot iron is what creates that deep golden color and crisp shell. Resist opening it early to check; most irons signal with reduced steam or a light when they're actually done. Serve waffles immediately for maximum crispness, topped with the macerated berries and their juices plus a dollop of whipped cream."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 313,
+      "name": "Loaded Breakfast Skillet",
+      "protein": "breakfast",
+      "time": 35,
+      "servings": 4,
+      "cal": 540,
+      "desc": "A hearty one-pan breakfast of crispy potatoes, sausage, peppers, and eggs baked right in.",
+      "premium": true,
+      "ingredients": [
+        "1.5 lbs baby potatoes, quartered",
+        "2 tbsp olive oil",
+        "12 oz breakfast sausage, casings removed",
+        "1 bell pepper, diced",
+        "1 small onion, diced",
+        "1 cup shredded cheddar",
+        "4-6 eggs",
+        "Salt and pepper",
+        "Chives or green onion",
+        "Hot sauce to serve"
+      ],
+      "recipe": [
+        "Preheat oven to 400F. Toss potatoes with oil, salt, and pepper on a sheet pan. Roast 20 min until nearly tender.",
+        "Meanwhile, brown sausage in an oven-safe skillet, breaking it up, about 6-7 min. Add pepper and onion, cook 4-5 min until softened.",
+        "Add roasted potatoes to the skillet and toss everything together. Sprinkle cheese over top.",
+        "Make 4-6 wells in the mixture and crack an egg into each well.",
+        "Bake at 400F for 8-10 min until egg whites are set but yolks are still jammy. Top with chives and hot sauce."
+      ],
+      "tip": "Roasting the potatoes separately first, rather than boiling or steaming them, is what keeps this skillet from turning soggy.",
+      "recipe_detailed": [
+        "Cut the potatoes into evenly sized quarters so they roast at the same rate, then toss them with olive oil, salt, and pepper directly on a sheet pan — giving them space rather than piling them up is key to actual roasting instead of steaming. Twenty minutes at 400°F should leave them golden at the edges and nearly fork-tender.",
+        "While the potatoes roast, brown the sausage in an oven-safe skillet over medium heat, breaking it into small, uneven crumbles with your spatula — those craggy bits crisp up nicely and add texture. This takes about 6 to 7 minutes; drain excess fat if there's a lot pooling.",
+        "Add the diced pepper and onion straight into the sausage fat and cook until they've softened and picked up a little color, roughly 4 to 5 minutes. This builds a flavorful base for everything that follows.",
+        "Once the potatoes are done, add them straight to the skillet with the sausage and vegetables and toss to combine everything evenly. Scatter the cheese over the top so it melts down into the mixture as it goes back into the oven.",
+        "Use the back of a spoon to press 4 to 6 shallow wells into the mixture, spaced out, and crack an egg into each. Bake at 400°F for 8 to 10 minutes — start checking at 8, since you want the whites fully set but the yolks still soft and jammy so they run into the skillet when you serve it."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 314,
+      "name": "Overnight Cinnamon French Toast Bake",
+      "protein": "breakfast",
+      "time": 50,
+      "servings": 6,
+      "cal": 490,
+      "desc": "A make-ahead baked French toast casserole with a crackly cinnamon-sugar top, perfect for a lazy morning.",
+      "premium": true,
+      "ingredients": [
+        "1 loaf brioche or challah, cubed",
+        "8 eggs",
+        "2 cups milk",
+        "0.5 cup heavy cream",
+        "0.5 cup sugar",
+        "2 tsp cinnamon",
+        "1 tsp vanilla extract",
+        "Pinch of salt",
+        "0.33 cup butter, melted",
+        "0.33 cup brown sugar",
+        "0.5 cup chopped pecans (optional)",
+        "Maple syrup to serve"
+      ],
+      "recipe": [
+        "Grease a 9x13 baking dish and spread the cubed bread evenly.",
+        "Whisk eggs, milk, cream, sugar, cinnamon, vanilla, and salt. Pour evenly over the bread, pressing down so it soaks in.",
+        "Cover and refrigerate at least 4 hours, or overnight.",
+        "When ready to bake, preheat oven to 350F. Mix melted butter, brown sugar, and pecans, and drizzle over the top.",
+        "Bake 40-45 min until puffed, golden, and set in the center. Let rest 5 min, then serve with maple syrup."
+      ],
+      "tip": "Stale, day-old bread actually works better here than fresh — it soaks up the custard without turning to mush.",
+      "recipe_detailed": [
+        "Cube the bread a day ahead if you can and leave it uncovered on the counter to stale slightly, or lightly toast fresh cubes in a low oven — this matters more than you'd think, since fresh, soft bread can turn gummy once it's saturated with custard.",
+        "Spread the cubes evenly in a greased baking dish, distributing any denser pieces so no one area is over- or under-filled. Whisk the eggs, milk, cream, sugar, cinnamon, vanilla, and salt together thoroughly until no streaks of egg white remain.",
+        "Pour the custard slowly and evenly over the bread, then press down gently with a spatula or your hands so every cube gets a chance to soak. Cover tightly and refrigerate for at least 4 hours — overnight is better — so the bread fully absorbs the custard rather than just sitting in a puddle of it.",
+        "When you're ready to bake, let the dish sit at room temperature for about 15 minutes while the oven preheats, which helps it bake more evenly. Mix the melted butter, brown sugar, and pecans if using, and drizzle this streusel-like topping evenly over the surface right before it goes in.",
+        "Bake until the top is deeply golden, slightly crackly, and the center no longer jiggles when you nudge the dish, 40 to 45 minutes — tent it loosely with foil partway through if the top is browning faster than the center is setting. Let it rest for 5 minutes before cutting so it holds together on the plate."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 315,
+      "name": "Corned Beef Hash and Eggs",
+      "protein": "breakfast",
+      "time": 30,
+      "servings": 4,
+      "cal": 470,
+      "desc": "Crispy pan-fried corned beef and potato hash topped with a fried egg.",
+      "premium": true,
+      "ingredients": [
+        "1 lb cooked corned beef, diced",
+        "3 russet potatoes, small-diced",
+        "1 onion, diced",
+        "2 tbsp oil, divided",
+        "2 tbsp butter",
+        "Salt and pepper",
+        "4 eggs",
+        "Chives",
+        "Hot sauce or ketchup to serve"
+      ],
+      "recipe": [
+        "Parboil diced potatoes in salted water 5 min until just tender at the edges. Drain well.",
+        "Heat oil in a large skillet over medium-high. Add potatoes in a single layer, cook 8-10 min undisturbed until deeply golden on the bottom.",
+        "Add onion and corned beef, stir to combine, and press the whole mixture flat with a spatula. Cook 6-8 min, flipping in sections, until crispy throughout.",
+        "Season with salt and pepper (go light on salt — corned beef is already salty).",
+        "In a separate pan, fry eggs in butter to your liking. Serve hash topped with a fried egg and chives."
+      ],
+      "tip": "Parboiling the potatoes briefly first means they finish crisping in the skillet instead of staying raw in the middle.",
+      "recipe_detailed": [
+        "Give the diced potatoes a 5-minute head start in boiling salted water — just enough to soften the edges without fully cooking them through. Drain thoroughly and let them steam-dry for a minute; excess water on the surface will make them steam instead of crisp in the skillet.",
+        "Heat oil until it's shimmering before adding the potatoes, then spread them into a single, even layer and leave them alone. Resisting the urge to stir for a full 8 to 10 minutes is what builds a deep, crackly golden crust on the bottom layer.",
+        "Add the onion and diced corned beef directly into the skillet with the potatoes, folding everything together, then press it all down firmly into an even layer with your spatula — packing it down helps more surface area make contact with the hot pan.",
+        "Let it cook undisturbed again for several minutes to crisp, then use your spatula to flip sections over in large scoops rather than stirring constantly, which would just crumble everything into small crispy bits without any texture contrast. Repeat until most of the hash has some golden, crispy edges.",
+        "Taste before adding salt — cured corned beef carries plenty of sodium on its own. Fry the eggs separately in a bit of butter, keeping the yolks runny if you like them for a sauce that mixes into the hash once you cut in. Plate the hash hot, top with an egg, and finish with chives."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 316,
+      "name": "Huevos Divorciados",
+      "protein": "breakfast",
+      "time": 20,
+      "servings": 4,
+      "cal": 420,
+      "desc": "Fried eggs on crispy tortillas, one side topped with red salsa and the other with green, divorced right down the middle.",
+      "premium": true,
+      "ingredients": [
+        "8 corn tortillas",
+        "Oil for frying",
+        "8 eggs",
+        "1 cup red salsa (salsa roja)",
+        "1 cup green salsa (salsa verde)",
+        "1 can (15 oz) refried black beans, warmed",
+        "0.5 cup crumbled queso fresco",
+        "Cilantro",
+        "Avocado slices"
+      ],
+      "recipe": [
+        "Warm both salsas in separate small saucepans over low heat.",
+        "Heat a thin layer of oil in a skillet. Fry tortillas one at a time, 30-60 sec per side, until crisp and lightly golden. Drain on paper towels.",
+        "In the same skillet, fry eggs to your liking — crispy edges, runny yolks are traditional.",
+        "Spread warmed refried beans on each plate, top with two crispy tortillas per person.",
+        "Top one tortilla with a fried egg and red salsa, the other with a fried egg and green salsa. Finish with queso fresco, cilantro, and avocado."
+      ],
+      "tip": "Keep the two salsas separate right up until plating — the visual 'divorce' down the middle is the whole point of the dish.",
+      "recipe_detailed": [
+        "Warm the red and green salsas separately in their own small saucepans over low heat — they should be warm and slightly thickened, not boiling, which can make them taste harsh and lose their fresh flavor.",
+        "Heat a thin layer of oil in a skillet until it shimmers, then fry the tortillas one or two at a time for 30 to 60 seconds per side until they're crisp and just turning golden at the edges. Drain them on paper towels immediately so they stay crisp rather than greasy.",
+        "Fry the eggs in the same skillet, adding a touch more oil if needed. The traditional style here is crispy, lacy edges with a fully runny yolk, so use fairly hot oil and don't move the eggs once they're in the pan.",
+        "Spread a layer of warmed refried beans on each plate as the base — this both adds flavor and helps anchor the tortillas so they don't slide around. Lay two crispy tortillas per plate on top of the beans, slightly overlapping in the center.",
+        "Top one tortilla with a fried egg smothered in red salsa, and the other with a fried egg smothered in green salsa, keeping a clear line between the two colors down the middle of the plate. Finish with crumbled queso fresco, fresh cilantro, and avocado slices, and serve immediately while the tortillas are still crisp."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 317,
+      "name": "Sausage Gravy Biscuit Bake",
+      "protein": "breakfast",
+      "time": 40,
+      "servings": 6,
+      "cal": 560,
+      "desc": "Flaky biscuits baked right into a peppery sausage gravy — a casserole take on biscuits and gravy.",
+      "premium": true,
+      "ingredients": [
+        "1 lb breakfast sausage",
+        "0.33 cup flour",
+        "3 cups whole milk",
+        "1 tsp black pepper, or more to taste",
+        "0.5 tsp salt",
+        "1 can (16 oz) refrigerated biscuits",
+        "1 cup shredded cheddar",
+        "Chives"
+      ],
+      "recipe": [
+        "Preheat oven to 375F. Brown sausage in a large oven-safe skillet, breaking it into small crumbles, about 7 min.",
+        "Sprinkle flour over the sausage, stir, and cook 1-2 min. Gradually whisk in milk, stirring constantly until no lumps remain.",
+        "Simmer, stirring often, 5-7 min until thickened to a gravy consistency. Season generously with black pepper and salt.",
+        "Cut biscuits into quarters and nestle them into the gravy across the top of the skillet. Sprinkle with cheddar.",
+        "Bake 20-25 min until biscuits are golden and cooked through and gravy is bubbling at the edges. Top with chives before serving."
+      ],
+      "tip": "Season the gravy more aggressively with black pepper than feels natural — it mellows out once it bakes into the biscuits.",
+      "recipe_detailed": [
+        "Brown the sausage in an oven-safe skillet over medium heat, breaking it into small, even crumbles as it cooks, about 7 minutes until no pink remains. Don't drain the fat — it's the base of the gravy's flavor.",
+        "Sprinkle the flour directly over the cooked sausage and stir it in, letting it cook for a minute or two to lose its raw taste and coat the meat evenly — this is essentially building a roux right in the pan with the sausage still in it.",
+        "Pour in the milk gradually, whisking constantly as you add it so the flour doesn't clump. Once it's all incorporated, let it come to a gentle simmer, stirring frequently, until it thickens into a proper gravy consistency, about 5 to 7 minutes — it should coat the back of a spoon.",
+        "Season boldly with black pepper — classic sausage gravy is meant to have real peppery bite — and salt to taste, keeping in mind the biscuits and cheese to come are relatively mild.",
+        "Cut the biscuits into quarters and press them into the gravy across the surface of the skillet, spacing them so the gravy peeks through between pieces. Scatter cheddar over everything, then bake at 375°F for 20 to 25 minutes until the biscuits are cooked through and golden on top and the gravy is bubbling visibly at the edges. Let it sit a few minutes before serving so the gravy sets slightly."
+      ],
+      "cuisine": null
+    }
+  ]
+}

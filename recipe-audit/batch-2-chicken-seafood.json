@@ -1,0 +1,2431 @@
+{
+  "batch": 2,
+  "proteins": [
+    "chicken",
+    "seafood"
+  ],
+  "count": 66,
+  "recipes": [
+    {
+      "id": 11,
+      "name": "Lemon Herb Chicken Thighs",
+      "protein": "chicken",
+      "cal": 510,
+      "time": 20,
+      "servings": 6,
+      "desc": "Juicy bone-in thighs, roasted lemon, fresh herbs",
+      "ingredients": [
+        "6 bone-in chicken thighs",
+        "2 lemons, sliced",
+        "5 cloves garlic",
+        "3 tbsp olive oil",
+        "1 tsp rosemary",
+        "1 tsp thyme",
+        "Salt & pepper",
+        "Mixed greens to serve"
+      ],
+      "recipe": [
+        "Preheat oven to 425°F. Season chicken with rosemary, thyme, salt, and pepper.",
+        "Sear thighs skin-down 4 min until golden. Flip.",
+        "Add lemon slices and garlic. Roast 12-14 min.",
+        "Rest 3 min. Serve with mixed greens."
+      ],
+      "tip": "Score the skin lightly with a sharp knife before searing. It renders the fat more evenly and gives you cracklier skin without curling.",
+      "tip2": "Bone-in, skin-on thighs are much more forgiving than breasts — done between 165-185F and the fat keeps them moist even if you run a few minutes long. Internal temp is your best guide.",
+      "recipe_detailed": [
+        "Pat chicken thighs completely dry with paper towels on all sides — dry skin crisps, wet skin steams. Season generously with salt, pepper, and herbs on both sides.",
+        "Heat an oven-safe skillet over medium-high heat. Add oil. Place thighs skin-side down and don't touch them for 7-8 min. They release when the skin is golden and crispy. Flip and cook 2 min on the other side.",
+        "Add garlic, lemon slices, and herbs to the pan. Transfer to a 400F oven and roast 18-22 min until a thermometer in the thickest part reads 165F.",
+        "Let rest 5 min before serving. Spoon the pan juices over the chicken — they are the sauce."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 12,
+      "name": "Chicken Fajita Bowls",
+      "protein": "chicken",
+      "cal": 420,
+      "time": 15,
+      "servings": 6,
+      "desc": "Sizzled chicken strips, peppers & onions, avocado, lime crema",
+      "ingredients": [
+        "2 lb chicken breast, sliced",
+        "3 bell peppers, sliced",
+        "2 onions, sliced",
+        "3 avocados",
+        "3/4 cup Greek yogurt",
+        "2 limes",
+        "3 tbsp fajita seasoning",
+        "Olive oil"
+      ],
+      "recipe": [
+        "Season chicken with fajita seasoning.",
+        "Sear chicken 6-7 min. Set aside.",
+        "Cook peppers and onion 5 min until charred.",
+        "Mix yogurt with lime for crema. Build bowls."
+      ],
+      "tip": "Don't move the chicken for the first 4 minutes. It will release naturally when the crust is ready - forcing it tears the skin and loses the sear.",
+      "tip2": "Resting the chicken after cooking is what keeps it juicy. Cut too soon and all the juices run onto your cutting board instead of staying in the meat.",
+      "recipe_detailed": [
+        "Slice chicken into strips and toss with fajita seasoning, oil, and lime juice. If you have time, marinate 15-30 min.",
+        "Heat a large cast iron skillet over high heat until very hot. Add chicken in a single layer — do not stir for 2 min, let it get a char on one side. Flip and cook 2 more min. Remove to a plate and rest.",
+        "In the same pan, add a little more oil and cook sliced peppers and onions over high heat 4-5 min until charred in spots, not just softened.",
+        "Slice the rested chicken and add back to the pepper mixture. Toss briefly. Serve over rice or in bowls with guac, sour cream, salsa, and warm tortillas."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 14,
+      "name": "Chicken & Veggie Sheet Pan",
+      "protein": "chicken",
+      "cal": 530,
+      "time": 25,
+      "servings": 6,
+      "desc": "Chicken thighs, broccoli, bell pepper, garlic, paprika",
+      "ingredients": [
+        "6 boneless chicken thighs",
+        "4 cups broccoli florets",
+        "3 bell peppers, chopped",
+        "4 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1 tsp paprika",
+        "Salt & pepper"
+      ],
+      "recipe": [
+        "Preheat oven to 425°F. Toss everything with oil and spices.",
+        "Arrange in single layer on sheet pan.",
+        "Roast 20-22 min, flipping veggies halfway.",
+        "Chicken should hit 165°F internal."
+      ],
+      "tip": "Dry the chicken thighs completely with paper towels before seasoning. Surface moisture is the enemy of browning.",
+      "tip2": "Denser vegetables like carrots and potatoes take longer than chicken. Give them a 10-min head start, or cut them smaller than softer veg so everything finishes at the same time.",
+      "recipe_detailed": [
+        "Preheat oven to 425F. Line a large sheet pan with foil. Pat chicken dry and season with salt, pepper, and your seasoning blend.",
+        "Cut denser vegetables smaller than quick-cooking ones. Toss all vegetables in oil, salt, and pepper so each piece is lightly coated.",
+        "Spread vegetables on the pan in a single layer with space between pieces — crowding causes steaming, not roasting. Place chicken skin-side up on top of or between the vegetables.",
+        "Roast 25-35 min until the chicken reaches 165F and the vegetables are golden with some caramelized edges. Rotate the pan halfway through for even cooking."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 16,
+      "name": "Chicken Zoodle Soup",
+      "protein": "chicken",
+      "cal": 460,
+      "time": 20,
+      "servings": 6,
+      "desc": "Hearty broth, shredded chicken, zucchini noodles, carrots",
+      "ingredients": [
+        "3 cups cooked shredded chicken",
+        "6 cups chicken broth",
+        "4 medium zucchini, spiralized",
+        "3 carrots, sliced",
+        "4 stalks celery, sliced",
+        "4 cloves garlic",
+        "1 tsp thyme",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Bring broth to simmer. Add carrots, celery, garlic.",
+        "Cook 8 min until almost tender.",
+        "Add chicken and thyme. Simmer 3 min.",
+        "Add zucchini noodles, cook 2 min. Season and serve topped with fresh parsley."
+      ],
+      "tip": "Add the zucchini noodles in the last 90 seconds only. Overcooked zucchini releases water that dilutes your broth. Pull them while they still have bite.",
+      "tip2": "Add zucchini noodles only at the very end — they need just 1-2 min and release water rapidly. Add them too early and they turn mushy and water down the broth.",
+      "recipe_detailed": [
+        "Heat oil in a large pot over medium. Add onion, carrots, and celery and cook 5-6 min until softened. Add garlic, cook 1 min.",
+        "Add chicken broth and bring to a boil. Add chicken breasts or thighs whole — they poach gently and stay juicy. Reduce to a simmer and cook 15-18 min until cooked through.",
+        "Remove chicken and shred with two forks. Return shredded chicken to the pot. Add herbs and season well with salt and pepper. Taste the broth and adjust.",
+        "Add zucchini noodles and simmer 1-2 min until just softened. Serve immediately — don't let the soup sit with the zoodles or they turn to mush."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 18,
+      "name": "Coconut Curry Chicken",
+      "protein": "chicken",
+      "cal": 390,
+      "time": 20,
+      "servings": 6,
+      "desc": "Light coconut milk curry, chicken, spinach, jasmine rice",
+      "ingredients": [
+        "2 lb chicken breast, cubed",
+        "2 cans light coconut milk",
+        "4 cups baby spinach",
+        "3 tbsp red curry paste",
+        "1.5 tbsp fish sauce",
+        "2 limes, juiced",
+        "3 cloves garlic",
+        "1 tsp ginger",
+        "Jasmine rice",
+        "Cilantro"
+      ],
+      "recipe": [
+        "Sauté garlic and ginger 1 min. Add curry paste 1 min.",
+        "Add chicken, cook 5 min.",
+        "Pour in coconut milk and fish sauce. Simmer 8 min.",
+        "Stir in spinach and lime. Serve over steamed jasmine rice, topped with cilantro."
+      ],
+      "tip": "Fry the curry paste in oil for a full minute until it darkens slightly and smells fragrant. This is called 'killing the paste' - raw paste tastes tinny.",
+      "tip2": "Add spinach right at the end and remove the pan from heat. Residual warmth wilts it perfectly in 60 seconds — cooking it longer makes it slimy and dull.",
+      "recipe_detailed": [
+        "Heat oil in a large pan over medium heat. Add garlic and ginger and cook 1 min, stirring, until fragrant but not browned. Add the curry paste and let it fry in the oil for a full minute, stirring constantly — it should darken slightly and smell toasty. This step is called blooming and it's what makes curry taste deep instead of flat.",
+        "Add the chicken pieces and cook 5–6 min, turning occasionally, until the outside is opaque and lightly golden. It doesn't need to be cooked through yet — it'll finish in the sauce.",
+        "Pour in the coconut milk and fish sauce. Stir to combine, scraping up any bits from the bottom. Bring to a gentle simmer (small bubbles, not a rolling boil) and cook 8 min. The chicken is done when it's no longer pink inside — cut the thickest piece to check.",
+        "Squeeze in the lime juice and stir in the spinach. Remove the pan from heat and let the residual warmth wilt the spinach for 60 seconds — it should turn bright green and just collapse. Serve over steamed jasmine rice."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 20,
+      "name": "Teriyaki Chicken Bowls",
+      "protein": "chicken",
+      "cal": 500,
+      "time": 15,
+      "servings": 6,
+      "desc": "Teriyaki glazed chicken, edamame, cucumber, brown rice",
+      "ingredients": [
+        "2 lb chicken thighs",
+        "4 tbsp low-sodium soy sauce",
+        "1.5 tbsp honey",
+        "1.5 tbsp rice vinegar",
+        "1.5 tsp sesame oil",
+        "3 cups edamame",
+        "2 cucumbers, sliced",
+        "3 cups cooked brown rice",
+        "Sesame seeds"
+      ],
+      "recipe": [
+        "Mix soy sauce, honey, vinegar, sesame oil for glaze.",
+        "Cook chicken 6-7 min per side. Add glaze last 2 min.",
+        "Slice chicken. Build bowls with rice, edamame, cucumber.",
+        "Top with sesame seeds."
+      ],
+      "tip": "Pound the chicken to even thickness before cooking. Thick and thin spots cook at different rates - evening them out gets you perfect doneness edge to edge.",
+      "tip2": "Homemade teriyaki is just soy sauce, mirin, and sugar reduced in a pan — it takes 3 min and is dramatically better than bottled. Make a double batch and keep it in the fridge.",
+      "recipe_detailed": [
+        "For teriyaki sauce: combine soy sauce, mirin, sugar, and a little cornstarch in a small saucepan. Bring to a simmer over medium heat, stirring until the sugar dissolves and it thickens slightly — about 3 min. Set aside.",
+        "Pat chicken thighs dry. Heat oil in a skillet over medium-high. Cook chicken skin-side down 5-6 min until deeply golden, then flip and cook 4 more min.",
+        "Pour the teriyaki sauce over the chicken and let it simmer and reduce 2-3 min, spooning it over the chicken as it thickens. It should be sticky and coat the back of a spoon.",
+        "Slice chicken and serve over steamed rice. Spoon extra sauce over everything. Top with sliced green onions and sesame seeds."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 44,
+      "name": "Chicken Cauliflower Fried Rice",
+      "protein": "chicken",
+      "cal": 410,
+      "time": 15,
+      "servings": 6,
+      "desc": "Riced cauliflower, chicken, egg, peas, carrots, soy sauce",
+      "ingredients": [
+        "2 cups cooked chicken, diced",
+        "3 cups jasmine rice, cooked",
+        "3 eggs, beaten",
+        "1.5 cups frozen peas & carrots",
+        "4 tbsp low-sodium soy sauce",
+        "3 cloves garlic",
+        "1.5 tsp sesame oil",
+        "Green onions"
+      ],
+      "recipe": [
+        "Heat oil in wok on high. Add jasmine rice, cook 3 min.",
+        "Push aside. Scramble eggs in center, mix together.",
+        "Add chicken, peas & carrots, garlic. Stir fry 3 min.",
+        "Add soy sauce and sesame oil. Top with green onion."
+      ],
+      "tip": "The secret to fried rice is day-old cooked rice. Freshly cooked rice is too wet and clumps. If you don't have day-old, spread it on a sheet pan to cool and dry for 30 minutes.",
+      "tip2": "Squeeze as much water out of the riced cauliflower as you can in a clean dish towel before cooking. Excess water makes it steam and clump. The drier it is, the more it mimics fried rice.",
+      "recipe_detailed": [
+        "Pulse cauliflower in a food processor until it resembles rice. Spread on a towel and squeeze firmly to remove excess moisture — this step is critical for texture.",
+        "Season and cook chicken in a hot skillet with oil until cooked through, 6-8 min. Remove and dice into small pieces.",
+        "In the same pan over high heat, add sesame oil. Add garlic and ginger, stir 30 sec. Add cauliflower rice and stir fry 5 min — let it sit in contact with the pan for 30 seconds at a time to develop color.",
+        "Push everything to the sides. Scramble eggs in the center, then mix through. Add chicken, soy sauce, and any vegetables. Toss and cook 2 more min. Top with green onions."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 46,
+      "name": "One-Pan Chicken & Mushrooms",
+      "protein": "chicken",
+      "cal": 440,
+      "time": 20,
+      "servings": 6,
+      "desc": "Chicken thighs braised with mushrooms, thyme, dijon broth",
+      "ingredients": [
+        "6 boneless chicken thighs",
+        "3 cups cremini mushrooms, sliced",
+        "1.5 cups chicken broth",
+        "3 tbsp dijon mustard",
+        "1 tsp fresh thyme",
+        "4 cloves garlic",
+        "2 tbsp olive oil",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Sear chicken 5 min per side. Remove.",
+        "Sauté mushrooms and garlic 4 min.",
+        "Whisk broth and dijon. Pour in, scrape pan.",
+        "Return chicken with thyme. Simmer 8 min. Top with parsley."
+      ],
+      "tip": "After adding the dijon broth, scrape the fond (browned bits) from the bottom of the pan immediately. That's where the depth of flavor is stored.",
+      "tip2": "Don't salt mushrooms at the start — it draws out water and they steam instead of brown. Cook them dry until the liquid evaporates, then season. That is when they start to brown.",
+      "recipe_detailed": [
+        "Pat chicken dry and season all sides. Heat oil in a large skillet over medium-high. Sear chicken skin-side down 6-7 min without moving until deeply golden. Flip and cook 3 min. Remove to a plate.",
+        "Add mushrooms to the same pan in a single layer. Don't stir for 3 min — let them brown on one side. Toss and cook another 2 min. Now season with salt.",
+        "Add garlic and thyme and stir 1 min. Add broth and scrape up the browned bits from the bottom. Bring to a simmer.",
+        "Return chicken to the pan, nestle into the sauce. Cover and cook over low heat 12-15 min until chicken reaches 165F. Stir in butter and cream if using, taste and adjust seasoning."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 53,
+      "name": "Chicken Shawarma Bowls",
+      "protein": "chicken",
+      "cal": 360,
+      "time": 20,
+      "servings": 6,
+      "desc": "Spiced chicken, romaine, tomato, tzatziki, tahini",
+      "ingredients": [
+        "2 lb chicken thighs",
+        "1 tsp cumin",
+        "1 tsp coriander",
+        "1 tsp paprika",
+        "1/2 tsp turmeric",
+        "4 cloves garlic",
+        "3 tbsp olive oil",
+        "6 cups romaine",
+        "2 cups cherry tomatoes",
+        "3/4 cup tzatziki",
+        "3 tbsp tahini",
+        "2 lemons"
+      ],
+      "recipe": [
+        "Mix spices, garlic, oil. Coat chicken.",
+        "Sear 6-7 min per side.",
+        "Rest 3 min, then slice.",
+        "Build bowls with romaine and cherry tomatoes, then top with sliced chicken. Drizzle with tzatziki, tahini, and lemon."
+      ],
+      "tip": "Marinate the chicken overnight if you can. Shawarma spices need time to penetrate - even 4 hours makes a noticeable difference in depth of flavor.",
+      "tip2": "The longer the chicken marinates the better — the acid in lemon juice tenderizes the meat and the spices penetrate deeply. Even 30 min makes a difference; overnight is transformative.",
+      "recipe_detailed": [
+        "Mix together all the shawarma spices with olive oil and lemon juice. Toss chicken thighs to coat completely. Marinate at least 30 min, up to overnight in the fridge.",
+        "Cook in a hot skillet over medium-high heat or under a broiler 5-7 min per side until cooked through and charred in spots. The spices should form a dark, fragrant crust.",
+        "Rest the chicken 5 min, then slice thin. While it rests, warm pita and prepare toppings: chopped cucumber, tomato, red onion, and parsley.",
+        "Build bowls: rice or pita base, sliced chicken, toppings, a generous drizzle of garlic sauce or tzatziki, and a squeeze of lemon."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 64,
+      "name": "Hot Wings",
+      "protein": "chicken",
+      "cal": 500,
+      "time": 45,
+      "servings": 6,
+      "desc": "Crispy baked wings, classic buffalo sauce, celery & blue cheese dip",
+      "ingredients": [
+        "4 lb chicken wings, split at joint",
+        "1 tbsp baking powder",
+        "1 tsp garlic powder",
+        "Salt & pepper",
+        "1/2 cup hot sauce (Frank's RedHot)",
+        "4 tbsp butter",
+        "1 tsp Worcestershire sauce",
+        "Celery stalks",
+        "1/2 cup blue cheese or ranch dressing"
+      ],
+      "recipe": [
+        "Pat wings completely dry. Toss with baking powder, garlic powder, salt, pepper.",
+        "Arrange on wire rack over baking sheet. Refrigerate uncovered 1 hr (or overnight).",
+        "Bake at 425°F for 45-50 min, flipping halfway, until very crispy.",
+        "Melt butter, stir in hot sauce and Worcestershire for buffalo sauce.",
+        "Toss wings in sauce. Serve with celery and blue cheese or ranch."
+      ],
+      "tip": "Baking powder on the wings draws out moisture and creates a porous surface that fries up incredibly crispy in the oven - it's the secret to oven wings that actually crunch.",
+      "tip2": "The secret to crispy baked wings: baking powder in the coating. It raises the pH of the skin and makes it blister and crisp in the oven in a way plain flour cannot.",
+      "recipe_detailed": [
+        "Pat wings completely dry — any moisture is the enemy of crispy skin. Toss with baking powder, salt, and pepper. No flour needed — the baking powder is the crispiness trick.",
+        "Arrange on a wire rack set over a foil-lined baking sheet. This lets hot air circulate under the wings. Bake at 425F for 45-50 min, flipping halfway, until deeply golden and the skin is blistered.",
+        "While wings bake, melt butter in a saucepan and whisk in hot sauce. Taste and adjust — more butter for mild, more sauce for hot.",
+        "Toss the hot wings immediately in the sauce so it clings while they are hot. Serve with blue cheese or ranch and celery sticks."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 68,
+      "name": "Blackened Chicken Greek Salad",
+      "protein": "chicken",
+      "cal": 320,
+      "time": 15,
+      "servings": 3,
+      "desc": "Cajun-spiced crispy chicken over romaine, feta, olives, cucumber, red onion, oregano dressing",
+      "ingredients": [
+        "4 chicken breasts",
+        "2 tsp smoked paprika",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1 tsp cayenne",
+        "1 tsp dried thyme",
+        "Salt & pepper",
+        "2 tbsp olive oil",
+        "6 cups romaine, chopped",
+        "1 cup cherry tomatoes, halved",
+        "1 cucumber, diced",
+        "1/2 red onion, thinly sliced",
+        "3/4 cup kalamata olives",
+        "3/4 cup crumbled feta",
+        "For dressing: 3 tbsp olive oil, 1.5 tbsp red wine vinegar, 1 tsp dried oregano, salt & pepper"
+      ],
+      "recipe": [
+        "Mix paprika, garlic powder, onion powder, cayenne, thyme, salt, pepper. Coat chicken well on all sides.",
+        "Heat olive oil in cast iron skillet over high heat until smoking. Sear chicken 4-5 min per side until blackened and cooked through (165°F internal). Rest 3 min.",
+        "Whisk dressing ingredients together.",
+        "Build salad: romaine, tomatoes, cucumber, red onion, olives, feta.",
+        "Slice chicken and lay over salad. Drizzle dressing over everything."
+      ],
+      "tip": "Cast iron is essential for proper blackening - you need sustained, intense heat that most pans can't hold. Get it smoking hot, add no oil to the pan, and don't touch the chicken.",
+      "tip2": "Blackening is not burning — it is a controlled char from the spice crust. Use a cast iron over very high heat and don't be scared when it smokes. Open a window and let it happen.",
+      "recipe_detailed": [
+        "Mix blackening spices: paprika, cayenne, garlic powder, thyme, oregano, salt, and pepper. Coat chicken on all sides — press the spices in gently.",
+        "Heat a cast iron skillet over high heat for 3-4 min until very hot. Add a thin film of oil. Add chicken and cook 4-5 min per side — it will smoke significantly and the crust will turn very dark. That is correct.",
+        "Rest the chicken 5 min then slice. While resting, assemble the salad: romaine, cucumber, tomatoes, Kalamata olives, red onion, pepperoncini, and crumbled feta.",
+        "Top the salad with sliced chicken and dress with olive oil, red wine vinegar, salt, and oregano. Serve with pita bread."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 65,
+      "name": "Zuppa Toscana",
+      "protein": "chicken",
+      "cal": 410,
+      "time": 30,
+      "servings": 6,
+      "desc": "Creamy Italian sausage soup with kale, potatoes, and a touch of cream",
+      "ingredients": [
+        "1.5 lb Italian sausage (mild or spicy)",
+        "4 cups kale, stems removed, chopped",
+        "3 medium potatoes, thinly sliced or diced",
+        "1 onion, diced",
+        "5 cloves garlic, minced",
+        "4 cups chicken broth",
+        "2 cups heavy cream or coconut cream",
+        "Red pepper flakes",
+        "Salt & pepper",
+        "Parmesan to serve"
+      ],
+      "recipe": [
+        "Brown sausage in a large pot, breaking it up. Remove, leave drippings.",
+        "Sauté onion in drippings 4 min. Add garlic and red pepper flakes 1 min.",
+        "Add broth and potatoes. Bring to boil, simmer 10-12 min until potatoes are tender.",
+        "Return sausage. Stir in cream and kale.",
+        "Simmer 5 min until kale wilts. Season. Serve with parmesan."
+      ],
+      "tip": "Don't drain all the drippings after browning the sausage , leave a thin layer. That's where the soup's depth of flavor lives.",
+      "tip2": "Kale goes in last for a reason. Add it too early and it turns army-green and bitter. Those final 5 minutes give you bright, silky leaves.",
+      "recipe_detailed": [
+        "Heat a large pot over medium-high heat. Add the sausage and cook 6-8 min, breaking it into small crumbles with a wooden spoon until no pink remains and the edges are starting to crisp. Use a slotted spoon to transfer to a plate , leave the drippings in the pot.",
+        "Reduce heat to medium. Add the onion and cook 4-5 min, stirring occasionally, until softened and translucent. Add garlic and red pepper flakes and stir 1 min , you'll smell them turn fragrant.",
+        "Pour in the broth and add the potatoes. Raise heat to bring to a boil, then reduce to a gentle simmer. Cook 10-12 min until a fork slides through a potato slice without resistance.",
+        "Return the sausage to the pot. Pour in the cream and add the kale. Stir to combine.",
+        "Simmer 4-5 min until the kale wilts and turns deep green. Taste and season with salt and pepper. Ladle into bowls and top generously with Parmesan."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 24,
+      "name": "Honey-Dijon Salmon Sheet Pan",
+      "protein": "seafood",
+      "cal": 340,
+      "time": 20,
+      "servings": 6,
+      "desc": "Glazed salmon, asparagus, lemon, roasted together",
+      "ingredients": [
+        "6 salmon fillets",
+        "2 bunches asparagus, trimmed",
+        "3 tbsp honey",
+        "3 tbsp dijon mustard",
+        "1.5 tbsp olive oil",
+        "2 lemons, sliced",
+        "Salt & pepper"
+      ],
+      "recipe": [
+        "Preheat oven to 400°F. Mix honey, dijon, salt.",
+        "Place salmon and asparagus on sheet pan. Brush salmon with glaze.",
+        "Add lemon slices. Roast 14-16 min."
+      ],
+      "tip": "Bring salmon to room temperature 15 minutes before cooking. Cold fish from the fridge cooks unevenly and often sticks to the pan.",
+      "tip2": "The salmon is done when it flakes easily with a fork at the thickest part and has turned from translucent to opaque. It should still look slightly darker in the very center — that's perfect. If it's completely uniform it's overdone.",
+      "recipe_detailed": [
+        "Take the salmon out of the fridge 15 min before cooking so it comes closer to room temperature — this helps it cook evenly. Preheat your oven to 400°F and line a sheet pan with foil for easy cleanup.",
+        "In a small bowl, mix honey, dijon mustard, salt, and a crack of pepper. Taste it — it should be balanced, slightly sweet and tangy.",
+        "Place salmon fillets skin-side down on one side of the sheet pan and asparagus on the other. Spoon or brush the glaze generously over the top of each salmon fillet. Lay lemon slices over the asparagus and a couple on the salmon.",
+        "Roast 14–16 min. The salmon is done when it flakes easily with a fork at the thickest part and has turned from translucent to opaque — it should still look slightly darker in the very center. The asparagus should be tender with slightly charred tips."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 26,
+      "name": "Teriyaki Salmon & Broccoli",
+      "protein": "seafood",
+      "cal": 310,
+      "time": 15,
+      "servings": 6,
+      "desc": "Teriyaki glazed salmon, steamed broccoli, sesame seeds",
+      "ingredients": [
+        "6 salmon fillets",
+        "4 cups broccoli florets",
+        "4 tbsp low-sodium soy sauce",
+        "1.5 tbsp honey",
+        "1.5 tbsp rice vinegar",
+        "1.5 tsp sesame oil",
+        "Sesame seeds",
+        "Green onion"
+      ],
+      "recipe": [
+        "Mix soy sauce, honey, vinegar, sesame oil for glaze.",
+        "Sear salmon 3 min, flip. Pour glaze over, cook 3 min more.",
+        "Steam broccoli 4 min.",
+        "Serve with remaining glaze, sesame seeds, green onion."
+      ],
+      "tip": "Apply the teriyaki glaze in the last 2-3 minutes only. Sugar burns quickly - glazing too early results in bitterness instead of caramelization.",
+      "tip2": "Salmon goes from perfect to dry fast. The center should still look slightly translucent when you pull it — it finishes cooking from residual heat as it rests. Uniformly opaque all the way through means overdone.",
+      "recipe_detailed": [
+        "Pat salmon dry and season with salt and pepper. Make teriyaki sauce: whisk together soy sauce, mirin, sugar, and a little cornstarch. Bring to a simmer in a small pan 2-3 min until slightly thickened.",
+        "Heat oil in an oven-safe skillet over medium-high. Place salmon skin-side up and cook 3 min undisturbed to build a crust. Flip to skin-side down.",
+        "Brush teriyaki sauce over the salmon. Add broccoli florets around the pan with a splash of water. Cover and cook 4-5 min until broccoli is bright green and salmon flakes at the edges but looks slightly darker in the center.",
+        "Serve over steamed rice with extra sauce and sesame seeds."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 29,
+      "name": "Salmon Patties & Coleslaw",
+      "protein": "seafood",
+      "cal": 330,
+      "time": 15,
+      "servings": 6,
+      "desc": "Canned salmon patties, tangy coleslaw, lemon-dill yogurt sauce",
+      "ingredients": [
+        "3 cans (14.75 oz) wild salmon, drained",
+        "2 eggs",
+        "3 tbsp almond flour",
+        "1.5 tsp dijon mustard",
+        "4 cups coleslaw mix",
+        "3 tbsp apple cider vinegar",
+        "3/4 cup Greek yogurt",
+        "1.5 tbsp fresh dill",
+        "2 lemons"
+      ],
+      "recipe": [
+        "Mix salmon, egg, almond flour, dijon. Form patties.",
+        "Pan-fry in olive oil 3-4 min per side until golden.",
+        "Toss coleslaw with vinegar and salt.",
+        "Mix yogurt, dill, lemon juice for sauce. Serve everything together."
+      ],
+      "tip": "Refrigerate the formed salmon patties for 15 minutes before frying. Chilling helps them hold together and prevents crumbling in the pan.",
+      "tip2": "Chill the formed patties in the fridge for 15 min before frying — the binders set up and the patties hold together much better when they have had time to firm up.",
+      "recipe_detailed": [
+        "Drain canned salmon thoroughly and pick out any bones. In a bowl, flake the salmon and mix with egg, breadcrumbs, diced onion, mustard, lemon juice, and seasoning. Don't overmix — just combine.",
+        "Form into patties about 3/4-inch thick. Place on a plate, cover, and refrigerate 15 min. This helps them hold together when frying.",
+        "Meanwhile, make coleslaw: shred cabbage and carrot, toss with mayo, vinegar, sugar, salt, and pepper. Taste and adjust — it should be tangy and creamy.",
+        "Heat oil in a skillet over medium-high. Cook patties 3-4 min per side until golden brown. Serve with coleslaw on the side or on a bun."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 23,
+      "name": "Garlic Butter Salmon",
+      "protein": "seafood",
+      "cal": 320,
+      "time": 15,
+      "servings": 3,
+      "desc": "Pan-seared salmon, garlic butter sauce, crispy green beans",
+      "ingredients": [
+        "4 salmon fillets",
+        "3 cups green beans, trimmed",
+        "4 tbsp butter",
+        "5 cloves garlic, minced",
+        "1 lemon, juiced",
+        "Fresh parsley",
+        "Salt & pepper"
+      ],
+      "recipe": [
+        "Season salmon with salt and pepper.",
+        "Sear skin-up in hot skillet 4 min per side. Remove.",
+        "Add butter and garlic. Cook 1 min.",
+        "Add green beans, toss 3 min. Return salmon, add lemon, parsley."
+      ],
+      "tip": "Tilt the pan and baste the salmon repeatedly with the garlic butter in the last minute. This is called arroser - it infuses flavor into every layer of the fish.",
+      "tip2": "Baste constantly in the last 2 minutes — spoon the hot garlic butter over the top of the salmon repeatedly. This bastes the top without needing to flip and creates incredible flavor.",
+      "recipe_detailed": [
+        "Pat salmon dry. Season generously. Heat oil in a heavy skillet over medium-high until shimmering.",
+        "Place salmon skin-side up. Cook 4 min without moving — a proper crust should form. Flip to skin-side down.",
+        "Reduce heat to medium. Add butter and garlic to the pan. As the butter melts and foams, continuously spoon it over the top of the salmon for 2-3 min. The salmon is done when it flakes easily at the thickest part and the center is slightly darker.",
+        "Add lemon juice to the butter in the pan, stir, and pour over the salmon. Garnish with fresh parsley."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 25,
+      "name": "Salmon Taco Bowls",
+      "protein": "seafood",
+      "cal": 360,
+      "time": 15,
+      "servings": 3,
+      "desc": "Spiced salmon, cabbage slaw, avocado, mango salsa, chipotle lime crema",
+      "ingredients": [
+        "1.5 lb salmon fillet",
+        "3 cups shredded cabbage",
+        "2 avocados, sliced",
+        "1 can (7 oz) chipotles in adobo sauce",
+        "1/2 cup sour cream",
+        "1 tsp Tajin seasoning",
+        "2 limes",
+        "1 tsp chili powder",
+        "1 tsp cumin",
+        "Salt",
+        "Fresh cilantro",
+        "Optional: chopped chipotles from can for topping"
+      ],
+      "recipe": [
+        "Make chipotle lime crema: whisk sour cream with 1-2 tbsp adobo sauce from the can and Tajin seasoning. Taste and adjust — should be smoky, tangy, and lightly spicy. Optionally chop a chipotle pepper and stir it in for more heat.",
+        "Season salmon with chili powder, cumin, salt. Pan-sear 4 min per side until cooked through. Flake into large chunks.",
+        "Quick slaw: toss cabbage with lime juice and a pinch of salt. Let sit 5 min.",
+        "Build bowls: slaw base, salmon chunks, avocado slices. Drizzle generously with crema. Add chopped chipotles on top if desired. Finish with fresh cilantro and lime."
+      ],
+      "tip": "For the best slaw, squeeze the lime over the cabbage and let it sit 10 minutes before serving. The acid gently wilts the cabbage so it's tender but still has crunch.",
+      "tip2": "For the avocado crema, blend avocado with lime juice, a little garlic, and sour cream until smooth. The lime juice prevents browning and the crema keeps in the fridge for 2 days — make extra.",
+      "recipe_detailed": [
+        "Season salmon with chili powder, cumin, garlic powder, salt, and a drizzle of oil. Cook in a hot skillet 3-4 min per side until cooked through with a slight char. Break into large chunks.",
+        "Warm corn tortillas or cook rice for bowl base. Shred purple cabbage and toss with lime juice and a pinch of salt.",
+        "Make chipotle lime crema first so it can chill: whisk sour cream with 1-2 tbsp of the adobo sauce from the can (that thick, smoky liquid, not just the peppers) and Tajin seasoning. Taste — it should be smoky, tangy, and lightly spicy. Stir in a squeeze of lime. Want more heat? Chop a chipotle pepper from the can and mix it in.",
+        "Assemble: base, salmon chunks, slaw, diced mango or pico de gallo, crema, and pickled jalapenos. Finish with fresh cilantro and lime wedges."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 67,
+      "name": "Homemade Pizza Night",
+      "protein": "chicken",
+      "cal": 480,
+      "time": 30,
+      "servings": 3,
+      "desc": "Make-your-own pizza with your choice of toppings - everyone builds their own",
+      "ingredients": [
+        "2 pre-made pizza dough balls (or naan)",
+        "1.5 cups pizza sauce",
+        "2 cups shredded mozzarella",
+        "Toppings of choice: pepperoni, bell peppers, onion, mushrooms, olives",
+        "Olive oil",
+        "Garlic powder",
+        "Fresh basil",
+        "Red pepper flakes"
+      ],
+      "recipe": [
+        "Preheat oven to 475°F with a baking stone or sheet inside (gets it very hot).",
+        "Stretch or roll dough on a floured surface.",
+        "Brush with olive oil. Spread sauce, leaving 1\" border.",
+        "Add cheese and toppings.",
+        "Bake directly on hot stone/pan 10-12 min until crust is golden and cheese is bubbling.",
+        "Top with fresh basil before serving."
+      ],
+      "tip": "The hottest oven and hottest surface wins for pizza. Preheat your stone or pan inside the oven for 30 minutes. The immediate bottom heat is what creates a crispy base.",
+      "tip2": "Preheat your oven as high as it goes for at least 45 min with a pizza stone or inverted baking sheet inside. The burst of intense heat from the hot surface is what creates the blistered, crispy bottom that a cold pan never achieves.",
+      "recipe_detailed": [
+        "Make or use store-bought dough. Let dough rest at room temperature for 1 hour before stretching — cold dough is elastic and snaps back.",
+        "Stretch dough by hand on a lightly floured surface — don't use a rolling pin, it presses out the air bubbles that create airy crust. Work from the center outward.",
+        "Spread sauce very thinly — more sauce makes a soggy pizza. Add toppings, keeping cheese as the final layer. Don't overload.",
+        "Slide onto the preheated stone or pan and bake at the oven's highest setting 8-12 min until the crust is spotted with char and the cheese is bubbly and beginning to brown."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 101,
+      "name": "Chicken Piccata",
+      "protein": "chicken",
+      "cal": 390,
+      "time": 20,
+      "servings": 3,
+      "desc": "Pan-seared chicken in lemon-caper butter sauce, served with zucchini noodles",
+      "ingredients": [
+        "4 chicken breasts, pounded thin",
+        "3 tbsp capers",
+        "2 lemons, juiced",
+        "4 tbsp butter",
+        "1/2 cup chicken broth",
+        "3 cloves garlic",
+        "1/4 cup almond flour",
+        "Salt & pepper",
+        "4 medium zucchini, spiralized",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Dredge chicken in almond flour, salt, pepper.",
+        "Sear in olive oil 4 min per side. Remove.",
+        "Add garlic, broth, lemon juice to pan. Simmer 2 min.",
+        "Add butter and capers. Return chicken, spoon sauce over.",
+        "Serve over zucchini noodles with parsley."
+      ],
+      "tip": "Pound the chicken between plastic wrap to a uniform quarter-inch thickness. Piccata needs thin, even cutlets - thick spots won't cook through by the time the crust is golden.",
+      "tip2": "The butter goes in last and off the heat. This is called mounting — swirling cold butter into a hot sauce to emulsify it and give it a glossy, velvety texture. If the pan is too hot, the butter breaks and turns greasy.",
+      "recipe_detailed": [
+        "Pound chicken breasts to an even half-inch thickness. Season with salt and pepper, then dredge in flour, shaking off excess.",
+        "Heat olive oil and butter in a skillet over medium-high until butter is foamy. Add chicken and cook 3-4 min per side until golden and cooked through. Remove to a plate.",
+        "In the same pan, add garlic and cook 30 seconds. Add white wine and lemon juice, scraping up any browned bits. Let it reduce by half, about 2 min.",
+        "Add capers and chicken broth. Simmer 2 min. Remove pan from heat and swirl in cold butter until the sauce is glossy and emulsified. Pour over chicken and top with fresh parsley."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 102,
+      "name": "Chicken Marsala & Risotto",
+      "protein": "chicken",
+      "cal": 580,
+      "time": 45,
+      "servings": 4,
+      "desc": "Golden chicken cutlets in a rich mushroom-Marsala wine sauce, served alongside a classic parmesan risotto",
+      "ingredients": [
+        "4 boneless skinless chicken breasts, pounded to 1/2 inch",
+        "Salt and black pepper",
+        "1/2 cup flour for dredging",
+        "3 tbsp olive oil",
+        "3 tbsp unsalted butter",
+        "8 oz cremini or baby bella mushrooms, sliced",
+        "3 cloves garlic, minced",
+        "3/4 cup dry Marsala wine",
+        "1/2 cup chicken broth",
+        "2 tbsp heavy cream",
+        "Fresh parsley, chopped",
+        "For risotto: 1 1/2 cups Arborio rice",
+        "4 cups warm chicken broth",
+        "1 cup dry white wine",
+        "1 shallot, minced",
+        "2 tbsp butter",
+        "1/2 cup parmesan, grated",
+        "Salt and white pepper"
+      ],
+      "recipe": [
+        "Start risotto first: melt butter in a wide pan over medium. Sauté shallot until soft, 3 min. Add Arborio, stir to coat, toast 1 min. Add white wine, stir until absorbed.",
+        "Add warm broth to risotto one ladle at a time, stirring frequently, letting each addition absorb before adding the next. This takes 18-20 min. Finish with parmesan, season with salt and white pepper. Keep warm.",
+        "While risotto cooks, season chicken and dredge in flour, shaking off excess. The flour coating is what gives the sauce its body.",
+        "Heat olive oil in a large skillet over medium-high. Sear chicken 4-5 min per side until golden and cooked through (165°F). Do not move it while searing. Remove and rest on a plate.",
+        "In the same pan, melt 1 tbsp butter. Add mushrooms, cook undisturbed 3-4 min until golden. Add garlic 1 min. Pour in Marsala , it will sizzle dramatically. Scrape up any browned bits.",
+        "Add chicken broth and reduce sauce by half, about 3 min. Swirl in remaining butter and cream. Return chicken to pan, coat in sauce, simmer 2 min. Finish with parsley. Serve alongside risotto."
+      ],
+      "tip": "Never stir risotto constantly , stir frequently but let it rest between additions. Constant stirring overworks the starch and makes it gluey. Use dry Marsala not sweet , sweet makes the sauce cloying.",
+      "tip2": "For risotto, warm the broth before adding it. Cold broth shocks the rice and breaks the starchy creaminess you are building. Keep it in a pot on the adjacent burner on low the whole time.",
+      "recipe_detailed": [
+        "Pound chicken to even thickness, dredge in flour. Sear in hot oil 3-4 min per side until golden. Remove to a plate.",
+        "In the same pan, cook mushrooms 5 min until browned. Add Marsala wine and let it bubble and reduce by half — about 3 min. Add broth, simmer 3 min. Swirl in butter. Return chicken to the pan.",
+        "For risotto: saute shallot in butter until soft. Add arborio rice and stir 1 min until translucent at the edges. Add wine, stir until absorbed. Add warm broth one ladle at a time, stirring constantly and waiting until each addition is absorbed — about 20 min. Finish with butter and Parmesan.",
+        "Serve the chicken and Marsala sauce over the creamy risotto."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 103,
+      "name": "Chicken Enchilada Bowl",
+      "protein": "chicken",
+      "cal": 420,
+      "time": 20,
+      "servings": 3,
+      "desc": "Shredded chicken, enchilada sauce, black beans, peppers, jasmine rice",
+      "ingredients": [
+        "2 cups shredded chicken",
+        "1 cup red enchilada sauce",
+        "1 can black beans, drained",
+        "2 bell peppers, diced and sautéed",
+        "3 cups jasmine rice, cooked",
+        "1 cup shredded Mexican cheese",
+        "Sour cream",
+        "Fresh cilantro",
+        "Lime wedges"
+      ],
+      "recipe": [
+        "Warm chicken in enchilada sauce over medium heat, 5 min.",
+        "Sauté peppers in olive oil until tender.",
+        "Cook jasmine rice per package instructions.",
+        "Build bowls: cauli rice, peppers, beans, chicken.",
+        "Top with cheese, sour cream, cilantro, and lime."
+      ],
+      "tip": "Char the bell peppers until slightly blackened before adding to the bowl. The smoky edges add complexity that makes the bowl taste slow-cooked rather than assembled.",
+      "tip2": "Toast the dried chiles briefly in a dry skillet before making the sauce — 30 seconds per side until they puff and become fragrant. It unlocks a deeper, more complex flavor than untoasted chiles.",
+      "recipe_detailed": [
+        "Season and cook chicken thighs in oil 6-7 min per side until cooked through and golden. Rest 5 min, then shred with two forks.",
+        "In the same pan, build the enchilada sauce: saute onion and garlic, add chili powder, cumin, and oregano, then crushed tomatoes and broth. Simmer 10 min. Blend if you want it smooth.",
+        "Toss shredded chicken with half the sauce. Build bowls: cilantro rice base, sauced chicken, pinto or black beans, and a ladle of extra sauce over the top.",
+        "Top with shredded cheese, sour cream, avocado, pickled jalapenos, and fresh cilantro."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 104,
+      "name": "Garlic Herb Roasted Chicken",
+      "protein": "chicken",
+      "cal": 370,
+      "time": 30,
+      "servings": 6,
+      "desc": "Crispy-skinned thighs roasted with garlic, rosemary, and lemon over vegetables",
+      "ingredients": [
+        "6 bone-in chicken thighs",
+        "1 head garlic, cloves separated",
+        "2 sprigs rosemary",
+        "1 lemon, sliced",
+        "3 cups baby potatoes, halved",
+        "2 cups green beans",
+        "3 tbsp olive oil",
+        "Salt & pepper",
+        "1 tsp paprika"
+      ],
+      "recipe": [
+        "Preheat oven to 425°F. Toss potatoes and green beans with oil and salt.",
+        "Season chicken with paprika, salt, pepper.",
+        "Nestle chicken among vegetables. Add garlic and lemon.",
+        "Roast 25-30 min until skin is crispy and chicken hits 165°F.",
+        "Rest 5 min before serving."
+      ],
+      "tip": "Start the chicken skin-side down in a cold pan and bring the heat up gradually. This renders the fat slowly for the crispiest skin without burning.",
+      "tip2": "Roast the chicken breast-side up the whole time. Flipping risks tearing the skin. Instead, rotate the pan halfway through for even browning. The high heat is what crisps the skin.",
+      "recipe_detailed": [
+        "Pat the whole chicken dry inside and out — the most important step for crispy skin. Mix softened butter with garlic, herbs, salt, and pepper. Carefully loosen the skin over the breasts and rub butter directly onto the meat under the skin. Rub the rest all over the outside.",
+        "Truss the legs together with kitchen twine and tuck the wing tips under. Season the cavity with salt and stuff with lemon halves and fresh herbs.",
+        "Roast breast-side up at 425F for 60-80 min depending on size. The chicken is done when a thermometer in the thickest part of the thigh reads 165F and the juices run clear.",
+        "Let the chicken rest 10-15 min before carving — the juices redistribute as it rests. Carve and serve with pan drippings spooned over."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 105,
+      "name": "Thai Basil Chicken",
+      "protein": "chicken",
+      "cal": 380,
+      "time": 15,
+      "servings": 6,
+      "desc": "Spicy ground chicken stir-fry with basil, fish sauce, and Thai chilies over rice",
+      "ingredients": [
+        "1.5 lb ground chicken",
+        "1 cup fresh Thai basil",
+        "4 cloves garlic",
+        "3 Thai chilies, minced",
+        "2 tbsp fish sauce",
+        "1 tbsp oyster sauce",
+        "1 tsp soy sauce",
+        "1 tsp honey",
+        "2 tbsp olive oil",
+        "3 cups jasmine rice, cooked"
+      ],
+      "recipe": [
+        "Heat oil in wok on high. Add garlic and chilies, 30 sec.",
+        "Add chicken, cook until no longer pink, 5 min.",
+        "Add fish sauce, oyster sauce, soy sauce, honey. Toss 1 min.",
+        "Remove from heat, fold in basil.",
+        "Serve over steamed jasmine rice, top with a fried egg if desired."
+      ],
+      "tip": "Thai basil is not the same as regular basil - don't substitute. Thai basil has a slightly anise-like flavor that makes this dish authentic. It's usually in the Asian section.",
+      "tip2": "Add the basil at the very end and off the heat — high heat destroys the volatile oils that give Thai basil its anise-like flavor. Thirty seconds of residual heat is all it needs to wilt beautifully.",
+      "recipe_detailed": [
+        "Mince or finely chop the chicken or use ground chicken. Prepare all aromatics before you start — Thai basil chicken cooks in about 5 min total.",
+        "Heat oil in a wok over very high heat. Add garlic and Thai chilis and stir fry 30 seconds. Add chicken and stir fry 3-4 min, breaking up any clumps, until cooked through and starting to crisp.",
+        "Add oyster sauce, fish sauce, and soy sauce. Toss to coat for 1 min. Remove from heat.",
+        "Add fresh Thai basil leaves and toss — residual heat wilts them in 30 seconds. Serve over jasmine rice, topped with a crispy fried egg if desired."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 106,
+      "name": "Chicken Souvlaki Bowls",
+      "protein": "chicken",
+      "cal": 400,
+      "time": 20,
+      "servings": 6,
+      "desc": "Grilled marinated chicken over greens with tzatziki, cucumber, and tomato",
+      "ingredients": [
+        "1.5 lb chicken breast, cubed",
+        "3 tbsp olive oil",
+        "2 lemons, juiced",
+        "4 cloves garlic",
+        "1 tsp oregano",
+        "1 tsp cumin",
+        "Salt & pepper",
+        "4 cups romaine",
+        "1 cucumber, diced",
+        "1 cup cherry tomatoes",
+        "1/2 cup tzatziki"
+      ],
+      "recipe": [
+        "Marinate chicken in oil, lemon, garlic, oregano, cumin, salt 15 min.",
+        "Cook in hot skillet or on grill 6-8 min turning.",
+        "Assemble bowls: romaine, cucumber, tomato.",
+        "Top with chicken and drizzle tzatziki generously."
+      ],
+      "tip": "Soak wooden skewers 30 minutes before grilling. Dry skewers ignite and burn, making the food taste acrid. Or use metal skewers and skip the step entirely.",
+      "tip2": "If using wooden skewers, soak them in water for 30 min first so they do not catch fire on the grill. Metal skewers conduct heat and cook the chicken from the inside out — slightly faster.",
+      "recipe_detailed": [
+        "Cut chicken into 1.5-inch cubes. Toss with olive oil, lemon juice, garlic, dried oregano, salt, and pepper. Marinate at least 30 min.",
+        "Thread onto skewers, leaving a little space between pieces so they cook evenly.",
+        "Grill or cook in a hot grill pan 10-12 min, turning every few minutes, until cooked through with char marks.",
+        "Make tzatziki while the chicken cooks: stir together Greek yogurt, grated cucumber squeezed dry, garlic, dill, lemon juice, and salt. Serve chicken over rice or in pita with tzatziki, tomatoes, red onion, and Kalamata olives."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 107,
+      "name": "Creamy Tuscan Chicken",
+      "protein": "chicken",
+      "cal": 450,
+      "time": 20,
+      "servings": 3,
+      "desc": "Pan chicken in a sun-dried tomato, spinach, and cream sauce",
+      "ingredients": [
+        "4 chicken breasts",
+        "3 cups baby spinach",
+        "1/2 cup sun-dried tomatoes, chopped",
+        "1 cup heavy cream",
+        "4 cloves garlic",
+        "1/2 cup chicken broth",
+        "1/3 cup parmesan",
+        "1 tsp Italian seasoning",
+        "2 tbsp olive oil",
+        "Salt & pepper"
+      ],
+      "recipe": [
+        "Season and sear chicken 5-6 min per side. Remove.",
+        "Sauté garlic 1 min. Add sun-dried tomatoes.",
+        "Pour in broth and cream. Add Italian seasoning. Simmer 3 min.",
+        "Stir in parmesan and spinach until wilted.",
+        "Return chicken, spoon sauce over."
+      ],
+      "tip": "Sun-dried tomatoes in oil are better here than dry-packed. The oil carries flavor and helps the sauce emulsify into something silky rather than broken.",
+      "tip2": "When you add cream to a hot pan, reduce the heat to medium-low. Cream scorches quickly over high heat and a broken sauce is hard to rescue.",
+      "recipe_detailed": [
+        "Pat chicken thighs dry and season. Sear in a hot oven-safe skillet 5-6 min per side until golden. Remove to a plate.",
+        "In the same pan over medium, saute garlic 1 min. Add sun-dried tomatoes and cook 1 min. Add spinach and stir until wilted.",
+        "Reduce heat to medium-low. Pour in heavy cream and chicken broth. Stir to combine and bring to a gentle simmer. Add Parmesan and stir until melted and the sauce coats the back of a spoon.",
+        "Return chicken to the pan, spoon sauce over, and simmer 5 min until heated through. Taste and season. Serve over pasta or with crusty bread."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 108,
+      "name": "Honey Garlic Chicken Thighs",
+      "protein": "chicken",
+      "cal": 360,
+      "time": 20,
+      "servings": 6,
+      "desc": "Sticky honey-garlic glazed chicken thighs, broccoli, brown rice",
+      "ingredients": [
+        "6 boneless chicken thighs",
+        "4 cloves garlic, minced",
+        "3 tbsp honey",
+        "2 tbsp soy sauce",
+        "1 tbsp rice vinegar",
+        "4 cups broccoli florets",
+        "2 cups cooked brown rice",
+        "1 tsp sesame oil",
+        "Sesame seeds",
+        "Green onion"
+      ],
+      "recipe": [
+        "Mix honey, soy, garlic, vinegar for glaze.",
+        "Sear chicken 5-6 min per side. Drain excess fat.",
+        "Pour glaze in pan, cook 2 min until sticky.",
+        "Steam broccoli 4 min.",
+        "Serve over rice with broccoli, sesame seeds, green onion."
+      ],
+      "tip": "Don't add the glaze until the last 90 seconds. Honey burns fast. Let the chicken cook almost entirely through first, then glaze and let it caramelize just before resting.",
+      "tip2": "Watch the honey garlic sauce closely in the final minute — the sugar in honey burns fast. You want it thick and sticky, not burnt and bitter. Pull the pan off if it starts smoking.",
+      "recipe_detailed": [
+        "Pat chicken thighs dry and season with salt and pepper. Mix honey, soy sauce, and minced garlic in a small bowl.",
+        "Heat oil in an oven-safe skillet over medium-high. Sear thighs skin-side down 6-7 min until the skin is deeply golden and releases naturally. Flip and cook 3 min.",
+        "Pour the honey garlic glaze over the chicken. Let it bubble and reduce 1-2 min, spooning it over the chicken as it thickens. Watch it carefully — honey burns quickly.",
+        "Transfer to a 400F oven for 8-10 min until the chicken reaches 165F and the glaze is sticky and caramelized. Rest 3 min before serving."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 118,
+      "name": "Miso-Glazed Salmon",
+      "protein": "seafood",
+      "cal": 290,
+      "time": 15,
+      "servings": 3,
+      "desc": "Umami-rich miso and honey glazed salmon, edamame, cucumber, sesame",
+      "ingredients": [
+        "4 salmon fillets",
+        "2 tbsp white miso paste",
+        "1 tbsp honey",
+        "1 tbsp soy sauce",
+        "1 tbsp rice vinegar",
+        "1 tsp sesame oil",
+        "1 cup shelled edamame",
+        "2 cucumbers, sliced",
+        "Sesame seeds",
+        "Green onion"
+      ],
+      "recipe": [
+        "Mix miso, honey, soy, vinegar, sesame oil for glaze.",
+        "Coat salmon with glaze.",
+        "Bake at 400°F 10-12 min or broil 6-8 min until caramelized.",
+        "Warm edamame.",
+        "Build bowls: cucumber, edamame, salmon. Top with sesame seeds and green onion."
+      ],
+      "tip": "White miso is mild and sweet. Red miso is more intense. Either works, but white gives you a more delicate glaze that pairs better with salmon without overpowering it.",
+      "tip2": "Watch the miso glaze closely after the 5-minute mark — the sugars in miso and mirin burn fast and go from perfectly caramelized to bitter in under a minute.",
+      "recipe_detailed": [
+        "Whisk together white miso paste, mirin, sake, and sugar until smooth. Spread generously over the salmon fillets. Marinate 30 min minimum — overnight makes it significantly better.",
+        "Preheat broiler to high. Line a baking sheet with foil and lightly oil it. Place salmon skin-side down.",
+        "Broil 6-8 min, watching closely after 5 min. The glaze should bubble and turn deep amber-brown in spots. The salmon is done when it flakes at the edges.",
+        "Serve over steamed rice with pickled ginger and a sprinkle of sesame seeds."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 119,
+      "name": "Coconut Lime Salmon Bowls",
+      "protein": "seafood",
+      "cal": 340,
+      "time": 15,
+      "servings": 3,
+      "desc": "Baked salmon with coconut-lime marinade, mango, avocado, cilantro",
+      "ingredients": [
+        "4 salmon fillets",
+        "2 tbsp coconut milk",
+        "2 limes, juiced and zested",
+        "2 cloves garlic",
+        "1 tsp honey",
+        "1 mango, diced",
+        "2 avocados, sliced",
+        "3 cups jasmine rice, cooked",
+        "Fresh cilantro"
+      ],
+      "recipe": [
+        "Mix coconut milk, lime juice, garlic, honey. Marinate salmon 10 min.",
+        "Bake at 400°F 12-14 min.",
+        "Toss cauli rice with lime zest and cilantro.",
+        "Build bowls: rice, salmon, mango, avocado.",
+        "Squeeze extra lime over everything."
+      ],
+      "tip": "Line the baking dish with banana leaves or parchment before adding the marinated salmon. It prevents sticking and infuses a subtle grassy aroma into the fish.",
+      "tip2": "Add the lime juice at the end of simmering, not the beginning. Long cooking makes lime bitter. A squeeze at the very end keeps it bright, fresh, and acidic.",
+      "recipe_detailed": [
+        "Make the coconut lime broth: simmer coconut milk, a little broth, garlic, and ginger over medium heat 5 min.",
+        "Season salmon and nestle into the broth. Cover and poach gently over low heat 8-10 min until the salmon flakes easily. This gentle method keeps it incredibly moist.",
+        "Remove salmon. Squeeze lime juice into the broth, taste and season with salt.",
+        "Serve over jasmine rice. Ladle broth over the bowls, top with salmon, fresh cilantro, sliced green onion, and sliced chili."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 120,
+      "name": "Garlic Butter Shrimp & Asparagus",
+      "protein": "seafood",
+      "cal": 310,
+      "time": 12,
+      "servings": 3,
+      "desc": "Jumbo shrimp in garlic butter sauce with crispy roasted asparagus",
+      "ingredients": [
+        "1.5 lb large shrimp, peeled and deveined",
+        "1 bunch asparagus, trimmed",
+        "5 cloves garlic, minced",
+        "4 tbsp butter",
+        "1 lemon, juiced",
+        "Fresh parsley",
+        "Red pepper flakes",
+        "Salt & pepper"
+      ],
+      "recipe": [
+        "Roast asparagus at 425°F with olive oil and salt for 10 min.",
+        "Heat butter in skillet. Add garlic and red pepper flakes 1 min.",
+        "Add shrimp in single layer. Cook 2 min per side until pink.",
+        "Squeeze lemon over. Top with parsley.",
+        "Plate asparagus and shrimp together."
+      ],
+      "tip": "Pat the shrimp absolutely dry before seasoning. Wet shrimp steam instead of sear and will never develop color. A 2-minute pan-sear on dry shrimp beats 5 minutes on wet.",
+      "tip2": "Shrimp overcook in seconds. Once they curl into a C-shape and turn pink, they are done. An O-shape means overcooked. When in doubt, pull them 30 seconds early — they keep cooking in residual heat.",
+      "recipe_detailed": [
+        "Pat shrimp dry and season with salt, pepper, and paprika. Trim woody ends off asparagus.",
+        "Heat oil in a large skillet over high heat. Add asparagus and cook 3-4 min, tossing occasionally, until bright green and just tender. Remove to a plate.",
+        "In the same pan, melt butter over medium-high. Add garlic and cook 30 seconds until fragrant. Add shrimp in a single layer and cook 1-2 min per side until they curl into a C-shape and turn pink throughout.",
+        "Return asparagus to the pan. Add a squeeze of lemon and toss everything together. Serve over rice or pasta."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 121,
+      "name": "Cajun Shrimp Bowls",
+      "protein": "seafood",
+      "cal": 380,
+      "time": 12,
+      "servings": 6,
+      "desc": "Spicy Cajun shrimp over jasmine rice with corn and avocado",
+      "ingredients": [
+        "1.5 lb large shrimp, peeled and deveined",
+        "2 tbsp Cajun seasoning",
+        "3 cups jasmine rice, cooked",
+        "1 cup corn",
+        "2 avocados, sliced",
+        "2 limes",
+        "Fresh cilantro",
+        "2 tbsp olive oil"
+      ],
+      "recipe": [
+        "Toss shrimp with Cajun seasoning.",
+        "Sear in hot skillet 2 min per side. Don't overcook.",
+        "Warm corn in same pan.",
+        "Build bowls: cauli rice, corn, shrimp, avocado.",
+        "Finish with lime juice and cilantro."
+      ],
+      "tip": "Don't overcook the shrimp - pull them the instant they curl into a C shape and turn opaque. Overcooked shrimp are rubbery in seconds. They carry over from the residual heat.",
+      "tip2": "Make the Cajun seasoning yourself: paprika, garlic powder, onion powder, cayenne, thyme, oregano, salt, and pepper. Store-bought blends often have too much salt and not enough heat.",
+      "recipe_detailed": [
+        "Toss shrimp with Cajun seasoning and a little oil so every shrimp is coated.",
+        "Heat a cast iron or heavy skillet over high heat until very hot. Add shrimp in a single layer — sear 1-2 min per side without stirring, until you see a slight char and they are cooked through. Work in batches if needed.",
+        "Cook rice according to package. Saute onion, pepper, and celery in the shrimp drippings for 3 min, then serve alongside.",
+        "Build bowls: rice, shrimp, corn, avocado, and black beans. Drizzle with remoulade or creamy Cajun sauce and top with green onions."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 122,
+      "name": "Shrimp Tacos",
+      "protein": "seafood",
+      "cal": 350,
+      "time": 12,
+      "servings": 6,
+      "desc": "Lime-marinated shrimp, cabbage slaw, avocado crema, corn tortillas",
+      "ingredients": [
+        "1.5 lb shrimp, peeled and deveined",
+        "8 small corn tortillas",
+        "2 cups shredded purple cabbage",
+        "1 lime, juiced",
+        "2 avocados",
+        "1/2 cup Greek yogurt",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "Fresh cilantro"
+      ],
+      "recipe": [
+        "Season shrimp with cumin, chili powder, salt. Cook 2 min per side.",
+        "Toss cabbage with lime juice and salt.",
+        "Blend avocado with yogurt and lime for crema.",
+        "Warm tortillas. Build tacos: slaw, shrimp, crema, cilantro."
+      ],
+      "tip": "Season the shrimp aggressively. They cook fast and briefly, so there's limited time for flavors to develop. Season more than you think is right.",
+      "tip2": "For the slaw, salt the shredded cabbage and let it sit 10 min, then squeeze out the water before dressing. This wilts it slightly and keeps it crispy instead of making your taco soggy.",
+      "recipe_detailed": [
+        "Toss shrimp with chili powder, cumin, garlic powder, salt, and oil. Set aside while you prep everything else.",
+        "Make slaw: toss shredded cabbage with lime juice and a pinch of salt. Let sit 10 min, squeeze firmly, then toss with mayo, cilantro, and more lime.",
+        "Cook shrimp in a very hot pan 1-2 min per side until pink and just curled into a C. Don't crowd the pan. Remove immediately.",
+        "Warm corn tortillas. Fill with slaw, shrimp, avocado slices, and a drizzle of sriracha mayo or chipotle crema. Finish with fresh cilantro and lime."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 123,
+      "name": "Shrimp Stir Fry",
+      "protein": "seafood",
+      "cal": 330,
+      "time": 12,
+      "servings": 6,
+      "desc": "Shrimp, broccoli, snap peas, and bell pepper in ginger-garlic sauce",
+      "ingredients": [
+        "1.5 lb shrimp, peeled and deveined",
+        "3 cups broccoli florets",
+        "1.5 cups snap peas",
+        "2 bell peppers, sliced",
+        "3 cloves garlic",
+        "1 tbsp ginger",
+        "3 tbsp soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tsp sesame oil",
+        "3 cups jasmine rice, cooked"
+      ],
+      "recipe": [
+        "Stir fry shrimp 2 min until pink. Remove.",
+        "Stir fry broccoli, snap peas, peppers 4 min.",
+        "Add garlic and ginger 1 min.",
+        "Add soy sauce, oyster sauce, sesame oil. Return shrimp. Toss.",
+        "Serve over steamed jasmine rice with sesame seeds."
+      ],
+      "tip": "Cook the shrimp separately and add at the very end. Adding shrimp too early means they're overcooked by the time the vegetables are ready.",
+      "tip2": "Shrimp go in last in a stir fry — they cook in 2-3 min and are easily overcooked. Cook all your vegetables first, then add shrimp as the very last step right before the sauce.",
+      "recipe_detailed": [
+        "Prep everything before you start cooking — stir fry moves fast. Defrost shrimp, pat dry, and season. Chop all vegetables into similar-sized pieces.",
+        "Heat a wok over the highest heat until smoking. Add oil and cook vegetables in order of density: hard veggies first, soft ones after 2 min.",
+        "Push vegetables to the sides. Add shrimp to the center and cook 1-2 min per side until pink and just curled. Add garlic and ginger and stir everything together.",
+        "Pour stir fry sauce over everything. Toss for 1 min until the sauce thickens and coats. Serve immediately over rice."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 124,
+      "name": "Shrimp & Cauliflower Grits",
+      "protein": "seafood",
+      "cal": 360,
+      "time": 20,
+      "servings": 6,
+      "desc": "Spiced shrimp over creamy cauliflower grits with bacon and green onion",
+      "ingredients": [
+        "1.5 lb shrimp, peeled and deveined",
+        "4 strips bacon, chopped",
+        "1 large head cauliflower, riced fine",
+        "1/2 cup chicken broth",
+        "3 tbsp butter",
+        "1/3 cup parmesan",
+        "3 cloves garlic",
+        "1 tsp Cajun seasoning",
+        "Green onions",
+        "Lemon wedges"
+      ],
+      "recipe": [
+        "Cook bacon until crispy. Remove, reserve drippings.",
+        "Microwave or steam jasmine rice. Stir in butter, parmesan, broth until creamy. Season.",
+        "Sauté garlic in drippings 1 min. Add shrimp with Cajun seasoning. Cook 2 min per side.",
+        "Serve shrimp over cauliflower grits.",
+        "Top with bacon, green onion, and lemon."
+      ],
+      "tip": "The key to creamy cauliflower grits is cooking them with enough liquid and finishing with cold butter off heat. The cold fat emulsifies into the cauliflower for a silky texture.",
+      "tip2": "Season the grits water generously before cooking — bland water makes bland grits. The cauliflower absorbs whatever liquid it cooks in, so make it count.",
+      "recipe_detailed": [
+        "Rice cauliflower in a food processor. Cook in salted water or broth 5 min until soft. Drain well, then return to the pot and mash with butter, cream cheese, and Parmesan until creamy. Season aggressively.",
+        "Season shrimp with Cajun seasoning. Cook bacon in a skillet until crispy, remove. In the bacon fat, cook shrimp 1-2 min per side until pink. Remove.",
+        "In the same pan, saute onion, pepper, and garlic 3 min. Add shrimp back, squeeze lemon over everything, and toss.",
+        "Spoon cauliflower grits into bowls. Top with shrimp and vegetables, bacon crumbles, and sliced green onions."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 125,
+      "name": "Coconut Shrimp Curry",
+      "protein": "seafood",
+      "cal": 390,
+      "time": 20,
+      "servings": 6,
+      "desc": "Juicy shrimp in a fragrant coconut curry sauce with spinach",
+      "ingredients": [
+        "1.5 lb shrimp, peeled and deveined",
+        "1 can coconut milk",
+        "3 cups baby spinach",
+        "2 tbsp red curry paste",
+        "1 tbsp fish sauce",
+        "1 lime, juiced",
+        "2 cloves garlic",
+        "1 tsp ginger",
+        "3 cups jasmine rice, cooked",
+        "Fresh cilantro"
+      ],
+      "recipe": [
+        "Sauté garlic and ginger 1 min. Add curry paste, toast 1 min.",
+        "Add coconut milk and fish sauce. Simmer 5 min.",
+        "Add shrimp, cook 3-4 min until pink.",
+        "Stir in spinach and lime juice until wilted.",
+        "Serve over steamed jasmine rice with cilantro."
+      ],
+      "tip": "Shrimp go into coconut curry at the very end - 3 minutes maximum. The residual heat in the sauce finishes them perfectly after you remove the pan from the burner.",
+      "tip2": "Taste the curry before adding the shrimp — this is your one chance to fix the balance. Needs more heat? Add chili. Too sharp? A pinch of sugar. Too flat? More fish sauce or salt.",
+      "recipe_detailed": [
+        "Heat oil in a large pan. Cook onion 4 min until soft, add garlic and ginger 1 min. Add curry paste and fry in the oil 1 min — it should smell fragrant and deepen in color.",
+        "Pour in coconut milk and fish sauce. Stir to combine and bring to a gentle simmer. Cook 8 min, tasting and adjusting. Add a pinch of sugar if needed.",
+        "Add shrimp to the simmering curry. Simmer 3-4 min until the shrimp are pink and curled. Don't overcook or they turn rubbery.",
+        "Squeeze lime juice in at the very end. Serve over jasmine rice with fresh cilantro and sliced chili."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 126,
+      "name": "Shrimp Cobb Salad",
+      "protein": "seafood",
+      "cal": 280,
+      "time": 10,
+      "servings": 3,
+      "desc": "Grilled shrimp over romaine with bacon, egg, avocado, tomato, blue cheese",
+      "ingredients": [
+        "1 lb shrimp, peeled and deveined",
+        "4 cups romaine, chopped",
+        "4 strips bacon, cooked and crumbled",
+        "2 hard-boiled eggs, halved",
+        "1 avocado, sliced",
+        "1 cup cherry tomatoes",
+        "1/4 cup blue cheese crumbles",
+        "3 tbsp olive oil",
+        "1.5 tbsp red wine vinegar",
+        "Salt & pepper"
+      ],
+      "recipe": [
+        "Season shrimp. Grill or pan-sear 2 min per side.",
+        "Whisk olive oil, vinegar, salt, pepper for dressing.",
+        "Arrange romaine with rows of bacon, egg, avocado, tomatoes, blue cheese.",
+        "Top with shrimp. Drizzle dressing over."
+      ],
+      "tip": "Hard-boil eggs starting in cold water, bring to a boil, then 9 minutes exactly. Transfer immediately to ice water. The yolks will be fully set but still creamy, not chalky.",
+      "tip2": "Season the shrimp aggressively — they are the only warm element in a cold salad, so they need to stand out. Smoked paprika and a little cayenne do the job.",
+      "recipe_detailed": [
+        "Toss shrimp with smoked paprika, garlic powder, cayenne, salt, and oil. Cook in a hot pan 1-2 min per side until pink. Set aside.",
+        "Cook bacon until crispy, drain and crumble. Hard-boil eggs: 10 min from cold water, then ice bath immediately to stop cooking.",
+        "Arrange salad: chopped romaine as the base, then rows of halved cherry tomatoes, avocado, crumbled blue cheese, cucumber, bacon, and sliced egg.",
+        "Top with warm shrimp. Dress at the table so the lettuce stays crisp."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 127,
+      "name": "Shrimp Lettuce Wraps",
+      "protein": "seafood",
+      "cal": 260,
+      "time": 12,
+      "servings": 3,
+      "desc": "Asian-seasoned shrimp, mango, cucumber, and sesame in butter lettuce cups",
+      "ingredients": [
+        "1 lb shrimp, peeled and deveined",
+        "1 head butter lettuce",
+        "1 mango, diced",
+        "1 cucumber, diced",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp rice vinegar",
+        "1 tsp honey",
+        "1 tsp ginger",
+        "Sesame seeds",
+        "Fresh mint"
+      ],
+      "recipe": [
+        "Mix soy, sesame oil, vinegar, honey, ginger for dressing.",
+        "Cook shrimp 2 min per side in a hot skillet. Cool slightly.",
+        "Separate lettuce into cups.",
+        "Fill each cup with shrimp, mango, cucumber.",
+        "Drizzle dressing, finish with sesame seeds and mint."
+      ],
+      "tip": "Keep the shrimp slightly underdone when you take them off the heat. They'll finish cooking from residual heat as they cool, and the texture in the wraps will be perfect.",
+      "tip2": "Butter lettuce cups need to be completely dry before filling — a drop of water and the wrap falls apart. Wash and dry the leaves well in advance and refrigerate them on paper towels.",
+      "recipe_detailed": [
+        "Cook shrimp in a hot pan with oil 1-2 min per side until pink. Roughly chop into bite-sized pieces. Season with salt, pepper, and a squeeze of lime.",
+        "Prepare fillings: shredded cabbage, julienned carrots, sliced cucumber, diced mango, fresh mint, and cilantro. Everything small enough to fit neatly in a lettuce cup.",
+        "Make the dipping sauce: whisk together lime juice, fish sauce, sugar, chili, and garlic — it should be sweet, sour, salty, and spicy.",
+        "Separate butter lettuce leaves and lay them out. Fill each with shrimp and toppings. Drizzle with sauce just before eating so the lettuce stays crisp."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 129,
+      "name": "Cajun Snow Crab Boil",
+      "protein": "seafood",
+      "cal": 520,
+      "time": 60,
+      "servings": 6,
+      "desc": "A festive Gulf Coast seafood boil - snow crab, shrimp, corn, and potatoes smothered in garlic butter",
+      "ingredients": [
+        "3 qts water",
+        "12 oz beer (optional)",
+        "3 tbsp Cajun seasoning",
+        "1 tbsp Old Bay seasoning",
+        "Hot sauce to taste",
+        "1 yellow onion, sliced",
+        "1 lemon, cut into wedges",
+        "12 oz andouille sausage, sliced",
+        "1 lb baby potatoes",
+        "1 lb snow crab leg clusters",
+        "1 lb jumbo shrimp, shell-on",
+        "4-6 ears corn (or mini ears)",
+        "1 cup unsalted butter",
+        "10 cloves garlic, minced",
+        "2 tbsp lemon juice",
+        "1 tbsp fresh parsley, chopped",
+        "1 tsp smoked paprika"
+      ],
+      "recipe": [
+        "Bring water and beer to a boil. Season with Cajun seasoning, Old Bay, and hot sauce. Add onion and lemon. Boil 15 min.",
+        "Add sausage and potatoes. Cook 15-20 min until potatoes are fork-tender.",
+        "Add crab, shrimp, and corn. Boil 5-7 min until shrimp are pink.",
+        "Melt butter in a saucepan over medium heat. Add garlic, lemon juice, Old Bay, parsley, Cajun seasoning, paprika, and hot sauce. Simmer 5-7 min.",
+        "Drain boil onto a foil-lined sheet pan. Pour garlic butter over everything and toss to coat. Serve immediately with lemon wedges."
+      ],
+      "tip": "Line your table with butcher paper and dump it all in the middle - the mess is half the fun. Disposable gloves make it even better.",
+      "tip2": "The secret is in the seasoned water — use so much seasoning that you can taste the salt and spice in the water itself before the crab goes in.",
+      "recipe_detailed": [
+        "Fill a large pot with water and bring to a boil. Add Cajun seasoning, Old Bay, salt, lemon halves squeezed in, garlic, and bay leaves. Taste the water — it should taste aggressively seasoned.",
+        "Add corn and potatoes first — they take longest. Boil 10 min. Add sausage and cook 5 more min.",
+        "Add crab clusters and cook 5-7 min until heated through. Drain everything and spread on a paper-covered table.",
+        "Melt butter with garlic and Old Bay for dipping. Serve with crusty bread. Eat with your hands."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 151,
+      "name": "Chick-fill-yay Nuggets",
+      "protein": "chicken",
+      "cal": 420,
+      "time": 35,
+      "servings": 4,
+      "desc": "A loving homage to everyone's favorite nugget - pickle-brined, double-dredged, and powdered-sugar dusted",
+      "ingredients": [
+        "2 lbs boneless skinless chicken breasts, cut into nuggets",
+        "1 cup pickle juice",
+        "1 cup whole milk",
+        "2 eggs",
+        "1 1/2 cups all-purpose flour",
+        "2 tbsp powdered sugar",
+        "1 1/2 tsp salt",
+        "1 tsp black pepper",
+        "1/2 tsp paprika",
+        "1/2 tsp garlic powder",
+        "1/2 tsp onion powder",
+        "1/4 tsp cayenne",
+        "Oil for frying",
+        "Honey mustard to serve"
+      ],
+      "recipe": [
+        "Soak chicken in pickle juice 30 min to 4 hours in the fridge.",
+        "Whisk milk and eggs. Mix flour, powdered sugar, and all spices in another bowl.",
+        "Drain chicken. Dip in milk/egg, dredge in flour pressing firmly. Dip again, dredge again for double crust.",
+        "Heat oil to 350°F. Fry nuggets in batches 3-4 min per side until golden and 165°F internal.",
+        "Drain on a rack. Serve immediately with honey mustard."
+      ],
+      "tip": "The powdered sugar in the dredge caramelizes in the oil and gives that distinctive slightly sweet, deeply golden crust. Don't skip it.",
+      "tip2": "The pickle juice brine is the signature — it is what makes the chicken juicy and gives it that tangy, distinctive flavor. Don't skip it or substitute. Even 30 min makes a noticeable difference.",
+      "recipe_detailed": [
+        "Cut chicken breasts into nugget-sized pieces. Submerge in a mixture of milk and pickle juice or buttermilk plus pickles. Marinate at least 30 min, or up to 4 hours in the fridge.",
+        "Mix flour with powdered sugar, salt, pepper, garlic powder, and paprika — the powdered sugar helps the coating brown evenly.",
+        "Drain chicken but don't pat dry. Dredge in the seasoned flour, pressing firmly so it adheres in a thick, craggy layer.",
+        "Fry in 325-350F oil for 3-4 min until golden and cooked through, or bake at 425F on a wire rack 18-20 min. Serve with copycat sauce: mix mayo, honey, mustard, and a splash of lemon."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 191,
+      "name": "Southern Fried Chicken",
+      "protein": "chicken",
+      "cal": 520,
+      "time": 45,
+      "servings": 4,
+      "desc": "Classic buttermilk fried chicken - savory, crispy, and juicy. Served with creamy coleslaw and grilled corn",
+      "ingredients": [
+        "3 lbs bone-in chicken pieces (thighs and drumsticks)",
+        "2 cups buttermilk",
+        "1 tbsp hot sauce",
+        "2 cups all-purpose flour",
+        "1 tbsp garlic powder",
+        "1 tbsp onion powder",
+        "2 tsp smoked paprika",
+        "1 tsp black pepper",
+        "1 tsp salt",
+        "1 tsp cayenne",
+        "Lard or neutral oil for frying (2-3 inches deep)",
+        "Coleslaw: 1 small head cabbage shredded, 1 carrot grated, 1/2 cup mayo, 2 tbsp apple cider vinegar, 1 tsp sugar, salt",
+        "4 ears corn, grilled or pan-charred with butter"
+      ],
+      "recipe": [
+        "Marinate chicken in buttermilk and hot sauce overnight or at least 2 hours. The acid tenderizes the meat deeply.",
+        "Mix flour, garlic powder, onion powder, paprika, black pepper, salt, and cayenne in a wide bowl.",
+        "Remove chicken from buttermilk - shake off excess but don't pat dry. Dredge in seasoned flour, pressing firmly into all crevices. Shake off loose flour. Let rest on a rack 10 min - this helps the crust adhere.",
+        "Heat oil to 325°F in a cast iron or Dutch oven (chicken lowers the temp when added). Fry thighs and drumsticks in batches, 12-15 min per side, until deep golden and internal temp is 165°F. Don't rush with high heat - the bone-in pieces need time.",
+        "Drain on a wire rack (never paper towels). Rest 5 min. Serve alongside creamy coleslaw and corn charred in butter with a pinch of salt."
+      ],
+      "tip": "325°F oil (not 350°F) is the correct temp for bone-in chicken - it cooks through before the crust burns. The buttermilk cling is what holds the crust on, so don't shake it all off.",
+      "tip2": "Maintain oil temperature at 325-340F throughout frying. Adding cold chicken drops the temp — add pieces slowly and adjust heat to bring it back. Too low means greasy; too high means burnt outside and raw inside.",
+      "recipe_detailed": [
+        "Brine chicken pieces in buttermilk seasoned with hot sauce, salt, garlic powder, and paprika for at least 4 hours, preferably overnight.",
+        "Season flour mixture aggressively with salt, pepper, garlic powder, paprika, cayenne, and dried herbs. Dredge buttermilk-coated chicken in flour, back in buttermilk, back in flour — the double dip builds a thick, craggy crust.",
+        "Heat 3 inches of oil to 325-340F in a heavy pot or cast iron. Add chicken pieces skin-side down, not crowding the pot. Maintain temperature throughout.",
+        "Fry 12-15 min, turning once, until deep golden brown and internal temperature reaches 165F. Drain on a wire rack and rest 5 min before eating."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 252,
+      "name": "Chicken 65",
+      "protein": "chicken",
+      "time": 30,
+      "servings": 4,
+      "cal": 510,
+      "desc": "Crispy deep-fried chicken bites in a fiery, tangy South Indian spice sauce, served with naan and jasmine rice.",
+      "ingredients": [
+        "2 lb chicken thighs, cut into bite-sized pieces",
+        "1 cup plain yogurt",
+        "2 tbsp red chili powder",
+        "1 tsp turmeric",
+        "1 tbsp ginger-garlic paste",
+        "2 tbsp cornstarch",
+        "1 tbsp all-purpose flour",
+        "Oil for frying",
+        "1 tsp mustard seeds",
+        "10 fresh curry leaves",
+        "4 dried red chilies",
+        "2 tbsp soy sauce",
+        "1 tbsp vinegar",
+        "4 naan breads, warmed",
+        "2 cups jasmine rice, cooked"
+      ],
+      "recipe": [
+        "Marinate chicken in yogurt, 1 tbsp chili powder, turmeric, ginger-garlic paste, cornstarch, flour, and salt for at least 15 min.",
+        "Heat oil to 350F. Fry chicken in batches 6-8 min until golden and cooked through. Drain on paper towels.",
+        "In a wok, heat 2 tbsp oil. Add mustard seeds and let them pop. Add curry leaves and dried chilies.",
+        "Add remaining chili powder, soy sauce, and vinegar. Stir 30 seconds.",
+        "Toss fried chicken in the sauce until evenly coated.",
+        "Serve immediately with warm naan and jasmine rice."
+      ],
+      "tip": "Double-fry for extra crunch: fry once at 325F to cook through, then again at 375F for 90 seconds to crisp the exterior.",
+      "cuisine": "indian"
+    },
+    {
+      "id": 262,
+      "name": "Chicken Parmesan",
+      "protein": "chicken",
+      "time": 35,
+      "servings": 4,
+      "cal": 650,
+      "desc": "Crispy breaded chicken cutlets smothered in marinara and melted mozzarella over spaghetti.",
+      "ingredients": [
+        "4 chicken breasts, pounded thin",
+        "1 cup breadcrumbs",
+        "0.5 cup grated Parmesan",
+        "2 eggs, beaten",
+        "1 jar marinara sauce",
+        "2 cups shredded mozzarella",
+        "12 oz spaghetti",
+        "2 tbsp olive oil",
+        "Salt and pepper",
+        "Fresh basil"
+      ],
+      "recipe": [
+        "Cook spaghetti per package. Preheat oven to 400F.",
+        "Season chicken, dip in egg, coat in breadcrumb-Parmesan mix.",
+        "Pan-fry in oil over medium-high heat 3 min per side until golden.",
+        "Transfer to baking sheet. Top each with marinara and mozzarella.",
+        "Bake 12-15 min until cheese is bubbly and golden.",
+        "Serve over spaghetti with extra marinara and fresh basil."
+      ],
+      "tip": "Pound the chicken to an even thickness — uneven chicken means some parts dry out before the thick parts are done.",
+      "cuisine": "italian"
+    },
+    {
+      "id": 263,
+      "name": "Chicken Pot Pie",
+      "protein": "chicken",
+      "time": 50,
+      "servings": 6,
+      "cal": 570,
+      "desc": "Creamy chicken and vegetable filling in a flaky double pie crust.",
+      "ingredients": [
+        "3 cups cooked chicken, shredded",
+        "1 tsp poultry seasoning (or half tsp dried thyme plus quarter tsp dried sage)",
+        "0.5 tsp garlic powder",
+        "1 cup frozen peas",
+        "1 cup carrots, diced",
+        "1 cup celery, diced",
+        "0.5 cup diced onion",
+        "0.33 cup butter",
+        "0.33 cup flour",
+        "1.75 cups chicken broth",
+        "0.67 cup milk",
+        "Salt and pepper",
+        "2 refrigerated pie crusts"
+      ],
+      "recipe": [
+        "Preheat oven to 425F. Melt butter in a saucepan. Cook onion, carrots, celery 5 min.",
+        "In a bowl, toss the shredded chicken with the poultry seasoning, garlic powder, and a generous pinch of salt and pepper so it is well-seasoned before it goes into the filling.",
+        "Stir in flour until absorbed. Gradually add broth and milk, whisking until thick, about 5 min.",
+        "Season the sauce with salt and pepper to taste, then stir in the seasoned chicken and peas.",
+        "Line a 9-inch pie dish with one crust. Pour in filling. Top with second crust, crimp edges, cut steam vents.",
+        "Bake 30-35 min until golden. Rest 5 min before serving."
+      ],
+      "tip": "Cut the steam vents generously, without them the top crust puffs and the filling boils over the sides. Seasoning the chicken separately, not just the sauce, is what keeps the filling from tasting flat.",
+      "cuisine": "american"
+    },
+    {
+      "id": 264,
+      "name": "Chicken Alfredo",
+      "protein": "chicken",
+      "time": 25,
+      "servings": 4,
+      "cal": 720,
+      "desc": "Fettuccine tossed in a rich butter and Parmesan cream sauce with seasoned grilled chicken.",
+      "ingredients": [
+        "1.5 lb chicken breasts",
+        "12 oz fettuccine",
+        "1 cup heavy cream",
+        "6 tbsp butter",
+        "1.5 cups grated Parmesan",
+        "4 cloves garlic, minced",
+        "Salt, pepper, and Italian seasoning",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Cook fettuccine per package, reserve 1 cup pasta water.",
+        "Season chicken with Italian seasoning, salt, and pepper. Pan-sear 6-7 min per side. Slice.",
+        "In same pan, melt butter over medium. Add garlic, cook 1 min.",
+        "Add cream, simmer 2 min. Add Parmesan and stir until melted and smooth.",
+        "Toss pasta in sauce, adding pasta water to loosen if needed.",
+        "Plate pasta, top with sliced chicken, finish with parsley and more Parmesan."
+      ],
+      "tip": "Take the pan off the heat before adding Parmesan — boiling cheese turns it gritty and breaks the sauce.",
+      "cuisine": "american"
+    },
+    {
+      "id": 265,
+      "name": "Buffalo Chicken Wraps",
+      "protein": "chicken",
+      "time": 20,
+      "servings": 4,
+      "cal": 480,
+      "desc": "Crispy chicken tossed in Buffalo sauce, wrapped with lettuce, tomato, and blue cheese.",
+      "ingredients": [
+        "1.5 lb chicken tenders",
+        "0.5 cup Franks RedHot sauce",
+        "2 tbsp butter, melted",
+        "4 large flour tortillas",
+        "2 cups romaine, shredded",
+        "1 cup cherry tomatoes, halved",
+        "0.5 cup blue cheese crumbles",
+        "0.5 cup blue cheese dressing",
+        "Salt and pepper"
+      ],
+      "recipe": [
+        "Season chicken with salt and pepper. Pan-sear over medium-high 3-4 min per side.",
+        "Mix hot sauce and melted butter. Toss cooked chicken in Buffalo sauce.",
+        "Warm tortillas 20 seconds in microwave.",
+        "Layer romaine, tomatoes, and blue cheese crumbles on each tortilla.",
+        "Add Buffalo chicken, drizzle with blue cheese dressing.",
+        "Roll tightly and slice on the diagonal."
+      ],
+      "tip": "The butter in the Buffalo sauce is not optional — it tempers the heat and makes the sauce cling to the chicken.",
+      "cuisine": "american"
+    },
+    {
+      "id": 266,
+      "name": "Chicken Fried Rice",
+      "protein": "chicken",
+      "time": 20,
+      "servings": 4,
+      "cal": 440,
+      "desc": "Day-old jasmine rice stir-fried with chicken, egg, soy sauce, and sesame.",
+      "ingredients": [
+        "2 cups cooked chicken, diced",
+        "3 cups day-old jasmine rice",
+        "3 eggs, beaten",
+        "1 cup frozen peas and carrots",
+        "4 cloves garlic, minced",
+        "4 tbsp soy sauce",
+        "1.5 tbsp oyster sauce",
+        "1 tsp sesame oil",
+        "2 tbsp vegetable oil",
+        "Green onions"
+      ],
+      "recipe": [
+        "Heat vegetable oil in a wok or large skillet over high heat until smoking.",
+        "Add chicken and garlic. Stir-fry 2 min.",
+        "Push to the side. Scramble eggs in the center, then fold into chicken.",
+        "Add rice. Press down and let it sear 1-2 min. Then stir-fry to combine.",
+        "Add peas and carrots. Stir in soy sauce and oyster sauce.",
+        "Drizzle sesame oil, toss. Serve topped with green onions."
+      ],
+      "tip": "Cold, day-old rice is non-negotiable. Fresh rice is too wet and turns to mush. Make rice the night before.",
+      "cuisine": "asian"
+    },
+    {
+      "id": 267,
+      "name": "Chicken Quesadillas",
+      "protein": "chicken",
+      "time": 20,
+      "servings": 4,
+      "cal": 530,
+      "desc": "Crispy flour tortillas stuffed with seasoned chicken, melted cheese, peppers, and onions.",
+      "ingredients": [
+        "1.5 lb cooked chicken, shredded",
+        "8 large flour tortillas",
+        "2 cups shredded Mexican cheese blend",
+        "1 bell pepper, thinly sliced",
+        "0.5 onion, thinly sliced",
+        "1 tbsp taco seasoning",
+        "1 tbsp olive oil",
+        "Sour cream, salsa, guacamole to serve"
+      ],
+      "recipe": [
+        "Cook pepper and onion in oil until soft, 4 min.",
+        "Toss chicken with taco seasoning.",
+        "Layer cheese, chicken, and veggies on half of each tortilla. Fold over.",
+        "Cook quesadillas in a dry skillet over medium heat 2-3 min per side until crispy and golden.",
+        "Slice into wedges. Serve with sour cream, salsa, and guacamole."
+      ],
+      "tip": "Use a dry pan — no oil. The tortilla renders enough fat on its own and oil makes it greasy instead of crispy.",
+      "cuisine": "american"
+    },
+    {
+      "id": 268,
+      "name": "Honey Butter Chicken Biscuits",
+      "protein": "chicken",
+      "time": 25,
+      "servings": 4,
+      "cal": 610,
+      "desc": "Crispy fried chicken tenders drizzled with honey butter on flaky buttermilk biscuits.",
+      "ingredients": [
+        "1.5 lb chicken tenders",
+        "1 cup buttermilk",
+        "1 cup flour",
+        "1 tsp garlic powder",
+        "1 tsp paprika",
+        "Salt and pepper",
+        "Oil for frying",
+        "1 can refrigerated biscuits",
+        "4 tbsp butter, melted",
+        "3 tbsp honey"
+      ],
+      "recipe": [
+        "Soak chicken in buttermilk 10 min. Bake biscuits per package directions.",
+        "Mix flour with garlic powder, paprika, salt, and pepper.",
+        "Dredge chicken from buttermilk into seasoned flour.",
+        "Fry in 350F oil 5-6 min until golden and cooked through.",
+        "Mix melted butter and honey for honey butter sauce.",
+        "Split biscuits, place chicken inside, drizzle generously with honey butter."
+      ],
+      "tip": "Drizzle the honey butter while everything is hot — it soaks into the biscuit and makes the whole thing taste like it was made at Whataburger.",
+      "cuisine": "american"
+    },
+    {
+      "id": 269,
+      "name": "BBQ Chicken Pizza",
+      "protein": "chicken",
+      "time": 25,
+      "servings": 4,
+      "cal": 550,
+      "desc": "Tangy BBQ sauce, shredded chicken, red onion, cilantro, and smoked gouda on a crispy crust.",
+      "ingredients": [
+        "1 pre-made pizza dough or naan",
+        "0.5 cup BBQ sauce",
+        "2 cups cooked chicken, shredded",
+        "0.5 red onion, thinly sliced",
+        "1.5 cups smoked gouda or mozzarella, shredded",
+        "0.25 cup fresh cilantro",
+        "Olive oil",
+        "Salt and pepper"
+      ],
+      "recipe": [
+        "Preheat oven to 450F or follow dough package directions. Stretch dough onto a greased sheet pan.",
+        "Brush dough with BBQ sauce to the edges.",
+        "Scatter chicken evenly, then red onion, then cheese.",
+        "Bake 12-15 min until crust is golden and cheese is bubbly.",
+        "Remove, top with fresh cilantro, slice, and serve."
+      ],
+      "tip": "BBQ sauce burns faster than tomato sauce — watch it in the last 3 minutes and pull it when the edges just start to char.",
+      "cuisine": "american"
+    },
+    {
+      "id": 270,
+      "name": "Chicken & Waffles",
+      "protein": "chicken",
+      "time": 35,
+      "servings": 4,
+      "cal": 740,
+      "desc": "Southern-spiced crispy fried chicken on fluffy waffles with maple syrup and hot sauce.",
+      "ingredients": [
+        "8 chicken drumsticks or thighs",
+        "1 cup buttermilk",
+        "1 tbsp hot sauce",
+        "1.5 cups flour",
+        "1 tsp cayenne",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "Salt and pepper",
+        "Oil for frying",
+        "8 frozen waffles, toasted",
+        "Maple syrup and hot sauce to serve"
+      ],
+      "recipe": [
+        "Marinate chicken in buttermilk and hot sauce at least 20 min.",
+        "Mix flour with cayenne, garlic powder, onion powder, salt, and pepper.",
+        "Dredge chicken in seasoned flour, pressing firmly to coat.",
+        "Fry in 350F oil 12-14 min until deep golden and cooked through. Drain.",
+        "Toast waffles. Plate with chicken on top.",
+        "Serve with maple syrup and hot sauce — pour both liberally."
+      ],
+      "tip": "Pour maple syrup AND hot sauce. The sweet-heat combination over crispy chicken is the whole point.",
+      "cuisine": "american"
+    },
+    {
+      "id": 300,
+      "name": "Garlic Butter Scallops with Herbed Orzo",
+      "protein": "seafood",
+      "time": 25,
+      "servings": 4,
+      "cal": 520,
+      "desc": "Seared jumbo scallops in a garlic-butter pan sauce over lemony orzo with fresh herbs.",
+      "premium": true,
+      "ingredients": [
+        "1.5 lb jumbo sea scallops, patted dry",
+        "Salt and pepper",
+        "2 tbsp olive oil",
+        "4 tbsp butter, divided",
+        "4 garlic cloves, minced",
+        "1 cup orzo",
+        "2 cups chicken broth",
+        "Zest and juice of 1 lemon",
+        "0.25 cup chopped parsley",
+        "0.25 cup grated parmesan"
+      ],
+      "recipe": [
+        "Cook orzo in chicken broth per package directions until al dente and broth is mostly absorbed. Stir in 1 tbsp butter, lemon zest, and parmesan.",
+        "Season scallops generously with salt and pepper. Heat oil in a large skillet over high heat until shimmering.",
+        "Sear scallops 1.5-2 min per side until golden-brown crusts form. Do not move them while searing. Remove to a plate.",
+        "Lower heat to medium. Melt remaining butter, add garlic, cook 30 sec until fragrant. Stir in lemon juice.",
+        "Spoon orzo onto plates, top with scallops, drizzle with garlic butter, and scatter parsley over top."
+      ],
+      "tip": "A dry scallop and a screaming-hot pan are the whole secret to a real sear — pat them dry twice if you have to.",
+      "recipe_detailed": [
+        "Cook the orzo directly in chicken broth like a risotto rather than boiling it in water and draining — it soaks up flavor as it cooks. Stir occasionally and check at the package's minimum time; orzo overcooks fast. Once tender, fold in a tablespoon of butter, the lemon zest, and parmesan off the heat so the cheese doesn't clump.",
+        "Scallops are mostly water, and water is the enemy of a good sear. Lay them on a paper towel, press another paper towel on top, and let them sit while you prep everything else. Season both sides with salt and pepper right before they hit the pan, not earlier — salt draws out moisture over time.",
+        "Use a stainless or cast iron skillet, not nonstick, and get it properly hot — a drop of water should skitter and evaporate almost instantly. Add oil, then lay scallops in one at a time, flat side down, leaving space between each. Crowding drops the pan's temperature and steams them instead of searing.",
+        "Resist the urge to peek or move them: 90 seconds to 2 minutes undisturbed builds a deep golden crust that releases cleanly from the pan on its own. Flip once, sear the second side for about a minute less — scallops finish cooking fast and go rubbery if pushed past opaque-and-just-firm.",
+        "Wipe out the pan if it's scorched, then build the sauce in the same skillet to catch the fond. Melt butter over medium, add garlic just until it smells nutty (30 seconds, no more, or it turns bitter), then kill the heat with lemon juice, which stops the garlic from browning further and brightens the whole sauce."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 301,
+      "name": "Blackened Mahi Mahi Tacos",
+      "protein": "seafood",
+      "time": 20,
+      "servings": 4,
+      "cal": 410,
+      "desc": "Cajun-spiced mahi mahi in warm tortillas with crunchy slaw and a creamy chipotle drizzle.",
+      "premium": true,
+      "ingredients": [
+        "1.5 lb mahi mahi fillets",
+        "2 tbsp blackening seasoning (paprika, cayenne, garlic powder, oregano, thyme)",
+        "2 tbsp olive oil",
+        "8 small corn tortillas",
+        "3 cups shredded cabbage slaw mix",
+        "0.5 cup mayo",
+        "1 chipotle pepper in adobo, minced",
+        "1 lime, juiced",
+        "Cilantro",
+        "Cotija cheese, crumbled"
+      ],
+      "recipe": [
+        "Whisk mayo, chipotle, and half the lime juice for the crema. Set aside.",
+        "Pat mahi mahi dry, coat all over with blackening seasoning, pressing to adhere.",
+        "Heat oil in a heavy skillet over medium-high until nearly smoking. Sear fish 3-4 min per side until a dark crust forms and it flakes easily.",
+        "Rest 2 min, then flake into large chunks. Toss slaw with remaining lime juice.",
+        "Warm tortillas, fill with fish and slaw, drizzle with chipotle crema, and top with cilantro and cotija."
+      ],
+      "tip": "Get the pan properly hot before the fish goes in — a true blacken needs real heat, not a gentle warm-through.",
+      "recipe_detailed": [
+        "Make the crema first so the flavors have time to meld: whisk mayo, minced chipotle (seeds removed if you want less heat), and half the lime juice until smooth. Taste and adjust — more chipotle for smokier heat, more lime for brightness.",
+        "Pat the mahi mahi bone-dry with paper towels; any surface moisture will steam instead of char. Sprinkle blackening seasoning generously over both sides and press it in with your fingers so it forms a crust rather than sitting loose on top.",
+        "A cast iron or carbon steel pan is ideal here since it holds heat well and can take the high temperature blackening demands. Heat oil until it just starts to shimmer and thin wisps of smoke appear — this is hotter than you'd use for most fish.",
+        "Lay the fillets away from you to avoid splatter, and don't touch them for a full 3 minutes. The spice crust needs contact time with the hot metal to actually blacken rather than just turn brown. Flip once with a thin fish spatula, working gently since the crust is delicate.",
+        "The fish is done when it flakes easily with a fork and reads about 137°F in the thickest part — mahi mahi dries out fast past that point, so pull it a shade early and let carryover heat finish the job during the 2-minute rest before flaking."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 302,
+      "name": "Thai Coconut Shrimp Curry",
+      "protein": "seafood",
+      "time": 25,
+      "servings": 4,
+      "cal": 460,
+      "desc": "Sweet-spicy red curry shrimp simmered in coconut milk with bell peppers over jasmine rice.",
+      "premium": true,
+      "ingredients": [
+        "1.5 lb large shrimp, peeled and deveined",
+        "2 tbsp red curry paste",
+        "1 can (14 oz) coconut milk",
+        "1 red bell pepper, sliced",
+        "1 cup snap peas",
+        "1 tbsp fish sauce",
+        "1 tbsp brown sugar",
+        "1 lime, juiced",
+        "Fresh basil",
+        "Jasmine rice, cooked"
+      ],
+      "recipe": [
+        "Scoop the thick coconut cream from the top of the can into a hot pot. Fry curry paste in it 1-2 min until fragrant and glossy.",
+        "Add remaining coconut milk, fish sauce, and brown sugar. Bring to a gentle simmer.",
+        "Add bell pepper and snap peas, cook 3-4 min until just tender.",
+        "Add shrimp, cook 3-4 min until pink and opaque throughout.",
+        "Stir in lime juice, taste and adjust salt/sweet/sour. Serve over rice topped with basil."
+      ],
+      "tip": "Frying the curry paste in coconut cream first — instead of just dumping in the whole can — is what gives the curry real depth instead of a thin, watery taste.",
+      "recipe_detailed": [
+        "Don't shake the coconut milk can before opening. Scoop just the thick cream that's risen to the top into a hot, dry pot — this is the step Thai cooks call 'cracking' the coconut cream, and it lets the paste fry in fat instead of simmering in liquid, which is what actually builds flavor.",
+        "Fry the curry paste in that cream over medium heat, stirring constantly, until it darkens slightly, smells toasty rather than raw, and the oil starts to separate a little at the edges — about 1 to 2 minutes. Rushing this step is the most common reason curry tastes flat.",
+        "Pour in the rest of the coconut milk along with fish sauce and brown sugar, and stir to dissolve everything into one sauce. Bring it to a bare simmer — a hard boil can cause coconut milk to separate and look curdled, so keep the heat gentle from here on.",
+        "Add the vegetables first since they need slightly longer than the shrimp, and cook just until the peppers soften but the snap peas still have a bit of snap. Shrimp go in last and cook fast — 3 to 4 minutes is enough for large shrimp to turn pink and opaque; overcooked shrimp turn tough and curl tightly.",
+        "Finish off the heat with lime juice so its brightness doesn't cook away, then taste. Thai curries balance salty (fish sauce), sweet (sugar), and sour (lime) against the richness of the coconut milk — adjust in small increments until it tastes balanced to you, not flat or one-note."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 303,
+      "name": "Cedar Plank Salmon with Dill Sauce",
+      "protein": "seafood",
+      "time": 30,
+      "servings": 4,
+      "cal": 480,
+      "desc": "Smoky grilled salmon on a cedar plank with a cool, tangy yogurt-dill sauce.",
+      "premium": true,
+      "ingredients": [
+        "1 cedar grilling plank, soaked 1 hour",
+        "4 salmon fillets, skin-on",
+        "2 tbsp olive oil",
+        "Salt and pepper",
+        "1 lemon, sliced",
+        "0.75 cup Greek yogurt",
+        "2 tbsp fresh dill, chopped",
+        "1 tbsp lemon juice",
+        "1 garlic clove, grated",
+        "Salt"
+      ],
+      "recipe": [
+        "Soak the cedar plank in water at least 1 hour, weighting it down so it stays submerged.",
+        "Whisk yogurt, dill, lemon juice, garlic, and a pinch of salt for the sauce. Chill until serving.",
+        "Preheat grill to medium-high. Place the soaked plank on the grate 3 min until it starts to crackle and smoke lightly.",
+        "Brush salmon with oil, season with salt and pepper, and lay skin-down on the plank with lemon slices on top. Close the lid.",
+        "Grill 12-15 min until salmon flakes easily and reaches 125-130F. Serve on the plank with dill sauce."
+      ],
+      "tip": "If the plank catches a real flame instead of just smoking, mist it with water from a spray bottle — don't panic and pull the salmon.",
+      "recipe_detailed": [
+        "Submerge the cedar plank fully in water for at least an hour, and longer if you have time — a dry plank will scorch and can flame up rather than smoke. A plate or can on top keeps it from floating.",
+        "While the plank soaks, make the sauce so its flavors have time to come together in the fridge: whisk yogurt, dill, lemon juice, and grated garlic with a pinch of salt. It should taste bright and slightly tangy — this cool sauce is the contrast to the smoky, rich fish.",
+        "Get your grill to a steady medium-high before the plank goes on. Set the wet plank directly on the grate and close the lid for a few minutes until you hear faint crackling and see the first wisps of cedar smoke — that's your cue it's ready for the fish.",
+        "Lay the salmon skin-side down directly on the plank (the skin protects the flesh from scorching and helps it release cleanly later) and fan lemon slices over the top so their oils drip down through the fish as it cooks. Close the lid and resist opening it, which lets smoke and heat escape.",
+        "Salmon is done when it flakes with light pressure from a fork and the center is still faintly translucent — pull it around 125 to 130°F since it will keep climbing a few degrees as it rests. Carry the whole plank to the table; it makes a great centerpiece and keeps the fish warm."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 304,
+      "name": "New England Clam Chowder",
+      "protein": "seafood",
+      "time": 45,
+      "servings": 6,
+      "cal": 390,
+      "desc": "Creamy, hearty chowder loaded with clams, potatoes, and smoky bacon.",
+      "premium": true,
+      "ingredients": [
+        "4 slices bacon, diced",
+        "1 onion, diced",
+        "2 celery stalks, diced",
+        "3 tbsp flour",
+        "3 cans (6.5 oz) chopped clams, juice reserved",
+        "2 cups clam juice or seafood stock",
+        "3 Yukon gold potatoes, cubed",
+        "2 cups half-and-half",
+        "2 bay leaves",
+        "Salt and pepper",
+        "Oyster crackers and chives to serve"
+      ],
+      "recipe": [
+        "Cook bacon in a large pot until crisp. Remove bacon, leave the fat.",
+        "Cook onion and celery in the bacon fat 5 min until softened. Stir in flour, cook 1 min.",
+        "Whisk in reserved clam juice and stock, scraping up browned bits. Add potatoes and bay leaves.",
+        "Simmer 15-18 min until potatoes are tender. Stir in half-and-half and clams, warm through — don't boil.",
+        "Season with salt and pepper. Serve topped with crispy bacon, chives, and oyster crackers."
+      ],
+      "tip": "Add the clams at the very end and just warm them through — boiled clams turn to rubber fast.",
+      "recipe_detailed": [
+        "Render the bacon slowly over medium heat so it crisps evenly and leaves behind well-flavored fat — this fat is the base of the whole chowder's flavor, so don't rush it or drain it away. Set the crispy bacon aside for garnish.",
+        "Sauté the onion and celery right in the bacon fat until they're soft and translucent but not browned, about 5 minutes. Sprinkle the flour over top and stir constantly for a full minute — this cooks off the raw flour taste and sets up the chowder's thickness.",
+        "Pour in the reserved clam juice and stock gradually, whisking as you go to work out any lumps, and scrape the bottom of the pot to lift up the browned bits, which carry a lot of flavor. Add the potatoes and bay leaves once the liquid is smooth.",
+        "Simmer gently, uncovered, until a fork slides easily into the potatoes, 15 to 18 minutes — a hard boil can break the roux's thickening power, so keep it at a lazy bubble. This is also when the chowder base actually develops its flavor, so don't shortcut the simmer.",
+        "Stir in the half-and-half and the clams only at the end, and warm everything through on low heat without letting it boil — both dairy and clams turn unpleasant (grainy dairy, rubbery clams) if they're cooked too hard or too long. Taste before serving; clam juice is salty, so season carefully."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 305,
+      "name": "Shrimp Scampi Linguine",
+      "protein": "seafood",
+      "time": 20,
+      "servings": 4,
+      "cal": 540,
+      "desc": "Garlicky butter-and-wine shrimp tossed with linguine, lemon, and a shower of parsley.",
+      "premium": true,
+      "ingredients": [
+        "1 lb linguine",
+        "1.5 lb large shrimp, peeled and deveined",
+        "Salt and pepper",
+        "4 tbsp butter, divided",
+        "3 tbsp olive oil",
+        "6 garlic cloves, thinly sliced",
+        "0.5 cup dry white wine",
+        "1 lemon, zested and juiced",
+        "0.5 tsp red pepper flakes",
+        "0.5 cup chopped parsley",
+        "Parmesan to serve"
+      ],
+      "recipe": [
+        "Cook linguine in heavily salted water until just shy of al dente. Reserve 1 cup pasta water before draining.",
+        "Season shrimp with salt and pepper. Heat olive oil and 1 tbsp butter in a large skillet over medium-high.",
+        "Sear shrimp 1-2 min per side until just pink. Remove to a plate.",
+        "Add garlic and pepper flakes to the same pan, cook 30 sec. Pour in wine, scrape up browned bits, simmer 2 min to reduce slightly.",
+        "Add pasta, remaining butter, lemon zest and juice, and a splash of pasta water. Toss until glossy, return shrimp to warm through, and finish with parsley and parmesan."
+      ],
+      "tip": "Undercook the pasta slightly on purpose — it finishes cooking in the sauce and soaks up all that garlic-wine flavor.",
+      "recipe_detailed": [
+        "Salt the pasta water until it tastes like the sea — this is your only chance to season the noodles themselves. Cook the linguine about a minute short of the package's al dente time since it will finish cooking in the sauce later. Reserve a full cup of the starchy water before draining; you'll need it to bring the sauce together.",
+        "Pat the shrimp dry and season simply with salt and pepper. Get the oil and a tablespoon of butter hot in a wide skillet, then sear the shrimp in a single layer without crowding — work in two batches if needed. They only need a minute or two per side until just turning pink; pull them before they're fully cooked, since they'll rejoin the sauce later.",
+        "Lower the heat slightly and add the sliced garlic and red pepper flakes to the same pan, off the direct high heat so the garlic turns golden and fragrant rather than scorched and bitter — this takes about 30 seconds. Pour in the wine right away to stop the garlic from cooking further, and scrape up any browned bits stuck to the pan, which are pure flavor.",
+        "Let the wine bubble and reduce by about half, which concentrates its flavor and cooks off the harsh alcohol edge, leaving something bright and savory. This is the backbone of a proper scampi sauce.",
+        "Add the drained pasta directly to the skillet along with the remaining butter, lemon zest and juice, and a good splash of the reserved pasta water. Toss vigorously — the starch in the water combines with the butter to form a light, clinging sauce rather than a greasy or watery one. Fold the shrimp back in just to reheat, then finish with parsley and a generous grating of parmesan."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 306,
+      "name": "Korean Gochujang Salmon Bowls",
+      "protein": "seafood",
+      "time": 25,
+      "servings": 4,
+      "cal": 490,
+      "desc": "Sticky-sweet gochujang-glazed salmon over rice with quick pickled cucumber and avocado.",
+      "premium": true,
+      "ingredients": [
+        "4 salmon fillets",
+        "3 tbsp gochujang",
+        "2 tbsp honey",
+        "1 tbsp soy sauce",
+        "1 tbsp rice vinegar",
+        "1 tsp sesame oil",
+        "2 garlic cloves, grated",
+        "1 cucumber, thinly sliced",
+        "2 tbsp rice vinegar (for pickle)",
+        "1 tsp sugar",
+        "2 avocados, sliced",
+        "Cooked rice",
+        "Sesame seeds and scallion"
+      ],
+      "recipe": [
+        "Toss cucumber slices with 2 tbsp rice vinegar, sugar, and a pinch of salt. Set aside to quick-pickle while you cook.",
+        "Whisk gochujang, honey, soy sauce, 1 tbsp rice vinegar, sesame oil, and garlic for the glaze.",
+        "Pat salmon dry, season lightly with salt. Sear skin-down in an oiled skillet over medium-high 4 min until crisp.",
+        "Flip, brush generously with glaze, and cook 3-4 min more, brushing again, until glaze is sticky and salmon flakes easily.",
+        "Build bowls with rice, salmon, pickled cucumber, and avocado. Top with sesame seeds and scallion."
+      ],
+      "tip": "Brush the glaze on in the last few minutes only — gochujang's sugars burn fast over direct heat.",
+      "recipe_detailed": [
+        "Start the quick pickle first so it has time to work: toss the cucumber slices with rice vinegar, sugar, and a pinch of salt, and let them sit at room temperature while you do everything else. Even 15 minutes gives them a nice tang and crunch.",
+        "Whisk the glaze ingredients together in a small bowl until smooth — gochujang can be lumpy straight from the jar, so make sure it's fully worked into the honey and soy sauce with no clumps left, which helps it coat evenly later.",
+        "Pat the salmon very dry and season lightly with salt (the glaze brings plenty of flavor on its own). Sear skin-side down in a hot, lightly oiled skillet for about 4 minutes without moving it — this renders the skin and gets it properly crisp, which is hard to achieve once glaze is involved.",
+        "Flip the fillets and brush a generous layer of glaze over the top. From here, watch closely: gochujang's natural sugars caramelize quickly and can scorch if the heat is too high, so keep it at medium and brush on a second coat halfway through the remaining cook time for a deep, glossy lacquer.",
+        "Salmon is ready when it flakes easily with a fork and the glaze has turned sticky and slightly charred at the edges, about 3 to 4 more minutes. Build your bowls right away while everything is warm, letting the cool pickled cucumber and creamy avocado play off the hot, spicy-sweet fish."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 307,
+      "name": "Cajun Shrimp and Grits",
+      "protein": "seafood",
+      "time": 30,
+      "servings": 4,
+      "cal": 520,
+      "desc": "Blackened shrimp in a smoky bacon-butter pan sauce over creamy cheddar grits.",
+      "premium": true,
+      "ingredients": [
+        "1.5 lb large shrimp, peeled and deveined",
+        "2 tbsp Cajun seasoning",
+        "4 slices bacon, diced",
+        "1 cup stone-ground grits",
+        "4 cups chicken broth",
+        "1 cup shredded cheddar",
+        "2 tbsp butter",
+        "1 bell pepper, diced",
+        "3 garlic cloves, minced",
+        "2 scallions, sliced",
+        "Hot sauce to taste"
+      ],
+      "recipe": [
+        "Bring broth to a boil, whisk in grits. Reduce heat, simmer 20-25 min, stirring often, until creamy. Stir in cheddar and butter, season with salt.",
+        "Meanwhile, toss shrimp with Cajun seasoning. Cook bacon in a skillet until crisp; remove, leave the fat.",
+        "Sear shrimp in the bacon fat 1-2 min per side until pink. Remove.",
+        "Add bell pepper and garlic to the pan, cook 3 min until softened. Return shrimp and bacon to warm through.",
+        "Spoon grits into bowls, top with the shrimp mixture, scallions, and hot sauce."
+      ],
+      "tip": "Stir the grits often and don't rush the simmer — real stone-ground grits need the full 20+ minutes to turn creamy instead of gritty.",
+      "recipe_detailed": [
+        "Whisk the grits into boiling broth in a steady stream to prevent clumping, then immediately drop the heat to low. Stone-ground grits need a genuine 20 to 25 minute simmer, stirring every few minutes so they don't stick and scorch on the bottom — instant grits will not give you the same texture, so seek out stone-ground if you can.",
+        "Once the grits are thick and creamy and no longer taste gritty on the tongue, stir in the cheddar and butter off the heat so the cheese melts smoothly instead of breaking. Season with salt to taste — grits need more than you'd expect.",
+        "While the grits simmer, toss the shrimp thoroughly with Cajun seasoning so every piece is coated. Render the bacon in a separate skillet over medium heat until crisp and deeply browned, then remove it to a paper-towel-lined plate, leaving all that flavorful fat behind.",
+        "Sear the seasoned shrimp in the hot bacon fat in a single layer, about 1 to 2 minutes per side — they cook fast, so pull them the moment they turn pink and opaque to avoid rubbery shrimp. Set them aside with the bacon.",
+        "Sauté the bell pepper and garlic in the same pan until just softened, scraping up the flavorful browned bits left behind. Return the shrimp and bacon to the pan just to reheat everything together, then spoon the whole mixture over bowls of hot cheddar grits and finish with scallions and a shake of hot sauce."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 308,
+      "name": "Miso Butter Cod with Bok Choy",
+      "protein": "seafood",
+      "time": 20,
+      "servings": 4,
+      "cal": 380,
+      "desc": "Flaky cod broiled with a savory miso-butter glaze, served with garlicky sesame bok choy.",
+      "premium": true,
+      "ingredients": [
+        "4 cod fillets",
+        "3 tbsp white miso paste",
+        "2 tbsp butter, softened",
+        "1 tbsp honey",
+        "1 tbsp mirin",
+        "4 heads baby bok choy, halved",
+        "1 tbsp sesame oil",
+        "2 garlic cloves, minced",
+        "1 tbsp soy sauce",
+        "Sesame seeds"
+      ],
+      "recipe": [
+        "Preheat broiler. Mash miso, butter, honey, and mirin into a smooth paste.",
+        "Pat cod dry, place on a foil-lined sheet pan, and spread the miso butter generously over each fillet.",
+        "Broil 6-8 min until the top is caramelized and browned and fish flakes easily.",
+        "Meanwhile, heat sesame oil in a skillet, add garlic, cook 30 sec. Add bok choy cut-side down, cook 3-4 min until charred and just tender. Splash with soy sauce.",
+        "Serve cod over bok choy, spooning any pan juices on top, finished with sesame seeds."
+      ],
+      "tip": "Broilers vary a lot — start checking at the 5-minute mark so the miso glaze caramelizes instead of burning.",
+      "recipe_detailed": [
+        "Mash the miso, softened butter, honey, and mirin together with a fork or small whisk until you have a completely smooth, spreadable paste — any lumps of miso won't melt evenly under the broiler and can leave salty pockets.",
+        "Pat the cod thoroughly dry so the glaze adheres rather than sliding off, then spread a thick, even layer of the miso butter over the top of each fillet, right to the edges. Line your sheet pan with foil, since the glaze can drip and burn onto bare metal.",
+        "Position the oven rack so the fish sits about 6 inches from the broiler element, not directly under it — miso's natural sugars caramelize fast and can go from perfectly browned to burnt in under a minute. Broil in short stretches, checking every couple of minutes rather than walking away.",
+        "While the cod broils, get a skillet good and hot with the sesame oil, then bloom the garlic for just 30 seconds until fragrant. Lay the bok choy halves cut-side down so the flat surface makes full contact with the pan — this is what gives you real char rather than a pale, steamed vegetable.",
+        "Pull the cod once the top is deeply caramelized in spots and the fish flakes apart easily with a fork, usually 6 to 8 minutes total. Splash the bok choy with soy sauce right at the end so it stays glossy rather than reducing to a sticky glaze, then plate everything together with the pan juices spooned over the fish."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 309,
+      "name": "Lobster Roll Night",
+      "protein": "seafood",
+      "time": 20,
+      "servings": 4,
+      "cal": 430,
+      "desc": "Chilled, buttery lobster salad piled into toasted split-top rolls, New England style.",
+      "premium": true,
+      "ingredients": [
+        "1 lb cooked lobster meat, chopped",
+        "0.33 cup mayo",
+        "1 tbsp lemon juice",
+        "1 celery stalk, finely diced",
+        "1 tbsp fresh chives, chopped",
+        "Salt and pepper",
+        "4 split-top hot dog buns",
+        "3 tbsp butter, softened",
+        "Lettuce leaves",
+        "Lemon wedges to serve"
+      ],
+      "recipe": [
+        "Gently fold lobster meat with mayo, lemon juice, celery, and chives. Season with salt and pepper. Chill 15 min if time allows.",
+        "Butter both outer sides of the split-top buns.",
+        "Toast buns in a skillet over medium heat 1-2 min per side until golden and crisp.",
+        "Line each bun with a lettuce leaf, then pile in the lobster salad, mounding it generously.",
+        "Serve immediately with lemon wedges on the side."
+      ],
+      "tip": "Go light on the mayo and fold gently — the lobster meat should be the star, not drowning in dressing.",
+      "recipe_detailed": [
+        "Chop the lobster meat into bite-sized chunks, keeping some larger pieces intact rather than mincing it fine — you want to actually taste and feel the lobster in every bite, not a paste.",
+        "Fold in the mayo, lemon juice, celery, and chives using a light hand — overmixing breaks the lobster meat down and makes the salad mushy. Start with a little less mayo than you think you need; you can always add more, but a soupy lobster salad is hard to fix.",
+        "Season with salt and pepper, taste, and adjust the lemon if it needs more brightness. If you have 15 minutes to spare, chill the salad — cold lobster salad has noticeably better texture and flavor than room-temperature, though it's still good either way.",
+        "Butter the outer, flat sides of the split-top buns generously, all the way to the edges. Toast them in a dry skillet over medium heat, pressing down gently, until each side is deeply golden and a little crisp — this contrast between the crunchy toasted bread and the cool, creamy filling is what makes a lobster roll special.",
+        "Tuck a lettuce leaf into each toasted bun before adding the filling — it adds crunch and keeps the bread from getting soggy. Mound the lobster salad generously so it spills slightly over the top, and serve right away with lemon wedges for anyone who wants extra brightness."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 333,
+      "name": "Korean Fried Chicken Wings (Yangnyeom)",
+      "protein": "chicken",
+      "time": 45,
+      "servings": 4,
+      "cal": 590,
+      "desc": "Extra-crispy double-fried wings tossed in a sweet, sticky, garlicky gochujang glaze.",
+      "premium": true,
+      "ingredients": [
+        "3 lb chicken wings, split",
+        "0.5 cup cornstarch",
+        "0.25 cup flour",
+        "Salt and pepper",
+        "Oil for frying",
+        "3 tbsp gochujang",
+        "2 tbsp ketchup",
+        "2 tbsp honey",
+        "2 tbsp brown sugar",
+        "1 tbsp soy sauce",
+        "1 tbsp rice vinegar",
+        "3 garlic cloves, minced",
+        "1 tsp grated ginger",
+        "Sesame seeds and scallions"
+      ],
+      "recipe": [
+        "Pat wings very dry. Toss with cornstarch, flour, salt, and pepper until evenly coated.",
+        "Heat oil to 325F. Fry wings in batches 8-9 min until pale golden and cooked through. Remove and let rest 5 min.",
+        "Increase oil to 375F. Fry wings a second time, 3-4 min, until deeply golden and shatteringly crisp. Drain on a rack.",
+        "Whisk gochujang, ketchup, honey, brown sugar, soy sauce, vinegar, garlic, and ginger in a saucepan. Simmer 2-3 min until glossy and slightly thickened.",
+        "Toss hot wings in the sauce until fully coated. Serve immediately topped with sesame seeds and scallions."
+      ],
+      "tip": "The double fry is non-negotiable for real Korean fried chicken — the first fry cooks the meat through, the second is what makes the skin shatter.",
+      "recipe_detailed": [
+        "Pat the wings as dry as possible with paper towels — any surface moisture turns to steam in the fryer and prevents a crisp crust from forming. Toss them thoroughly with the cornstarch, flour, salt, and pepper so every piece has an even, light coating rather than thick clumps.",
+        "Fry the wings at a moderate 325°F for the first round, about 8 to 9 minutes, until they're cooked through and pale golden but not yet deeply browned. This lower, longer fry is about cooking the meat gently; don't rush it by cranking the heat.",
+        "Let the fried wings rest on a wire rack for a full 5 minutes — this brief rest lets residual moisture escape and the crust set slightly, which sets you up for a much crispier second fry than going straight back into the oil.",
+        "Raise the oil temperature to a hotter 375°F and fry the wings again, this time for a shorter 3 to 4 minutes. This second, hotter fry is the real secret to Korean fried chicken's signature ultra-crisp, almost glassy shell — it renders out any remaining fat and moisture from the first fry.",
+        "Make the sauce while the wings rest between fries so it's ready the moment they come out crisp: simmer the gochujang, ketchup, honey, brown sugar, soy sauce, vinegar, garlic, and ginger together until glossy and slightly thickened. Toss the hot, freshly fried wings in the sauce immediately and serve right away — waiting too long lets the sauce soften that hard-won crispy crust."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 334,
+      "name": "Chicken Katsu Curry",
+      "protein": "chicken",
+      "time": 35,
+      "servings": 4,
+      "cal": 610,
+      "desc": "Crispy panko chicken cutlets sliced over rice and smothered in a mild, sweet Japanese curry sauce.",
+      "premium": true,
+      "ingredients": [
+        "4 boneless chicken thighs or breasts, pounded thin",
+        "Salt and pepper",
+        "0.5 cup flour",
+        "2 eggs, beaten",
+        "1.5 cups panko breadcrumbs",
+        "Oil for frying",
+        "2 tbsp butter",
+        "1 onion, diced",
+        "2 carrots, diced",
+        "2 potatoes, diced",
+        "2 tbsp Japanese curry roux (or 2 tbsp flour + 2 tbsp curry powder)",
+        "2.5 cups chicken broth",
+        "1 tbsp honey",
+        "1 tbsp soy sauce",
+        "Cooked rice"
+      ],
+      "recipe": [
+        "Melt butter in a pot, cook onion, carrots, and potatoes 5-6 min until onion softens.",
+        "Add broth, bring to a simmer, and cook 12-15 min until vegetables are tender. Stir in curry roux (or flour-curry powder paste) until dissolved and sauce thickens. Add honey and soy sauce, simmer 3-4 min more.",
+        "Meanwhile, season chicken, dredge in flour, dip in egg, then coat in panko, pressing to adhere.",
+        "Heat oil in a skillet and fry chicken 3-4 min per side until golden and cooked through. Drain on a rack, then slice into strips.",
+        "Serve rice topped with sliced katsu chicken, ladling the curry sauce generously over top."
+      ],
+      "tip": "Japanese curry should taste mild and slightly sweet, closer to a savory gravy than an Indian or Thai curry — go easy on the honey and taste as you build it.",
+      "recipe_detailed": [
+        "Cook the onion, carrots, and potatoes together in butter first, giving them a genuine 5 to 6 minutes so the onion turns translucent and starts building a flavor base rather than staying raw and sharp once the liquid goes in.",
+        "Add the broth and simmer until the vegetables are fully tender when pierced with a fork, 12 to 15 minutes. This isn't a quick step — the vegetables need real time to soften and start releasing their own sweetness into the broth.",
+        "Stir in the curry roux gradually, breaking it up so it dissolves smoothly rather than clumping (if making your own paste from flour and curry powder, whisk it with a little of the hot broth first to loosen it before adding to the pot). Let it simmer a few more minutes until it thickens into a gravy-like consistency, then add honey and soy sauce to round out the sweet-savory balance that's characteristic of Japanese curry.",
+        "While the curry simmers, bread the chicken using the standard flour-egg-panko sequence, pressing the panko on firmly so it forms a thick, even crust. Fry in enough oil to come partway up the cutlets, 3 to 4 minutes per side, until deeply golden and cooked through — an instant-read thermometer reading 165°F is the safest check.",
+        "Rest the fried cutlets briefly on a wire rack before slicing into strips — this keeps the crust crisp rather than trapping steam underneath. Serve over a mound of rice with the sliced katsu fanned out on top, and ladle the curry generously alongside or over the chicken, keeping some of the crispy top exposed if you like a textural contrast against the sauce."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 335,
+      "name": "Chicken Tikka Masala",
+      "protein": "chicken",
+      "time": 40,
+      "servings": 4,
+      "cal": 520,
+      "desc": "Char-grilled marinated chicken simmered in a creamy, spiced tomato sauce.",
+      "premium": true,
+      "ingredients": [
+        "2 lb boneless chicken thighs, cubed",
+        "1 cup plain yogurt",
+        "2 tbsp lemon juice",
+        "1 tbsp garam masala",
+        "1 tbsp ground cumin",
+        "1 tsp turmeric",
+        "4 garlic cloves, minced",
+        "1 tbsp ginger, grated",
+        "2 tbsp oil",
+        "1 onion, diced",
+        "1 can (28 oz) crushed tomatoes",
+        "1 cup heavy cream",
+        "1 tbsp butter",
+        "Cilantro and rice or naan to serve"
+      ],
+      "recipe": [
+        "Whisk yogurt, lemon juice, half the garam masala, half the cumin, turmeric, half the garlic, and half the ginger. Marinate chicken at least 30 min, up to overnight.",
+        "Thread or lay marinated chicken on a hot grill pan or under the broiler. Cook 4-5 min per side until charred in spots and cooked through. Set aside.",
+        "Heat oil in a pot, cook onion 5-6 min until softened. Add remaining garlic and ginger, cook 1 min. Add remaining garam masala and cumin, toast 30 sec.",
+        "Add crushed tomatoes, simmer 12-15 min until slightly reduced and deepened in color.",
+        "Stir in cream and butter, simmer 3-4 min. Add the charred chicken and any juices, simmer 5 min more to warm through. Serve over rice or with naan, topped with cilantro."
+      ],
+      "tip": "Charring the chicken under a broiler or on a hot grill pan before it goes into the sauce is what gives tikka masala its name and its smoky depth — don't just poach it directly in the sauce.",
+      "recipe_detailed": [
+        "Whisk together the yogurt marinade with half of each spice and aromatic, saving the rest to build the sauce later — this two-stage seasoning is what gives the dish layered flavor rather than a single flat note. Let the chicken marinate for at least 30 minutes, though several hours or overnight develops far more flavor and tenderizes the meat further thanks to the yogurt's acidity.",
+        "Cook the marinated chicken under high, direct heat — a hot grill pan or your oven's broiler both work well — specifically so it develops real char and blackened edges in spots. This charring is the 'tikka' part of tikka masala and is what separates the dish from a plain chicken curry; don't skip straight to simmering raw chicken in the sauce.",
+        "Build the sauce base by cooking the onion low and slow enough to really soften and turn translucent, about 5 to 6 minutes, before adding the remaining garlic and ginger for just a minute. Toast the remaining garam masala and cumin briefly in the hot oil and onions — this blooms their flavor far more than adding them directly to a wet sauce would.",
+        "Add the crushed tomatoes and let the sauce simmer uncovered for a full 12 to 15 minutes, which cooks out the raw, acidic edge of canned tomatoes and lets the sauce reduce and deepen into a richer color and flavor.",
+        "Stir in the cream and butter only near the end, and keep the heat moderate from here — cream can split if boiled too hard. Add the charred chicken along with any juices that collected while it rested, and let it simmer gently just long enough to heat through and let the chicken absorb some of the sauce, about 5 minutes, before serving."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 336,
+      "name": "Nashville Hot Chicken Sandwiches",
+      "protein": "chicken",
+      "time": 40,
+      "servings": 4,
+      "cal": 640,
+      "desc": "Fiery, crispy fried chicken thighs brushed with a cayenne-spiked hot oil, piled on soft buns with pickles.",
+      "premium": true,
+      "ingredients": [
+        "4 boneless chicken thighs",
+        "1 cup buttermilk",
+        "1 tbsp hot sauce",
+        "1.5 cups flour",
+        "1 tbsp paprika",
+        "1 tsp garlic powder",
+        "Salt and pepper",
+        "Oil for frying",
+        "0.5 cup frying oil (for hot sauce)",
+        "3 tbsp cayenne pepper",
+        "1 tbsp brown sugar",
+        "1 tsp paprika (for hot sauce)",
+        "4 brioche buns",
+        "Dill pickle chips",
+        "Mayo"
+      ],
+      "recipe": [
+        "Whisk buttermilk and hot sauce. Marinate chicken thighs at least 1 hour, up to overnight.",
+        "Mix flour, paprika, garlic powder, salt, and pepper. Dredge marinated chicken thoroughly in the flour mixture, pressing to adhere.",
+        "Heat frying oil to 325-350F. Fry chicken 6-7 min per side until deep golden and cooked through (165F internal).",
+        "Carefully whisk hot frying oil (0.5 cup, ladled from the fryer or heated separately) with cayenne, brown sugar, and paprika until smooth.",
+        "Brush the fiery oil generously over both sides of the fried chicken. Build sandwiches with mayo, pickles, and the hot chicken on brioche buns."
+      ],
+      "tip": "Adjust the cayenne to your real heat tolerance — Nashville hot is meant to be seriously spicy, but there's no shame in starting with less than tradition calls for.",
+      "recipe_detailed": [
+        "Whisk the buttermilk and hot sauce together and submerge the chicken thighs fully, marinating for at least an hour but ideally overnight — buttermilk's acidity tenderizes the meat while the hot sauce adds a layer of flavor underneath the crust.",
+        "Mix the dredge thoroughly so the paprika, garlic powder, salt, and pepper are evenly distributed through the flour. Pull the chicken straight from the buttermilk without shaking off too much liquid, then press it firmly into the flour mixture — that clinging buttermilk is what helps the flour build a thick, craggy crust rather than a thin dusting.",
+        "Fry at a steady 325 to 350°F, checking with a thermometer if you have one — thighs take longer than you'd expect, 6 to 7 minutes per side, since you need the crust deeply golden by the time the inside reaches a safe 165°F. Adjust the heat down if the outside is browning too fast relative to how cooked the inside is.",
+        "The hot oil topping is what makes this dish 'Nashville hot' rather than just fried chicken — carefully ladle out a portion of the hot frying oil (or heat fresh oil separately to a similar temperature) and whisk in the cayenne, brown sugar, and paprika immediately off the heat. Work quickly and carefully, since you're handling hot oil and volatile ground cayenne, which can make you cough if you breathe it in directly.",
+        "Brush this fiery, glossy oil generously over both sides of the chicken immediately after frying while it's still hot, so it soaks in rather than sitting on the surface. Build the sandwiches right away with cool mayo and crunchy dill pickles, whose fat and acidity respectively help balance the heat."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 337,
+      "name": "General Tso's Chicken",
+      "protein": "chicken",
+      "time": 30,
+      "servings": 4,
+      "cal": 560,
+      "desc": "Crispy fried chicken bites tossed in a sweet, tangy, slightly spicy takeout-style sauce.",
+      "premium": true,
+      "ingredients": [
+        "1.5 lb boneless chicken thighs, cubed",
+        "1 egg",
+        "0.5 cup cornstarch, plus 2 tbsp",
+        "Salt and pepper",
+        "Oil for frying",
+        "3 garlic cloves, minced",
+        "1 tbsp ginger, grated",
+        "3 dried red chiles (optional)",
+        "0.33 cup soy sauce",
+        "0.25 cup rice vinegar",
+        "0.25 cup sugar",
+        "2 tbsp ketchup",
+        "0.5 cup chicken broth",
+        "Steamed broccoli and rice to serve"
+      ],
+      "recipe": [
+        "Whisk egg with chicken, then toss in 0.5 cup cornstarch, salt, and pepper until evenly coated.",
+        "Heat oil to 350F. Fry chicken in batches 4-5 min until golden and crispy. Drain on a rack.",
+        "Whisk remaining 2 tbsp cornstarch into the broth. Whisk soy sauce, vinegar, sugar, and ketchup separately.",
+        "Heat a splash of oil in a clean pan, add garlic, ginger, and dried chiles if using, cook 30 sec. Add the soy-vinegar-sugar mixture, bring to a simmer.",
+        "Stir in the cornstarch slurry and simmer 1-2 min until thickened and glossy. Toss fried chicken in the sauce and serve immediately over rice with steamed broccoli."
+      ],
+      "tip": "Toss the chicken in the sauce right before serving, not ahead of time — even a great crispy coating goes soft fast once sauce hits it.",
+      "recipe_detailed": [
+        "Whisk the egg into the cubed chicken first so it has something to help the cornstarch adhere, then toss thoroughly in the cornstarch, salt, and pepper until every piece has a clumpy, even coating — this rougher texture (versus a smooth flour dredge) is what gives General Tso's its characteristic craggy, extra-crispy exterior.",
+        "Fry in oil heated to a true 350°F, working in batches so the pieces have room and the oil temperature doesn't crash. Four to five minutes should render them deeply golden and cooked through; drain on a wire rack rather than paper towels to keep the crust crisp.",
+        "Make the sauce components separately and have them ready before you start assembling: whisk the small amount of cornstarch into the broth to make a slurry (this thickens the sauce at the end), and whisk the soy sauce, vinegar, sugar, and ketchup together separately as your flavor base.",
+        "In a clean pan, quickly bloom the garlic, ginger, and dried chiles (if you want real heat) in a little oil over medium heat for just 30 seconds — any longer risks burning the garlic, which turns bitter. Immediately add the soy-vinegar-sugar mixture to stop the aromatics from cooking further, and bring it to a simmer.",
+        "Stir in the cornstarch slurry and simmer for a minute or two, watching it transform from thin and watery to glossy and clinging to the spoon. Toss the freshly fried chicken into this hot sauce right at the very end, just before serving — sauce sitting on fried chicken for even a few minutes will soften that crispy coating you worked to build."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 338,
+      "name": "Chicken Piccata with Capers",
+      "protein": "chicken",
+      "time": 25,
+      "servings": 4,
+      "cal": 430,
+      "desc": "Pan-seared chicken cutlets in a bright, buttery lemon-caper sauce.",
+      "premium": true,
+      "ingredients": [
+        "4 boneless chicken breasts, halved horizontally and pounded thin",
+        "Salt and pepper",
+        "0.5 cup flour",
+        "3 tbsp olive oil",
+        "4 tbsp butter, divided",
+        "3 garlic cloves, minced",
+        "0.5 cup dry white wine",
+        "0.5 cup chicken broth",
+        "0.33 cup lemon juice",
+        "3 tbsp capers, drained",
+        "Chopped parsley"
+      ],
+      "recipe": [
+        "Season chicken with salt and pepper, dredge lightly in flour, shaking off excess.",
+        "Heat olive oil and 1 tbsp butter in a large skillet over medium-high. Sear chicken 3-4 min per side until golden and cooked through. Remove.",
+        "Add garlic to the pan, cook 30 sec. Pour in wine, scraping up browned bits, and simmer 2-3 min to reduce slightly.",
+        "Add broth, lemon juice, and capers, simmer 3-4 min until slightly reduced.",
+        "Off heat, swirl in remaining butter until glossy. Return chicken to the pan to coat and warm through. Finish with parsley."
+      ],
+      "tip": "Pound the chicken to an even thickness before dredging — piccata cooks fast, and uneven cutlets mean some pieces dry out while others stay underdone.",
+      "recipe_detailed": [
+        "Slice each chicken breast horizontally into two thinner cutlets, then pound them between plastic wrap to an even quarter-inch thickness. Even thickness across all the pieces is what lets everything cook at the same fast pace without some pieces overcooking while others lag behind.",
+        "Season the cutlets, then dredge lightly in flour and shake off the excess thoroughly — you want just a thin, even coating that helps the chicken brown nicely and gives the sauce something to cling to, not a thick, gummy layer.",
+        "Sear in a mix of olive oil and butter (the oil raises the butter's smoke point so it doesn't burn) over medium-high heat, working in batches if your pan isn't large enough to avoid crowding. Three to four minutes per side should give you a golden crust and fully cooked chicken since the cutlets are thin.",
+        "Once the chicken is out, cook the garlic briefly in the same pan for just 30 seconds, then deglaze immediately with the wine, scraping up every browned bit stuck to the pan — this is where a lot of the sauce's flavor comes from. Let it reduce for a couple of minutes to cook off the raw alcohol taste.",
+        "Add the broth, lemon juice, and capers, and simmer until the sauce reduces slightly and the flavors concentrate. Take the pan off the heat entirely before swirling in the remaining cold butter — this off-heat mounting technique gives the sauce a glossy, emulsified finish rather than a greasy, separated one. Return the chicken just to reheat gently in the finished sauce, then serve immediately with parsley scattered over top."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 339,
+      "name": "Jerk Chicken with Rice and Peas",
+      "protein": "chicken",
+      "time": 60,
+      "servings": 4,
+      "cal": 560,
+      "desc": "Smoky-sweet, spicy Jamaican jerk chicken thighs grilled until charred, served with coconut rice and peas.",
+      "premium": true,
+      "ingredients": [
+        "8 bone-in chicken thighs",
+        "4 scallions, chopped",
+        "2 scotch bonnet or habanero peppers (adjust to taste)",
+        "1 onion, chopped",
+        "4 garlic cloves",
+        "1 tbsp fresh thyme",
+        "1 tbsp allspice",
+        "1 tsp cinnamon",
+        "1 tsp nutmeg",
+        "0.25 cup soy sauce",
+        "0.25 cup lime juice",
+        "2 tbsp brown sugar",
+        "2 tbsp oil",
+        "1.5 cups rice",
+        "1 can (14 oz) coconut milk",
+        "1 can red kidney beans, drained",
+        "1 clove garlic, whole",
+        "Salt"
+      ],
+      "recipe": [
+        "Blend scallions, peppers, onion, garlic, thyme, allspice, cinnamon, nutmeg, soy sauce, lime juice, brown sugar, and oil into a smooth marinade.",
+        "Marinate chicken thighs at least 2 hours, ideally overnight, in the fridge.",
+        "Grill chicken over medium heat, turning occasionally, 30-35 min until charred in spots and cooked through (165F internal), moving to indirect heat if flare-ups occur.",
+        "Meanwhile, combine rice, coconut milk, kidney beans, whole garlic clove, a splash of water, and salt in a pot. Bring to a boil, then cover and simmer 18-20 min until rice is tender.",
+        "Fluff rice and peas, discard garlic clove, and serve alongside the grilled jerk chicken."
+      ],
+      "tip": "Handle the scotch bonnet peppers with gloves and avoid touching your face — their heat lingers on skin far more than a jalapeno's.",
+      "recipe_detailed": [
+        "Blend all the marinade ingredients together until you have a mostly smooth, thick paste — the scotch bonnet peppers bring real heat along with a distinct fruity flavor that's central to authentic jerk seasoning, so don't substitute a milder pepper if you can help it, just adjust the quantity to your tolerance.",
+        "Coat the chicken thighs thoroughly in the marinade, working it under the skin if the thighs are skin-on for even deeper flavor. Marinate for at least 2 hours, but overnight gives the allspice, thyme, and heat real time to penetrate the meat rather than sitting only on the surface.",
+        "Grill over medium, not high, heat — jerk chicken benefits from a slower cook that renders the fat and chars the surface without burning it before the inside is done. Turn the pieces occasionally and expect 30 to 35 minutes total; move any pieces that flare up to a cooler part of the grill rather than pulling them too early.",
+        "Start the rice and peas partway through the chicken's grilling time so everything finishes together. Simmering the rice directly in coconut milk rather than water is what gives it that characteristic richness; a whole garlic clove tossed in infuses flavor without needing to mince anything.",
+        "Chicken is done at 165°F internal, with good char and color on the skin. Fluff the finished rice with a fork, discard the garlic clove, and serve everything together — the cool, creamy rice is meant to offset the heat and smokiness of the jerk chicken."
+      ],
+      "cuisine": null
+    }
+  ]
+}

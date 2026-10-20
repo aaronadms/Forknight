@@ -1,0 +1,2420 @@
+{
+  "batch": 1,
+  "proteins": [
+    "beef",
+    "pork"
+  ],
+  "count": 66,
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Skillet Beef & Broccoli",
+      "protein": "beef",
+      "cal": 480,
+      "time": 15,
+      "servings": 6,
+      "desc": "Beef strips, crisp broccoli, garlic-ginger sauce over steamed jasmine rice",
+      "ingredients": [
+        "1.5 lb beef sirloin, thinly sliced",
+        "4 cups broccoli florets",
+        "4 cloves garlic, minced",
+        "1 tbsp fresh ginger",
+        "4 tbsp low-sodium soy sauce",
+        "1.5 tbsp sesame oil",
+        "1 tbsp cornstarch",
+        "3 tbsp olive oil",
+        "Cauliflower rice to serve"
+      ],
+      "recipe": [
+        "Toss beef with cornstarch, soy sauce, sesame oil. Marinate 5 min.",
+        "Heat oil in large skillet on high. Sear beef 2-3 min. Remove.",
+        "Add broccoli, garlic, ginger. Stir fry 3 min.",
+        "Return beef, toss 1 min. Serve over steamed jasmine rice."
+      ],
+      "tip": "Slice the beef paper-thin against the grain and freeze for 15 minutes first - it cuts much easier and stays tender under high heat.",
+      "tip2": "The key to stir-fry is not moving things. Let the beef sit untouched for 60 seconds before tossing — that contact with the hot pan builds the caramelized crust.",
+      "recipe_detailed": [
+        "If the beef isn't already sliced, place it in the freezer for 15 min — it firms up and slices much thinner. Cut across the grain (perpendicular to the muscle fibers) into strips about ¼-inch thick. Thin slices mean fast searing and tender results.",
+        "In a bowl, toss the beef with cornstarch, soy sauce, and sesame oil. The cornstarch forms a light crust and helps thicken the sauce later. Let it sit 5 min while you prep everything else.",
+        "Heat a large skillet or wok over high heat until very hot — a drop of water should evaporate immediately. Add oil, then the beef in a single layer. Don't crowd the pan or it steams instead of sears. Cook 60 seconds without touching, then toss once more for 30 seconds. Remove to a plate — it'll finish cooking when you return it.",
+        "Add broccoli, garlic, and ginger to the same pan. Stir fry 3 min — the broccoli should be bright green and just tender but still have a snap.",
+        "Return the beef to the pan and add any sauce. Toss everything together for 1 min until the sauce thickens and coats the beef. Serve immediately over steamed jasmine rice."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 2,
+      "name": "Taco Bowl",
+      "protein": "beef",
+      "cal": 520,
+      "time": 15,
+      "servings": 6,
+      "desc": "Seasoned ground beef, black beans, pico, avocado, romaine",
+      "ingredients": [
+        "1.5 lb ground beef (90/10)",
+        "2 cans black beans, drained",
+        "1.5 cups pico de gallo",
+        "3 avocados, sliced",
+        "6 cups romaine, chopped",
+        "1.5 tbsp taco seasoning",
+        "Lime wedges"
+      ],
+      "recipe": [
+        "Brown ground beef, drain fat.",
+        "Add taco seasoning + 2 tbsp water, stir 1 min.",
+        "Divide romaine into bowls. Add beef, beans, pico, avocado.",
+        "Squeeze fresh lime over everything."
+      ],
+      "tip": "Toast the taco seasoning in a dry pan for 30 seconds before adding meat. The heat blooms the spices and deepens the flavor significantly.",
+      "tip2": "Let the beef sit in the pan undisturbed for 30 seconds at a time — you want a browned crust, not steamed grey meat. Crowded pan means no crust.",
+      "recipe_detailed": [
+        "Heat oil in a large skillet over medium-high. Add onion and cook 3 min until softened. Add ground beef, breaking it into small pieces. Cook 6-8 min without stirring too often — you want browning, not grey crumbles.",
+        "Drain off excess fat, leaving a thin film. Add taco seasoning and a splash of water, stir to coat. Cook 1-2 min until the water evaporates and the spices cling to the meat.",
+        "Warm the rice and build bowls: rice first, then beef, then toppings. For guac, mash avocado with lime juice and salt — taste as you go, it should be bright and a little salty.",
+        "Top each bowl with salsa, sour cream, shredded cheese, and a squeeze of lime. Eat while the beef is hot."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 4,
+      "name": "Sheet Pan Flank Steak",
+      "protein": "beef",
+      "cal": 390,
+      "time": 20,
+      "servings": 6,
+      "desc": "Marinated flank steak, roasted asparagus, lemon",
+      "ingredients": [
+        "2 lb flank steak",
+        "2 bunches asparagus, trimmed",
+        "4 tbsp olive oil",
+        "5 cloves garlic, minced",
+        "2 lemons, zested and juiced",
+        "1.5 tsp smoked paprika",
+        "Salt & pepper"
+      ],
+      "recipe": [
+        "Preheat oven to 425°F. Mix oil, garlic, lemon zest, paprika.",
+        "Coat steak and asparagus. Place on sheet pan.",
+        "Roast 12-15 min for medium-rare. Rest steak 5 min.",
+        "Slice and serve with asparagus and lemon juice."
+      ],
+      "tip": "Let the steak rest at room temperature 20 minutes before cooking. Cold meat seizes up and cooks unevenly. Resting after is equally important - don't skip it.",
+      "tip2": "Slice across the grain — look for the direction the muscle fibers run, then cut perpendicular to them. Cutting with the grain gives you chewy, stringy steak. Against it: tender every time.",
+      "recipe_detailed": [
+        "Preheat oven to 425F and line a sheet pan with foil. Pat the flank steak dry with paper towels — moisture prevents browning. Season all sides generously with salt, pepper, and any rub.",
+        "Toss vegetables in oil, salt, and pepper and spread on one side of the pan. Place the steak on the other side.",
+        "Roast 10-14 min depending on thickness. For medium-rare, pull it when a meat thermometer reads 130F — it will climb to 135F as it rests. Flank steak goes from perfect to tough quickly, so check early.",
+        "Rest the steak on a cutting board for at least 5 min before cutting. Slice thin against the grain and fan over the roasted vegetables."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 7,
+      "name": "Zucchini Noodle Bolognese",
+      "protein": "beef",
+      "cal": 560,
+      "time": 20,
+      "servings": 6,
+      "desc": "Rich meat sauce over spiralized zucchini",
+      "ingredients": [
+        "1.5 lb ground beef",
+        "5 medium zucchini, spiralized",
+        "1 can crushed tomatoes",
+        "1 onion, diced",
+        "4 cloves garlic",
+        "1 tsp Italian seasoning",
+        "Fresh basil",
+        "Parmesan to serve"
+      ],
+      "recipe": [
+        "Sauté onion 3 min. Add garlic 1 min.",
+        "Add beef, brown fully. Drain fat.",
+        "Add tomatoes and seasoning. Simmer 10 min.",
+        "Sauté zucchini noodles 2 min. Top with sauce, basil, parmesan."
+      ],
+      "tip": "Add a parmesan rind to the tomato sauce while it simmers. Remove before serving - it adds a savory depth you can't get any other way.",
+      "tip2": "Zucchini noodles release a lot of water as they cook. Toss them in the hot sauce for no more than 2 min — any longer and your sauce turns into soup.",
+      "recipe_detailed": [
+        "Heat oil in a large skillet over medium-high. Add onion, carrot, and celery and cook 5-7 min until softened. Add garlic, cook 1 min.",
+        "Add ground beef and cook 6-8 min, breaking into fine crumbles, until browned with no pink remaining. Drain excess fat — leave a thin layer for flavor.",
+        "Pour in crushed tomatoes, tomato paste, and herbs. Stir well, reduce heat to low, and simmer 20-25 min uncovered. The sauce should thicken and deepen in color.",
+        "Spiralize the zucchini into noodles. Add them to the sauce and toss gently for 1-2 min — just until warmed through. Season and serve immediately topped with Parmesan."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 10,
+      "name": "Korean Beef Bowl",
+      "protein": "beef",
+      "cal": 520,
+      "time": 25,
+      "servings": 6,
+      "desc": "Tender strips of Mongolian-style beef in a sweet-savory soy-ginger glaze over jasmine rice with green onions",
+      "ingredients": [
+        "1.5 lb flank steak, thinly sliced against the grain",
+        "0.25 cup cornstarch",
+        "0.5 cup low-sodium soy sauce",
+        "0.5 cup brown sugar",
+        "1 tbsp hoisin sauce",
+        "4 cloves garlic, minced",
+        "1 tbsp fresh ginger, grated",
+        "0.25 tsp red pepper flakes",
+        "0.25 cup vegetable oil",
+        "3 cups jasmine rice, cooked",
+        "4 green onions, sliced",
+        "Sesame seeds"
+      ],
+      "recipe": [
+        "Toss sliced flank steak with cornstarch to coat. Shake off excess.",
+        "Whisk soy sauce, brown sugar, hoisin, garlic, ginger, and red pepper flakes together.",
+        "Heat oil in wok over high heat. Sear beef in batches 1-2 min per side until caramelized. Remove and drain oil.",
+        "Return beef to pan, pour sauce over, toss 1-2 min until thickened and glossy.",
+        "Serve over jasmine rice topped with green onions and sesame seeds."
+      ],
+      "tip": "Slice flank steak partially frozen for ultra-thin strips. High heat in batches gives caramelized beef, not steamed.",
+      "tip2": "Sear in batches — never more than a single layer of beef in the pan. Crowding drops the pan temperature and the beef steams grey instead of caramelizing.",
+      "recipe_detailed": [
+        "Slice the flank steak as thin as possible against the grain. If it is hard to slice thin, freeze for 20 min first — it firms up and cuts cleanly.",
+        "Toss sliced beef with cornstarch to coat lightly. This helps it caramelize and thickens the sauce later. Shake off any excess.",
+        "Whisk together soy sauce, brown sugar, hoisin, garlic, ginger, and red pepper flakes. Taste — it should be salty-sweet with a little heat.",
+        "Heat oil in a wok or large skillet over the highest heat your stove has. Add beef in a single layer, sear 60 seconds, toss briefly and cook 30 more seconds. Remove and repeat with remaining beef. Return all beef, pour sauce over, toss 1-2 min until glossy and thickened. Serve over jasmine rice with green onions and sesame seeds."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 43,
+      "name": "Egg Roll in a Bowl",
+      "protein": "beef",
+      "cal": 360,
+      "time": 12,
+      "servings": 6,
+      "desc": "Ground beef, coleslaw mix, soy-ginger sauce",
+      "ingredients": [
+        "1.5 lb ground beef",
+        "2 bags (14 oz each) coleslaw mix",
+        "4 tbsp low-sodium soy sauce",
+        "1.5 tbsp sesame oil",
+        "1.5 tbsp fresh ginger",
+        "4 cloves garlic",
+        "3 green onions",
+        "Sriracha to taste"
+      ],
+      "recipe": [
+        "Brown beef in large skillet. Drain.",
+        "Add garlic and ginger, cook 1 min.",
+        "Add coleslaw mix, stir fry 3-4 min.",
+        "Add soy sauce and sesame oil. Toss. Top with green onion."
+      ],
+      "tip": "Press the coleslaw mix gently with a paper towel before adding it to the pan to remove excess moisture. Drier cabbage browns better and soaks up the sauce.",
+      "tip2": "The coleslaw mix finishes cooking in about 3 min — you want it wilted but still with a little bite, not completely collapsed. Taste a strand before pulling it off the heat.",
+      "recipe_detailed": [
+        "Heat oil in a large skillet or wok over medium-high. Add garlic and ginger and stir 30 seconds until fragrant. Add ground beef and cook 6 min, breaking into crumbles, until browned.",
+        "Drain excess fat, leaving a thin layer. Push the beef to the sides. Add the coleslaw mix to the center and stir fry 2-3 min until just wilted but still slightly crisp.",
+        "Mix in soy sauce, sesame oil, and rice vinegar. Toss everything together and cook 1 more minute. Taste and adjust seasoning.",
+        "Serve topped with sliced green onions, sriracha, and a drizzle of sesame oil. Optionally top with a fried egg."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 51,
+      "name": "Beef & Cabbage Stir Fry",
+      "protein": "beef",
+      "cal": 380,
+      "time": 12,
+      "servings": 6,
+      "desc": "Ground beef, shredded cabbage, soy-ginger sauce",
+      "ingredients": [
+        "1.5 lb ground beef",
+        "6 cups shredded cabbage",
+        "4 tbsp low-sodium soy sauce",
+        "1.5 tbsp fresh ginger",
+        "3 cloves garlic",
+        "1.5 tsp sesame oil",
+        "Green onions",
+        "Sesame seeds"
+      ],
+      "recipe": [
+        "Brown beef in large skillet. Drain.",
+        "Add garlic and ginger, stir 1 min.",
+        "Add cabbage, cook 3-4 min until slightly wilted.",
+        "Add soy sauce and sesame oil. Top with green onion and sesame seeds."
+      ],
+      "tip": "Add a splash of rice vinegar right at the end of cooking. The acidity cuts through the richness and brightens everything without tasting sour.",
+      "tip2": "Add the cabbage in batches if your pan is small — let each batch wilt slightly before adding more. Trying to fit it all at once drops the pan temp and it steams instead of stir fries.",
+      "recipe_detailed": [
+        "Slice beef thin against the grain. Toss with soy sauce and a pinch of cornstarch. Set aside while you prep everything else — stir fry moves fast.",
+        "Heat a wok or large skillet over high heat until smoking. Add oil, then beef in a single layer. Sear 60 seconds without touching, then toss for 30 seconds. Remove to a plate.",
+        "In the same pan add garlic and ginger and stir 30 seconds. Add cabbage and stir fry 3-4 min until wilted and edges begin to char slightly.",
+        "Return beef to the pan. Add sauce, toss everything together for 1 min until coated. Serve over rice with a drizzle of sesame oil."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 60,
+      "name": "Campechano Street Tacos",
+      "protein": "beef",
+      "cal": 410,
+      "time": 25,
+      "servings": 6,
+      "desc": "Grilled carne asada + chorizo blend, corn tortillas, onion, cilantro, salsa verde",
+      "ingredients": [
+        "1 lb skirt steak",
+        "1/2 lb Mexican chorizo",
+        "12 small corn tortillas",
+        "1 white onion, finely diced",
+        "1 bunch fresh cilantro, chopped",
+        "2 limes, cut in wedges",
+        "1 cup salsa verde",
+        "1 tsp cumin",
+        "Salt",
+        "Olive oil"
+      ],
+      "recipe": [
+        "Season skirt steak with cumin and salt. Grill or sear on cast iron 3-4 min per side.",
+        "Cook chorizo in a separate skillet, breaking up, 5 min. Drain excess fat.",
+        "Rest steak 3 min, then chop into small pieces. Mix with chorizo.",
+        "Warm tortillas on the grill or dry skillet. Double up each taco.",
+        "Fill with meat blend. Top with onion, cilantro, squeeze of lime, salsa verde."
+      ],
+      "tip": "For campechano, the chorizo fat is the sauce. Don't drain it - mix the chopped steak directly into the chorizo drippings so the meat absorbs every bit of flavor.",
+      "tip2": "Double up your tortillas — street tacos always use two corn tortillas per taco. Warm them directly on a gas burner or in a dry skillet until charred in spots. The char is flavor.",
+      "recipe_detailed": [
+        "If using steak, slice thin against the grain and season generously with salt, pepper, and cumin. If using chorizo, remove from casing and crumble.",
+        "Heat a cast iron or heavy skillet over high heat until very hot. Add a thin film of oil. Cook steak in batches 1-2 min per side for medium, or cook chorizo until crispy and rendered.",
+        "Warm tortillas directly over a gas flame for 20 seconds per side, or in a dry skillet. Stack two per taco and fill with the hot meat.",
+        "Top immediately with diced white onion, fresh cilantro, a squeeze of lime, and salsa. Eat while hot — corn tortillas toughen as they cool."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 61,
+      "name": "Meatloaf & Roasted Veggies",
+      "protein": "beef",
+      "cal": 430,
+      "time": 60,
+      "servings": 6,
+      "desc": "Classic meatloaf with ketchup glaze, roasted green beans and carrots",
+      "ingredients": [
+        "2 lb ground beef (80/20)",
+        "1/2 cup almond flour or breadcrumbs",
+        "2 eggs",
+        "1/3 cup milk",
+        "1 small onion, grated",
+        "3 cloves garlic, minced",
+        "2 tbsp Worcestershire sauce",
+        "1 tsp Italian seasoning",
+        "Salt & pepper",
+        "For glaze: 3 tbsp ketchup, 1 tbsp brown sugar, 1 tsp mustard",
+        "2 cups green beans",
+        "2 cups carrots, sliced",
+        "Olive oil"
+      ],
+      "recipe": [
+        "Preheat oven to 375°F. Mix beef, flour, eggs, milk, onion, garlic, Worcestershire, seasoning.",
+        "Form into loaf on a parchment-lined pan.",
+        "Mix ketchup, brown sugar, mustard. Spread over top.",
+        "Roast vegetables alongside with olive oil and salt.",
+        "Bake 50-55 min until internal temp reaches 160°F. Rest 10 min before slicing."
+      ],
+      "tip": "Mix the meatloaf by hand just until combined. Overworking develops the gluten in the binders and results in a dense, tough loaf instead of a tender one.",
+      "tip2": "Don't overmix the meatloaf. Mix just until everything is combined — overworking the meat makes it dense and tough. Use your hands and stop as soon as no dry spots remain.",
+      "recipe_detailed": [
+        "Preheat oven to 375F. In a large bowl, mix ground beef, onion, garlic, egg, breadcrumbs, Worcestershire, salt, and pepper. Use your hands and mix only until just combined.",
+        "Shape into a loaf on a foil-lined baking sheet. Mix ketchup with a little brown sugar and brush half over the top.",
+        "Toss vegetables with oil, salt, and pepper and spread around the loaf.",
+        "Bake 45-55 min. At 30 min, brush on the rest of the glaze. The meatloaf is done when an instant-read thermometer reads 160F in the center. Let it rest 10 min before slicing."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 62,
+      "name": "Smash Burgers",
+      "protein": "beef",
+      "cal": 380,
+      "time": 20,
+      "servings": 6,
+      "desc": "Crispy-edged smashed beef patties, melted cheese, lettuce wrap or bun",
+      "ingredients": [
+        "1.5 lb ground beef (80/20), formed into 6 loose balls",
+        "6 slices American or cheddar cheese",
+        "1 head butter lettuce (or 6 buns)",
+        "1 tomato, sliced",
+        "Pickles",
+        "Mustard, ketchup, mayo",
+        "Salt & pepper"
+      ],
+      "recipe": [
+        "Heat cast iron skillet or griddle over high heat until very hot.",
+        "Place beef ball on skillet. Immediately smash flat with spatula. Season with salt and pepper.",
+        "Cook 2-3 min until edges are crispy and brown. Flip.",
+        "Add cheese immediately. Cook 1 more min.",
+        "Serve in lettuce wraps or buns with sliced tomato, pickles, and your choice of mustard, ketchup, or mayo."
+      ],
+      "tip": "Use 80/20 beef for smash burgers - not leaner. The fat is what creates the lacy, crispy edges when smashed against a screaming hot surface. Leaner beef won't do this.",
+      "tip2": "Use an 80/20 beef blend — the fat is essential. Leaner beef makes a dry, crumbly smash burger. The fat renders into the patty as it cooks and that is where the flavor lives.",
+      "recipe_detailed": [
+        "Divide the ground beef into loose, rough balls — do not pack them tightly. About 3-4 oz each. Keep them cold until ready to cook.",
+        "Heat a cast iron skillet or griddle over the highest heat possible for 3-5 min until screaming hot. Add a thin layer of oil or butter.",
+        "Place a beef ball on the hot surface and immediately smash it flat with a spatula. Press hard — you want it thin, maybe a quarter inch. Season the top with salt and pepper.",
+        "Cook 2-3 min undisturbed until the edges look brown and lacy and the top is no longer pink. Flip once, add cheese immediately, and cook 30-60 more seconds. Build the burger on a toasted bun and serve immediately."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 63,
+      "name": "Smoked Ribs",
+      "protein": "beef",
+      "cal": 400,
+      "time": 300,
+      "servings": 6,
+      "desc": "Slow-smoked baby back ribs with dry rub, served with coleslaw",
+      "ingredients": [
+        "2 racks baby back ribs",
+        "2 tbsp smoked paprika",
+        "1 tbsp garlic powder",
+        "1 tbsp onion powder",
+        "1 tbsp brown sugar",
+        "1 tsp cayenne",
+        "1 tsp black pepper",
+        "1 tbsp salt",
+        "Your favorite BBQ sauce",
+        "4 cups coleslaw mix",
+        "2 tbsp apple cider vinegar",
+        "Olive oil"
+      ],
+      "recipe": [
+        "Mix all dry rub spices. Remove membrane from back of ribs. Coat generously with rub.",
+        "Smoke at 225°F for 4-5 hours (or bake wrapped in foil at 275°F for 3 hours).",
+        "Unwrap last 30 min and brush with BBQ sauce.",
+        "Rest 10 min before cutting into individual ribs.",
+        "Toss coleslaw with vinegar, olive oil, salt. Serve alongside."
+      ],
+      "tip": "The membrane on the back of the ribs must come off. Slide a butter knife under the corner, grab with a paper towel, and pull in one motion. It keeps the ribs from getting tough.",
+      "tip2": "The 3-2-1 method: 3 hours smoke unwrapped, 2 hours wrapped in foil, 1 hour unwrapped with sauce to set the bark. The foil phase is what separates fall-off-bone from chewy.",
+      "recipe_detailed": [
+        "Remove the membrane from the back of the ribs by sliding a butter knife under it and pulling with a paper towel for grip. This lets smoke and seasoning penetrate both sides.",
+        "Rub all surfaces generously with your seasoning blend. Let sit at room temperature 30 min, or refrigerate overnight for deeper flavor.",
+        "Set up your grill or smoker for indirect heat at 225-250F. Add wood chips. Place ribs bone-side down and smoke 3 hours.",
+        "Wrap tightly in foil with a splash of apple juice or butter inside. Cook wrapped 2 hours. Unwrap, brush with sauce, and cook 1 hour more. Ribs are done when the meat pulls back from the bone ends and a toothpick slides in with no resistance."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 66,
+      "name": "Lasagna with Salad",
+      "protein": "beef",
+      "cal": 520,
+      "time": 75,
+      "servings": 6,
+      "desc": "Hearty layered lasagna with mild Italian sausage, ricotta, mozzarella, and a crisp side salad",
+      "ingredients": [
+        "1.5 lb mild Italian sausage, casings removed",
+        "12 lasagna noodles",
+        "2 cups ricotta cheese",
+        "2 cups shredded mozzarella",
+        "1/2 cup parmesan",
+        "1 egg",
+        "2 jars marinara sauce",
+        "2 cloves garlic",
+        "1 tsp Italian seasoning",
+        "Salt & pepper",
+        "For salad: romaine, cherry tomatoes, cucumber, Italian dressing"
+      ],
+      "recipe": [
+        "Preheat oven to 375°F. Brown beef with garlic, drain. Mix in marinara.",
+        "Cook noodles al dente. Drain.",
+        "Mix ricotta, egg, half the parmesan, Italian seasoning.",
+        "Layer in 9x13 pan: sauce, noodles, ricotta, beef, mozzarella. Repeat.",
+        "Top with remaining mozzarella and parmesan. Cover with foil.",
+        "Bake 45 min. Remove foil, bake 15 more min until bubbly. Rest 10 min before cutting.",
+        "Toss salad and serve alongside."
+      ],
+      "tip": "Rest the lasagna 15 minutes after pulling from the oven before cutting. The layers set during this time. Cutting immediately gives you a puddle; resting gives you clean squares.",
+      "tip2": "Let the baked lasagna rest 20 min before cutting. The layers need time to set so they don't collapse when sliced. Fresh-from-the-oven lasagna is molten and falls apart — rested lasagna holds in perfect squares.",
+      "recipe_detailed": [
+        "Make meat or vegetable sauce: brown protein or saute vegetables, add crushed tomatoes and herbs, and simmer 20 min until thick. Season well.",
+        "Make bechamel: melt butter, whisk in flour, cook 1 min, then gradually whisk in warm milk. Stir constantly until thick. Season with salt, nutmeg, and pepper.",
+        "Layer in a baking dish: sauce, lasagna sheets, bechamel, ricotta mixture if using, cheese. Repeat. Finish with bechamel and a generous layer of mozzarella and Parmesan.",
+        "Cover with foil and bake at 375F for 40 min. Remove foil and bake 20 more min until bubbling and golden. Rest 20 min before cutting."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 109,
+      "name": "Beef Bulgogi Bowls",
+      "protein": "beef",
+      "cal": 490,
+      "time": 20,
+      "servings": 6,
+      "desc": "Korean marinated beef, sesame, cucumber, kimchi over jasmine rice",
+      "ingredients": [
+        "1.5 lb beef sirloin, thinly sliced",
+        "4 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp honey",
+        "4 cloves garlic",
+        "1 tbsp ginger",
+        "1 pear, grated",
+        "3 cups jasmine rice, cooked",
+        "1 cucumber, sliced",
+        "Kimchi",
+        "Sesame seeds"
+      ],
+      "recipe": [
+        "Mix soy, sesame oil, honey, garlic, ginger, pear. Marinate beef 10+ min.",
+        "Cook beef in hot skillet in batches, 2-3 min. Don't overcrowd.",
+        "Cook jasmine rice per package instructions.",
+        "Build bowls: rice, beef, cucumber, kimchi.",
+        "Top with sesame seeds and green onion."
+      ],
+      "tip": "Grated Asian pear is a traditional tenderizer in bulgogi marinades - it contains enzymes that break down muscle fibers. Even 30 minutes makes the beef noticeably more tender.",
+      "tip2": "Asian pear or kiwi in the bulgogi marinade is not just for flavor — the natural enzymes tenderize the beef fibers as it sits. Even 30 min with pear makes a noticeable difference in texture.",
+      "recipe_detailed": [
+        "Slice beef ribeye or sirloin paper-thin against the grain. If it is hard to slice thin, freeze for 20 min first.",
+        "Mix marinade: soy sauce, brown sugar, sesame oil, grated Asian pear or kiwi, garlic, ginger, and black pepper. Toss beef in marinade and refrigerate at least 30 min, preferably 2 hours.",
+        "Cook in a very hot pan or grill pan in batches — don't crowd or it steams. Sear 1-2 min per side until caramelized at the edges and cooked through.",
+        "Serve over rice with stir-fried vegetables, kimchi, sliced green onion, and sesame seeds. A fried egg on top is traditional."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 110,
+      "name": "Carne Guisada",
+      "protein": "beef",
+      "cal": 420,
+      "time": 45,
+      "servings": 6,
+      "desc": "Tender Mexican beef stew with peppers, tomatoes, and cumin gravy",
+      "ingredients": [
+        "2 lb beef chuck, cubed",
+        "2 tomatoes, diced",
+        "2 jalapeños, diced",
+        "1 onion, diced",
+        "3 cloves garlic",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "1 cup beef broth",
+        "2 tbsp olive oil",
+        "Salt & pepper",
+        "Tortillas or cauli rice to serve"
+      ],
+      "recipe": [
+        "Brown beef in batches in olive oil. Remove.",
+        "Sauté onion, jalapeño, garlic 4 min. Add spices 1 min.",
+        "Add tomatoes and broth. Return beef.",
+        "Simmer covered 30-35 min until tender.",
+        "Serve with warm tortillas or over cilantro-lime rice."
+      ],
+      "tip": "Cut the beef chuck into larger cubes than you think - 2 inches. Small pieces overcook and dry out during the braise. Large pieces break down properly and stay moist.",
+      "tip2": "Don't rush the browning step — deeply searing the beef on all sides builds a fond on the bottom of the pot that becomes the flavor base of the entire stew. Pale grey beef makes a pale grey stew.",
+      "recipe_detailed": [
+        "Cut beef chuck into 1.5-inch cubes. Pat dry and season generously. Brown in batches in a heavy pot over high heat until deeply seared on all sides — do not crowd the pan. Remove each batch.",
+        "In the same pot, saute onion, bell pepper, and garlic until softened. Add cumin, chili powder, and oregano, stir 1 min.",
+        "Add diced tomatoes, broth, and return the beef. Bring to a boil, then reduce to a very low simmer.",
+        "Braise covered 1.5-2 hours until the beef is fall-apart tender. Stir in a spoonful of masa harina dissolved in water to thicken. Serve with warm flour tortillas and rice."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 111,
+      "name": "Beef Fajita Bowls",
+      "protein": "beef",
+      "cal": 430,
+      "time": 15,
+      "servings": 6,
+      "desc": "Sizzled skirt steak, charred peppers and onions, avocado, lime",
+      "ingredients": [
+        "1.5 lb skirt steak, sliced thin",
+        "3 bell peppers, sliced",
+        "1 large onion, sliced",
+        "2 tbsp fajita seasoning",
+        "2 avocados",
+        "1 lime",
+        "2 tbsp olive oil",
+        "3 cups jasmine rice, cooked",
+        "Sour cream",
+        "Salsa"
+      ],
+      "recipe": [
+        "Season steak with fajita seasoning.",
+        "Sear in hot skillet 2-3 min per side. Rest and slice.",
+        "In same pan, char peppers and onion 5 min.",
+        "Build bowls: cauli rice, steak, peppers, avocado.",
+        "Finish with lime, sour cream, and salsa."
+      ],
+      "tip": "Sear the beef in a single layer without moving it for at least 3 minutes. Resist the urge to stir. The crust is where the flavor lives, and it won't form if the meat steams.",
+      "tip2": "Marinate the steak in lime juice, oil, and cumin for at least 30 min but no more than 4 hours — beyond that, the acid starts to cook the surface of the meat and gives it an unpleasant mealy texture.",
+      "recipe_detailed": [
+        "Slice flank steak thin against the grain. Toss with lime juice, oil, cumin, garlic powder, and chili powder. Marinate 30 min to 4 hours.",
+        "Cook in a screaming hot cast iron pan in batches — 1-2 min per side maximum. The goal is char, not thorough cooking. The thin slices cook through in seconds. Rest 3 min before serving.",
+        "In the same pan, cook sliced peppers and onion over high heat 4-5 min until charred at the edges.",
+        "Build bowls: rice or lettuce base, beef and peppers, guacamole, pico de gallo, sour cream, and shredded cheese. Squeeze lime over everything."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 112,
+      "name": "Birria-Style Beef Tacos",
+      "protein": "beef",
+      "cal": 510,
+      "time": 60,
+      "servings": 6,
+      "desc": "Braised chili-spiced beef, crispy fried tacos, consommé for dipping",
+      "ingredients": [
+        "2 lb beef chuck",
+        "3 dried guajillo chiles, soaked",
+        "2 dried ancho chiles, soaked",
+        "4 cloves garlic",
+        "1 tsp cumin",
+        "1 tsp oregano",
+        "2 cups beef broth",
+        "12 corn tortillas",
+        "1 cup Oaxacan or mozzarella cheese",
+        "White onion, cilantro, lime to serve"
+      ],
+      "recipe": [
+        "Blend soaked chiles, garlic, cumin, oregano, broth into sauce.",
+        "Brown beef, pour sauce over. Braise covered 45-50 min until shreddable.",
+        "Shred beef. Reserve braising liquid as consommé.",
+        "Dip tortillas in consommé, fill with beef and cheese, fry until crispy.",
+        "Serve with onion, cilantro, lime, and consommé for dipping."
+      ],
+      "tip": "The consommé dip is not optional. It's what transforms birria tacos from good to extraordinary. Dip the assembled taco briefly - just enough to coat, not soak.",
+      "tip2": "Dip the tortilla into the top of the consomme before frying — the fat that floats on top of the broth is where the color comes from. A properly dipped tortilla turns a deep, brilliant orange-red in the pan.",
+      "recipe_detailed": [
+        "Make the adobo: toast dried guajillo and ancho chiles in a dry pan 30 seconds per side. Remove stems and seeds, soak in hot water 15 min. Blend with garlic, oregano, cumin, and some soaking liquid.",
+        "Season beef chunks generously. Brown in batches in a Dutch oven. Add the chile sauce and enough broth to cover. Braise at 325F for 3 hours until pull-apart tender. Shred beef into the broth.",
+        "Dip corn tortillas into the top of the consomme. Cook in a hot dry skillet 1-2 min per side until crispy. Fill with shredded beef and cheese, fold in half.",
+        "Serve with a small bowl of warm consomme for dipping. Top tacos with white onion, fresh cilantro, and lime."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 113,
+      "name": "Pork Carnitas Bowls",
+      "protein": "pork",
+      "cal": 440,
+      "time": 20,
+      "servings": 6,
+      "desc": "Crispy shredded pork over greens with pico, avocado, and lime crema",
+      "ingredients": [
+        "2 lb pork shoulder, cubed",
+        "1 orange, juiced",
+        "1 lime, juiced",
+        "4 cloves garlic",
+        "1 tsp cumin",
+        "1 tsp oregano",
+        "Salt & pepper",
+        "2 avocados",
+        "1 cup pico de gallo",
+        "1/2 cup Greek yogurt",
+        "4 cups romaine"
+      ],
+      "recipe": [
+        "Season pork. Cook in instant pot 25 min (or slow cooker 6-8 hrs) with OJ, lime, garlic.",
+        "Shred pork, spread on sheet pan, broil 3-4 min until crispy.",
+        "Mix yogurt with lime juice for crema.",
+        "Build bowls: romaine, carnitas, avocado, pico, crema."
+      ],
+      "tip": "The broil step at the end is what makes carnitas. Without crisping the edges under high heat, you just have pulled pork. The caramelized bits are the whole point.",
+      "tip2": "After the long braise, spread the pork on a sheet pan and broil it — 5 min is enough to caramelize the edges and create those crispy, charred bits that make carnitas special. Don't skip the broil.",
+      "recipe_detailed": [
+        "Cut pork shoulder into large chunks, season generously with salt, pepper, cumin, oregano, and garlic. Place in a Dutch oven or slow cooker with orange juice, lime juice, and diced onion.",
+        "Braise in a 325F oven 3-4 hours or slow cook on low 8 hours until the pork shreds easily when pressed.",
+        "Remove pork, shred roughly with two forks. Spread on a foil-lined sheet pan. Pour some cooking liquid over the meat. Broil 5-7 min until edges crisp and caramelize — watch closely.",
+        "Serve in bowls over cilantro rice with black beans, pico de gallo, shredded cheese, sour cream, and avocado. Squeeze lime over everything."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 114,
+      "name": "Pork Tenderloin & Roasted Apples",
+      "protein": "pork",
+      "cal": 390,
+      "time": 25,
+      "servings": 3,
+      "desc": "Herb-crusted pork tenderloin with caramelized apples and green beans",
+      "ingredients": [
+        "1.5 lb pork tenderloin",
+        "2 apples, cored and sliced",
+        "2 cups green beans",
+        "2 tbsp olive oil",
+        "1 tsp rosemary",
+        "1 tsp thyme",
+        "2 cloves garlic",
+        "1 tbsp honey",
+        "Salt & pepper"
+      ],
+      "recipe": [
+        "Preheat oven to 425°F. Rub tenderloin with oil, rosemary, thyme, garlic, salt.",
+        "Sear in oven-safe skillet 3 min per side.",
+        "Add apple slices and green beans around pork. Drizzle honey over apples.",
+        "Roast 14-16 min until pork hits 145°F. Rest 5 min.",
+        "Slice and serve with apples and green beans."
+      ],
+      "tip": "Pull the pork from the oven at 145°F and rest 5 minutes. USDA guidelines allow medium doneness - well-done pork tenderloin is dry and chalky.",
+      "tip2": "Pork tenderloin is very lean and overcooks fast. Pull it at 140-145F internal temp — it will look slightly pink in the center, which is safe and keeps it juicy. Cooking to 160F turns it grey and dry.",
+      "recipe_detailed": [
+        "Pat pork tenderloin dry and season generously. Sear in a hot oven-safe skillet with oil over medium-high heat, turning to brown all sides, about 6 min total.",
+        "Remove pork. In the same pan, add apple wedges and onion slices. Cook 2-3 min until starting to soften. Add a splash of apple cider or broth to deglaze.",
+        "Return pork to the pan on top of the apple mixture. Transfer to a 400F oven for 15-20 min until a thermometer reads 140-145F.",
+        "Rest pork 5 min before slicing — the temperature will rise to 145F as it rests. Slice into medallions and serve with the pan apples and any juices."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 115,
+      "name": "Pork & Veggie Stir Fry",
+      "protein": "pork",
+      "cal": 370,
+      "time": 15,
+      "servings": 3,
+      "desc": "Ground pork, snap peas, bok choy, ginger-garlic sauce over cauli rice",
+      "ingredients": [
+        "1 lb ground pork",
+        "2 heads baby bok choy, halved",
+        "1.5 cups snap peas",
+        "3 cloves garlic",
+        "1 tbsp ginger",
+        "3 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tsp honey",
+        "3 cups jasmine rice, cooked",
+        "Sesame seeds"
+      ],
+      "recipe": [
+        "Brown pork in a wok over high heat. Drain fat.",
+        "Add garlic and ginger 1 min.",
+        "Add bok choy and snap peas, stir fry 3 min.",
+        "Add soy sauce, sesame oil, honey. Toss 1 min.",
+        "Serve over steamed jasmine rice with sesame seeds."
+      ],
+      "tip": "Use medium-high heat and don't add the sauce until you've gotten good color on the vegetables. Sauce added too early steams everything and prevents browning.",
+      "tip2": "Freeze the pork loin for 20 min before slicing — it firms up and you can cut it much thinner than fully thawed meat. Thin slices cook in 2 min and stay tender.",
+      "recipe_detailed": [
+        "Slice pork thin against the grain. Toss with soy sauce, cornstarch, and a little sesame oil. Let sit 10 min.",
+        "Heat a wok over highest heat until smoking. Add oil, then pork in a single layer. Sear 60 seconds, toss, cook 30 more seconds. Remove — it should be just cooked through.",
+        "In the same wok, stir fry dense vegetables first 2 min, then softer ones 1 min. Add garlic and ginger.",
+        "Return pork. Add stir fry sauce. Toss everything 1 min until sauce thickens and coats. Serve over rice."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 116,
+      "name": "Pork Chops & Mushroom Gravy",
+      "protein": "pork",
+      "cal": 450,
+      "time": 20,
+      "servings": 3,
+      "desc": "Pan-seared thick-cut pork chops in savory mushroom and herb gravy",
+      "ingredients": [
+        "4 thick-cut pork chops",
+        "2 cups cremini mushrooms, sliced",
+        "1 cup chicken broth",
+        "2 tbsp butter",
+        "3 cloves garlic",
+        "1 tsp thyme",
+        "1 tbsp Worcestershire sauce",
+        "Salt & pepper",
+        "Olive oil"
+      ],
+      "recipe": [
+        "Season pork chops well. Sear in hot skillet 4-5 min per side. Remove.",
+        "Sauté mushrooms 5 min. Add garlic and thyme 1 min.",
+        "Add broth and Worcestershire, scrape up bits. Simmer 3 min.",
+        "Swirl in butter, return chops, spoon gravy over. Serve."
+      ],
+      "tip": "Resist the urge to move the pork chops while searing. They'll release naturally when a proper crust has formed. Forcing them early tears the crust and loses the fond.",
+      "tip2": "Scraping up the browned bits (fond) when you add the broth is not optional — that's where the gravy's flavor is. Use a wooden spoon and really get in there.",
+      "recipe_detailed": [
+        "Pat the pork chops completely dry with paper towels — moisture is the enemy of a good sear. Season generously on both sides with salt and pepper. Dry surface + hot pan = crust.",
+        "Heat oil in a large skillet over medium-high until shimmering. Add the chops and don't touch them — let them sear 4–5 min. They'll release naturally when they've built a crust. Flip and sear the other side 3–4 min. They should be deep golden brown. Remove to a plate — they may not be fully cooked through yet and that's fine.",
+        "Reduce heat to medium. Add mushrooms to the same pan and cook 5 min without stirring much, letting them brown on one side before tossing. Add garlic and thyme and stir 1 min.",
+        "Pour in the broth and Worcestershire sauce. Use a wooden spoon to scrape up every bit of the browned residue from the bottom — that's concentrated flavor. Simmer 3 min until slightly reduced.",
+        "Swirl in the cold butter — this gives the gravy a glossy, velvety texture. Return the pork chops to the pan, spoon gravy generously over them, and let them rest in the sauce 2 min. The residual heat finishes cooking them through."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 117,
+      "name": "Sausage & Pepper Skillet",
+      "protein": "pork",
+      "cal": 420,
+      "time": 15,
+      "servings": 6,
+      "desc": "Italian sausage, bell peppers, onions, marinara over zucchini noodles",
+      "ingredients": [
+        "1 lb Italian sausage, sliced",
+        "3 bell peppers, sliced",
+        "1 onion, sliced",
+        "1 cup marinara sauce",
+        "4 medium zucchini, spiralized",
+        "3 cloves garlic",
+        "2 tbsp olive oil",
+        "Italian seasoning",
+        "Parmesan to serve"
+      ],
+      "recipe": [
+        "Sear sausage slices until browned, 5 min. Remove.",
+        "Sauté peppers and onion 5 min. Add garlic 1 min.",
+        "Return sausage, add marinara and seasoning. Toss 2 min.",
+        "Sauté zucchini noodles 2 min separately.",
+        "Plate noodles, top with sausage mixture and parmesan."
+      ],
+      "tip": "Brown the sausage in a dry pan with no added oil - there's plenty of fat in the sausage itself. Rendering its own fat creates better browning than oil ever could.",
+      "tip2": "Brown the sausage slices in a single layer without stirring — those browned, caramelized cut faces are packed with flavor. Stirring constantly gives you grey sausage with no crust.",
+      "recipe_detailed": [
+        "Slice sausage into rounds. Heat oil in a large skillet over medium-high. Add sausage in a single layer cut-side down. Cook 3-4 min without stirring until deeply browned on one face. Flip and cook 2 min. Remove.",
+        "In the same pan, add sliced bell peppers and onion. Cook over medium-high heat 5-6 min until softened and charred at the edges — let them sit without stirring for 2 min at a time.",
+        "Add garlic, Italian seasoning, and crushed tomatoes if using. Stir and cook 2 min. Return sausage to the pan and toss everything together.",
+        "Serve over rice, pasta, or in hoagie rolls. Top with fresh basil."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 150,
+      "name": "Reverse-Sear Ribeye & Sweet Potato",
+      "protein": "beef",
+      "cal": 680,
+      "time": 55,
+      "servings": 2,
+      "desc": "Gordon Ramsay-inspired reverse-sear ribeye with whipped sweet potato - the most foolproof steak method",
+      "ingredients": [
+        "2 bone-in ribeye steaks (1.5\"thick)",
+        "Kosher salt and black pepper",
+        "2 sprigs rosemary",
+        "4 garlic cloves, crushed",
+        "3 tbsp unsalted butter",
+        "2 tbsp neutral oil",
+        "2 large sweet potatoes",
+        "2 tbsp butter",
+        "1/4 cup warm cream",
+        "1/2 tsp smoked paprika",
+        "Flaky sea salt"
+      ],
+      "recipe": [
+        "Season steaks generously with kosher salt 45 min before cooking. Pat completely dry.",
+        "Preheat oven to 250°F. Place steaks on a wire rack over a baking sheet. Roast 25-35 min until internal temp reads 120°F (rare) or 125°F (medium-rare).",
+        "Pierce sweet potatoes, microwave 8-10 min. Scoop flesh, whip with butter, warm cream, paprika, and salt.",
+        "Heat cast iron ripping hot until smoking. Add oil. Sear steaks 60-90 sec per side until deep mahogany. Add butter, rosemary, garlic. Baste 30 sec.",
+        "Rest 5 min. Finish with flaky salt. Serve with whipped sweet potato."
+      ],
+      "tip": "The reverse sear dries the surface completely so you get a crust in under 2 minutes without overcooking the interior. Never skip resting.",
+      "tip2": "The reverse sear gives you edge-to-edge perfect doneness with no overcooked grey ring. Traditional sear-first gives you a gradient from well-done at the edges to rare in the center. Reverse sear wins every time.",
+      "recipe_detailed": [
+        "Season the ribeye generously with salt and pepper on all sides. For best results, season 1-24 hours ahead and refrigerate uncovered — the salt draws out moisture and then it reabsorbs as a brine.",
+        "Place the steak on a wire rack over a sheet pan. Cook in a 250F oven for 25-40 min depending on thickness, until an instant-read thermometer reads 115-120F for medium-rare.",
+        "Meanwhile, roast sweet potatoes at 425F until tender, or bake them whole at 400F for 45 min.",
+        "When the steak reaches 115-120F, heat a cast iron skillet screaming hot for 5 min. Add oil, then sear the steak 60-90 seconds per side for a deeply caramelized crust. Rest 5 min before slicing."
+      ],
+      "cuisine": "american"
+    },
+    {
+      "id": 171,
+      "name": "Taiwanese Braised Pork Rice",
+      "protein": "pork",
+      "cal": 450,
+      "time": 40,
+      "servings": 4,
+      "desc": "Lu Rou Fan - tender soy-braised pork belly over steamed rice with soy egg and pickles",
+      "ingredients": [
+        "1.5 lbs pork belly, cubed",
+        "1/3 cup soy sauce",
+        "2 tbsp dark soy sauce",
+        "2 tbsp rice wine",
+        "2 tbsp brown sugar",
+        "1 cup water",
+        "3 garlic cloves",
+        "2 shallots, sliced",
+        "2 star anise",
+        "1/2 tsp five spice",
+        "4 hard boiled eggs",
+        "White rice",
+        "Pickled mustard greens"
+      ],
+      "recipe": [
+        "Blanch pork belly 5 min. Drain. Caramelize shallots in oil until golden. Add garlic, star anise, five spice. Cook 1 min.",
+        "Add pork, both soy sauces, rice wine, sugar, water. Add peeled boiled eggs. Bring to boil.",
+        "Simmer covered 35 min until pork is tender and sauce is thick and glossy.",
+        "Serve over rice with halved soy egg and pickled greens."
+      ],
+      "tip": "Dark soy sauce is key for the deep caramel color - don't substitute with regular soy.",
+      "tip2": "Dark soy sauce is what gives Lu Rou Fan its signature mahogany color — it is thicker and sweeter than regular soy. If you don't have it, use regular soy and add a teaspoon of molasses.",
+      "recipe_detailed": [
+        "Blanch pork belly cubes in boiling water 5 min. Drain and rinse — this removes impurities and makes the final sauce cleaner.",
+        "In a wok or Dutch oven over medium heat, fry shallots in oil until golden. Add pork and stir fry 5 min until lightly colored.",
+        "Add soy sauce, dark soy sauce, rice wine, sugar, star anise, five spice, and enough water to just cover. Bring to a boil, skim any foam.",
+        "Reduce to the lowest possible simmer and braise 1-1.5 hours until the pork is meltingly tender and the sauce has reduced to a thick, lacquered glaze. Add hard-boiled eggs in the last 20 min. Serve over white rice with pickled vegetables."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 172,
+      "name": "Mexican Pork Pozole",
+      "protein": "pork",
+      "cal": 390,
+      "time": 50,
+      "servings": 6,
+      "desc": "A hearty traditional Mexican hominy soup with tender pork shoulder and dried chiles",
+      "ingredients": [
+        "2 lbs pork shoulder, cubed",
+        "2 cans (15 oz) hominy, drained",
+        "3 dried guajillo chiles",
+        "2 dried ancho chiles",
+        "4 garlic cloves",
+        "1 onion",
+        "1 tsp cumin",
+        "1 tsp oregano",
+        "6 cups chicken broth",
+        "Salt",
+        "Shredded cabbage, radish, lime, tostadas to top"
+      ],
+      "recipe": [
+        "Sear pork until browned. Remove. Toast dried chiles 30 sec per side. Soak in hot water 20 min. Blend with garlic and 1 cup soaking water. Strain into pot.",
+        "Add pork, broth, cumin, oregano. Simmer 35 min. Add hominy. Cook 10 more min. Season.",
+        "Serve topped with cabbage, radish, lime, and oregano."
+      ],
+      "tip": "Toasting dried chiles briefly wakes them up - 60 seconds makes a huge difference to flavor depth.",
+      "tip2": "Hominy needs time to absorb the broth flavor — don't add it at the start. Add it for the last 20 min of simmering so it softens and swells in the flavored broth without turning mushy.",
+      "recipe_detailed": [
+        "Brown pork shoulder in batches in a large pot over high heat. Remove and set aside. In the drippings, cook onion and garlic until softened.",
+        "Make the chile base: toast dried guajillo and ancho chiles briefly in a dry pan. Remove seeds and stems, soak in hot water 15 min. Blend with garlic, oregano, and some soaking liquid until smooth.",
+        "Return pork to the pot. Add chile sauce, broth, and cumin. Simmer 1.5-2 hours until pork is pull-apart tender. Shred the pork into the broth.",
+        "Add drained hominy and simmer 20 more min. Taste and season. Serve topped with shredded cabbage, radishes, dried oregano, lime juice, and warm tortillas."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 173,
+      "name": "Korean Spicy Pork Stir Fry",
+      "protein": "pork",
+      "cal": 400,
+      "time": 20,
+      "servings": 4,
+      "desc": "Dwaeji Bulgogi - spicy-sweet pork marinated in gochujang, sesame, and pear",
+      "ingredients": [
+        "1.5 lbs pork shoulder, thinly sliced",
+        "3 tbsp gochujang",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp rice wine",
+        "2 tbsp sugar or honey",
+        "4 garlic cloves, grated",
+        "1 tbsp ginger",
+        "1/2 Asian pear, grated",
+        "Sesame seeds, green onion",
+        "Rice and lettuce wraps"
+      ],
+      "recipe": [
+        "Combine gochujang, soy, sesame oil, rice wine, sugar, garlic, ginger, and pear for marinade. Marinate pork 30 min.",
+        "Cook in a cast iron over high heat 2-3 min per side until edges caramelize.",
+        "Garnish with sesame seeds and green onion. Serve with rice in lettuce wraps."
+      ],
+      "tip": "Grated pear is a traditional Korean tenderizer - enzymes break down the protein and add fruity sweetness.",
+      "tip2": "Gochujang and gochugaru together give you two layers of heat — one deep and fermented, one bright and direct. Using both is what makes it taste Korean rather than just hot.",
+      "recipe_detailed": [
+        "Slice pork belly or shoulder very thin. Mix marinade: gochujang, gochugaru, soy sauce, sesame oil, garlic, ginger, and a little sugar. Toss pork in marinade and let sit 15-30 min.",
+        "Heat wok over very high heat. Add pork in a single layer — it should sizzle loudly. Stir fry 3-4 min until cooked through and caramelized. Work in batches to avoid steaming.",
+        "Add sliced onion and green onion to the pan in the last 2 min. Toss briefly.",
+        "Serve over rice. Top with sesame seeds, more green onion, and a fried egg. The egg yolk broken over everything and mixed in is traditional."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 174,
+      "name": "Chinese Char Siu Pork",
+      "protein": "pork",
+      "cal": 380,
+      "time": 45,
+      "servings": 4,
+      "desc": "Cantonese BBQ pork with a lacquered honey-hoisin glaze - the signature red pork of Cantonese cuisine",
+      "ingredients": [
+        "2 lbs pork shoulder or tenderloin",
+        "3 tbsp hoisin sauce",
+        "2 tbsp soy sauce",
+        "2 tbsp honey",
+        "1 tbsp oyster sauce",
+        "1 tbsp dry sherry",
+        "1/2 tsp Chinese five spice",
+        "2 garlic cloves, grated",
+        "1 tsp sesame oil"
+      ],
+      "recipe": [
+        "Mix all sauce ingredients. Reserve 1/4 for glazing. Marinate pork 2 hours or overnight.",
+        "Roast at 400°F on a wire rack over a foil pan with 1/2 cup water below, 25 min. Brush with reserved marinade. Roast 15 more min until lacquered.",
+        "Rest 5 min. Slice and serve over rice with bok choy."
+      ],
+      "tip": "The water in the pan prevents drips from smoking, but you still want high heat for the lacquer.",
+      "tip2": "Brush the glaze on in multiple thin coats during cooking rather than one thick coat, and use the broiler for the final 3 min to get the signature char.",
+      "recipe_detailed": [
+        "Slice pork shoulder into long strips about 2 inches wide. Mix marinade: hoisin, soy sauce, honey, Shaoxing wine, five spice, and garlic. Marinate at least 4 hours, preferably overnight.",
+        "Remove pork from marinade and reserve the marinade. Place on a rack over a foil-lined baking sheet.",
+        "Roast at 375F for 25 min, brushing with reserved marinade every 10 min. Increase to broil for the last 3-5 min — watch closely as the high sugar glaze transitions from sticky to char.",
+        "Rest 5 min, then slice against the grain. Serve over rice with steamed bok choy and a drizzle of any leftover glaze."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 175,
+      "name": "Vietnamese Caramelized Pork",
+      "protein": "pork",
+      "cal": 370,
+      "time": 30,
+      "servings": 4,
+      "desc": "Thịt kho - pork belly braised in a rich caramel, fish sauce, and coconut water with soy eggs",
+      "ingredients": [
+        "1.5 lbs pork belly, cubed",
+        "1/3 cup fish sauce",
+        "3 tbsp sugar",
+        "1 1/2 cups coconut water",
+        "4 eggs, hard boiled and peeled",
+        "4 garlic cloves",
+        "2 shallots",
+        "Black pepper",
+        "Steamed rice"
+      ],
+      "recipe": [
+        "Cook sugar in a dry pan until golden caramel. Add coconut water carefully.",
+        "Add pork, garlic, shallots, fish sauce, pepper. Add boiled eggs. Bring to boil. Reduce and simmer 25 min until sauce becomes a thick glaze.",
+        "Serve over rice."
+      ],
+      "tip": "Don't rush the caramel - deep amber before adding coconut water means deep flavor.",
+      "tip2": "The caramel is the heart of this dish — cook the sugar until it turns amber-brown before adding anything else. Pale caramel is sweet with no depth; dark caramel is bitter. Amber is the window.",
+      "recipe_detailed": [
+        "In a heavy pan, melt sugar without stirring over medium heat until it turns amber-brown — about 5-7 min. Swirl the pan but don't stir.",
+        "Carefully add coconut water or water — it will spatter. Add fish sauce, black pepper, and minced garlic. Stir to combine.",
+        "Add pork belly cubes and stir to coat. Bring to a simmer and cook 30-40 min over low heat until the pork is tender and the sauce thickens into a lacquer-like glaze.",
+        "Add hard-boiled eggs in the last 10 min. Serve over rice with fresh cucumber slices and pickled vegetables to cut the richness."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 176,
+      "name": "Filipino Pork Adobo",
+      "protein": "pork",
+      "cal": 420,
+      "time": 40,
+      "servings": 6,
+      "desc": "The national dish of the Philippines - pork braised in vinegar, soy, and garlic until meltingly tender",
+      "ingredients": [
+        "2 lbs pork shoulder, cubed",
+        "1/3 cup soy sauce",
+        "1/2 cup white vinegar",
+        "8 garlic cloves, crushed",
+        "4 bay leaves",
+        "1 tsp whole black peppercorns",
+        "1 tbsp sugar",
+        "1 tbsp oil",
+        "White rice"
+      ],
+      "recipe": [
+        "Combine pork, soy, vinegar, garlic, bay leaves, peppercorns. Marinate 30 min.",
+        "Bring to a boil without stirring. Reduce, cover, simmer 30 min.",
+        "Remove pork. Reduce sauce until syrupy. Brown pork in oil. Pour reduced sauce over. Serve over rice."
+      ],
+      "tip": "Do not stir while the vinegar is raw - let it boil first to prevent curdling. This is the single most important rule of adobo.",
+      "tip2": "The sauce should reduce until almost dry and the pork fries in its own fat at the very end — that last few minutes of sizzling in the concentrated sauce is what creates the caramelized, sticky coating that defines Filipino adobo.",
+      "recipe_detailed": [
+        "Combine pork pieces, soy sauce, vinegar, garlic, bay leaves, and black peppercorns in a pot. Layer the ingredients and let them marinate 30 min.",
+        "Bring to a boil over high heat, then reduce to medium. Cook uncovered 30-40 min until pork is tender and cooked through.",
+        "Reduce to low heat and continue cooking until the sauce reduces to a thick glaze. The pork should be sizzling and frying in its own rendered fat.",
+        "Taste and adjust — it should be intensely savory, tangy from the vinegar, and garlicky. Serve over white rice."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 177,
+      "name": "Italian Herb Pork Tenderloin",
+      "protein": "pork",
+      "cal": 440,
+      "time": 30,
+      "servings": 4,
+      "desc": "Fennel-rubbed pork tenderloin with roasted white beans and salsa verde",
+      "ingredients": [
+        "1.5 lbs pork tenderloin",
+        "2 tbsp herbes de Provence",
+        "4 garlic cloves, minced",
+        "1 tbsp rosemary",
+        "1 tbsp thyme",
+        "Zest of 1 lemon",
+        "3 tbsp olive oil",
+        "1 can white beans, drained",
+        "1 cup fresh parsley",
+        "2 tbsp capers",
+        "1 tbsp red wine vinegar",
+        "Salt"
+      ],
+      "recipe": [
+        "Mix fennel, garlic, rosemary, thyme, lemon zest, oil, salt. Rub all over tenderloin.",
+        "Sear all sides. Roast at 400°F 15-18 min until 145°F internal. Rest 5 min.",
+        "Warm white beans in olive oil. Blend parsley, capers, vinegar, oil for salsa verde.",
+        "Slice. Serve over beans with salsa verde."
+      ],
+      "tip": "145°F is the modern safe standard for pork - juicy and slightly pink, which is completely safe.",
+      "tip2": "Use a meat thermometer — pork tenderloin is expensive and unforgiving. Overcooked above 150F it turns dry and chalky. At 140-145F it is juicy, slightly rosy, and safe.",
+      "recipe_detailed": [
+        "Mix a herb crust: garlic, fresh rosemary, thyme, sage, olive oil, salt, and pepper. Rub all over the pork tenderloin and let marinate 30 min at room temperature.",
+        "Sear in an oven-safe skillet over medium-high heat, turning to brown all sides, about 8 min total.",
+        "Transfer to a 400F oven and roast 15-18 min until a thermometer reads 140F in the thickest part.",
+        "Rest 5-8 min covered loosely with foil. Slice into medallions and serve with the pan juices and roasted vegetables."
+      ],
+      "cuisine": "italian"
+    },
+    {
+      "id": 178,
+      "name": "Thai Larb Moo",
+      "protein": "pork",
+      "cal": 320,
+      "time": 20,
+      "servings": 4,
+      "desc": "Northern Thai minced pork salad with toasted rice powder, lime, fish sauce, and fresh herbs",
+      "ingredients": [
+        "1.5 lbs ground pork",
+        "3 tbsp uncooked jasmine rice",
+        "4 tbsp fish sauce",
+        "4 tbsp lime juice",
+        "1 tbsp sugar",
+        "2 shallots, thinly sliced",
+        "3 green onions, sliced",
+        "1/4 cup fresh mint",
+        "1/4 cup fresh cilantro",
+        "2 tbsp dried chili flakes",
+        "Butter lettuce to serve",
+        "Rice to serve"
+      ],
+      "recipe": [
+        "Toast rice in dry pan, stirring constantly, until golden, 5-7 min. Grind to coarse powder.",
+        "Cook ground pork over medium-high with no oil until just cooked through.",
+        "Remove from heat. Season with fish sauce, lime, sugar, chili flakes. Toss in shallots, green onion, mint, cilantro, and toasted rice powder.",
+        "Serve at room temperature in butter lettuce wraps."
+      ],
+      "tip": "The toasted rice powder is the soul of larb - nutty crunch that binds the salad. There is no substitute.",
+      "tip2": "Toasted rice powder is non-negotiable in larb — it adds a nutty, almost smoky flavor and slightly crunchy texture you cannot get from anything else. Dry-toast raw rice in a pan until golden, then grind coarsely.",
+      "recipe_detailed": [
+        "Make toasted rice powder: add a handful of raw jasmine rice to a dry pan over medium heat. Stir constantly 5-7 min until golden and nutty-smelling. Cool and grind coarsely. Set aside.",
+        "Cook ground pork in a pan with minimal oil over medium-high heat, breaking it up fine, until just cooked through. Remove from heat immediately.",
+        "While still warm, toss pork with fish sauce, lime juice, chili flakes, and a pinch of sugar. Add sliced shallots, green onion, and fresh mint and cilantro. Toss well.",
+        "Add toasted rice powder and mix through. Taste and adjust lime, fish sauce, and chili. Serve over rice or with fresh cabbage."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 179,
+      "name": "Spanish Chorizo & Potato Stew",
+      "protein": "pork",
+      "cal": 430,
+      "time": 35,
+      "servings": 4,
+      "desc": "A warming Galician stew with smoky Spanish chorizo, potatoes, and white beans",
+      "ingredients": [
+        "12 oz Spanish chorizo, sliced",
+        "4 Yukon gold potatoes, cubed",
+        "1 can white beans, drained",
+        "1 onion, diced",
+        "4 garlic cloves",
+        "1 tsp smoked paprika",
+        "1/4 tsp cayenne",
+        "2 bay leaves",
+        "3 cups chicken broth",
+        "1/4 cup olive oil",
+        "Salt",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Sear chorizo in oil until browned. Remove. Cook onion in chorizo fat until golden.",
+        "Add garlic, paprika, cayenne, bay leaves, cook 1 min. Add potatoes and broth. Simmer 15 min.",
+        "Add beans and chorizo. Simmer 10 min until thick. Season with salt to taste. Top with parsley."
+      ],
+      "tip": "Spanish chorizo (cured) is completely different from Mexican chorizo (raw) - use the firm, sliceable kind.",
+      "tip2": "Slice the chorizo thick enough that it holds its shape but still renders its oil into the broth. About half-inch rounds is the target.",
+      "recipe_detailed": [
+        "Slice Spanish chorizo into half-inch rounds. Cook in a large pot over medium heat 3-4 min per side until the oil renders and the edges brown. Remove and set aside. Leave the orange chorizo oil in the pot.",
+        "In the chorizo oil, cook onion, garlic, and diced pepper 5 min until softened. Add smoked paprika and tomato paste, cook 1 min.",
+        "Add cubed potatoes and broth. Bring to a boil, reduce to a simmer, and cook 15-20 min until potatoes are completely tender.",
+        "Return chorizo to the pot. Add white beans if using, simmer 5 more min. Season and finish with a drizzle of olive oil and fresh parsley."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 180,
+      "name": "Greek Pork Souvlaki Pita",
+      "protein": "pork",
+      "cal": 410,
+      "time": 25,
+      "servings": 4,
+      "desc": "Marinated pork tenderloin skewers with tzatziki, tomato, and onion in warm pita",
+      "ingredients": [
+        "1.5 lbs pork tenderloin, cubed",
+        "3 tbsp olive oil",
+        "Juice of 1 lemon",
+        "3 garlic cloves, grated",
+        "1 tsp dried oregano",
+        "1 tsp smoked paprika",
+        "Salt",
+        "4 pita breads",
+        "1 cup tzatziki",
+        "1 tomato, diced",
+        "1/2 red onion, sliced",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Marinate pork with oil, lemon, garlic, oregano, paprika, salt. At least 30 min.",
+        "Thread onto skewers. Grill or cook in ridged pan 8-10 min, turning, until cooked.",
+        "Warm pitas. Spread tzatziki, add pork, tomato, red onion. Wrap in parchment."
+      ],
+      "tip": "The parchment wrap holds everything together and steams the pita slightly so it doesn't crack.",
+      "tip2": "Don't skip the rest after grilling — even 5 min makes the pork noticeably juicier. The muscle fibers relax and pull juices back in rather than letting them run onto the cutting board.",
+      "recipe_detailed": [
+        "Cut pork into 1.5-inch cubes. Mix marinade: olive oil, lemon juice, garlic, dried oregano, thyme, salt, and pepper. Toss pork in marinade and refrigerate at least 1 hour.",
+        "Thread onto skewers, leaving space between pieces. Grill or cook in a grill pan over high heat 10-12 min, turning every few minutes, until cooked through with char marks.",
+        "Rest 5 min while you warm pita bread and prepare toppings: sliced tomato, red onion, fresh parsley, and tzatziki.",
+        "Slide pork off skewers into pita. Add toppings and a generous spoon of tzatziki. Fold and eat immediately."
+      ],
+      "cuisine": "mediterranean"
+    },
+    {
+      "id": 181,
+      "name": "Japanese Tonkatsu",
+      "protein": "pork",
+      "cal": 480,
+      "time": 30,
+      "servings": 4,
+      "desc": "Crispy panko-breaded pork cutlets with tonkatsu sauce and shredded cabbage",
+      "ingredients": [
+        "4 pork loin chops, pounded slightly",
+        "Salt and pepper",
+        "1/2 cup flour",
+        "2 eggs, beaten",
+        "2 cups panko breadcrumbs",
+        "Neutral oil for frying",
+        "1/2 head cabbage, finely shredded",
+        "Tonkatsu sauce",
+        "Steamed rice"
+      ],
+      "recipe": [
+        "Season pork. Dredge: flour → egg → panko. Press firmly.",
+        "Heat 1 inch oil to 350°F. Fry cutlets 3-4 min per side until golden and 145°F internal. Drain on rack. Rest 3 min. Slice crosswise.",
+        "Serve over shredded cabbage with tonkatsu sauce."
+      ],
+      "tip": "Panko creates a shattering crust. Always rest after frying to let the crust set before slicing.",
+      "tip2": "Press the panko into the pork firmly with your hands. And use panko specifically, not regular breadcrumbs — panko's larger, drier flakes create the signature shaggy, ultra-crispy crust.",
+      "recipe_detailed": [
+        "Pound pork cutlets to half-inch thickness using a meat mallet. Season both sides with salt and pepper.",
+        "Set up the breading station: flour, beaten eggs, and panko in separate shallow dishes. Coat the pork in flour, then egg, then press firmly into panko with your hands so it grips the surface.",
+        "Heat 1 inch of oil to 340-350F in a heavy pan. Fry one cutlet at a time, 3-4 min per side, until deep golden and cooked through. Drain on a wire rack.",
+        "Slice into strips while hot. Serve over rice with tonkatsu sauce, shredded cabbage dressed with sesame dressing, and pickled ginger."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 182,
+      "name": "Peruvian Lomo Saltado",
+      "protein": "pork",
+      "cal": 440,
+      "time": 25,
+      "servings": 4,
+      "desc": "Peru's classic stir-fry with pork, tomatoes, onions, aji amarillo, and french fries mixed in",
+      "ingredients": [
+        "1.5 lbs pork tenderloin, strips",
+        "1 red onion, wedged",
+        "2 tomatoes, wedged",
+        "1 jalapeño",
+        "3 tbsp soy sauce",
+        "2 tbsp red wine vinegar",
+        "1 tbsp oyster sauce",
+        "3 garlic cloves, minced",
+        "2 tbsp cilantro",
+        "2 cups cooked french fries",
+        "Rice to serve",
+        "Neutral oil"
+      ],
+      "recipe": [
+        "Heat a wok ripping hot. Sear pork in batches until browned, 2 min. Remove.",
+        "Stir fry onion and jalapeño 2 min. Add garlic, then tomatoes.",
+        "Return pork. Add soy, vinegar, oyster sauce. Toss on high heat 1 min. Add fries and cilantro. Toss.",
+        "Serve immediately with rice."
+      ],
+      "tip": "Extremely high wok heat is everything - under 5 minutes of active time. Low heat makes it a soggy stew.",
+      "tip2": "Lomo saltado is a stir fry — it must be cooked over the highest heat you have. If your stove doesn't get very hot, do it in very small batches so the pan temperature doesn't drop.",
+      "recipe_detailed": [
+        "Slice beef into strips and marinate briefly in soy sauce, cumin, and pepper. Slice peppers, red onion, and tomato into large pieces.",
+        "Get a wok or large skillet screaming hot. Add oil, then beef in a single layer. Sear 60 seconds without touching, toss, 30 more seconds. Remove.",
+        "In the same hot pan, add onion wedges and peppers. Stir fry 2 min until they char slightly. Add tomatoes, garlic, and aji amarillo paste. Cook 1 min.",
+        "Return beef. Add soy sauce, red wine vinegar, and fresh cilantro. Toss over highest heat for 1 min. Serve over white rice and with French fries on the side."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 183,
+      "name": "Hungarian Pork Goulash",
+      "protein": "pork",
+      "cal": 400,
+      "time": 50,
+      "servings": 6,
+      "desc": "A hearty pork stew rich with Hungarian sweet paprika, caraway, and potatoes",
+      "ingredients": [
+        "2 lbs pork shoulder, cubed",
+        "3 tbsp Hungarian sweet paprika",
+        "1 tsp caraway seeds",
+        "2 onions, diced",
+        "3 garlic cloves",
+        "1 can diced tomatoes",
+        "2 cups broth",
+        "3 potatoes, cubed",
+        "2 tbsp lard or oil",
+        "1 green pepper, diced",
+        "1 tsp vinegar",
+        "Salt",
+        "Sour cream and egg noodles"
+      ],
+      "recipe": [
+        "Cook onions in lard 10 min until very golden. Remove from heat. Stir in paprika - never fry paprika directly in hot fat.",
+        "Return to heat. Add garlic, caraway, pork. Coat everything. Add tomatoes, broth, green pepper. Simmer covered 30 min.",
+        "Add potatoes. Cook 20 more min. Finish with vinegar. Serve with sour cream and noodles."
+      ],
+      "tip": "Always add paprika off the heat - it burns in seconds in hot fat. Let it bloom in residual warmth before returning to the burner.",
+      "tip2": "Add the paprika off the heat or in very little fat — it burns easily and turns bitter. Stir it into the vegetables, then immediately add the liquid to stop the cooking.",
+      "recipe_detailed": [
+        "Cut pork shoulder into 1.5-inch cubes. Brown in batches in a Dutch oven over high heat until deeply seared on all sides. Remove each batch to a plate.",
+        "Reduce heat to medium. Cook onion 5 min until soft. Remove from heat momentarily, add sweet paprika and stir for 30 seconds in residual heat. Add tomatoes immediately to stop the paprika cooking.",
+        "Return pork to the pot. Add broth, caraway seeds, marjoram, bay leaves, and diced peppers. Bring to a boil, then reduce to a low simmer.",
+        "Braise 1.5-2 hours until pork is very tender and the sauce has thickened. Stir in a spoonful of sour cream just before serving. Serve over egg noodles or spaetzle."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 184,
+      "name": "Pulled Pork Banh Mi",
+      "protein": "pork",
+      "cal": 430,
+      "time": 20,
+      "servings": 4,
+      "desc": "Hoisin pulled pork with pickled daikon, jalapeño, and cilantro in a toasted baguette",
+      "ingredients": [
+        "2 lbs pulled pork",
+        "2 tbsp hoisin sauce",
+        "1 tbsp soy sauce",
+        "4 baguette sections",
+        "1 cup daikon, julienned",
+        "1 cup carrots, julienned",
+        "3 tbsp rice vinegar",
+        "1 tbsp sugar",
+        "1 tsp salt",
+        "1 jalapeño, sliced",
+        "Cilantro",
+        "2 tbsp mayo",
+        "Sriracha"
+      ],
+      "recipe": [
+        "Quick pickle: combine daikon and carrot with vinegar, sugar, salt. Rest 15 min.",
+        "Toss pulled pork with hoisin and soy. Warm in a pan 5 min.",
+        "Spread mayo on rolls, toast. Layer pork, pickled veg, jalapeño, cilantro, sriracha."
+      ],
+      "tip": "Even 15 minutes of pickling makes a huge difference - the veg cuts richness and makes each bite feel fresh.",
+      "tip2": "Make the quick pickles at least 30 min before assembling — the carrots and daikon need time to absorb the vinegar brine. Made the day before, they are significantly better.",
+      "recipe_detailed": [
+        "Quick-pickle carrots and daikon: julienne both thinly. Toss with rice vinegar, sugar, and salt. Let sit at least 30 min at room temperature or overnight in the fridge.",
+        "Braise pork shoulder with soy sauce, fish sauce, garlic, and lemongrass at 325F for 3-4 hours until pull-apart tender. Shred and toss with some of the cooking liquid.",
+        "Make the sauce: mix mayonnaise with sriracha and a squeeze of lime.",
+        "Assemble on a split baguette: sriracha mayo on both cut sides, a generous layer of pork, pickled carrots and daikon, fresh cucumber slices, jalapeno, and plenty of fresh cilantro."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 185,
+      "name": "Moroccan Spiced Pork",
+      "protein": "pork",
+      "cal": 380,
+      "time": 55,
+      "servings": 4,
+      "desc": "Pork shoulder braised with preserved lemon, olives, and apricots in a Moroccan spice blend",
+      "ingredients": [
+        "1.5 lbs pork shoulder, cubed",
+        "1 onion, diced",
+        "4 garlic cloves",
+        "1 tsp cumin",
+        "1 tsp coriander",
+        "1/2 tsp ginger",
+        "1/2 tsp cinnamon",
+        "1/2 tsp turmeric",
+        "1 cup chicken broth",
+        "1/2 cup dried apricots",
+        "1/2 cup green olives",
+        "1 preserved lemon rind, diced",
+        "2 tbsp olive oil",
+        "Couscous",
+        "Fresh cilantro"
+      ],
+      "recipe": [
+        "Brown pork in batches. Remove. Cook onion until golden. Add garlic and spices, cook 1 min.",
+        "Return pork. Add broth, apricots, olives, preserved lemon. Cover and simmer 45 min.",
+        "Serve over couscous with cilantro."
+      ],
+      "tip": "Preserved lemon adds a salty, deeply lemony, almost floral flavor that fresh lemon cannot replicate.",
+      "tip2": "Toast the spices briefly in oil to bloom before adding liquid — stir them in the fat for 30 seconds until the kitchen smells incredible. This step unlocks volatile oils that are otherwise locked in the dried spice.",
+      "recipe_detailed": [
+        "Season pork shoulder or chops with ras el hanout, salt, and pepper. Let sit 30 min or overnight.",
+        "Sear the pork in a Dutch oven over high heat on all sides until deeply browned. Remove.",
+        "In the same pot, cook onion and garlic until soft. Add preserved lemon, olives, tomatoes, and broth. Return pork.",
+        "Braise at 325F for 2-2.5 hours until pork is very tender. Stir in fresh cilantro and a squeeze of lemon. Serve over couscous with harissa on the side."
+      ],
+      "cuisine": "middleeastern"
+    },
+    {
+      "id": 186,
+      "name": "German Pork Schnitzel",
+      "protein": "pork",
+      "cal": 450,
+      "time": 25,
+      "servings": 4,
+      "desc": "Pork loin pounded thin, breaded, and pan-fried until golden - served with lemon and potato salad",
+      "ingredients": [
+        "4 pork loin chops, pounded to 1/4\"",
+        "Salt and pepper",
+        "1/2 cup flour",
+        "2 eggs, beaten",
+        "2 cups breadcrumbs",
+        "1/4 cup oil and 2 tbsp butter",
+        "1 lemon",
+        "Potato salad or roasted potatoes",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Pound pork to 1/4 inch. Season. Bread: flour → egg → breadcrumbs. Do not press the crumbs.",
+        "Fry in oil/butter over medium-high 2-3 min per side. Don't crowd.",
+        "Serve immediately with lemon, a sprinkle of fresh parsley, and potato salad."
+      ],
+      "tip": "Don't press the breading - gently lay in breadcrumbs. Loose coating creates air pockets that puff into a light, crispy shell.",
+      "tip2": "Use a generous amount of oil — schnitzel should swim in it, not fry in a thin coating. About a quarter to half inch of oil allows the breading to float freely and puff, creating that light, airy texture.",
+      "recipe_detailed": [
+        "Pound pork cutlets to a quarter-inch thickness between two sheets of plastic wrap. Season with salt and pepper.",
+        "Set up breading: flour, beaten eggs, and fine breadcrumbs. Dredge in flour, then egg, then breadcrumbs — don't press. The breading should sit loosely on the surface for the classic wrinkled look.",
+        "Heat a quarter to half inch of oil in a large skillet to 330-350F. Fry schnitzel 2-3 min per side, swirling the pan occasionally so the oil washes over the top.",
+        "Drain immediately on a wire rack. Serve with lemon wedges, potato salad, and lingonberry jam. Schnitzel loses its crunch as it rests, so eat right away."
+      ],
+      "cuisine": "french"
+    },
+    {
+      "id": 187,
+      "name": "Cuban Medianoche Sandwich",
+      "protein": "pork",
+      "cal": 510,
+      "time": 25,
+      "servings": 4,
+      "desc": "Roasted pork, glazed ham, Swiss cheese, mustard, and pickles pressed in a sweet egg roll",
+      "ingredients": [
+        "1 lb roasted pork",
+        "8 oz glazed ham, sliced",
+        "4 oz Swiss cheese",
+        "4 tbsp yellow mustard",
+        "8 dill pickles, sliced",
+        "4 sweet medianoche or brioche rolls",
+        "2 tbsp butter"
+      ],
+      "recipe": [
+        "Slice rolls. Spread mustard on both cut sides. Layer ham, roasted pork, Swiss, pickles. Butter outsides.",
+        "Press in a panini press or weigh down in a skillet with a heavy pan on top, medium heat, 3-4 min per side until golden and cheese melted.",
+        "Cut diagonally. Serve immediately."
+      ],
+      "tip": "The weight is essential - pressing flat melds all layers and crisps the bread. A cast iron on top works perfectly.",
+      "tip2": "Press the sandwich under something heavy while it toasts — a cast iron is perfect. The pressure is what makes the sandwich compact, the bread crispy all the way through, and the cheese melt fully.",
+      "recipe_detailed": [
+        "Spread mustard generously on both cut sides of the sweet egg bread. Layer in order: Swiss cheese, ham, roasted pork, pickles, and more Swiss cheese. Close the sandwich.",
+        "Brush the outside of the bread with butter on both sides.",
+        "Heat a skillet or griddle over medium heat. Place sandwich in the pan and press firmly with a heavy skillet on top. Cook 3-4 min until the bottom is deep golden. Flip, press again, and cook 3 more min.",
+        "The sandwich is done when the bread is crispy throughout, the cheese is completely melted, and the layers are compressed. Slice diagonally and serve immediately."
+      ],
+      "cuisine": "mexican"
+    },
+    {
+      "id": 188,
+      "name": "Vietnamese Lemongrass Pork",
+      "protein": "pork",
+      "cal": 390,
+      "time": 30,
+      "servings": 4,
+      "desc": "Bún Thịt Nướng - grilled lemongrass pork over cool rice vermicelli with pickled veg and nuoc cham",
+      "ingredients": [
+        "1.5 lbs pork shoulder, thinly sliced",
+        "3 tbsp fish sauce",
+        "2 tbsp sugar",
+        "1 tbsp lemongrass, minced",
+        "3 garlic cloves, grated",
+        "1 shallot, grated",
+        "1 tbsp sesame oil",
+        "8 oz rice vermicelli, cooked",
+        "Nuoc cham: 3 tbsp fish sauce, 3 tbsp lime juice, 2 tbsp sugar, chili, 2 tbsp water",
+        "Bean sprouts, mint, basil, cucumber",
+        "Crushed peanuts"
+      ],
+      "recipe": [
+        "Marinate pork in fish sauce, sugar, lemongrass, garlic, shallot, sesame oil. 30 min.",
+        "Grill over high heat 2-3 min per side until charred at edges.",
+        "Make nuoc cham: combine all, stir until sugar dissolves.",
+        "Divide vermicelli into bowls. Top with pork, bean sprouts, herbs, cucumber, peanuts. Pour nuoc cham over."
+      ],
+      "tip": "The charring is what makes this dish - don't be afraid of dark edges. Smoky pork against cool noodles and fresh herbs is the whole flavor profile.",
+      "tip2": "Lemongrass is woody — only the bottom 4 inches of the stalk are edible. Peel off the tough outer layers until you hit the pale, moist inner core. Mince this finely or pound in a mortar.",
+      "recipe_detailed": [
+        "Prepare lemongrass: peel outer layers and use only the pale bottom 4 inches. Mince or pound very finely.",
+        "Mix marinade: minced lemongrass, fish sauce, sugar, garlic, and shallots. Toss sliced pork in the marinade for at least 30 min.",
+        "Heat a wok or pan over very high heat. Cook pork in batches — it should caramelize quickly in the fish sauce and sugar. Stir fry 3-4 min until cooked through and the edges have some char.",
+        "Serve over rice vermicelli or jasmine rice with fresh herbs, bean sprouts, cucumber, and nuoc cham dipping sauce."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 189,
+      "name": "Jamaican Jerk Pork",
+      "protein": "pork",
+      "cal": 430,
+      "time": 70,
+      "servings": 6,
+      "desc": "Scotch bonnet-fire jerk pork slow-roasted with allspice and thyme - served with rice and peas",
+      "ingredients": [
+        "2.5 lbs bone-in pork shoulder",
+        "4 scotch bonnet or habanero peppers",
+        "6 green onions",
+        "4 garlic cloves",
+        "2 tbsp fresh thyme",
+        "1 tbsp allspice",
+        "1 tsp cinnamon",
+        "1 tsp black pepper",
+        "2 tbsp soy sauce",
+        "2 tbsp brown sugar",
+        "2 tbsp lime juice",
+        "2 tbsp oil",
+        "Rice and peas to serve"
+      ],
+      "recipe": [
+        "Blend all marinade ingredients to a paste. Score pork deeply. Rub into cuts. Marinate overnight.",
+        "Roast uncovered at 325°F for 60-70 min until 160°F internal and darkened on the outside.",
+        "Rest 10 min. Slice or pull apart. Serve with Jamaican rice and peas (coconut milk + kidney beans)."
+      ],
+      "tip": "The overnight marinade is non-negotiable for a thick shoulder. Wear gloves when handling scotch bonnets.",
+      "tip2": "The longer jerk marinates, the better — scotch bonnets and allspice need time to fully permeate the meat. 24 hours is good, 48 hours is better.",
+      "recipe_detailed": [
+        "Blend jerk marinade: scotch bonnet peppers, allspice, thyme, garlic, ginger, green onion, soy sauce, brown sugar, cinnamon, nutmeg, and black pepper. It should be a thick, fragrant paste.",
+        "Score the pork deeply so the marinade penetrates. Coat thoroughly, working it into the cuts. Refrigerate at least 12 hours, ideally 24-48 hours.",
+        "Cook low and slow: grill over indirect heat at 275-300F for 3-4 hours for shoulder, or 350F for 30-40 min for chops.",
+        "Rest the meat 10 min. Serve with rice and peas, fried plantains, and coleslaw to counter the heat."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 190,
+      "name": "Pork Ramen (Tonkotsu Style)",
+      "protein": "pork",
+      "cal": 510,
+      "time": 40,
+      "servings": 4,
+      "desc": "A simplified home tonkotsu ramen with rich pork-miso broth, chashu pork, and soft egg",
+      "ingredients": [
+        "1.5 lbs pork belly or tenderloin",
+        "1 tbsp white miso",
+        "2 tbsp soy sauce",
+        "1 tbsp mirin",
+        "2 garlic cloves, grated",
+        "1 tsp sesame oil",
+        "4 cups chicken or pork broth",
+        "1 cup whole milk",
+        "4 portions ramen noodles",
+        "4 soft boiled eggs, marinated in soy and mirin",
+        "Nori, green onion, bean sprouts, corn, sesame seeds",
+        "Chili oil"
+      ],
+      "recipe": [
+        "Marinate pork with miso, soy, mirin, garlic, sesame oil. Sear all sides. Roast at 325°F 25 min. Slice thin.",
+        "Combine broth and milk. Whisk in 1 tbsp miso. Simmer - never boil. Season.",
+        "Cook noodles. Ladle broth into bowls. Add noodles, pork, halved soy egg, nori, toppings. Finish with sesame seeds and chili oil."
+      ],
+      "tip": "Adding whole milk to the broth is the home cook's secret for creamy tonkotsu effect without a 12-hour pork bone boil.",
+      "tip2": "The white, creamy color of tonkotsu broth comes from collagen extracted by a full boil — not a simmer. You need to boil the bones hard the entire time. This is how the broth emulsifies into that rich, milky consistency.",
+      "recipe_detailed": [
+        "Blanch pork bones 5 min, drain, and rinse thoroughly. This removes impurities that make the broth cloudy and funky.",
+        "Return bones to pot, cover with cold water, and bring to a FULL BOIL — not a simmer. Boil hard for 4-6 hours, topping up with water as needed. The broth will turn white and creamy. Season with salt.",
+        "Make tare: combine soy sauce, mirin, and sake. Simmer 5 min. This is added to each bowl individually so everyone can adjust to taste.",
+        "Cook ramen noodles per package. Add tare to each bowl, ladle in hot broth, top with noodles, chashu pork slices, soft-boiled marinated egg, corn, green onion, nori, and sesame seeds."
+      ],
+      "cuisine": "asian"
+    },
+    {
+      "id": 253,
+      "name": "Beef Chili",
+      "protein": "beef",
+      "time": 45,
+      "servings": 6,
+      "cal": 520,
+      "desc": "Thick, hearty Texas-style beef chili with kidney beans, chili peppers, and a dark beer.",
+      "ingredients": [
+        "2 lb ground beef",
+        "1 can kidney beans, drained",
+        "1 can diced tomatoes",
+        "1 can tomato paste",
+        "1 bottle dark beer or beef broth",
+        "1 large onion, diced",
+        "4 cloves garlic, minced",
+        "2 tbsp chili powder",
+        "1 tsp cumin",
+        "1 tsp smoked paprika",
+        "1 tsp cayenne",
+        "Salt and pepper",
+        "Shredded cheddar, sour cream, green onion to serve"
+      ],
+      "recipe": [
+        "Brown ground beef over high heat. Drain excess fat.",
+        "Add onion and garlic, cook 3 min.",
+        "Stir in chili powder, cumin, paprika, cayenne, salt, and pepper. Cook 1 min.",
+        "Add tomatoes, tomato paste, beer, and beans. Stir to combine.",
+        "Simmer uncovered 30 min, stirring occasionally, until thick.",
+        "Serve topped with cheddar, sour cream, and green onion."
+      ],
+      "tip": "A dark beer like stout or porter adds a roasted, slightly bitter depth that beef broth alone cannot match.",
+      "cuisine": "american"
+    },
+    {
+      "id": 254,
+      "name": "Philly Cheesesteak",
+      "protein": "beef",
+      "time": 25,
+      "servings": 4,
+      "cal": 680,
+      "desc": "Shaved ribeye, sauteed peppers and onions, Cheez Whiz on a toasted hoagie roll.",
+      "ingredients": [
+        "2 lb ribeye steak, shaved thin",
+        "4 hoagie rolls, split and toasted",
+        "1 large onion, thinly sliced",
+        "2 green bell peppers, thinly sliced",
+        "1 jar Cheez Whiz",
+        "2 tbsp vegetable oil",
+        "Salt and pepper"
+      ],
+      "recipe": [
+        "Freeze the ribeye for 30 min before slicing for thinner cuts. Slice as thin as possible against the grain.",
+        "Heat oil in a large griddle or skillet over high heat. Cook onions and peppers until soft and caramelized, about 8 min. Set aside.",
+        "Add shaved beef to same pan. Season with salt and pepper. Cook, chopping and stirring, 3-4 min.",
+        "Mix beef with onions and peppers. Portion onto rolls.",
+        "Microwave Cheez Whiz 30 seconds. Drizzle generously over beef.",
+        "Press roll closed and serve immediately."
+      ],
+      "tip": "Cheez Whiz is traditional and intentional — it melts into every crevice. Provolone is the respectable alternative.",
+      "cuisine": "american"
+    },
+    {
+      "id": 255,
+      "name": "French Dip Sandwiches",
+      "protein": "beef",
+      "time": 30,
+      "servings": 4,
+      "cal": 590,
+      "desc": "Thinly sliced roast beef on hoagie rolls with provolone, served with rich au jus for dipping.",
+      "ingredients": [
+        "1.5 lb deli roast beef, sliced thin",
+        "4 hoagie rolls, split",
+        "8 slices provolone cheese",
+        "2 cups beef broth",
+        "1 tbsp Worcestershire sauce",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1 tbsp butter",
+        "Salt and pepper"
+      ],
+      "recipe": [
+        "Simmer beef broth, Worcestershire, garlic powder, onion powder, and butter 10 min. Season to taste — this is your au jus.",
+        "Warm the roast beef slices in the au jus for 2 min.",
+        "Pile beef onto rolls, top with provolone.",
+        "Broil open-faced 2 min until cheese melts and rolls are toasty.",
+        "Serve immediately with a ramekin of hot au jus for dipping."
+      ],
+      "tip": "Keep the au jus hot — a warm dip on a warm sandwich. Cold au jus defeats the whole purpose.",
+      "cuisine": "american"
+    },
+    {
+      "id": 256,
+      "name": "Beef Stroganoff",
+      "protein": "beef",
+      "time": 30,
+      "servings": 4,
+      "cal": 620,
+      "desc": "Tender beef in a rich sour cream and mushroom sauce over egg noodles.",
+      "ingredients": [
+        "1.5 lb beef sirloin, thinly sliced",
+        "12 oz wide egg noodles",
+        "8 oz cremini mushrooms, sliced",
+        "1 onion, diced",
+        "3 cloves garlic, minced",
+        "1 cup beef broth",
+        "1 cup sour cream",
+        "2 tbsp flour",
+        "2 tbsp butter",
+        "1 tbsp Worcestershire sauce",
+        "Salt and pepper",
+        "Fresh parsley"
+      ],
+      "recipe": [
+        "Cook egg noodles per package. Reserve 0.5 cup pasta water.",
+        "Season beef with salt and pepper. Sear in butter over high heat 2 min per side. Remove.",
+        "Saute mushrooms and onion in same pan until golden, 5 min. Add garlic 1 min.",
+        "Stir in flour, then broth and Worcestershire. Simmer 3 min.",
+        "Remove from heat. Stir in sour cream. Return beef and noodles to pan and toss.",
+        "Adjust consistency with pasta water if needed. Top with parsley."
+      ],
+      "tip": "Add the sour cream off the heat — if the sauce is boiling when it goes in, it will curdle and break.",
+      "cuisine": "american"
+    },
+    {
+      "id": 257,
+      "name": "BBQ Beef Brisket Sliders",
+      "protein": "beef",
+      "time": 25,
+      "servings": 4,
+      "cal": 560,
+      "desc": "Slow-cooked shredded brisket piled on slider buns with pickles and slaw.",
+      "ingredients": [
+        "2 lb smoked beef brisket, shredded",
+        "1 cup BBQ sauce",
+        "12 slider buns",
+        "Dill pickle chips",
+        "2 cups coleslaw mix",
+        "3 tbsp mayo",
+        "1 tbsp apple cider vinegar",
+        "Salt and pepper"
+      ],
+      "recipe": [
+        "Mix coleslaw with mayo, vinegar, salt, and pepper. Refrigerate 10 min.",
+        "Warm brisket with BBQ sauce in a skillet or microwave until hot.",
+        "Toast slider buns under the broiler 1-2 min.",
+        "Pile brisket onto bottom buns. Add pickles and a scoop of slaw.",
+        "Cap with top bun and serve immediately."
+      ],
+      "tip": "Use smoked brisket from a BBQ joint or grocery store deli — the smoke is the whole flavor.",
+      "cuisine": "american"
+    },
+    {
+      "id": 258,
+      "name": "Beef Nachos",
+      "protein": "beef",
+      "time": 25,
+      "servings": 4,
+      "cal": 690,
+      "desc": "Loaded tortilla chips with seasoned beef, melted cheese, jalapenos, and all the toppings.",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 bag tortilla chips",
+        "2 cups shredded cheddar-jack cheese",
+        "1 can black beans, drained",
+        "1 can diced tomatoes with green chilies",
+        "1 tbsp taco seasoning",
+        "Sliced jalapenos",
+        "Sour cream",
+        "Guacamole",
+        "Green onions"
+      ],
+      "recipe": [
+        "Preheat oven to 400F. Brown ground beef, drain fat, add taco seasoning and 2 tbsp water. Cook 1 min.",
+        "Spread chips in a single layer on a foil-lined sheet pan.",
+        "Layer beans, beef, tomatoes with chilies, and cheese evenly over chips.",
+        "Bake 10-12 min until cheese is fully melted and bubbly.",
+        "Top with jalapenos, sour cream, guacamole, and green onions. Serve immediately."
+      ],
+      "tip": "Build in layers and bake uncovered — never cover nachos or the steam makes the chips soggy.",
+      "cuisine": "american"
+    },
+    {
+      "id": 259,
+      "name": "Carne Asada Bowls",
+      "protein": "beef",
+      "time": 25,
+      "servings": 4,
+      "cal": 540,
+      "desc": "Marinated and grilled skirt steak over jasmine rice with pico de gallo, guac, and lime crema.",
+      "ingredients": [
+        "1.5 lb skirt steak",
+        "Juice of 2 limes",
+        "Juice of 1 orange",
+        "4 cloves garlic, minced",
+        "2 tbsp olive oil",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "Salt and pepper",
+        "2 cups cooked jasmine rice",
+        "Pico de gallo",
+        "Guacamole",
+        "Sour cream and lime wedges"
+      ],
+      "recipe": [
+        "Marinate steak in lime juice, orange juice, garlic, oil, cumin, chili powder, and salt 15-30 min.",
+        "Grill or sear over high heat 3-4 min per side. Rest 5 min.",
+        "Slice thinly against the grain.",
+        "Build bowls: rice, steak, pico, guacamole.",
+        "Finish with sour cream and a squeeze of lime."
+      ],
+      "tip": "Skirt steak is thin and fast — do not overcook it. It is done before you think it is.",
+      "cuisine": "mexican"
+    },
+    {
+      "id": 260,
+      "name": "Beef Enchiladas",
+      "protein": "beef",
+      "time": 40,
+      "servings": 6,
+      "cal": 580,
+      "desc": "Seasoned ground beef rolled in corn tortillas, smothered in red enchilada sauce and melted cheese.",
+      "ingredients": [
+        "2 lb ground beef",
+        "12 corn tortillas",
+        "2 cans red enchilada sauce",
+        "2 cups shredded Mexican cheese blend",
+        "1 onion, diced",
+        "3 cloves garlic, minced",
+        "1 tbsp chili powder",
+        "1 tsp cumin",
+        "Salt and pepper",
+        "Sour cream and jalapenos to serve"
+      ],
+      "recipe": [
+        "Preheat oven to 375F. Brown beef with onion and garlic. Season with chili powder, cumin, salt, and pepper. Drain fat.",
+        "Warm tortillas 30 seconds in the microwave so they do not crack when rolled.",
+        "Spoon 1 cup enchilada sauce in the bottom of a 9x13 baking dish.",
+        "Fill each tortilla with beef mixture, roll up, and place seam-down in dish.",
+        "Pour remaining sauce over top. Cover with cheese.",
+        "Bake 20-25 min until bubbly. Serve with sour cream and jalapenos."
+      ],
+      "tip": "Warm the tortillas before rolling — cold corn tortillas crack. 30 seconds in the microwave wrapped in a damp paper towel does it.",
+      "cuisine": "american"
+    },
+    {
+      "id": 261,
+      "name": "Classic Meatloaf",
+      "protein": "beef",
+      "time": 75,
+      "servings": 6,
+      "cal": 490,
+      "desc": "Old-school beef and pork meatloaf with a sweet ketchup glaze.",
+      "ingredients": [
+        "1.5 lb ground beef",
+        "0.5 lb ground pork",
+        "1 cup breadcrumbs",
+        "2 eggs",
+        "0.5 cup milk",
+        "1 onion, grated",
+        "2 cloves garlic, minced",
+        "1 tbsp Worcestershire sauce",
+        "Salt and pepper",
+        "0.5 cup ketchup",
+        "2 tbsp brown sugar",
+        "1 tbsp vinegar"
+      ],
+      "recipe": [
+        "Preheat oven to 350F. Mix all meatloaf ingredients until just combined — do not overwork.",
+        "Press into a 9x5 loaf pan or free-form on a sheet pan.",
+        "Mix ketchup, brown sugar, and vinegar for glaze. Spread half on top.",
+        "Bake 45 min. Apply remaining glaze. Bake another 15 min until internal temp hits 160F.",
+        "Rest 10 min before slicing."
+      ],
+      "tip": "Grating the onion instead of dicing it means it disappears into the meat and keeps every slice moist.",
+      "cuisine": "american"
+    },
+    {
+      "id": 318,
+      "name": "Korean Braised Short Ribs (Galbi Jjim)",
+      "protein": "beef",
+      "time": 105,
+      "servings": 6,
+      "cal": 610,
+      "desc": "Fall-apart tender short ribs braised in a sweet-savory soy sauce with carrots and daikon.",
+      "premium": true,
+      "ingredients": [
+        "4 lbs bone-in short ribs",
+        "1 Asian pear, grated",
+        "1 onion, grated",
+        "6 garlic cloves, minced",
+        "1 tbsp ginger, grated",
+        "0.75 cup soy sauce",
+        "0.33 cup brown sugar",
+        "2 tbsp sesame oil",
+        "2 cups water or beef broth",
+        "3 carrots, cut into chunks",
+        "1 daikon radish, cut into chunks",
+        "4 dried shiitake mushrooms (optional)",
+        "Sesame seeds and scallions"
+      ],
+      "recipe": [
+        "Soak short ribs in cold water 30 min to draw out blood, then drain and pat dry.",
+        "Blanch ribs in boiling water 5 min to remove impurities, then rinse under cold water.",
+        "Whisk grated pear, onion, garlic, ginger, soy sauce, brown sugar, and sesame oil for the braising liquid.",
+        "Add ribs and braising liquid to a large pot with water or broth. Bring to a boil, skim foam, then cover and simmer 1 hour.",
+        "Add carrots, daikon, and mushrooms. Simmer uncovered 30-40 min more until meat is fork-tender and sauce has thickened. Top with sesame seeds and scallions."
+      ],
+      "tip": "The initial blanch looks like an extra step you can skip — don't. It's what gives you a clean, clear sauce instead of a cloudy, gamey one.",
+      "recipe_detailed": [
+        "Soaking the ribs in cold water draws out residual blood that would otherwise cloud and darken your braising liquid. Change the water once partway through the 30 minutes if it gets very red.",
+        "Blanching is a two-minute investment for a much cleaner final dish: drop the ribs into a pot of boiling water for about 5 minutes, then dump them into a colander and rinse thoroughly under cold water, rubbing off any grey scum clinging to the surface.",
+        "Grate the Asian pear and onion on a box grater rather than chopping them — pureed this way, they melt into the sauce and add natural sweetness and tenderizing enzymes that a diced pear or onion wouldn't provide as effectively. Whisk them together with the garlic, ginger, soy sauce, brown sugar, and sesame oil.",
+        "Combine the blanched ribs with the braising liquid and enough water or broth to mostly submerge them. Bring to a boil first, skimming off any foam that rises to the top, then reduce to a bare simmer, cover, and let it go undisturbed for a full hour — this slow, gentle heat is what breaks down the tough connective tissue in short ribs.",
+        "Add the vegetables only after that first hour, once the meat already has a head start on tenderness, and simmer uncovered from here so the sauce can reduce and thicken as the vegetables cook. You'll know it's ready when a fork slides into the meat with almost no resistance and the sauce clings thickly to everything — usually another 30 to 40 minutes."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 319,
+      "name": "Philly Cheesesteak Skillet",
+      "protein": "beef",
+      "time": 25,
+      "servings": 4,
+      "cal": 530,
+      "desc": "All the flavor of a Philly cheesesteak in a quick skillet with melty provolone, no hoagie roll required.",
+      "premium": true,
+      "ingredients": [
+        "1.5 lb ribeye or sirloin, thinly sliced",
+        "2 tbsp oil",
+        "1 onion, sliced",
+        "1 green bell pepper, sliced",
+        "8 oz mushrooms, sliced",
+        "3 garlic cloves, minced",
+        "Salt and pepper",
+        "6 slices provolone cheese",
+        "4 hoagie rolls or over rice/potatoes",
+        "Yellow mustard (optional)"
+      ],
+      "recipe": [
+        "Freeze the beef 15 min to firm up, then slice it very thin against the grain.",
+        "Heat oil in a large skillet over high heat. Sear beef in batches 1-2 min until just browned. Remove.",
+        "In the same skillet, cook onion, bell pepper, and mushrooms 6-8 min until softened and browned at the edges. Add garlic, cook 1 min.",
+        "Return beef to the skillet, season with salt and pepper, and toss to combine.",
+        "Lay provolone slices over the top, cover, and let melt 1-2 min. Serve in hoagie rolls or over rice or roasted potatoes."
+      ],
+      "tip": "Slicing the beef thin against the grain matters more than the cut you choose — even a cheaper steak turns tender this way.",
+      "recipe_detailed": [
+        "Firming the beef in the freezer for about 15 minutes makes it dramatically easier to slice paper-thin, which is the single biggest factor in getting that classic cheesesteak texture rather than chewy strips of steak.",
+        "Slice against the grain — look for the direction of the muscle fibers and cut perpendicular to them, which shortens the fibers and makes each bite tender no matter which cut of beef you're using.",
+        "Get your skillet very hot before searing, and work in small batches so the beef actually browns instead of steaming in its own juices from overcrowding. A minute or two per batch is plenty since the slices are thin; pull them out while there's still a little pink, since they'll finish cooking later.",
+        "In the same skillet, without wiping it out, cook the onion, pepper, and mushrooms over medium-high heat, stirring occasionally but letting them sit long enough between stirs to actually brown and caramelize at the edges — this takes a solid 6 to 8 minutes and is where a lot of the dish's flavor comes from. Add garlic only in the last minute so it doesn't burn.",
+        "Return the beef to the pan along with any juices that collected on the plate, toss everything together, and season with salt and pepper. Lay the provolone slices over the top, cover the skillet for a minute or two so the residual heat melts the cheese into a gooey blanket, then serve it all immediately, ideally piled into a hoagie roll or over rice or potatoes for a lower-carb option."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 320,
+      "name": "Beef Birria Tacos",
+      "protein": "beef",
+      "time": 180,
+      "servings": 6,
+      "cal": 580,
+      "desc": "Rich, chile-braised beef tacos dipped in their own consomme and griddled until crispy.",
+      "premium": true,
+      "ingredients": [
+        "3 lbs beef chuck roast, cut into large chunks",
+        "4 dried guajillo chiles, stemmed and seeded",
+        "2 dried ancho chiles, stemmed and seeded",
+        "1 chipotle in adobo",
+        "1 onion, quartered",
+        "6 garlic cloves",
+        "2 tomatoes",
+        "2 bay leaves",
+        "1 tsp cumin",
+        "1 tsp oregano",
+        "1 cinnamon stick",
+        "4 cups beef broth",
+        "Corn tortillas",
+        "Shredded Oaxaca or mozzarella cheese",
+        "Cilantro and diced onion for topping",
+        "Lime wedges"
+      ],
+      "recipe": [
+        "Toast dried chiles in a dry pot 1-2 min per side until fragrant. Soak in hot water 15 min to soften.",
+        "Blend soaked chiles, chipotle, onion, garlic, tomatoes, cumin, and oregano with a bit of broth until smooth.",
+        "Sear beef chunks in the pot until browned on all sides. Add the blended sauce, remaining broth, bay leaves, and cinnamon stick.",
+        "Cover and simmer 2.5-3 hours (or pressure cook 45 min) until beef shreds easily with a fork.",
+        "Shred beef and skim fat from the broth (this is your consomme). Dip tortillas in the fat, fill with beef and cheese, fold and griddle until crispy. Serve with consomme for dipping, topped with cilantro, onion, and lime."
+      ],
+      "tip": "Skim the orange fat that rises to the top of the consomme and dip your tortillas in it before griddling — that's the trick behind birria's deep red, crispy shell.",
+      "recipe_detailed": [
+        "Toasting the dried chiles briefly in a dry pot wakes up their oils and deepens their flavor considerably compared to using them straight from the bag — watch closely since they can go from toasted to burnt in seconds, and burnt chiles turn bitter.",
+        "Rehydrate the toasted chiles in hot (not boiling) water for about 15 minutes until they're pliable, then blend them with the chipotle, onion, garlic, tomatoes, and spices, using a little broth to help it move in the blender. Strain if you want an ultra-smooth sauce, though it's not strictly necessary.",
+        "Sear the beef chunks hard on all sides in the same pot before adding any liquid — this Maillard browning adds a depth of flavor that boiling from raw simply can't replicate. Don't crowd the pot; work in batches if needed.",
+        "Once the beef is seared, pour in the chile sauce along with the remaining broth, bay leaves, and cinnamon stick, and bring to a simmer. From here it's a long, slow braise — 2.5 to 3 hours on the stovetop, or about 45 minutes under pressure in an Instant Pot — until the meat shreds effortlessly with two forks.",
+        "Once done, pull the meat out to shred, and let the braising liquid (now your consomme) sit for a few minutes so the fat rises to the top — skim this off into a small bowl. Dip each tortilla into that reserved fat before griddling; it's what fries the tortilla from the outside in and gives birria tacos their distinctive crispy, deep-red shell. Fill with shredded beef and cheese, fold, and griddle on both sides until crisp and the cheese has melted, then serve alongside small cups of the hot consomme for dipping."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 321,
+      "name": "Mongolian Beef",
+      "protein": "beef",
+      "time": 20,
+      "servings": 4,
+      "cal": 490,
+      "desc": "Crispy strips of flank steak in a glossy, sweet-savory soy and brown sugar sauce with scallions.",
+      "premium": true,
+      "ingredients": [
+        "1.5 lb flank steak, thinly sliced against the grain",
+        "0.33 cup cornstarch",
+        "0.33 cup vegetable oil",
+        "1 tbsp fresh ginger, minced",
+        "4 garlic cloves, minced",
+        "0.5 cup soy sauce",
+        "0.5 cup water",
+        "0.5 cup brown sugar",
+        "6 scallions, cut into 2-inch pieces",
+        "Cooked rice to serve"
+      ],
+      "recipe": [
+        "Toss sliced steak with cornstarch until evenly coated.",
+        "Heat oil in a wok or large skillet over high heat. Fry beef in batches 2-3 min until crispy and browned. Remove to a paper-towel-lined plate.",
+        "Pour off most of the oil, leaving about 1 tbsp. Add ginger and garlic, cook 30 sec until fragrant.",
+        "Add soy sauce, water, and brown sugar. Bring to a simmer and cook 2-3 min until slightly thickened.",
+        "Return beef to the pan, toss to coat in the glossy sauce, add scallions, and cook 1 min more. Serve over rice."
+      ],
+      "tip": "The cornstarch coating is what makes this 'crispy' beef — don't skip it even though the recipe otherwise looks like a simple stir-fry.",
+      "recipe_detailed": [
+        "Slice the flank steak as thin as you can manage, cutting against the grain to keep each piece tender rather than chewy — partially freezing the steak beforehand makes this much easier to do neatly.",
+        "Toss the sliced beef with cornstarch until every piece has a light, even coating — this thin crust is what fries up crispy in the hot oil and also helps the sauce cling to the meat later rather than sliding right off.",
+        "Fry the beef in a wok or large skillet with plenty of oil over high heat, working in small batches so the pieces have room to crisp rather than steam. Two to three minutes per batch should give you deeply golden, crispy edges; drain on paper towels as you go.",
+        "Pour off most of the frying oil but leave a thin film in the pan, then quickly bloom the ginger and garlic for about 30 seconds over the residual heat — any longer and they'll scorch and turn bitter, given how hot the pan already is.",
+        "Add the soy sauce, water, and brown sugar, and let the mixture bubble and reduce for 2 to 3 minutes until it's noticeably thickened and glossy — it should coat a spoon rather than run off it. Toss the crispy beef back into this sauce along with the scallions, stirring quickly just to coat everything evenly before serving over rice while the beef is still at its crispiest."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 322,
+      "name": "Peppercorn Crusted Steak with Red Wine Sauce",
+      "protein": "beef",
+      "time": 30,
+      "servings": 4,
+      "cal": 560,
+      "desc": "A steakhouse classic: crusty peppercorn-seared steak finished with a rich red wine pan sauce.",
+      "premium": true,
+      "ingredients": [
+        "4 New York strip or ribeye steaks",
+        "3 tbsp black peppercorns, coarsely crushed",
+        "Salt",
+        "2 tbsp oil",
+        "3 tbsp butter, divided",
+        "1 shallot, minced",
+        "0.75 cup dry red wine",
+        "0.75 cup beef broth",
+        "1 tsp Dijon mustard",
+        "Fresh thyme"
+      ],
+      "recipe": [
+        "Let steaks come to room temperature 30 min. Season generously with salt, then press crushed peppercorns firmly into both sides.",
+        "Heat oil in a heavy skillet over high heat until nearly smoking. Sear steaks 3-4 min per side for medium-rare, adding 1 tbsp butter in the last minute and basting.",
+        "Remove steaks to rest, tented with foil, for 5-8 min.",
+        "In the same skillet, lower heat to medium, add shallot, cook 1 min. Pour in wine, scraping up browned bits, and simmer 3-4 min until reduced by half.",
+        "Add broth and mustard, simmer 3-4 min more until slightly thickened. Off heat, swirl in remaining butter and thyme. Spoon sauce over rested steaks to serve."
+      ],
+      "tip": "Always build the pan sauce in the same skillet you seared the steak in — those browned bits stuck to the bottom are pure concentrated flavor.",
+      "recipe_detailed": [
+        "Pulling the steaks out to sit at room temperature for 30 minutes helps them cook more evenly all the way through instead of being cold in the center when the outside is done. Season with salt generously, then press the crushed peppercorns into the surface with the flat of your hand so they really adhere rather than falling off in the pan.",
+        "Get the skillet properly hot — cast iron holds heat best for this — until the oil is just shy of smoking. Lay the steaks in and don't move them for a full 3 to 4 minutes to build a real crust; add a tablespoon of butter near the end and tilt the pan to spoon the foaming butter over the steaks as they finish, which bastes them with extra flavor.",
+        "Pull the steaks at your target doneness (135°F for medium-rare on an instant-read thermometer, keeping in mind they'll climb another few degrees while resting) and let them rest, loosely tented with foil, for at least 5 minutes — this redistributes the juices so they stay in the meat instead of running out onto the cutting board.",
+        "Don't wash the skillet — those browned bits stuck to the bottom are the foundation of the sauce. Lower the heat, soften the shallot briefly, then deglaze with the red wine, scraping vigorously with a wooden spoon to lift up every bit of fond. Let it reduce by about half, which concentrates the flavor and cooks off the raw alcohol taste.",
+        "Add the broth and mustard and simmer until the sauce has thickened slightly and coats the back of a spoon. Take the pan off the heat before swirling in the last of the butter — adding cold butter off-heat (a technique called mounting) gives the sauce a glossy, silky finish that reheating over direct heat would break. Spoon it generously over the rested steaks along with fresh thyme."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 323,
+      "name": "Vietnamese Beef Pho",
+      "protein": "beef",
+      "time": 90,
+      "servings": 6,
+      "cal": 450,
+      "desc": "A fragrant, spiced beef broth ladled over rice noodles with thin-sliced beef and fresh herbs.",
+      "premium": true,
+      "ingredients": [
+        "3 lbs beef bones (oxtail or knuckle)",
+        "1 lb beef chuck, whole",
+        "1 onion, halved",
+        "3-inch piece ginger, halved",
+        "3 star anise",
+        "1 cinnamon stick",
+        "3 whole cloves",
+        "1 tbsp coriander seeds",
+        "0.25 cup fish sauce",
+        "2 tbsp rock sugar or brown sugar",
+        "1 lb rice noodles (banh pho)",
+        "0.5 lb sirloin, very thinly sliced",
+        "Bean sprouts, Thai basil, cilantro, lime, jalapeno, and hoisin/sriracha to serve"
+      ],
+      "recipe": [
+        "Char the onion and ginger halves directly over a flame or under the broiler until blackened in spots. Rinse off the char, keeping the softened flesh.",
+        "Blanch beef bones and chuck in boiling water 5 min, then rinse well. This keeps the broth clear.",
+        "Toast star anise, cinnamon, cloves, and coriander seeds in a dry pot 1-2 min until fragrant. Add bones, chuck, charred onion and ginger, and enough water to cover generously.",
+        "Bring to a boil, skim foam thoroughly, then reduce to a very gentle simmer, partially covered, for 1.5-2 hours. Season with fish sauce and sugar.",
+        "Remove chuck once tender, slice thin. Strain broth. Cook rice noodles per package directions. Build bowls with noodles, cooked and raw sliced beef, ladle hot broth over top to cook the raw beef, and serve with herbs and condiments."
+      ],
+      "tip": "Charring the onion and ginger before they go into the pot is a small step that gives the broth real depth — don't skip straight to raw aromatics.",
+      "recipe_detailed": [
+        "Char the onion and ginger directly over an open flame, under a broiler, or in a dry hot skillet until the outsides are properly blackened in spots — this isn't just for looks; the char adds a subtle smokiness that's essential to an authentic-tasting broth. Rinse off the blackened bits under water once cooled, keeping the now-softened flesh underneath.",
+        "Blanching the bones and chuck first — a rolling boil for about 5 minutes, then a thorough rinse under cold water — washes away the impurities and scum that would otherwise cloud your broth and give it a muddy, off flavor. This step is non-negotiable for a clear, clean-tasting pho.",
+        "Toast the whole spices in the dry, empty pot for a minute or two until they become fragrant, which wakes up their essential oils far more than adding them raw would. Add the blanched bones and meat, the charred aromatics, and enough water to cover everything generously, usually 4 to 5 quarts.",
+        "Bring it to a boil, then diligently skim off every bit of foam and grey scum that rises in the first 15 minutes — this patience is what separates a clear, restaurant-quality broth from a cloudy, muddy one. Drop to the gentlest possible simmer (just a lazy bubble here and there) and let it go, partially covered, for 1.5 to 2 hours, seasoning gradually with fish sauce and sugar as it develops.",
+        "Pull the chuck out once it's tender enough to slice easily and let it rest before cutting into thin slices. Strain the finished broth through a fine mesh sieve to remove all the spent aromatics and bone fragments, and keep it at a hard simmer for serving. To build bowls, layer noodles, a mix of the cooked sliced chuck and paper-thin raw sirloin, then ladle the scalding broth directly over the raw beef, which gently poaches it right in the bowl. Serve with the full spread of herbs and condiments so everyone can season their own bowl."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 324,
+      "name": "Beef Yakisoba",
+      "protein": "beef",
+      "time": 20,
+      "servings": 4,
+      "cal": 470,
+      "desc": "Quick stir-fried noodles with tender beef, cabbage, and carrots in a sweet-savory yakisoba sauce.",
+      "premium": true,
+      "ingredients": [
+        "1 lb yakisoba noodles (or ramen noodles)",
+        "1 lb sirloin or flank steak, thinly sliced",
+        "2 tbsp oil",
+        "3 cups shredded cabbage",
+        "1 carrot, julienned",
+        "1 onion, sliced",
+        "3 tbsp Worcestershire sauce",
+        "2 tbsp oyster sauce",
+        "2 tbsp ketchup",
+        "1 tbsp soy sauce",
+        "1 tsp sugar",
+        "Pickled red ginger and aonori (optional) to serve"
+      ],
+      "recipe": [
+        "Whisk Worcestershire, oyster sauce, ketchup, soy sauce, and sugar for the yakisoba sauce.",
+        "If noodles are fresh, loosen them under warm water. If dried, cook per package directions and drain.",
+        "Heat oil in a large skillet or wok over high heat. Stir-fry beef 2-3 min until browned. Remove.",
+        "Add cabbage, carrot, and onion to the same pan, stir-fry 3-4 min until just tender-crisp.",
+        "Add noodles and beef back to the pan, pour sauce over top, and toss everything together 2-3 min until noodles are coated and heated through. Serve topped with pickled ginger if using."
+      ],
+      "tip": "Have every ingredient prepped and within arm's reach before you turn on the heat — yakisoba comes together in minutes and there's no time to chop mid-stir-fry.",
+      "recipe_detailed": [
+        "Mix the sauce first, before anything else — whisk the Worcestershire, oyster sauce, ketchup, soy sauce, and sugar together in a small bowl until fully combined. Having it ready to pour means you won't be fumbling with bottles once the stir-fry is moving fast.",
+        "If you're using fresh yakisoba noodles (usually found refrigerated), loosen them by rinsing briefly under warm water so they separate easily instead of clumping in the pan. Dried noodles should be cooked just to al dente per the package, then drained well since excess water dilutes the sauce.",
+        "Get the wok or skillet very hot before adding the beef, and stir-fry it quickly, just 2 to 3 minutes, until it's browned but not overcooked — pull it out onto a plate so it doesn't keep cooking while you handle the vegetables.",
+        "Add the cabbage, carrot, and onion straight into the same hot pan and stir-fry over high heat, keeping things moving so the vegetables cook fast and stay crisp rather than turning soggy — about 3 to 4 minutes is enough for cabbage to wilt slightly while carrots still have bite.",
+        "Return the noodles and beef to the pan, pour the sauce evenly over everything, and toss vigorously with tongs or two spatulas so the sauce coats every strand of noodle. Keep tossing over the heat for a couple of minutes until everything is glossy and heated through, then serve right away while it's hot, with pickled ginger on the side if you like the contrast."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 325,
+      "name": "Carne Asada with Chimichurri",
+      "protein": "beef",
+      "time": 25,
+      "servings": 4,
+      "cal": 490,
+      "desc": "Citrus-marinated grilled flank steak sliced thin and topped with a bright, garlicky chimichurri.",
+      "premium": true,
+      "ingredients": [
+        "2 lbs flank or skirt steak",
+        "0.33 cup orange juice",
+        "2 tbsp lime juice",
+        "4 garlic cloves, minced",
+        "2 tbsp olive oil",
+        "1 tsp cumin",
+        "Salt and pepper",
+        "1 cup fresh parsley, finely chopped",
+        "0.25 cup fresh oregano or cilantro, finely chopped",
+        "2 garlic cloves, minced (for chimichurri)",
+        "0.5 cup olive oil (for chimichurri)",
+        "2 tbsp red wine vinegar",
+        "0.5 tsp red pepper flakes"
+      ],
+      "recipe": [
+        "Whisk orange juice, lime juice, garlic, olive oil, cumin, salt, and pepper. Marinate steak at least 1 hour, up to overnight, in the fridge.",
+        "Make chimichurri: combine parsley, oregano, garlic, olive oil, vinegar, red pepper flakes, and a pinch of salt. Let sit at room temperature while the steak cooks.",
+        "Remove steak from marinade, pat dry, and let come to room temperature 20 min.",
+        "Grill or sear in a very hot skillet 4-5 min per side for medium-rare, depending on thickness.",
+        "Rest 5-8 min, then slice thin against the grain. Serve topped generously with chimichurri."
+      ],
+      "tip": "Chimichurri actually improves after sitting 20-30 minutes at room temperature — the flavors meld and mellow, so make it before you cook the steak, not after.",
+      "recipe_detailed": [
+        "Whisk together the citrus juices, garlic, olive oil, cumin, salt, and pepper for the marinade, then submerge the steak in it in a resealable bag or shallow dish. An hour is enough to add flavor, but letting it go overnight in the fridge lets the acid work more on tenderizing the meat as well.",
+        "Make the chimichurri while the steak marinates rather than at the last minute — combine the finely chopped parsley and oregano (or cilantro) with garlic, olive oil, vinegar, and red pepper flakes, and let it rest at room temperature. Chimichurri is actually better after 20 to 30 minutes as the flavors have time to meld together into something more cohesive than a chopped-herb oil.",
+        "Pull the steak from the marinade with enough time to pat it dry and let it come closer to room temperature, about 20 minutes — a cold steak straight from the fridge cooks unevenly and struggles to develop a good sear.",
+        "Cook over very high, direct heat, whether on a grill or in a heavy skillet — flank and skirt steak are thin cuts that benefit from fast, hot cooking rather than a slow approach, which would overcook them before a crust forms. Four to five minutes per side is typical for medium-rare, but go by feel or a thermometer (130-135°F) rather than the clock alone since thickness varies.",
+        "Resting for a full 5 to 8 minutes matters even more with a thin, quick-cooked cut like this — cutting in too soon lets all the juices run out onto the board instead of staying in the meat. Always slice against the grain in thin strips; with flank and skirt steak this is critical, since the muscle fibers are long and slicing with the grain results in a noticeably tougher bite. Top generously with the room-temperature chimichurri right before serving."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 326,
+      "name": "Cuban Mojo Pork with Black Beans and Rice",
+      "protein": "pork",
+      "time": 150,
+      "servings": 6,
+      "cal": 560,
+      "desc": "Citrus-garlic marinated pork roast, slow-roasted until tender, served over rice and black beans.",
+      "premium": true,
+      "ingredients": [
+        "3.5 lb pork shoulder",
+        "1 cup orange juice",
+        "0.33 cup lime juice",
+        "8 garlic cloves, minced",
+        "1 tbsp cumin",
+        "1 tbsp dried oregano",
+        "0.25 cup olive oil",
+        "Salt and pepper",
+        "1 onion, sliced",
+        "2 cans black beans, drained",
+        "1 tsp cumin (for beans)",
+        "Cooked white rice",
+        "Cilantro and lime wedges"
+      ],
+      "recipe": [
+        "Whisk orange juice, lime juice, garlic, cumin, oregano, olive oil, salt, and pepper. Marinate pork shoulder at least 4 hours, ideally overnight, in the fridge.",
+        "Preheat oven to 300F. Place pork and marinade in a Dutch oven with sliced onion. Cover and roast 3-3.5 hours until fork-tender.",
+        "In the last 30 min, uncover and increase heat to 425F to crisp and brown the exterior.",
+        "Meanwhile, warm black beans with a little cumin, salt, and a splash of water until heated through.",
+        "Shred or slice the pork, spoon pan juices over top, and serve with rice, black beans, cilantro, and lime wedges."
+      ],
+      "tip": "Marinate this one overnight if you possibly can — mojo needs real time for the citrus and garlic to penetrate a cut this thick.",
+      "recipe_detailed": [
+        "Whisk the marinade thoroughly so the garlic, cumin, and oregano are evenly distributed rather than clumped, then submerge the pork shoulder fully in a large resealable bag or covered dish. Massage the marinade into the meat before refrigerating.",
+        "Give it real time — 4 hours is a minimum, but overnight is genuinely better for a cut this thick and fatty. The acid in the citrus needs time to work its way in, and rushing this step is the difference between a pork roast that tastes seasoned only on the surface and one that's flavorful all the way through.",
+        "Roast low and slow, covered, so the connective tissue in the shoulder has time to break down into gelatin without drying out the meat — 300°F for 3 to 3.5 hours is the sweet spot. Check with a fork partway through; it should offer real resistance until close to the end.",
+        "In the final 30 minutes, remove the lid and crank the oven to 425°F. This step transforms the pale, boiled-looking exterior into something browned and slightly crisp, which matters a lot for both texture and flavor — don't skip it even though the meat is already cooked through by this point.",
+        "Let the roast rest for a few minutes before shredding or slicing, and spoon plenty of the concentrated pan juices back over the meat, which have picked up all that citrus-garlic flavor during the long roast. Serve it simply over rice with warmed black beans, since the pork itself carries most of the flavor."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 327,
+      "name": "Tonkotsu Ramen with Chashu Pork Belly",
+      "protein": "pork",
+      "time": 60,
+      "servings": 4,
+      "cal": 650,
+      "desc": "Rich, creamy pork broth ramen topped with tender braised pork belly, soft egg, and scallions.",
+      "premium": true,
+      "ingredients": [
+        "8 cups pork bone broth or good quality store-bought tonkotsu base",
+        "2 tbsp miso paste",
+        "1 tbsp soy sauce",
+        "1 lb pork belly, rolled and tied",
+        "0.5 cup soy sauce (for chashu braise)",
+        "0.25 cup mirin",
+        "0.25 cup sake",
+        "2 tbsp sugar",
+        "2 garlic cloves",
+        "4 soft-boiled eggs, halved",
+        "4 portions fresh ramen noodles",
+        "Scallions, nori, and bamboo shoots to serve"
+      ],
+      "recipe": [
+        "Braise pork belly: combine soy sauce, mirin, sake, sugar, garlic, and enough water to mostly cover in a pot. Add pork belly, bring to a simmer, cover, and cook 1.5-2 hours until very tender.",
+        "Cool pork belly slightly in the braising liquid, then slice into thick rounds.",
+        "Warm the broth, whisking in miso paste and soy sauce until dissolved. Taste and adjust seasoning.",
+        "Cook ramen noodles per package directions, just shy of al dente. Drain well.",
+        "Divide noodles among bowls, ladle hot broth over top, and arrange chashu pork, soft-boiled egg, scallions, nori, and bamboo shoots on top."
+      ],
+      "tip": "Cool the pork belly in its braising liquid before slicing — it firms up and holds together much better than slicing it hot.",
+      "recipe_detailed": [
+        "Roll the pork belly into a tight log and tie it with kitchen twine at intervals — this keeps its shape during the long braise so you get neat, round slices rather than something that falls apart.",
+        "Combine the braising liquid ingredients in a pot just big enough to hold the pork snugly, add enough water to mostly submerge it, and bring to a simmer before covering. Let it go low and slow for 1.5 to 2 hours; you're looking for the fat to have rendered soft and the meat to yield easily to a fork.",
+        "Once done, let the pork belly cool in its braising liquid for at least 20 to 30 minutes before attempting to slice it — hot, freshly braised pork belly is fragile and tends to shred rather than slice cleanly, while a slightly cooled roll holds together and gives you neat rounds.",
+        "While the pork cools, doctor your broth: warm it gently and whisk in the miso paste until fully dissolved with no lumps, along with a bit of soy sauce for depth. Miso loses some of its aroma if boiled hard, so keep the heat moderate. Taste and adjust — tonkotsu ramen broth should taste rich and full-bodied, almost creamy.",
+        "Cook the noodles separately in a large pot of boiling water, pulling them slightly before fully al dente since they'll continue softening in the hot broth. Assemble quickly once everything is ready: noodles first, broth ladled over, then the sliced chashu, a jammy soft-boiled egg, scallions, and any other toppings arranged on top so they don't sink and get lost in the bowl."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 328,
+      "name": "Bibimbap with Spicy Pork",
+      "protein": "pork",
+      "time": 35,
+      "servings": 4,
+      "cal": 590,
+      "desc": "A colorful Korean rice bowl with gochujang-spiced pork, sauteed vegetables, and a fried egg.",
+      "premium": true,
+      "ingredients": [
+        "1.5 lb ground pork",
+        "3 tbsp gochujang",
+        "1 tbsp soy sauce",
+        "1 tbsp sugar",
+        "1 tbsp sesame oil",
+        "3 garlic cloves, minced",
+        "2 cups spinach",
+        "1 carrot, julienned",
+        "1 cup bean sprouts",
+        "1 zucchini, julienned",
+        "4 eggs",
+        "Cooked short-grain rice",
+        "Sesame seeds"
+      ],
+      "recipe": [
+        "Whisk gochujang, soy sauce, sugar, half the sesame oil, and garlic. Toss with ground pork and let sit 10 min.",
+        "Blanch spinach 30 sec, squeeze dry, and season with a pinch of salt and sesame oil. Set aside.",
+        "Saute carrot, then bean sprouts, then zucchini separately in a little oil, each 2-3 min, seasoning lightly with salt. Keep separate.",
+        "Cook the marinated pork in a hot skillet 6-8 min, breaking it up, until browned and cooked through.",
+        "Fry eggs sunny-side up. Divide rice among bowls, arrange pork and vegetables in sections on top, add a fried egg to each, and finish with sesame seeds. Stir together before eating."
+      ],
+      "tip": "Keep each vegetable and the pork in its own little pile arranged around the bowl — the visual arrangement is half of what makes bibimbap bibimbap.",
+      "recipe_detailed": [
+        "Whisk the gochujang, soy sauce, sugar, half the sesame oil, and garlic into a smooth marinade, then work it thoroughly into the ground pork with your hands or a spoon. Let it sit for at least 10 minutes so the flavors start to penetrate the meat rather than just coating the outside.",
+        "Blanching the spinach very briefly — just 30 seconds in boiling water — wilts it without turning it mushy or bitter. Shock it in cold water if you can, then squeeze out as much liquid as possible before seasoning; wet spinach will water down the whole bowl.",
+        "Cook each vegetable separately rather than all together in one pan — this is what traditional bibimbap does, and it matters because each vegetable has a different ideal cooking time and you want each to retain its own distinct texture and flavor rather than everything blending into a single mushy stir-fry. A couple of minutes per vegetable with a light hand on the oil and salt is plenty.",
+        "Cook the marinated pork in a hot, dry-ish skillet, breaking it into small crumbles as it browns — the gochujang marinade will caramelize slightly at the edges, which adds good flavor, so don't stir too constantly or you'll prevent that browning.",
+        "Fry the eggs last, keeping the yolks runny since they'll be broken and stirred through the rice at the table, acting as a rich, silky sauce. Arrange the rice as the base in each bowl, then place the pork and each vegetable in its own distinct section around the edges rather than mixing them, top with the fried egg in the center, and finish with sesame seeds — the dish is meant to be vigorously stirred together right before eating, mixing all those separate flavors and textures into one bite."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 329,
+      "name": "Pork Katsu Sando",
+      "protein": "pork",
+      "time": 30,
+      "servings": 4,
+      "cal": 620,
+      "desc": "Crispy panko-breaded pork cutlets with tangy katsu sauce, pressed between soft milk bread.",
+      "premium": true,
+      "ingredients": [
+        "4 boneless pork loin chops, pounded to 1/2 inch",
+        "Salt and pepper",
+        "0.5 cup flour",
+        "2 eggs, beaten",
+        "1.5 cups panko breadcrumbs",
+        "Oil for frying",
+        "8 slices soft white sandwich bread, crusts removed",
+        "0.33 cup ketchup",
+        "2 tbsp Worcestershire sauce",
+        "1 tbsp soy sauce",
+        "1 tbsp sugar",
+        "Shredded cabbage and Kewpie mayo"
+      ],
+      "recipe": [
+        "Whisk ketchup, Worcestershire, soy sauce, and sugar for the katsu sauce. Set aside.",
+        "Season pork chops with salt and pepper. Dredge in flour, dip in egg, then coat thoroughly in panko, pressing to adhere.",
+        "Heat about 1/2 inch of oil in a skillet to 340-350F. Fry cutlets 3-4 min per side until deep golden and cooked through. Drain on a rack.",
+        "Slice cutlets into strips. Spread mayo on bread, add a layer of shredded cabbage, then pork drizzled generously with katsu sauce.",
+        "Press sandwiches firmly, trim edges if desired, and cut in half to serve."
+      ],
+      "tip": "Use a wire rack instead of paper towels to drain the fried cutlets — paper towels trap steam underneath and soften the crust you just worked for.",
+      "recipe_detailed": [
+        "Pound the pork chops to an even half-inch thickness using a meat mallet or the bottom of a heavy pan — even thickness means even cooking, so no part is raw while another is overdone.",
+        "Set up a proper breading station: flour in one dish, beaten egg in another, panko in a third. Season the pork first, then dredge in flour (shaking off excess), dip fully in egg, and press into the panko firmly on both sides so the crumbs really adhere rather than flaking off in the oil.",
+        "Heat the oil to a genuine 340 to 350°F — use a thermometer if you have one, since oil that's too cool makes the breading absorb grease and turn soggy, while oil that's too hot burns the crust before the pork cooks through. Fry until deep golden brown, about 3 to 4 minutes per side.",
+        "Drain the fried cutlets on a wire rack set over a sheet pan rather than directly on paper towels — a rack lets air circulate underneath and keeps the bottom crust just as crisp as the top, while paper towels trap steam against the bottom and soften it.",
+        "Build the sandwiches while the cutlets are still warm: spread Kewpie mayo on the bread, add a bed of shredded cabbage for crunch and to balance the richness of the fried pork, then the sliced cutlet drizzled generously with the tangy-sweet katsu sauce. Press the sandwich together firmly with your hands before cutting so the layers hold together in a clean cross-section."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 330,
+      "name": "Carnitas Tacos with Pineapple Salsa",
+      "protein": "pork",
+      "time": 180,
+      "servings": 6,
+      "cal": 520,
+      "desc": "Slow-braised, crispy-edged pork carnitas with a sweet-tart pineapple salsa.",
+      "premium": true,
+      "ingredients": [
+        "4 lb pork shoulder, cut into large chunks",
+        "1 orange, juiced (keep the halves)",
+        "4 garlic cloves",
+        "1 onion, quartered",
+        "2 tsp cumin",
+        "1 tsp oregano",
+        "2 bay leaves",
+        "Salt and pepper",
+        "2 cups pineapple, diced",
+        "0.25 cup red onion, minced",
+        "1 jalapeno, minced",
+        "2 tbsp cilantro, chopped",
+        "1 lime, juiced",
+        "Corn tortillas"
+      ],
+      "recipe": [
+        "Season pork generously with salt, pepper, cumin, and oregano. Place in a Dutch oven with orange juice and squeezed halves, garlic, onion, and bay leaves.",
+        "Add water just to cover. Bring to a simmer, cover, and cook at a low simmer (or 300F oven) 2.5-3 hours until pork shreds easily.",
+        "Remove pork, discard bay leaves and orange halves, and shred the meat. Reduce remaining liquid on the stove until thick and syrupy.",
+        "Toss shredded pork with the reduced liquid. Spread on a sheet pan and broil 5-8 min until edges are crispy and caramelized.",
+        "Combine pineapple, red onion, jalapeno, cilantro, and lime juice for the salsa. Serve carnitas in warm tortillas topped with pineapple salsa."
+      ],
+      "tip": "Don't skip broiling the shredded pork at the end — that quick blast of high heat is what turns tender braised pork into proper crispy-edged carnitas.",
+      "recipe_detailed": [
+        "Season the pork shoulder chunks generously all over before it goes into the pot — this is your only real chance to season the meat itself, since the braising liquid will only lightly flavor the surface. Nestle in the squeezed orange halves along with the juice; the peel adds a subtle bitterness and aroma that's traditional in good carnitas.",
+        "Add just enough water to bring the liquid level up to cover the meat, then bring it to a bare simmer rather than a boil — a hard boil toughens meat before it has a chance to become tender through slow breakdown of connective tissue. Whether on the stovetop or in a 300°F oven, give it the full 2.5 to 3 hours; it's done when the pork falls apart at the gentlest prodding of a fork.",
+        "Once the pork is tender, pull it out to shred (discarding the spent orange halves and bay leaves), and don't throw out the braising liquid — put it back on the stove over medium-high heat and let it reduce down until it's noticeably thickened and syrupy. This concentrated liquid is what will give the shredded pork real flavor rather than being just plain and dry.",
+        "Toss the shredded pork thoroughly with that reduced liquid so every strand picks up flavor, then spread it in an even layer on a sheet pan. Broil it, watching closely, until the edges and any exposed fat go crispy and caramelized in spots — this step is what separates real carnitas from simple pulled pork, so don't rush past it.",
+        "Make the pineapple salsa while the pork braises so the flavors have time to meld — the sweetness of the pineapple and the acidity of the lime are meant to cut through the richness of the pork. Serve everything family-style with warm tortillas so people can build their own tacos."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 331,
+      "name": "Honey Garlic Pork Chops",
+      "protein": "pork",
+      "time": 25,
+      "servings": 4,
+      "cal": 440,
+      "desc": "Pan-seared pork chops glazed in a sticky honey-garlic sauce, ready in under half an hour.",
+      "premium": true,
+      "ingredients": [
+        "4 bone-in pork chops, about 1 inch thick",
+        "Salt and pepper",
+        "2 tbsp oil",
+        "4 tbsp butter, divided",
+        "6 garlic cloves, minced",
+        "0.33 cup honey",
+        "0.25 cup soy sauce",
+        "1 tbsp apple cider vinegar",
+        "0.25 tsp red pepper flakes",
+        "Chopped parsley"
+      ],
+      "recipe": [
+        "Pat pork chops dry and season generously with salt and pepper.",
+        "Heat oil and 1 tbsp butter in a skillet over medium-high. Sear chops 4-5 min per side until deeply browned and internal temp reaches 140-145F. Remove to rest.",
+        "Lower heat to medium, add remaining butter and garlic, cook 30 sec until fragrant.",
+        "Whisk in honey, soy sauce, vinegar, and red pepper flakes. Simmer 2-3 min until slightly thickened.",
+        "Return chops to the pan, spoon sauce over top, and let rest in the sauce 2-3 min before serving, finished with parsley."
+      ],
+      "tip": "Pull the chops at 140-145F, not the old-school 160F — they'll climb a few more degrees while resting and stay juicy instead of drying out.",
+      "recipe_detailed": [
+        "Pat the pork chops completely dry with paper towels before seasoning — any surface moisture gets in the way of a good sear and steams the meat instead of browning it. Season both sides generously with salt and pepper right before cooking.",
+        "Get the oil and butter hot in the skillet until the butter's foam subsides, which signals it's hot enough without burning. Lay the chops in and leave them alone for a full 4 to 5 minutes per side, resisting the urge to check or move them, which is what builds a deep, flavorful crust.",
+        "Use an instant-read thermometer if you have one and pull the chops at 140 to 145°F in the thickest part — pork is safe well before the old 160°F guideline, and pulling it earlier along with a proper rest is the difference between a juicy chop and a dry, chalky one. Tent with foil while you make the sauce.",
+        "Lower the heat before adding the remaining butter and garlic to the same pan — garlic burns almost instantly in a hot, empty skillet, so give the pan a moment to cool slightly first, then cook the garlic just 30 seconds until fragrant, not browned.",
+        "Whisk in the honey, soy sauce, vinegar, and red pepper flakes directly into the pan, scraping up the browned bits from searing the chops, which dissolve into the sauce and add real depth. Let it bubble and reduce slightly until glossy and clinging to a spoon, then return the rested chops to the pan just long enough to soak up some sauce and rewarm, 2 to 3 minutes, before serving with extra sauce spooned over top."
+      ],
+      "cuisine": null
+    },
+    {
+      "id": 332,
+      "name": "Stuffed Pork Chops with Apple and Sage",
+      "protein": "pork",
+      "time": 45,
+      "servings": 4,
+      "cal": 510,
+      "desc": "Thick-cut pork chops stuffed with a savory apple, sage, and breadcrumb filling.",
+      "premium": true,
+      "ingredients": [
+        "4 thick-cut bone-in pork chops (1.5 inch)",
+        "2 tbsp butter",
+        "1 apple, diced small",
+        "1 small onion, diced",
+        "2 garlic cloves, minced",
+        "1 cup breadcrumbs",
+        "0.25 cup chicken broth",
+        "1 tbsp fresh sage, chopped (or 1 tsp dried)",
+        "Salt and pepper",
+        "2 tbsp oil"
+      ],
+      "recipe": [
+        "Preheat oven to 375F. Melt butter in a skillet, cook apple and onion 5-6 min until softened. Add garlic, cook 1 min.",
+        "Off heat, stir in breadcrumbs, broth, sage, salt, and pepper until the mixture holds together when pressed.",
+        "Cut a deep pocket into the side of each pork chop, being careful not to cut all the way through. Season chops with salt and pepper inside and out.",
+        "Stuff each chop generously with the apple mixture, securing with toothpicks if needed.",
+        "Heat oil in an oven-safe skillet over medium-high. Sear chops 2-3 min per side until browned, then transfer skillet to the oven and bake 15-18 min until pork reaches 140-145F. Rest 5 min before serving."
+      ],
+      "tip": "Cut the pocket from the side, not the top, and leave a solid border around three edges — that's what keeps the filling from spilling out as it cooks.",
+      "recipe_detailed": [
+        "Cook the apple and onion in butter over medium heat until they're truly softened and just starting to turn golden at the edges, about 5 to 6 minutes — undercooked apple stays too firm and starchy inside the finished chop. Add the garlic only at the very end so it doesn't burn during that longer cooking time.",
+        "Off the heat, stir in the breadcrumbs, a splash of broth, sage, salt, and pepper. You're looking for a mixture that holds together when you press it in your hand but isn't wet or pasty — add broth a tablespoon at a time until you hit that texture.",
+        "Using a sharp paring knife, cut into the thickest side of each chop and work the blade side to side to create a deep pocket, being careful to leave the top, bottom, and far edge intact so the filling has somewhere to stay rather than falling straight through.",
+        "Pack the stuffing in firmly but don't overfill — a chop that's stuffed too full will burst open during searing. Secure the opening with a toothpick or two if the pocket doesn't want to stay closed on its own.",
+        "Sear the stuffed chops in a hot, oven-safe skillet just long enough to brown both sides well, then move the whole skillet into the oven to finish — this two-step method gives you a well-browned crust without overcooking the outside while the thick chop and its filling come up to temperature. Pull at 140 to 145°F and let the chops rest for a full 5 minutes before removing toothpicks and serving, which lets the stuffing set and the juices settle."
+      ],
+      "cuisine": null
+    }
+  ]
+}
