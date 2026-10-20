@@ -1,5 +1,10 @@
 # Forknight recipe audit brief
 
+> **Scope: recipe content only.** Your only task is to review the recipe data in the uploaded
+> batch files: ingredients, steps, calories, times, cuisines and tips. Do not review or comment
+> on code, authentication, security, Supabase, the database or anything else about the app,
+> even if earlier conversations or project files mention them.
+
 Paste this brief into a new chat, then upload **one batch file at a time**:
 
 | File | Proteins | Recipes |
