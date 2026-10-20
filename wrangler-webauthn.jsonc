@@ -1,0 +1,6 @@
+{
+  "name": "forknight-webauthn",
+  "compatibility_date": "2026-05-06",
+  "main": "webauthn-worker.js",
+  "pages_build_output_dir": "dist"
+}

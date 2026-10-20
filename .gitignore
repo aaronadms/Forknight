@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.wrangler/
+.DS_Store
+.dev.vars
+.env*
+
+# Old manual backups — kept on disk, not in history
+_backup/
+_to_delete/
+*.bak-*

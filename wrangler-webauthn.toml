@@ -1,0 +1,16 @@
+name = "forknight-webauthn"
+main = "webauthn-worker.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ALLOWED_ORIGIN = "https://forknight.app"
+
+# Set these via: wrangler secret put SUPABASE_SERVICE_KEY
+# (never commit secrets to this file)
+# SUPABASE_URL = "https://cekgmugupbbmehpeoqnp.supabase.co"
+# SUPABASE_SERVICE_KEY = "<your service role key>"
+
+[[routes]]
+pattern = "forknight.app/auth/webauthn/*"
+zone_name = "forknight.app"

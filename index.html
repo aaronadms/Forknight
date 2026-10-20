@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#EDEEE8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0D0D0B" media="(prefers-color-scheme: dark)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Forknight" />
+    <title>Forknight — Meal Planning for Two</title>
+    <meta name="description" content="Plan your household meals together, one week at a time. Pick dinners, track leftovers, and build a grocery list — built for couples and families." />
+    <meta property="og:title" content="Forknight — Meal Planning for Two" />
+    <meta property="og:description" content="Plan your household meals together, one week at a time. Pick dinners, track leftovers, and build a grocery list." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://forknight.app" />
+    <meta property="og:image" content="https://forknight.app/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Forknight — Meal Planning for Two" />
+    <meta name="twitter:description" content="Plan your household meals together, one week at a time." />
+    <meta name="twitter:image" content="https://forknight.app/logo.png" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet"/>
+    <style>
+      /* Applied before JS runs — prevents white flash in dark mode */
+      :root { color-scheme: light dark; }
+      html, body { background-color: #EDEEE8; }
+      @media (prefers-color-scheme: dark) {
+        html, body { background-color: #0D0D0B; }
+      }
+      /* Forknight theme override takes over once JS runs via inline style */
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body, #root {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      /* Fill behind browser nav on iOS */
+      body {
+        padding-top: env(safe-area-inset-top);
+      }
+      input, button { font-family: inherit; }
+      /* Prevent pull-to-refresh interfering with sheets */
+      body { overscroll-behavior-y: contain; }
+      @keyframes expandCard {
+        from { opacity: 0; transform: translateY(-4px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      /* Oblong pill slider thumb */
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 36px; height: 20px;
+        border-radius: 999px;
+        background: #FF6B35;
+        cursor: pointer;
+        border: 2px solid rgba(255,255,255,0.3);
+        box-shadow: 0 1px 6px rgba(0,0,0,0.25);
+        margin-top: -8px;
+      }
+      input[type="range"]::-moz-range-thumb {
+        width: 36px; height: 20px;
+        border-radius: 999px;
+        background: #FF6B35;
+        cursor: pointer;
+        border: 2px solid rgba(255,255,255,0.3);
+        box-shadow: 0 1px 6px rgba(0,0,0,0.25);
+      }
+      input[type="range"]::-webkit-slider-runnable-track {
+        height: 4px;
+        border-radius: 2px;
+        background: #E2E2DC;
+      }
+      input[type="range"] {
+        -webkit-appearance: none;
+        appearance: none;
+        height: 4px;
+        border-radius: 2px;
+        outline: none;
+      }
+      @media (prefers-color-scheme: dark) {
+        input[type="range"]::-webkit-slider-runnable-track { background: #2E2E2C; }
+        input[type="range"]::-moz-range-track { background: #2E2E2C; }
+        input[type="range"]::-webkit-slider-thumb { border-color: rgba(255,255,255,0.15); }
+        input::placeholder { color: #606060; opacity: 1; }
+        input { color-scheme: dark; }
+        select { color-scheme: dark; background: #1A1A18; color: #E8E8E2; border-color: #2C2C2A; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
