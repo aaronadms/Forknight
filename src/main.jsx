@@ -4,6 +4,17 @@ import { supabase } from './supabaseClient.js'
 import ForknightAuth from './ForknightAuth.jsx'
 import App from './App.jsx'
 
+// Settings used to store the Face ID email as JSON ({email, ts}) while everything
+// else stores the plain email. Convert old values so sign-in reads a real address.
+try {
+  const raw = localStorage.getItem("forknight_faceid_email");
+  if (raw?.startsWith("{")) {
+    const email = JSON.parse(raw)?.email;
+    if (email) localStorage.setItem("forknight_faceid_email", email);
+    else localStorage.removeItem("forknight_faceid_email");
+  }
+} catch { try { localStorage.removeItem("forknight_faceid_email"); } catch {} }
+
 // ── Logo spinner loading screen ───────────────────────────────────────────────
 function LoadingScreen() {
   const isDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;

@@ -1946,7 +1946,7 @@ const biometricLabel=()=>isAndroid()?'Biometrics':isIPad()?'Touch ID':'Face ID';
       console.log("[FaceID settings] complete:",completeRes.status,completeText.slice(0,200));
       const{verified}=JSON.parse(completeText);
       if(verified){
-        try{localStorage.setItem(FACEID_KEY,JSON.stringify({email:session.user.email,ts:Date.now()}));}catch{}
+        try{localStorage.setItem(FACEID_KEY,session.user.email);}catch{}
         setIsRegistered(true);
         setStatus("done");
       } else {setStatus("error");}
