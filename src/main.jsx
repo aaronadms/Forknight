@@ -162,13 +162,17 @@ function Root() {
     return () => { subscription.unsubscribe(); clearTimeout(fallback); };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleSignOut = () => {
-    const SUPABASE_URL = "https://cekgmugupbbmehpeoqnp.supabase.co";
-    const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNla2dtdWd1cGJibWVocGVvcW5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc0MDY4MDAsImV4cCI6MjA5Mjk4MjgwMH0.VfBTWhvpuAviNNP2ZCF6kMj0qGyNvjGO2Z04z_u2e98";
-    let token = null;
-    try { const raw = localStorage.getItem("forknight-auth"); if(raw) token=JSON.parse(raw)?.access_token; localStorage.removeItem("forknight-auth"); } catch {}
-    if (token) fetch(`${SUPABASE_URL}/auth/v1/logout`, { method:"POST", headers:{ apikey:SUPABASE_ANON, Authorization:`Bearer ${token}` } }).catch(()=>{});
+  const handleSignOut = async () => {
     setAuth(false);
+    // Revokes the session server-side, clears storage, and emits SIGNED_OUT to
+    // this tab and any others. If the network call fails, supabase keeps the
+    // local session, so clear it ourselves.
+    const { error } = await supabase.auth.signOut().catch(e => ({ error: e }));
+    if (error) {
+      console.log("[auth] signOut error, clearing local session:", error.message);
+      await supabase.auth.signOut({ scope: "local" }).catch(() => {});
+      try { localStorage.removeItem("forknight-auth"); } catch {}
+    }
   };
 
   // Theme detection for sheets
@@ -203,14 +207,14 @@ function Root() {
       try {
         const beginRes = await fetch(`${WEBAUTHN_URL}/register/begin`, { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({jwt:session.access_token}) });
         if (!beginRes.ok) { console.log("[FaceID setup] begin failed:", beginRes.status); setShowFaceIdSetup(false); setAuth(pendingAuth); setPendingAuth(null); return; }
-        const { options } = await beginRes.json();
+        const { options, challengeId } = await beginRes.json();
         options.challenge = b64ToU8(options.challenge);
         options.user.id = b64ToU8(options.user.id);
         options.pubKeyCredParams = (options.pubKeyCredParams||[]).filter(p=>p.alg!==-8);
         const credential = await navigator.credentials.create({ publicKey: options });
         const completeRes = await fetch(`${WEBAUTHN_URL}/register/complete`, {
           method:"POST", headers:{"Content-Type":"application/json"},
-          body:JSON.stringify({ jwt:session.access_token, deviceName:/iPhone|iPad/.test(navigator.userAgent)?"iPhone":"Device",
+          body:JSON.stringify({ jwt:session.access_token, challengeId, deviceName:/iPhone|iPad/.test(navigator.userAgent)?"iPhone":"Device",
             credential:{ id:credential.id, rawId:u8ToB64url(credential.rawId), type:credential.type,
               response:{ attestationObject:u8ToB64url(credential.response.attestationObject), clientDataJSON:u8ToB64url(credential.response.clientDataJSON) } } })
         });

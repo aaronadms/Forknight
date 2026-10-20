@@ -34,7 +34,6 @@ const uint8ToBase64url = (arr) => {
 
 const attemptFaceIdSignIn = async (email) => {
   try {
-    console.log("[WebAuthn] authenticate/begin for:", email);
     // 1. Get challenge from worker
     const beginRes = await fetch(`${WEBAUTHN_URL}/authenticate/begin`, {
       method: 'POST',
@@ -42,16 +41,13 @@ const attemptFaceIdSignIn = async (email) => {
       body: JSON.stringify({ email }),
     });
     const beginText = await beginRes.text();
-    console.log("[WebAuthn] begin response:", beginRes.status, beginText.slice(0, 200));
+    console.log("[WebAuthn] begin response:", beginRes.status);
     if (!beginRes.ok) {
       const body = JSON.parse(beginText);
       const reason = (body?.error?.includes("No credentials") || body?.error?.includes("User not found")) ? "no_credentials" : "server_error";
       return { success: false, reason };
     }
-    const beginData = JSON.parse(beginText);
-    const { options, userId: beginUserId } = beginData;
-    // Store challenge to send back (in case server-side map is lost across CF instances)
-    const rawChallenge = options.challenge;
+    const { options, challengeId } = JSON.parse(beginText);
 
     // 2. Browser prompts Face ID
     options.challenge = base64urlToUint8(options.challenge);
@@ -60,24 +56,12 @@ const attemptFaceIdSignIn = async (email) => {
     }));
     const assertion = await navigator.credentials.get({ publicKey: options });
 
-    // DEBUG: inspect all response fields before sending to complete
-    const cdjStr = uint8ToBase64url(new Uint8Array(assertion.response.clientDataJSON));
-    const authDataStr = uint8ToBase64url(new Uint8Array(assertion.response.authenticatorData));
-    const sigStr = uint8ToBase64url(new Uint8Array(assertion.response.signature));
-    fetch(`${WEBAUTHN_URL}/debug/cdj`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ clientDataJSON: cdjStr, authenticatorData: authDataStr, signature: sigStr }),
-    }).then(r => r.json()).then(d => console.log('[WebAuthn] fields debug:', JSON.stringify(d))).catch(()=>{});
-
-    // 3. Send assertion to worker — include challenge+userId as fallback for stateless workers
+    // 3. Send assertion to worker, referencing the challenge it issued
     const completeRes = await fetch(`${WEBAUTHN_URL}/authenticate/complete`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        email,
-        userId: beginUserId,
-        challenge: rawChallenge,
+        challengeId,
         credential: {
           id: assertion.id,
           rawId: uint8ToBase64url(new Uint8Array(assertion.rawId)),
@@ -114,7 +98,6 @@ const attemptFaceIdSignIn = async (email) => {
 
 const registerFaceId = async (jwt, email) => {
   try {
-    console.log("[WebAuthn] register/begin for:", email);
     // 1. Begin registration
     const beginRes = await fetch(`${WEBAUTHN_URL}/register/begin`, {
       method: 'POST',
@@ -122,9 +105,9 @@ const registerFaceId = async (jwt, email) => {
       body: JSON.stringify({ jwt }),
     });
     const beginText = await beginRes.text();
-    console.log("[WebAuthn] register/begin response:", beginRes.status, beginText.slice(0,300));
+    console.log("[WebAuthn] register/begin response:", beginRes.status);
     if (!beginRes.ok) return false;
-    const { options } = JSON.parse(beginText);
+    const { options, challengeId } = JSON.parse(beginText);
 
     // 2. Browser prompts Face ID enrollment
     options.challenge = base64urlToUint8(options.challenge);
@@ -146,6 +129,7 @@ const registerFaceId = async (jwt, email) => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         jwt,
+        challengeId,
         deviceName: navigator.userAgent.includes('iPhone') ? 'iPhone' : 'Device',
         credential: {
           id: credential.id,
@@ -1732,7 +1716,7 @@ function FaceIdEnrollButton({ session, onSuccess, C }) {
         body: JSON.stringify({ jwt: session.access_token }),
       });
       if (!beginRes.ok) { setStatus("error"); return; }
-      const { options } = await beginRes.json();
+      const { options, challengeId } = await beginRes.json();
 
       // 2. Prepare options for WebAuthn API
       options.challenge = b64ToU8(options.challenge);
@@ -1749,6 +1733,7 @@ function FaceIdEnrollButton({ session, onSuccess, C }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           jwt: session.access_token,
+          challengeId,
           deviceName: /iPhone|iPad/.test(navigator.userAgent) ? "iPhone" : "Device",
           credential: {
             id: credential.id,

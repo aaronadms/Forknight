@@ -1925,9 +1925,9 @@ const biometricLabel=()=>isAndroid()?'Biometrics':isIPad()?'Touch ID':'Face ID';
       // Begin
       const beginRes=await fetch(`${WEBAUTHN_URL}/register/begin`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({jwt:session.access_token})});
       const beginText=await beginRes.text();
-      console.log("[FaceID settings] begin:",beginRes.status,beginText.slice(0,200));
+      console.log("[FaceID settings] begin:",beginRes.status);
       if(!beginRes.ok){setStatus("error");return;}
-      const {options}=JSON.parse(beginText);
+      const {options,challengeId}=JSON.parse(beginText);
       options.challenge=base64urlToUint8(options.challenge);
       options.user.id=base64urlToUint8(options.user.id);
       options.pubKeyCredParams=(options.pubKeyCredParams||[]).filter(p=>p.alg!==-8);
@@ -1941,7 +1941,7 @@ const biometricLabel=()=>isAndroid()?'Biometrics':isIPad()?'Touch ID':'Face ID';
         setStatus("error");return;
       }
       // Complete
-      const completeRes=await fetch(`${WEBAUTHN_URL}/register/complete`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({jwt:session.access_token,deviceName:"iPhone",credential:{id:credential.id,rawId:uint8ToBase64url(credential.rawId),type:credential.type,response:{attestationObject:uint8ToBase64url(credential.response.attestationObject),clientDataJSON:uint8ToBase64url(credential.response.clientDataJSON)}}})});
+      const completeRes=await fetch(`${WEBAUTHN_URL}/register/complete`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({jwt:session.access_token,challengeId,deviceName:"iPhone",credential:{id:credential.id,rawId:uint8ToBase64url(credential.rawId),type:credential.type,response:{attestationObject:uint8ToBase64url(credential.response.attestationObject),clientDataJSON:uint8ToBase64url(credential.response.clientDataJSON)}}})});
       const completeText=await completeRes.text();
       console.log("[FaceID settings] complete:",completeRes.status,completeText.slice(0,200));
       const{verified}=JSON.parse(completeText);
