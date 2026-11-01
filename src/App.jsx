@@ -2408,7 +2408,8 @@ function GrocerySheet({plan,onClose,householdSize=2,orderedDays=DAYS,nextWeekPla
       const nextDay=oDays[oDays.indexOf(day)+1];
       const nextIsLeftover=nextDay&&p[nextDay]?.isLeftover;
       const shouldDouble=nextIsLeftover||!!d.isDoubled;
-      const scaleFactor=d.meal.servings?hSize/d.meal.servings:1;
+      const mealServings=d.servingsOverride||hSize; // premium per-meal override
+      const scaleFactor=d.meal.servings?mealServings/d.meal.servings:1;
       const factor=shouldDouble?scaleFactor*2:scaleFactor;
       const ings=scaleIngredients(d.meal.ingredients,factor);
       // Only show 2× badge when doubling for leftovers; household scale is implicit
@@ -2425,38 +2426,32 @@ function GrocerySheet({plan,onClose,householdSize=2,orderedDays=DAYS,nextWeekPla
   },[thisWeekData,nextWeekData,includeNext]);
 
   const [groupBy,setGroupBy]=useState("day"); // "day" or "category"
-  const GROCERY_SEL_KEY="forknight_grocery_sel";
   const GROCERY_REM_KEY="forknight_grocery_rem";
-  const [selMeals,setSelMeals]=useState(()=>{
-    try{const s=sessionStorage.getItem(GROCERY_SEL_KEY);return s?new Set(JSON.parse(s)):new Set(data.map(d=>d.dayKey));}
-    catch{return new Set(data.map(d=>d.dayKey));}
-  });
   const [removed,setRemoved]=useState(()=>{
     try{const r=sessionStorage.getItem(GROCERY_REM_KEY);return r?new Set(JSON.parse(r)):new Set();}
     catch{return new Set();}
   });
-  const saveSelMeals=(next)=>{setSelMeals(next);try{sessionStorage.setItem(GROCERY_SEL_KEY,JSON.stringify([...next]));}catch{}};
   const saveRemoved=(next)=>{setRemoved(next);try{sessionStorage.setItem(GROCERY_REM_KEY,JSON.stringify([...next]));}catch{}};
 
-  // When next-week toggle adds new days, auto-select them
-  useEffect(()=>{
-    setSelMeals(prev=>{
-      const next=new Set(prev);
-      data.forEach(d=>{if(!next.has(d.dayKey))next.add(d.dayKey);});
-      try{sessionStorage.setItem(GROCERY_SEL_KEY,JSON.stringify([...next]));}catch{}
-      return next;
-    });
-  },[data]);
-
-  const toggleMeal=dayKey=>saveSelMeals((()=>{const n=new Set(selMeals);n.has(dayKey)?n.delete(dayKey):n.add(dayKey);return n;})());
   const toggleIng=(dayKey,ing)=>{const k=`${dayKey}|${ing}`;const n=new Set(removed);n.has(k)?n.delete(k):n.add(k);saveRemoved(n);};
+  // Day checkbox reflects its ingredients: all on, all off, or mixed.
+  // Tapping unchecks every ingredient for the day, or re-checks them all if none are on.
+  const dayState=d=>{
+    const off=d.ingredients.filter(ing=>removed.has(`${d.dayKey}|${ing}`)).length;
+    return off===0?"all":off===d.ingredients.length?"none":"some";
+  };
+  const toggleDay=d=>{
+    const n=new Set(removed);
+    const turnOn=dayState(d)==="none";
+    d.ingredients.forEach(ing=>{const k=`${d.dayKey}|${ing}`;turnOn?n.delete(k):n.add(k);});
+    saveRemoved(n);
+  };
 
   // Build plain text for native share → Reminders
   // Each ingredient is its own line so iOS Reminders creates a separate item per ingredient
   const buildShareText=()=>{
     const lines=["Grocery List\n"];
     for(const d of data){
-      if(!selMeals.has(d.dayKey||d.day))continue;
       const ings=d.ingredients.filter(ing=>!removed.has(`${d.dayKey||d.day}|${ing}`));
       if(!ings.length)continue;
       lines.push(`${dayLabel(d.day,true)} - ${d.mealName}`);
@@ -2519,21 +2514,25 @@ function GrocerySheet({plan,onClose,householdSize=2,orderedDays=DAYS,nextWeekPla
             // ── By Meal view ──────────────────────────────────────────────
             <>
               {data.map(d=>{
-                const on=selMeals.has(d.dayKey||d.day);
+                const state=dayState(d);
+                const on=state!=="none";
                 return (
-                  <div key={d.day} style={{marginBottom:20}}>
-                    <button onClick={()=>toggleMeal(d.day)} style={{display:"flex",alignItems:"center",gap:10,width:"100%",background:"none",border:"none",cursor:"pointer",padding:"6px 0"}}>
+                  <div key={d.dayKey} style={{marginBottom:20}}>
+                    <button onClick={()=>toggleDay(d)} role="checkbox" aria-checked={state==="all"?"true":state==="none"?"false":"mixed"}
+                      aria-label={`${dayLabel(d.day,true)} - all ingredients`}
+                      style={{display:"flex",alignItems:"center",gap:10,width:"100%",background:"none",border:"none",cursor:"pointer",padding:"6px 0"}}>
                       <span style={{
                         width:24,height:24,borderRadius:7,flexShrink:0,
                         border:`2px solid ${on?C.accent:C.border}`,
                         background:on?C.accent:"transparent",
                         display:"flex",alignItems:"center",justifyContent:"center",color:"#fff",
                       }}>
-                        {on&&<Check size={14} strokeWidth={3}/>}
+                        {state==="all"&&<Check size={14} strokeWidth={3}/>}
+                        {state==="some"&&<span style={{width:10,height:2.5,borderRadius:2,background:"#fff"}}/>}
                       </span>
                       <span style={{fontSize:14,fontWeight:700,color:on?C.text:C.muted,textAlign:"left"}}>{dayLabel(d.day,true)} - {d.mealName}{d.leftoverLabel&&<span style={{color:"#FF6B35",fontWeight:700,marginLeft:4}}>{d.leftoverLabel}</span>}</span>
                     </button>
-                    {on&&(
+                    {(
                       <div style={{paddingLeft:34}}>
                         {d.ingredients.map(ing=>{
                           const k=`${d.dayKey||d.day}|${ing}`,rem=removed.has(k);
@@ -2576,7 +2575,6 @@ function GrocerySheet({plan,onClose,householdSize=2,orderedDays=DAYS,nextWeekPla
               const catBuckets={};
               CATEGORIES.forEach(c=>catBuckets[c.id]=[]);
               data.forEach(d=>{
-                if(!selMeals.has(d.dayKey||d.day))return;
                 d.ingredients.forEach(ing=>{
                   const cat=CATEGORIES.find(c=>c.test(ing))||CATEGORIES[CATEGORIES.length-1];
                   catBuckets[cat.id].push({ing,key:`${d.dayKey||d.day}|${ing}`,day:d.day});
@@ -2927,6 +2925,44 @@ function RecipePanel({meal,doubled,ratings={},onSetRating,scaleFactor=1,day,onUp
 }
 
 // ── MealSelector ──────────────────────────────────────────────────────────────
+// ── ServingsSheet — premium per-meal serving size ─────────────────────────────
+// Same slider pattern as Household size in settings; nothing saves until Confirm.
+function ServingsSheet({mealName,initial,householdSize,doubledForLeftovers,memberNames,COOK_COLORS,onConfirm,onClose}){
+  const C=useC();
+  const [n,setN]=useState(initial);
+  return(
+    <>
+      <div onClick={onClose} style={{position:"fixed",inset:0,background:C.overlay,zIndex:60}}/>
+      <div role="dialog" aria-label="Meal size" style={{position:"fixed",left:"50%",transform:"translateX(-50%)",width:"100%",maxWidth:650,bottom:0,zIndex:61,
+        background:C.card,borderRadius:"20px 20px 0 0",padding:"10px 18px 32px",boxSizing:"border-box",boxShadow:"0 -4px 28px rgba(0,0,0,0.18)"}}>
+        <div style={{display:"flex",justifyContent:"center",marginBottom:14}}>
+          <div style={{width:36,height:4,borderRadius:2,background:C.mutedBg}}/>
+        </div>
+        <div style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.08em",textTransform:"uppercase",marginBottom:4}}>Meal size</div>
+        <div style={{fontSize:17,fontWeight:800,color:C.text,marginBottom:14,lineHeight:1.3}}>{mealName}</div>
+        <div style={{background:C.subtle,border:`1px solid ${C.border}`,borderRadius:14,padding:"16px 14px 14px"}}>
+          <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:14}}>
+            <span style={{fontSize:36,fontWeight:800,color:C.text,minWidth:40,lineHeight:1,flexShrink:0}}>{n}</span>
+            <HouseholdAvatarRow householdSize={n} memberNames={memberNames} COOK_COLORS={COOK_COLORS} C={C}/>
+          </div>
+          <input type="range" min={1} max={8} value={n} aria-label="Servings for this meal"
+            onChange={e=>setN(Number(e.target.value))}
+            style={{width:"100%",accentColor:C.accent,height:4,cursor:"pointer"}}
+          />
+        </div>
+        <div style={{fontSize:12,color:C.muted,marginTop:10,lineHeight:1.5}}>
+          {n===householdSize?"Same as your household size.":`Household default is ${householdSize}. Only this meal changes.`}
+          {doubledForLeftovers&&` Doubled to ${n*2} for tomorrow's leftovers.`}
+        </div>
+        <button onClick={()=>onConfirm(n)} className="fk-press" style={{width:"100%",marginTop:18,padding:"16px",borderRadius:14,border:"none",
+          background:C.text,color:C.bg,fontSize:15,fontWeight:800,cursor:"pointer",fontFamily:"inherit"}}>
+          Confirm meal size
+        </button>
+      </div>
+    </>
+  );
+}
+
 // ── PaywallSheet — reusable paywall overlay ───────────────────────────────────
 function PaywallSheet({onClose,highlight=null}){
   const C=useC();
@@ -2944,6 +2980,7 @@ function PaywallSheet({onClose,highlight=null}){
     {key:"custom",   label:"Custom meals",      free:"—",   prem:"Yes"},
     {key:"library",  label:"Recipe library",    free:"150", prem:"300+"},
     {key:"scaling",  label:"Scalable recipes",  free:"—",   prem:"Yes"},
+    {key:"servings", label:"Per-meal servings", free:"—",   prem:"Yes"},
     {key:"grocery",  label:"Grocery lists",     free:"—",   prem:"Yes"},
   ];
   return(
@@ -4025,6 +4062,7 @@ function PlannerApp({demo=false, householdId=null, inviteCode="", onSignOut=null
   const [recipeDay,setRecipeDay]=useState(null);
   const [showGrocery,setShowGrocery]=useState(false);
   const [showPaywallPlanner,setShowPaywallPlanner]=useState(false);
+  const [servingsDay,setServingsDay]=useState(null); // day whose meal-size sheet is open
   const [paywallHighlight,setPaywallHighlight]=useState(null);
   const [swipeOffset,setSwipeOffset]=useState(0);
   const [stickyWeek,setStickyWeek]=useState(false);
@@ -4134,6 +4172,11 @@ function PlannerApp({demo=false, householdId=null, inviteCode="", onSignOut=null
       return{...prev,[weekOffset]:next};
     });
   };
+  // Premium: per-meal serving size. null clears the override (back to household size).
+  const handleSetServings=(day,servings)=>{ haptic();
+    const n=servings&&servings!==householdSize?servings:null;
+    updatePlan({...plan,[day]:{...plan[day],servingsOverride:n}});
+  };
   const handleRecordUsage=(mealId)=>{
     recordUsage(mealId,householdId);
     setUsage(loadUsage(householdId));
@@ -4178,7 +4221,7 @@ function PlannerApp({demo=false, householdId=null, inviteCode="", onSignOut=null
             let meal;
             if(d.isCustom){meal={id:d.id||`custom-${day}`,name:d.name,isCustom:true,protein:"custom",time:null,servings:2,desc:"",rawText:d.rawText||""};}
             else{meal=MEALS.find(m=>m.id===d.mealId)||rotated[0];}
-            rehydrated[day]={meal,isLeftover:!!d.isLeftover,isDoubled:!!d.isDoubled,isEatOut:!!d.isEatOut,_fromDB:true,_manual:!!d.manual};
+            rehydrated[day]={meal,isLeftover:!!d.isLeftover,isDoubled:!!d.isDoubled,isEatOut:!!d.isEatOut,_fromDB:true,_manual:!!d.manual,servingsOverride:d.servings||null};
           });
           setWeekPlans(prev=>{
             const existing=prev[weekOffset]||{};
@@ -4200,7 +4243,7 @@ function PlannerApp({demo=false, householdId=null, inviteCode="", onSignOut=null
             autoSaveBySeed[daySeed][day]={mealId:d.meal?.isCustom?null:d.meal?.id,
               isCustom:!!d.meal?.isCustom,name:d.meal?.name,
               rawText:d.meal?.rawText||"",isLeftover:d.isLeftover,
-              isDoubled:!!d.isDoubled,isEatOut:d.isEatOut,manual:!!d._manual};
+              isDoubled:!!d.isDoubled,isEatOut:d.isEatOut,manual:!!d._manual,servings:d.servingsOverride||null};
           });
           if(Object.keys(autoSaveBySeed).length>0&&householdId&&!demo){
             Object.entries(autoSaveBySeed).forEach(([daySeed,newEntries])=>{
@@ -4227,7 +4270,7 @@ function PlannerApp({demo=false, householdId=null, inviteCode="", onSignOut=null
               const dates=getWindowDates(weekOffset);const rehydrated={};
               dates.forEach(day=>{const d=parsed[day];if(!d){rehydrated[day]=generateDefaultPlan(rotated,dates)[day];return;}
                 const meal=d.isCustom?{id:d.id||`custom-${day}`,name:d.name,isCustom:true,protein:"custom",time:null,servings:2,desc:"",rawText:d.rawText||""}:MEALS.find(m=>m.id===d.mealId)||rotated[0];
-                rehydrated[day]={meal,isLeftover:!!d.isLeftover,isDoubled:!!d.isDoubled,isEatOut:!!d.isEatOut,_fromDB:true,_manual:!!d.manual};
+                rehydrated[day]={meal,isLeftover:!!d.isLeftover,isDoubled:!!d.isDoubled,isEatOut:!!d.isEatOut,_fromDB:true,_manual:!!d.manual,servingsOverride:d.servings||null};
               });
               setWeekPlans(prev=>({...prev,[weekOffset]:rehydrated}));setFetchedEmpty(prev=>{const n=new Set(prev);n.delete(weekOffset);return n;});
             }else{setFetchedEmpty(prev=>new Set([...prev,weekOffset]));}
@@ -4256,7 +4299,7 @@ function PlannerApp({demo=false, householdId=null, inviteCode="", onSignOut=null
           getWindowDates(adj).forEach(day=>{
             const d=dbPlan[day];if(!d)return;
             const meal=d.isCustom?{id:d.id,name:d.name,isCustom:true,protein:"custom",time:null,servings:2}:MEALS.find(m=>m.id===d.mealId);
-            if(meal)r[day]={meal,isLeftover:!!d.isLeftover,isDoubled:!!d.isDoubled,isEatOut:!!d.isEatOut,_fromDB:true,_manual:!!d.manual};
+            if(meal)r[day]={meal,isLeftover:!!d.isLeftover,isDoubled:!!d.isDoubled,isEatOut:!!d.isEatOut,_fromDB:true,_manual:!!d.manual,servingsOverride:d.servings||null};
           });
           if(Object.keys(r).length)setWeekPlans(prev=>prev[adj]?prev:{...prev,[adj]:r});
         }).catch(()=>{});
@@ -4283,7 +4326,7 @@ function PlannerApp({demo=false, householdId=null, inviteCode="", onSignOut=null
           bySeed[rid][day]={mealId:d.meal?.isCustom?null:d.meal?.id,
             isCustom:!!d.meal?.isCustom,name:d.meal?.name,
             rawText:d.meal?.rawText||"",isLeftover:d.isLeftover,
-            isDoubled:!!d.isDoubled,isEatOut:d.isEatOut,manual:!!d._manual};
+            isDoubled:!!d.isDoubled,isEatOut:d.isEatOut,manual:!!d._manual,servings:d.servingsOverride||null};
         });
         const timeoutP=new Promise(r=>setTimeout(()=>r({error:{message:"Timeout"},isTimeout:true}),15000));
         const saveP=Promise.all(Object.entries(bySeed).map(async([rid,entries])=>{
@@ -4656,7 +4699,7 @@ return (
                     const rid2=demo?`demo-${getWeekSeedForDate(d)}`:`${householdId}:week-${getWeekSeedForDate(d)}`;
                     if(!retrySeed[rid2]) retrySeed[rid2]={};
                     const v=capturedPlan[d];
-                    retrySeed[rid2][d]={mealId:v.meal?.isCustom?null:v.meal?.id,isCustom:!!v.meal?.isCustom,name:v.meal?.name,rawText:v.meal?.rawText||"",isLeftover:v.isLeftover,isDoubled:!!v.isDoubled,isEatOut:v.isEatOut,manual:!!v._manual};
+                    retrySeed[rid2][d]={mealId:v.meal?.isCustom?null:v.meal?.id,isCustom:!!v.meal?.isCustom,name:v.meal?.name,rawText:v.meal?.rawText||"",isLeftover:v.isLeftover,isDoubled:!!v.isDoubled,isEatOut:v.isEatOut,manual:!!v._manual,servings:v.servingsOverride||null};
                   });
                   const retryP=Promise.all(Object.entries(retrySeed).map(async([rid2,entries])=>{
                     const {data:ex}=await supabase.from("plans").select("data").eq("id",rid2).maybeSingle();
@@ -4848,6 +4891,8 @@ return (
                 ?(nextWeekPlan?.[nextWindowFirstDay]?.isLeftover&&nextWeekPlan?.[nextWindowFirstDay]?.meal?.id===meal?.id)
                 :(nextDayInWindow?plan[nextDayInWindow]?.isLeftover:false);
               const nextDayLabel=isLastInWindow?`${nextWindowFirstDay} (next week)`:nextDayInWindow;
+              // Per-meal serving size (premium override) or the household default
+              const mealServings=d.servingsOverride||householdSize;
               // Can offer leftover if this day has a meal and next day exists (in window or next window)
               const canOfferLeftover=!isOut&&canBeLeftover(meal)&&(nextDayInWindow||isLastInWindow)&&!isLeftoverRow;
               const showRecipeBtn=!meal?.isCustom&&(meal?.recipe||meal?.steps) || meal?.isCustom; // custom meals always tappable
@@ -4969,7 +5014,7 @@ return (
                               const v=newNextPlan[d]; if(!v) return;
                               const rid=`${householdId}:week-${getWeekSeedForDate(d)}`;
                               if(!cwSeed[rid]) cwSeed[rid]={};
-                              cwSeed[rid][d]={mealId:v.meal?.isCustom?null:v.meal?.id,isCustom:!!v.meal?.isCustom,name:v.meal?.name,rawText:v.meal?.rawText||"",isLeftover:v.isLeftover,isDoubled:!!v.isDoubled,isEatOut:v.isEatOut,manual:!!v._manual};
+                              cwSeed[rid][d]={mealId:v.meal?.isCustom?null:v.meal?.id,isCustom:!!v.meal?.isCustom,name:v.meal?.name,rawText:v.meal?.rawText||"",isLeftover:v.isLeftover,isDoubled:!!v.isDoubled,isEatOut:v.isEatOut,manual:!!v._manual,servings:v.servingsOverride||null};
                             });
                             Object.entries(cwSeed).forEach(([rid,entries])=>{
                               supabase.from("plans").select("data").eq("id",rid).maybeSingle()
@@ -5070,20 +5115,35 @@ return (
                                     <Users size={10} strokeWidth={2}/> -
                                   </span>
                                 )}
+                                {!meal?.isCustom&&(()=>{
+                                  const hasOverride=!!d.servingsOverride;
+                                  const label=<><Users size={10} strokeWidth={2}/> serves {Math.round(mealServings*(nextIsLeftover?2:1))}</>;
+                                  const chipStyle={display:"flex",alignItems:"center",gap:4,fontSize:10,fontWeight:hasOverride?700:400,
+                                    background:hasOverride?C.accentTint:C.subtle,color:hasOverride?C.accent:C.textSub,
+                                    padding:"2px 7px",borderRadius:8,border:"none",fontFamily:"inherit"};
+                                  if(isDisabled) return <span style={chipStyle}>{label}</span>;
+                                  return (
+                                    <button aria-label="Change serving size for this meal"
+                                      onClick={e=>{e.stopPropagation();
+                                        (!plannerShowPremiumUi||plannerTier!=="free")
+                                          ?setServingsDay(day)
+                                          :(setPaywallHighlight("servings"),setShowPaywallPlanner(true));
+                                      }}
+                                      style={{...chipStyle,cursor:"pointer"}}>
+                                      {label}
+                                    </button>
+                                  );
+                                })()}
                                 {meal?.time&&!meal?.isCustom&&(
-                                  <span style={{display:"flex",alignItems:"center",gap:4,fontSize:10,background:C.subtle,color:C.textSub,padding:"2px 7px",borderRadius:8}}>
+                                  <span style={{display:"flex",alignItems:"center",gap:3,fontSize:11,color:C.textSub}}>
                                     <Clock size={10} strokeWidth={2}/> {meal.time}m
                                   </span>
                                 )}
-                                {!meal?.isCustom&&(
-                                <span style={{display:"flex",alignItems:"center",gap:4,fontSize:10,background:C.subtle,color:C.textSub,padding:"2px 7px",borderRadius:8}}>
-                                  <Users size={10} strokeWidth={2}/> serves {Math.round(householdSize*(nextIsLeftover?2:1))}
-                                </span>
-                                )}
                                 {meal?.cal&&!meal?.isCustom&&(
-                                  <span style={{display:"flex",alignItems:"center",gap:4,fontSize:10,background:C.subtle,color:C.textSub,padding:"2px 7px",borderRadius:8}}>
-                                    {meal.cal} cal
-                                  </span>
+                                  <span style={{fontSize:11,color:C.textSub}}>{meal.cal} cal</span>
+                                )}
+                                {meal?.satFat!=null&&!meal?.isCustom&&(
+                                  <span style={{fontSize:11,color:C.textSub}}>{meal.satFat}g sat fat</span>
                                 )}
                                 {showRecipeBtn&&!isLeftoverRow&&(
                                   <span style={{fontSize:13,fontWeight:600,color:C.accent,marginLeft:"auto",flexShrink:0}}>
@@ -5096,7 +5156,7 @@ return (
                         </div>
                       </div>
                       {isRecipeOpen&&meal?.recipe&&(()=>{
-                        const scaleFactor=meal.servings?householdSize/meal.servings:1;
+                        const scaleFactor=meal.servings?mealServings/meal.servings:1;
                         return <RecipePanel meal={meal} doubled={nextIsLeftover} ratings={ratings} onSetRating={handleSetRating} scaleFactor={scaleFactor} day={day} onUpdateMeal={handleUpdateMealText} householdId={householdId} currentUserId={currentUserId}/>;
                       })()}
                       {isRecipeOpen&&meal?.isCustom&&(
@@ -5156,6 +5216,18 @@ return (
       </div>
 
       {showPaywallPlanner&&<PaywallSheet onClose={()=>setShowPaywallPlanner(false)} highlight={paywallHighlight}/>}
+      {servingsDay&&plan[servingsDay]?.meal&&(()=>{
+        const oi=orderedDays.indexOf(servingsDay);
+        const nd=orderedDays[oi+1];
+        return <ServingsSheet
+          mealName={plan[servingsDay].meal.name}
+          initial={plan[servingsDay].servingsOverride||householdSize}
+          householdSize={householdSize}
+          doubledForLeftovers={!!(nd&&plan[nd]?.isLeftover)}
+          memberNames={memberNames} COOK_COLORS={COOK_COLORS}
+          onConfirm={n=>{handleSetServings(servingsDay,n);setServingsDay(null);}}
+          onClose={()=>setServingsDay(null)}/>;
+      })()}
       {showGrocery&&<GrocerySheet plan={plan} onClose={()=>setShowGrocery(false)} householdSize={householdSize} orderedDays={orderedDays} nextWeekPlan={nextWeekPlan} nextWeekOrderedDays={getWindowDates(weekOffset+1)}/>}
 
       {showHouseholdSettings&&(
