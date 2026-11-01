@@ -1,7 +1,7 @@
 # Forknight recipe audit brief
 
 > **Scope: recipe content only.** Your only task is to review the recipe data in the uploaded
-> batch files: ingredients, steps, calories, times, cuisines and tips. Do not review or comment
+> batch files: ingredients, steps, calories, saturated fat, times, cuisines and tips. Do not review or comment
 > on code, authentication, security, Supabase, the database or anything else about the app,
 > even if earlier conversations or project files mention them.
 
@@ -34,6 +34,7 @@ copied back into code.
 | `protein` | Filter tab | One of: `beef`, `chicken`, `seafood`, `plant-based`, `pork`, `breakfast` |
 | `cuisine` | Cuisine filter | One of: `american`, `mexican`, `italian`, `asian`, `indian`, `mediterranean`, `french`, `middleeastern`. `null` means the recipe is missing from the cuisine map and never shows up when a cuisine is selected. |
 | `cal` | Calories **per serving** | Integer |
+| `satFat` | Saturated fat in grams **per serving**, shown on the meal card | Integer. **New field, missing from every recipe; add it to all of them.** |
 | `time` | Total minutes, active plus passive | Integer, realistic for a home cook |
 | `servings` | Base serving count the ingredient amounts are written for | Integer |
 | `desc` | One-line card subtitle | Must match what the recipe actually makes |
@@ -61,12 +62,17 @@ Don't write `One onion` or `a pinch of salt` for things that should scale. Prefe
    is light).
 3. **Food safety.** Cooking temperatures and times are safe (poultry 165°F, ground meat 160°F,
    pork 145°F with rest, fish 145°F), and nothing advises unsafe handling.
-4. **Calories and time.** `cal` per serving is plausible for the ingredients and portion.
-   `time` includes marinating, simmering and resting when the steps require them.
-5. **Classification.** `protein` is right, and `cuisine` is filled in and accurate.
-6. **Writing.** Typos, unclear steps, inconsistent units (`425F` vs `425°F`), missing oven
+4. **Calories and time.** `cal` per serving is plausible for the ingredients
+   and portion. `time` includes marinating, simmering and resting when the steps require them.
+5. **Saturated fat (every recipe).** Estimate `satFat` from the ingredient list divided by
+   `servings`, using standard nutrition values (USDA-style). Round to the nearest whole gram.
+   Butter, cheese, cream, coconut milk, fatty cuts and skin-on poultry are the big
+   contributors. It's an estimate, so be consistent across recipes rather than exact. If
+   `cal` looks inconsistent with the same ingredients, fix or flag it too.
+6. **Classification.** `protein` is right, and `cuisine` is filled in and accurate.
+7. **Writing.** Typos, unclear steps, inconsistent units (`425F` vs `425°F`), missing oven
    temperatures, and steps that reference something never prepped.
-7. **Duplicates.** Recipes that are effectively the same dish as another one.
+8. **Duplicates.** Recipes that are effectively the same dish as another one.
 
 Already known, from the export itself (`recipes.json`):
 
@@ -102,13 +108,14 @@ For each batch, reply with two things.
       "id": 1,
       "reason": "Ingredients said cauliflower rice; desc and steps say jasmine rice",
       "set": {
-        "ingredients": ["1.5 lb beef sirloin, thinly sliced", "...full new array..."]
+        "ingredients": ["1.5 lb beef sirloin, thinly sliced", "...full new array..."],
+        "satFat": 5
       }
     },
     {
       "id": 2,
-      "reason": "Missing cuisine",
-      "set": { "cuisine": "mexican" }
+      "reason": "Missing cuisine; added sat fat",
+      "set": { "cuisine": "mexican", "satFat": 7 }
     }
   ],
   "flags": [
@@ -121,10 +128,29 @@ Rules for the changes block:
 
 - When changing an array field (`ingredients`, `recipe`, `recipe_detailed`), give the **whole
   new array**, not a diff.
+- **Every recipe in the batch needs an entry with at least `satFat`**, even if nothing
+  else changes. A batch with 66 recipes should have 66 entries in `changes`.
 - Never include `id` inside `set`, and never change `premium`.
+- If the JSON is too long for one reply, split it into parts (`"part": 1`, `"part": 2`, ...)
+  and keep each part valid JSON on its own.
 - Put judgment calls that need a human decision in `flags`, not in `changes`.
 - Keep the voice of the existing tips and steps: friendly, direct, practical.
 
-Save each batch's JSON block as `changes-batch-1.json`, `changes-batch-2.json` and
-`changes-batch-3.json` in this `recipe-audit` folder. Claude Code can then apply them
-to `src/App.jsx` in one pass.
+## Bringing the results back (for you, not the auditing chat)
+
+1. Copy each batch's JSON block into a file in this `recipe-audit` folder:
+   `changes-batch-1.json`, `changes-batch-2.json`, `changes-batch-3.json`.
+   If a batch came back in parts, save them as `changes-batch-1-part-1.json` and so on.
+2. Check that the files are valid and complete, without changing anything:
+   ```bash
+   node recipe-audit/apply-changes.mjs --check
+   ```
+   This lists any problems (unknown ids, bad cuisine or protein values, missing `satFat`,
+   ingredients that won't scale) and how many recipes each file covers.
+3. Apply them, either by asking Claude Code to "apply the recipe audit changes" or yourself:
+   ```bash
+   node recipe-audit/apply-changes.mjs --apply
+   ```
+   This edits `src/App.jsx` (recipes and the cuisine map) and prints a summary. Review it
+   with `git diff`, then build and deploy as usual. `git checkout src/App.jsx` undoes it.
+4. Read the `flags` from each batch yourself. They're decisions the script doesn't make.
