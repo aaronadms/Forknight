@@ -3516,7 +3516,7 @@ function ServingsSheet({mealName,initial,householdSize,doubledForLeftovers,membe
             <span style={{fontSize:36,fontWeight:800,color:C.text,minWidth:40,lineHeight:1,flexShrink:0}}>{n}</span>
             <HouseholdAvatarRow householdSize={n} memberNames={memberNames} COOK_COLORS={COOK_COLORS} C={C}/>
           </div>
-          <input type="range" min={1} max={8} value={n} aria-label="Servings for this meal"
+          <input type="range" min={1} max={21} value={n} aria-label="Servings for this meal"
             onChange={e=>setN(Number(e.target.value))}
             style={{width:"100%",accentColor:C.accent,height:4,cursor:"pointer"}}
           />
