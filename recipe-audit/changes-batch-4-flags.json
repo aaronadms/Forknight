@@ -1,0 +1,27 @@
+{
+  "batch": 4,
+  "note": "Accepted servings and calorie flags from audit pass two. Where servings change from 3 to 4, the audit's per-serving estimates (made at 3 servings) are scaled by 3/4.",
+  "changes": [
+    { "id": 23,  "reason": "4 fillets serve 4; audit est. 600 kcal at 3 servings", "set": { "servings": 4, "cal": 450, "satFat": 11 } },
+    { "id": 68,  "reason": "4 breasts serve 4; audit est. 700 kcal at 3 servings", "set": { "servings": 4, "cal": 525, "satFat": 8 } },
+    { "id": 107, "reason": "4 breasts serve 4; audit est. 770 kcal at 3 servings", "set": { "servings": 4, "cal": 580, "satFat": 17 } },
+    { "id": 118, "reason": "4 fillets serve 4; audit est. 450 kcal at 3 servings", "set": { "servings": 4, "cal": 340, "satFat": 4 } },
+    { "id": 119, "reason": "4 fillets serve 4; audit est. 850 kcal at 3 servings", "set": { "servings": 4, "cal": 640, "satFat": 7 } },
+    { "id": 150, "reason": "Two thick ribeyes serve 4; audit's numbers for 4 servings", "set": { "servings": 4, "cal": 1050, "satFat": 32 } },
+    { "id": 171, "reason": "Audit calorie estimate", "set": { "cal": 950 } },
+    { "id": 175, "reason": "Audit calorie estimate", "set": { "cal": 800 } },
+    { "id": 254, "reason": "Audit calorie estimate", "set": { "cal": 1300 } },
+    { "id": 115, "reason": "Audit calorie estimate", "set": { "cal": 720 } },
+    { "id": 178, "reason": "Audit calorie estimate", "set": { "cal": 480 } },
+    { "id": 191, "reason": "Audit calorie estimate", "set": { "cal": 1200 } },
+    { "id": 339, "reason": "Audit calorie estimate", "set": { "cal": 1150 } },
+    { "id": 267, "reason": "Audit calorie estimate", "set": { "cal": 1000 } },
+    { "id": 65,  "reason": "Audit calorie estimate", "set": { "cal": 750 } },
+    { "id": 67,  "reason": "Audit calorie estimate", "set": { "cal": 1000 } },
+    { "id": 262, "reason": "Audit calorie estimate", "set": { "cal": 1000 } },
+    { "id": 162, "reason": "Audit calorie estimate (recipe unchanged: still two cans of coconut milk)", "set": { "cal": 650 } },
+    { "id": 226, "reason": "Audit calorie estimate", "set": { "cal": 700 } },
+    { "id": 165, "reason": "Audit calorie estimate", "set": { "cal": 700 } }
+  ],
+  "flags": []
+}
