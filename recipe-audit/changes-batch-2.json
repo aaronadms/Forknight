@@ -1,0 +1,223 @@
+{
+  "batch": 2,
+  "file": "batch-2-chicken-seafood.json",
+  "findings_summary": {
+    "Safety": [],
+    "Wrong": [
+      "id 252 (Chicken 65): Missing recipe_detailed field entirely. Not premium. Needs content written."
+    ],
+    "Inconsistent": [],
+    "Classification": [
+      "Null cuisine assignments for 24 recipes (see changes block).",
+      "Duplicate cuisine map resolutions applied in this batch: Chicken Parmesan → 'italian' (id 262 in missing-detailed group), Chicken Fried Rice → 'asian' (id 266 in missing-detailed group)."
+    ],
+    "Polish": [
+      "ids 262–270: All have 0 detailed steps (no recipe_detailed field) and are not premium. Flagged for content team.",
+      "id 262 Chicken Parmesan — needs recipe_detailed",
+      "id 263 Chicken Pot Pie — needs recipe_detailed",
+      "id 264 Chicken Alfredo — needs recipe_detailed",
+      "id 265 Buffalo Chicken Wraps — needs recipe_detailed",
+      "id 266 Chicken Fried Rice — needs recipe_detailed",
+      "id 267 Chicken Quesadillas — needs recipe_detailed",
+      "id 268 Honey Butter Chicken Biscuits — needs recipe_detailed",
+      "id 269 BBQ Chicken Pizza — needs recipe_detailed",
+      "id 270 Chicken & Waffles — needs recipe_detailed"
+    ]
+  },
+  "changes": [
+    {
+      "id": 11,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 14,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 24,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 29,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 46,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 108,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 120,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 252,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 262,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 263,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 264,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 265,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 266,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 267,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 268,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 269,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 270,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 300,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 301,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 302,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 303,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 304,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 305,
+      "set": {
+        "cuisine": "italian"
+      }
+    },
+    {
+      "id": 306,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 307,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 308,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 309,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 333,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 334,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 335,
+      "set": {
+        "cuisine": "indian"
+      }
+    },
+    {
+      "id": 336,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 337,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 338,
+      "set": {
+        "cuisine": "italian"
+      }
+    },
+    {
+      "id": 339,
+      "set": {
+        "cuisine": "american"
+      }
+    }
+  ]
+}

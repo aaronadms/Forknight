@@ -1,0 +1,150 @@
+{
+  "batch": 3,
+  "file": "batch-3-plant-based-breakfast.json",
+  "findings_summary": {
+    "Safety": [],
+    "Wrong": [
+      "id 128 (Red Beans & Rice with Sausage): protein='plant-based' but recipe contains Andouille sausage throughout. Andouille is a pork product. Fix: protein → 'pork'.",
+      "id 35 (Plant-Based Taco Bowls): recipe_detailed describes lentils or cauliflower rice as the protein base, but ingredients list '1.5 lb plant-based ground (Beyond/Impossible)'. The detailed steps describe a completely different protein from the ingredients."
+    ],
+    "Inconsistent": [
+      "id 33 (Lentil Veggie Soup): tip and tip2 say essentially the same thing — both describe red lentils dissolving/breaking down into the soup. Duplicate tip content.",
+      "id 128 (Red Beans & Rice): tip and tip2 both describe smashing beans for creaminess. Duplicate tip content."
+    ],
+    "Classification": [
+      "id 168 (Mujaddara): cuisine='indian' but Mujaddara is a classic Levantine/Middle Eastern dish. Fix: cuisine → 'middleeastern'.",
+      "id 170 (Shakshuka Verde): cuisine='middleeastern' but this recipe uses tomatillos, jalapeños, cotija, and corn tortillas — it is a Mexican-inspired green shakshuka. Fix: cuisine → 'mexican'.",
+      "id 226 (Lentil Bolognese): cuisine='mediterranean' but Bolognese is Italian. Fix: cuisine → 'italian'. (Also resolves duplicate cuisine map entry.)",
+      "Null cuisine assignments for 15 additional recipes (see changes block)."
+    ],
+    "Polish": [
+      "id 251 (Polenta Florentine): Missing recipe_detailed field. Not premium. Needs content written."
+    ]
+  },
+  "changes": [
+    {
+      "id": 33,
+      "flags": "tip and tip2 are near-duplicates — both say red lentils dissolve into the soup. Differentiate or remove one.",
+      "set": {}
+    },
+    {
+      "id": 35,
+      "flags": "recipe_detailed describes lentils or cauliflower rice as base protein, but ingredients specify 1.5 lb plant-based ground (Beyond/Impossible). Steps and ingredients describe different dishes. Needs human decision: align one to the other.",
+      "set": {}
+    },
+    {
+      "id": 128,
+      "set": {
+        "protein": "pork"
+      },
+      "flags": "tip and tip2 are near-duplicates — both describe smashing beans for creaminess. Differentiate or remove one."
+    },
+    {
+      "id": 137,
+      "set": {
+        "cuisine": "italian"
+      }
+    },
+    {
+      "id": 146,
+      "set": {
+        "cuisine": "mediterranean"
+      }
+    },
+    {
+      "id": 157,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 158,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 164,
+      "set": {
+        "cuisine": "mexican"
+      }
+    },
+    {
+      "id": 168,
+      "set": {
+        "cuisine": "middleeastern"
+      }
+    },
+    {
+      "id": 170,
+      "set": {
+        "cuisine": "mexican"
+      }
+    },
+    {
+      "id": 226,
+      "set": {
+        "cuisine": "italian"
+      }
+    },
+    {
+      "id": 241,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 251,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 310,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 311,
+      "set": {
+        "cuisine": "mexican"
+      }
+    },
+    {
+      "id": 312,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 313,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 314,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 315,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 316,
+      "set": {
+        "cuisine": "mexican"
+      }
+    },
+    {
+      "id": 317,
+      "set": {
+        "cuisine": "american"
+      }
+    }
+  ]
+}

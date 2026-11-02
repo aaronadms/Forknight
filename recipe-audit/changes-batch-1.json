@@ -1,0 +1,300 @@
+{
+  "batch": 1,
+  "file": "batch-1-beef-pork.json",
+  "findings_summary": {
+    "Safety": [],
+    "Wrong": [
+      "id 51 (Beef & Cabbage Stir Fry): recipe_detailed describes slicing thin steak, but ingredients list '1.5 lb ground beef' — the dish described in detailed steps is incompatible with the ingredient. Fix: align recipe_detailed to match ground beef preparation.",
+      "id 190 (Pork Ramen Tonkotsu Style): recipe uses a milk shortcut (30 min total), recipe_detailed describes a 4–6 hour bone boil. Two completely different methods for the same recipe slot.",
+      "id 110 (Carne Guisada): time=45 but recipe_detailed says braise 1.5–2 hours. Fix: time → 120.",
+      "id 112 (Birria-Style Beef Tacos): time=60 but recipe_detailed says 3-hour braise. Fix: time → 200.",
+      "id 113 (Pork Carnitas Bowls): time=20 but recipe says IP 25 min (or slow cooker 6–8 hrs). Fix: time → 25.",
+      "id 172 (Mexican Pork Pozole): time=50 but recipe_detailed says 1.5–2 hours. Fix: time → 110.",
+      "id 63 (Smoked Ribs): protein='beef' but desc and all steps reference baby back ribs, which are always pork. Fix: protein → 'pork' (or rename to beef ribs).",
+      "id 66 (Lasagna with Salad): protein='beef' but ingredients list only Italian sausage, no beef. Fix: add ground beef to ingredients or change protein to 'pork'."
+    ],
+    "Inconsistent": [
+      "id 1 (Skillet Beef & Broccoli): one ingredient says 'Cauliflower rice to serve' but all recipe steps reference jasmine rice. Flag for resolution.",
+      "id 2 (Taco Bowl): recipe_detailed references rice, guac, sour cream, shredded cheese that are not in ingredients list.",
+      "id 10 (Korean Beef Bowl): desc says 'Mongolian-style beef' — dish is functionally Mongolian Beef, not Korean. Minor mislabel.",
+      "id 61 (Meatloaf): tip and tip2 both say do not overmix — duplicate tips.",
+      "id 103 (Chicken Enchilada Bowl): step 4 says 'cauli rice' but ingredient says '3 cups jasmine rice, cooked'.",
+      "id 119 (Coconut Lime Salmon Bowls): step 3 says 'Toss cauli rice' but ingredient says '3 cups jasmine rice, cooked'."
+    ],
+    "Classification": [
+      "id 53 (Chicken Shawarma Bowls): cuisine='asian' → should be 'middleeastern'.",
+      "id 182 (Peruvian Lomo Saltado): cuisine='mexican' → Peruvian dish; no matching cuisine option. Flag for human.",
+      "id 186 (German Pork Schnitzel): cuisine='french' → German dish; no German option. Flag for human.",
+      "id 187 (Cuban Medianoche Sandwich): cuisine='mexican' → should be 'american'.",
+      "57 recipes with cuisine=null assigned values (see changes block).",
+      "Duplicate cuisine map resolutions: Chicken Parmesan → 'italian', Chicken Fried Rice → 'asian', Lentil Bolognese → 'italian'."
+    ],
+    "Polish": [
+      "ids 253–261: All have 0 detailed steps (no recipe_detailed field) and are not premium. These need recipe_detailed written. Flagged for content team."
+    ]
+  },
+  "changes": [
+    {
+      "id": 1,
+      "flags": "ingredients array has 'Cauliflower rice to serve' but all recipe steps say jasmine rice. Needs human decision: remove cauliflower rice ingredient or rewrite steps.",
+      "set": {}
+    },
+    {
+      "id": 2,
+      "flags": "recipe_detailed mentions rice, guac, sour cream, shredded cheese not in ingredients. Consider adding these to ingredients.",
+      "set": {}
+    },
+    {
+      "id": 10,
+      "flags": "desc says 'Mongolian-style beef' but recipe is named Korean Beef Bowl. Dish is functionally Mongolian Beef. Consider renaming or fixing desc.",
+      "set": {}
+    },
+    {
+      "id": 51,
+      "set": {
+        "recipe_detailed": [
+          "Heat a wok or large skillet over high heat. Brown ground beef, breaking it up, until cooked through and any liquid has evaporated, 6–8 min. Drain excess fat.",
+          "Push beef to the side. Add thinly shredded cabbage to the pan and stir-fry over high heat 2–3 min until slightly wilted but still with some crunch.",
+          "Combine beef and cabbage. Add soy sauce, sesame oil, garlic, and ginger. Toss everything together over high heat 1–2 min.",
+          "Serve over steamed rice. Top with sliced green onion and a drizzle of chili oil if desired."
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "set": {
+        "cuisine": "middleeastern"
+      }
+    },
+    {
+      "id": 61,
+      "flags": "tip and tip2 both say do not overmix — duplicate content. Remove or differentiate one.",
+      "set": {}
+    },
+    {
+      "id": 63,
+      "set": {
+        "protein": "pork"
+      },
+      "flags": "desc and steps reference 'baby back ribs' which are always pork. Changed protein to pork. If beef ribs were intended, rename the recipe."
+    },
+    {
+      "id": 66,
+      "flags": "protein='beef' but only Italian sausage in ingredients (no beef). Either add ground beef to ingredients or change protein to 'pork'. Needs human decision on intended dish.",
+      "set": {}
+    },
+    {
+      "id": 103,
+      "flags": "step 4 says 'cauli rice' but ingredient says '3 cups jasmine rice, cooked'. Fix ingredient or steps to be consistent.",
+      "set": {}
+    },
+    {
+      "id": 110,
+      "set": {
+        "time": 120
+      }
+    },
+    {
+      "id": 112,
+      "set": {
+        "time": 200
+      }
+    },
+    {
+      "id": 113,
+      "set": {
+        "time": 25
+      }
+    },
+    {
+      "id": 114,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 119,
+      "flags": "step 3 says 'Toss cauli rice' but ingredient says '3 cups jasmine rice, cooked'. Fix ingredient or steps to be consistent.",
+      "set": {}
+    },
+    {
+      "id": 172,
+      "set": {
+        "time": 110
+      }
+    },
+    {
+      "id": 179,
+      "set": {
+        "cuisine": "mediterranean"
+      }
+    },
+    {
+      "id": 182,
+      "flags": "cuisine='mexican' but this is a Peruvian dish (Lomo Saltado). No Peruvian option available. Recommend 'american' as nearest or add 'latin' cuisine option.",
+      "set": {}
+    },
+    {
+      "id": 183,
+      "flags": "cuisine=null. Hungarian Goulash has no matching cuisine. Recommend adding 'european' option or flag for human.",
+      "set": {}
+    },
+    {
+      "id": 186,
+      "flags": "cuisine='french' but this is a German dish. No German option. Recommend flagging for human or using 'american' as fallback.",
+      "set": {}
+    },
+    {
+      "id": 187,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 189,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 190,
+      "flags": "recipe uses milk shortcut (total ~30 min) but recipe_detailed describes 4–6 hour bone broth boil. These are two completely different methods. Needs human decision: pick one method and make both steps consistent.",
+      "set": {}
+    },
+    {
+      "id": 253,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 254,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 255,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 256,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 257,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 258,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 259,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 260,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 261,
+      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
+      "set": {}
+    },
+    {
+      "id": 318,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 319,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 320,
+      "set": {
+        "cuisine": "mexican"
+      }
+    },
+    {
+      "id": 321,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 322,
+      "set": {
+        "cuisine": "french"
+      }
+    },
+    {
+      "id": 323,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 324,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 325,
+      "set": {
+        "cuisine": "mexican"
+      }
+    },
+    {
+      "id": 326,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 327,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 328,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 329,
+      "set": {
+        "cuisine": "asian"
+      }
+    },
+    {
+      "id": 330,
+      "set": {
+        "cuisine": "mexican"
+      }
+    },
+    {
+      "id": 331,
+      "set": {
+        "cuisine": "american"
+      }
+    },
+    {
+      "id": 332,
+      "set": {
+        "cuisine": "american"
+      }
+    }
+  ]
+}
