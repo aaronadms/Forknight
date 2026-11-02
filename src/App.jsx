@@ -4004,6 +4004,7 @@ function MealSelector({currentMeal,onSelect,onClose,ratings={},usage={},favorite
     {id:"rating",    label:"My Rating"},
     {id:"calories_lo",label:"Calories: Low to High"},
     {id:"calories_hi",label:"Calories: High to Low"},
+    {id:"satfat_lo", label:"Sat Fat: Low to High"},
     {id:"time_lo",   label:"Prep Time: Shortest"},
     {id:"eaten_hi",  label:"Times Eaten: Most"},
     {id:"eaten_lo",  label:"Times Eaten: Least"},
@@ -4082,6 +4083,12 @@ function MealSelector({currentMeal,onSelect,onClose,ratings={},usage={},favorite
           if(a.isCustom&&!b.isCustom)return 1;
           if(!a.isCustom&&b.isCustom)return -1;
           return (b.cal||0)-(a.cal||0);
+        }
+        case "satfat_lo": {
+          if(a.isCustom&&!b.isCustom)return 1;
+          if(!a.isCustom&&b.isCustom)return -1;
+          // ?? not || — 0 g is a real value and should sort first
+          return (a.satFat??999)-(b.satFat??999);
         }
         case "time_lo": {
           if(a.isCustom&&!b.isCustom)return 1;
@@ -4364,6 +4371,7 @@ function MealSelector({currentMeal,onSelect,onClose,ratings={},usage={},favorite
                         <span>·</span>
                         <Users size={10} strokeWidth={2}/> {householdSize}
                         {m.cal&&<><span>·</span><span>{m.cal} cal</span></>}
+                        {m.satFat!=null&&<><span>·</span><span>{m.satFat}g sat fat</span></>}
                         {useCount>0&&<><span>·</span><span>used {useCount}×</span></>}
                       </div>
                     </div>
