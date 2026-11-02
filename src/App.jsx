@@ -3504,12 +3504,12 @@ function ServingsSheet({mealName,initial,householdSize,doubledForLeftovers,membe
   return(
     <>
       <div onClick={onClose} style={{position:"fixed",inset:0,background:C.overlay,zIndex:60}}/>
-      <div role="dialog" aria-label="Meal size" style={{position:"fixed",left:"50%",transform:"translateX(-50%)",width:"100%",maxWidth:650,bottom:0,zIndex:61,
+      <div role="dialog" aria-label="Servings" style={{position:"fixed",left:"50%",transform:"translateX(-50%)",width:"100%",maxWidth:650,bottom:0,zIndex:61,
         background:C.card,borderRadius:"20px 20px 0 0",padding:"10px 18px 32px",boxSizing:"border-box",boxShadow:"0 -4px 28px rgba(0,0,0,0.18)"}}>
         <div style={{display:"flex",justifyContent:"center",marginBottom:14}}>
           <div style={{width:36,height:4,borderRadius:2,background:C.mutedBg}}/>
         </div>
-        <div style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.08em",textTransform:"uppercase",marginBottom:4}}>Meal size</div>
+        <div style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.08em",textTransform:"uppercase",marginBottom:4}}>Servings</div>
         <div style={{fontSize:17,fontWeight:800,color:C.text,marginBottom:14,lineHeight:1.3}}>{mealName}</div>
         <div style={{background:C.subtle,border:`1px solid ${C.border}`,borderRadius:14,padding:"16px 14px 14px"}}>
           <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:14}}>
@@ -3527,7 +3527,7 @@ function ServingsSheet({mealName,initial,householdSize,doubledForLeftovers,membe
         </div>
         <button onClick={()=>onConfirm(n)} className="fk-press" style={{width:"100%",marginTop:18,padding:"16px",borderRadius:14,border:"none",
           background:C.text,color:C.bg,fontSize:15,fontWeight:800,cursor:"pointer",fontFamily:"inherit"}}>
-          Confirm meal size
+          {`Confirm ${n} ${n===1?"Serving":"Servings"}`}
         </button>
       </div>
     </>
