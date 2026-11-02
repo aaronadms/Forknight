@@ -1,300 +1,675 @@
 {
   "batch": 1,
-  "file": "batch-1-beef-pork.json",
-  "findings_summary": {
-    "Safety": [],
-    "Wrong": [
-      "id 51 (Beef & Cabbage Stir Fry): recipe_detailed describes slicing thin steak, but ingredients list '1.5 lb ground beef' — the dish described in detailed steps is incompatible with the ingredient. Fix: align recipe_detailed to match ground beef preparation.",
-      "id 190 (Pork Ramen Tonkotsu Style): recipe uses a milk shortcut (30 min total), recipe_detailed describes a 4–6 hour bone boil. Two completely different methods for the same recipe slot.",
-      "id 110 (Carne Guisada): time=45 but recipe_detailed says braise 1.5–2 hours. Fix: time → 120.",
-      "id 112 (Birria-Style Beef Tacos): time=60 but recipe_detailed says 3-hour braise. Fix: time → 200.",
-      "id 113 (Pork Carnitas Bowls): time=20 but recipe says IP 25 min (or slow cooker 6–8 hrs). Fix: time → 25.",
-      "id 172 (Mexican Pork Pozole): time=50 but recipe_detailed says 1.5–2 hours. Fix: time → 110.",
-      "id 63 (Smoked Ribs): protein='beef' but desc and all steps reference baby back ribs, which are always pork. Fix: protein → 'pork' (or rename to beef ribs).",
-      "id 66 (Lasagna with Salad): protein='beef' but ingredients list only Italian sausage, no beef. Fix: add ground beef to ingredients or change protein to 'pork'."
-    ],
-    "Inconsistent": [
-      "id 1 (Skillet Beef & Broccoli): one ingredient says 'Cauliflower rice to serve' but all recipe steps reference jasmine rice. Flag for resolution.",
-      "id 2 (Taco Bowl): recipe_detailed references rice, guac, sour cream, shredded cheese that are not in ingredients list.",
-      "id 10 (Korean Beef Bowl): desc says 'Mongolian-style beef' — dish is functionally Mongolian Beef, not Korean. Minor mislabel.",
-      "id 61 (Meatloaf): tip and tip2 both say do not overmix — duplicate tips.",
-      "id 103 (Chicken Enchilada Bowl): step 4 says 'cauli rice' but ingredient says '3 cups jasmine rice, cooked'.",
-      "id 119 (Coconut Lime Salmon Bowls): step 3 says 'Toss cauli rice' but ingredient says '3 cups jasmine rice, cooked'."
-    ],
-    "Classification": [
-      "id 53 (Chicken Shawarma Bowls): cuisine='asian' → should be 'middleeastern'.",
-      "id 182 (Peruvian Lomo Saltado): cuisine='mexican' → Peruvian dish; no matching cuisine option. Flag for human.",
-      "id 186 (German Pork Schnitzel): cuisine='french' → German dish; no German option. Flag for human.",
-      "id 187 (Cuban Medianoche Sandwich): cuisine='mexican' → should be 'american'.",
-      "57 recipes with cuisine=null assigned values (see changes block).",
-      "Duplicate cuisine map resolutions: Chicken Parmesan → 'italian', Chicken Fried Rice → 'asian', Lentil Bolognese → 'italian'."
-    ],
-    "Polish": [
-      "ids 253–261: All have 0 detailed steps (no recipe_detailed field) and are not premium. These need recipe_detailed written. Flagged for content team."
-    ]
-  },
   "changes": [
     {
       "id": 1,
-      "flags": "ingredients array has 'Cauliflower rice to serve' but all recipe steps say jasmine rice. Needs human decision: remove cauliflower rice ingredient or rewrite steps.",
-      "set": {}
-    },
-    {
-      "id": 2,
-      "flags": "recipe_detailed mentions rice, guac, sour cream, shredded cheese not in ingredients. Consider adding these to ingredients.",
-      "set": {}
-    },
-    {
-      "id": 10,
-      "flags": "desc says 'Mongolian-style beef' but recipe is named Korean Beef Bowl. Dish is functionally Mongolian Beef. Consider renaming or fixing desc.",
-      "set": {}
-    },
-    {
-      "id": 51,
+      "reason": "Ingredients listed cauliflower rice; desc and every step serve it over jasmine rice; added sat fat",
       "set": {
-        "recipe_detailed": [
-          "Heat a wok or large skillet over high heat. Brown ground beef, breaking it up, until cooked through and any liquid has evaporated, 6–8 min. Drain excess fat.",
-          "Push beef to the side. Add thinly shredded cabbage to the pan and stir-fry over high heat 2–3 min until slightly wilted but still with some crunch.",
-          "Combine beef and cabbage. Add soy sauce, sesame oil, garlic, and ginger. Toss everything together over high heat 1–2 min.",
-          "Serve over steamed rice. Top with sliced green onion and a drizzle of chili oil if desired."
+        "satFat": 4,
+        "ingredients": [
+          "1.5 lb beef sirloin, thinly sliced",
+          "4 cups broccoli florets",
+          "4 cloves garlic, minced",
+          "1 tbsp fresh ginger",
+          "4 tbsp low-sodium soy sauce",
+          "1.5 tbsp sesame oil",
+          "1 tbsp cornstarch",
+          "3 tbsp olive oil",
+          "4 1/2 cups cooked jasmine rice"
         ]
       }
     },
     {
-      "id": 53,
+      "id": 2,
+      "reason": "Detailed steps added onion, rice, guac, salsa, sour cream and cheese that aren't in the ingredients; rewrote them to match the romaine bowl the ingredients and quick steps describe; added sat fat",
       "set": {
-        "cuisine": "middleeastern"
+        "satFat": 6,
+        "recipe_detailed": [
+          "Heat a large skillet over medium-high. Add the ground beef and break it into small pieces. Let it cook 6-8 min, stirring only every 30 seconds or so, until it's browned with some crispy edges and no pink remains (160°F).",
+          "Drain off the excess fat, leaving a thin film. Add taco seasoning and 2 tbsp water, stir to coat, and cook 1-2 min until the water evaporates and the spices cling to the meat.",
+          "Warm the black beans in a small pot or the microwave with a splash of water and a pinch of salt. Slice the avocados right before serving so they don't brown.",
+          "Build bowls: chopped romaine first, then beef, beans, pico de gallo, and sliced avocado. Squeeze fresh lime over everything and eat while the beef is hot."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 5
+      }
+    },
+    {
+      "id": 7,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 8
+      }
+    },
+    {
+      "id": 10,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 43,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 7
+      }
+    },
+    {
+      "id": 51,
+      "reason": "Re-sent from pass 1 in case it wasn't applied: detailed steps sliced a steak, but the ingredient is ground beef; added sat fat",
+      "set": {
+        "satFat": 7,
+        "recipe_detailed": [
+          "Heat a wok or large skillet over high heat. Brown ground beef, breaking it up, until no pink remains (160°F) and any liquid has evaporated, 6-8 min. Drain excess fat.",
+          "Push beef to the side. Add the shredded cabbage and stir-fry over high heat 2-3 min until slightly wilted but still with some crunch.",
+          "Combine beef and cabbage. Add soy sauce, sesame oil, garlic, and ginger. Toss everything together over high heat 1-2 min.",
+          "Serve topped with sesame seeds and sliced green onion, with a drizzle of chili oil if you like heat."
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 9
       }
     },
     {
       "id": 61,
-      "flags": "tip and tip2 both say do not overmix — duplicate content. Remove or differentiate one.",
-      "set": {}
+      "reason": "tip2 repeated tip (don't overmix); glaze was three ingredients in one string, so it couldn't scale; detailed steps skipped the milk and Italian seasoning; added sat fat",
+      "set": {
+        "satFat": 13,
+        "ingredients": [
+          "2 lb ground beef (80/20)",
+          "1/2 cup almond flour or breadcrumbs",
+          "2 eggs",
+          "1/3 cup milk",
+          "1 small onion, grated",
+          "3 cloves garlic, minced",
+          "2 tbsp Worcestershire sauce",
+          "1 tsp Italian seasoning",
+          "Salt & pepper",
+          "3 tbsp ketchup",
+          "1 tbsp brown sugar",
+          "1 tsp mustard",
+          "2 cups green beans",
+          "2 cups carrots, sliced",
+          "Olive oil"
+        ],
+        "tip2": "Shape it free-form on a sheet pan instead of using a loaf pan. The fat drains away instead of pooling around the loaf, and the glaze caramelizes on the sides as well as the top.",
+        "recipe_detailed": [
+          "Preheat oven to 375°F. In a large bowl, combine ground beef, almond flour or breadcrumbs, eggs, milk, grated onion, garlic, Worcestershire, Italian seasoning, salt, and pepper. Use your hands and mix only until just combined.",
+          "Shape into a loaf on a parchment-lined sheet pan. Stir together ketchup, brown sugar, and mustard and brush half over the top.",
+          "Toss green beans and carrots with olive oil, salt, and pepper and spread them around the loaf.",
+          "Bake 50-55 min, brushing on the rest of the glaze at the 30-minute mark. It's done when an instant-read thermometer reads 160°F in the center. Rest 10 min before slicing."
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 14
+      }
     },
     {
       "id": 63,
+      "reason": "Added sat fat",
       "set": {
-        "protein": "pork"
-      },
-      "flags": "desc and steps reference 'baby back ribs' which are always pork. Changed protein to pork. If beef ribs were intended, rename the recipe."
+        "satFat": 13
+      }
     },
     {
       "id": 66,
-      "flags": "protein='beef' but only Italian sausage in ingredients (no beef). Either add ground beef to ingredients or change protein to 'pork'. Needs human decision on intended dish.",
-      "set": {}
+      "reason": "Protein is beef but the only meat was Italian sausage; now 1 lb ground beef plus 1/2 lb sausage (desc updated). Detailed steps described a bechamel lasagna that isn't in the ingredients; rewritten. tip2 repeated tip (resting); replaced. Salad was one unscalable string; split. Rest time unified at 15 min and time now includes bake and rest. cal recalculated for the full ingredient list; added sat fat",
+      "set": {
+        "satFat": 21,
+        "desc": "Hearty layered lasagna with ground beef and Italian sausage, ricotta, mozzarella, and a crisp side salad",
+        "cal": 900,
+        "time": 100,
+        "ingredients": [
+          "1 lb ground beef (85/15)",
+          "1/2 lb mild Italian sausage, casings removed",
+          "12 lasagna noodles",
+          "2 cups ricotta cheese",
+          "2 cups shredded mozzarella",
+          "1/2 cup parmesan",
+          "1 egg",
+          "2 jars marinara sauce",
+          "2 cloves garlic, minced",
+          "1 tsp Italian seasoning",
+          "Salt & pepper",
+          "1 head romaine, chopped",
+          "1 cup cherry tomatoes, halved",
+          "1 cucumber, sliced",
+          "1/3 cup Italian dressing"
+        ],
+        "recipe": [
+          "Preheat oven to 375°F. Brown beef and sausage with garlic until no pink remains. Drain. Mix in marinara.",
+          "Cook noodles 2 min short of al dente. Drain.",
+          "Mix ricotta, egg, half the parmesan, Italian seasoning, salt, and pepper.",
+          "Spread a thin layer of meat sauce in a 9x13 pan. Layer noodles, ricotta, meat sauce, mozzarella. Repeat twice.",
+          "Top with remaining mozzarella and parmesan. Cover with foil.",
+          "Bake 45 min. Remove foil, bake 15 more min until bubbly. Rest 15 min before cutting.",
+          "Toss romaine, tomatoes, and cucumber with Italian dressing and serve alongside."
+        ],
+        "tip2": "Cook the noodles 2 minutes short of the package time. They keep softening in the sauce as the lasagna bakes, so fully cooked noodles come out mushy.",
+        "recipe_detailed": [
+          "Preheat oven to 375°F. Brown the ground beef and sausage with the garlic in a large skillet over medium-high, breaking the meat into small crumbles, until no pink remains (160°F), 8-10 min. Drain the fat, then stir in the marinara and let it simmer while you prep everything else.",
+          "Cook the lasagna noodles in heavily salted water 2 min short of the package time. Drain and lay them flat on an oiled sheet pan so they don't stick together.",
+          "In a bowl, mix ricotta, egg, half the parmesan, Italian seasoning, salt, and pepper until smooth.",
+          "Spread a thin layer of meat sauce in the bottom of a 9x13 dish so the noodles don't stick. Layer noodles, a third of the ricotta, a third of the remaining meat sauce, and a handful of mozzarella. Repeat twice, then finish with the rest of the mozzarella and parmesan.",
+          "Cover with foil and bake 45 min. Remove the foil and bake 15 more min until the cheese is bubbling and browned at the edges. Rest 15 min so the layers set, and toss the salad with the dressing while it rests."
+        ]
+      }
     },
     {
-      "id": 103,
-      "flags": "step 4 says 'cauli rice' but ingredient says '3 cups jasmine rice, cooked'. Fix ingredient or steps to be consistent.",
-      "set": {}
+      "id": 109,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
     },
     {
       "id": 110,
+      "reason": "Added sat fat",
       "set": {
-        "time": 120
+        "satFat": 9
+      }
+    },
+    {
+      "id": 111,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 9
       }
     },
     {
       "id": 112,
+      "reason": "Added sat fat",
       "set": {
-        "time": 200
+        "satFat": 10
       }
     },
     {
       "id": 113,
+      "reason": "Added sat fat",
       "set": {
-        "time": 25
+        "satFat": 8
       }
     },
     {
       "id": 114,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 4
       }
     },
     {
-      "id": 119,
-      "flags": "step 3 says 'Toss cauli rice' but ingredient says '3 cups jasmine rice, cooked'. Fix ingredient or steps to be consistent.",
-      "set": {}
+      "id": 115,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 13
+      }
+    },
+    {
+      "id": 116,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 11
+      }
+    },
+    {
+      "id": 117,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 9
+      }
+    },
+    {
+      "id": 150,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 64
+      }
+    },
+    {
+      "id": 171,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 26
+      }
     },
     {
       "id": 172,
+      "reason": "Added sat fat",
       "set": {
-        "time": 110
+        "satFat": 7
+      }
+    },
+    {
+      "id": 173,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 8
+      }
+    },
+    {
+      "id": 174,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 10
+      }
+    },
+    {
+      "id": 175,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 26
+      }
+    },
+    {
+      "id": 176,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 7
+      }
+    },
+    {
+      "id": 177,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 178,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 14
       }
     },
     {
       "id": 179,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "mediterranean"
+        "satFat": 13
+      }
+    },
+    {
+      "id": 180,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 5
+      }
+    },
+    {
+      "id": 181,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 6
       }
     },
     {
       "id": 182,
-      "flags": "cuisine='mexican' but this is a Peruvian dish (Lomo Saltado). No Peruvian option available. Recommend 'american' as nearest or add 'latin' cuisine option.",
-      "set": {}
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 2
+      }
     },
     {
       "id": 183,
-      "flags": "cuisine=null. Hungarian Goulash has no matching cuisine. Recommend adding 'european' option or flag for human.",
-      "set": {}
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 11
+      }
+    },
+    {
+      "id": 184,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 12
+      }
+    },
+    {
+      "id": 185,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 9
+      }
     },
     {
       "id": 186,
-      "flags": "cuisine='french' but this is a German dish. No German option. Recommend flagging for human or using 'american' as fallback.",
-      "set": {}
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 10
+      }
     },
     {
       "id": 187,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 18
+      }
+    },
+    {
+      "id": 188,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 9
       }
     },
     {
       "id": 189,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 9
       }
     },
     {
       "id": 190,
-      "flags": "recipe uses milk shortcut (total ~30 min) but recipe_detailed describes 4–6 hour bone broth boil. These are two completely different methods. Needs human decision: pick one method and make both steps consistent.",
-      "set": {}
+      "reason": "Quick steps used a 40-min milk-broth shortcut; detailed steps described a 4-6 hour bone boil, and tip2 argued for the bone boil. Kept the shortcut (matches desc and time) and rewrote detailed steps and tip2. Miso was used twice from one 1 tbsp line; now 2 tbsp, divided. Pork changed from 1.5 lb 'belly or tenderloin' to 1 lb belly (chashu-style; 1.5 lb was very heavy for 4) with a 145°F target. Toppings split into scalable lines. cal and time recalculated; added sat fat",
+      "set": {
+        "satFat": 20,
+        "cal": 850,
+        "time": 45,
+        "ingredients": [
+          "1 lb boneless pork belly",
+          "2 tbsp white miso, divided",
+          "2 tbsp soy sauce",
+          "1 tbsp mirin",
+          "2 garlic cloves, grated",
+          "1 tsp sesame oil",
+          "4 cups chicken or pork broth",
+          "1 cup whole milk",
+          "4 portions ramen noodles",
+          "4 soft-boiled eggs",
+          "2 sheets nori, cut into strips",
+          "3 green onions, sliced",
+          "1 cup bean sprouts",
+          "1/2 cup corn kernels",
+          "1 tbsp sesame seeds",
+          "Chili oil"
+        ],
+        "recipe": [
+          "Rub pork belly with 1 tbsp miso, soy, mirin, garlic, and sesame oil. Sear all sides, then roast at 325°F 25 min to at least 145°F. Rest 5 min and slice thin.",
+          "Combine broth and milk. Whisk in the remaining 1 tbsp miso. Bring to a bare simmer, never a boil. Season.",
+          "Cook noodles. Ladle broth into bowls. Add noodles, pork, halved eggs, nori, green onion, sprouts, and corn. Finish with sesame seeds and chili oil."
+        ],
+        "tip2": "Slice the pork as thin as you can while it's still warm. For ramen-shop edges, run the slices under the broiler for 30-60 seconds right before they go on the bowls so the fat crisps.",
+        "recipe_detailed": [
+          "Preheat oven to 325°F. Mix 1 tbsp miso with the soy sauce, mirin, garlic, and sesame oil. Rub it all over the pork belly and let it sit 10 min. Set aside 1 tbsp of the leftover marinade for the eggs.",
+          "Heat an oven-safe skillet over medium-high and sear the belly on all sides until deeply browned, 5-6 min total. Transfer to the oven and roast 25 min until it reaches at least 145°F inside. While it roasts, roll the peeled soft-boiled eggs in the reserved marinade so they pick up color and flavor.",
+          "Rest the pork 5 min, then slice it as thin as you can.",
+          "Warm the broth and milk together over medium-low. Whisk the remaining 1 tbsp miso with a ladle of the warm broth until smooth, then stir it back into the pot. Keep it at a bare simmer and don't let it boil, or the milk can turn grainy. Taste and season.",
+          "Cook the noodles per the package and drain well. Divide among bowls, ladle the hot broth over, and top with the sliced pork, halved eggs, nori, green onion, bean sprouts, and corn. Finish with sesame seeds and a drizzle of chili oil."
+        ]
+      }
     },
     {
       "id": 253,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 16,
+        "recipe_detailed": [
+          "Heat a large Dutch oven over high heat. Add the ground beef and break it up, then let it sit undisturbed for a minute at a time so it browns rather than steams. Cook until no pink remains (160°F), 8-10 min. Drain off most of the fat.",
+          "Lower the heat to medium. Add the onion and garlic and cook 3 min until the onion softens.",
+          "Sprinkle in the chili powder, cumin, smoked paprika, cayenne, salt, and pepper. Stir 1 min so the spices toast in the remaining fat.",
+          "Add the diced tomatoes, tomato paste, beer, and kidney beans. Stir well, scraping up the browned bits from the bottom of the pot.",
+          "Simmer uncovered 30 min, stirring occasionally, until thick enough that a spoon dragged through leaves a trail. Taste and adjust salt and heat. Serve topped with cheddar, sour cream, and green onion."
+        ]
+      }
     },
     {
       "id": 254,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 28,
+        "recipe_detailed": [
+          "Freeze the ribeye for 30 min so it firms up. Slice it as thin as you possibly can against the grain; paper-thin is the goal.",
+          "Heat the oil in a large griddle or skillet over high heat. Add the onions and peppers and cook, stirring occasionally, about 8 min until soft and caramelized at the edges. Move them to a plate.",
+          "Add the shaved beef to the same hot pan in a thin layer and season with salt and pepper. Cook 3-4 min, chopping and flipping with two spatulas, until browned and just cooked through.",
+          "Fold the onions and peppers back into the beef. Split and toast the hoagie rolls, then pile the filling into them.",
+          "Warm the Cheez Whiz in the microwave about 30 seconds until pourable and spoon it generously over the beef. Press each roll closed and serve immediately."
+        ]
+      }
     },
     {
       "id": 255,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 12,
+        "recipe_detailed": [
+          "Combine the beef broth, Worcestershire, garlic powder, onion powder, and butter in a saucepan. Simmer 10 min to concentrate the flavor, then taste and season with salt and pepper. This is your au jus.",
+          "Turn the heat to low. Add the roast beef slices to the au jus and let them warm through for 2 min. Don't boil the beef or it turns tough.",
+          "Set the oven to broil. Open the hoagie rolls on a sheet pan and pile the warm beef onto the bottom halves with tongs, letting excess jus drip off. Lay 2 slices of provolone on each.",
+          "Broil 1-2 min, watching closely, until the cheese melts and the cut sides of the rolls are toasty.",
+          "Close the sandwiches and serve right away with a small bowl of hot au jus on the side for dipping."
+        ]
+      }
     },
     {
       "id": 256,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 15,
+        "recipe_detailed": [
+          "Cook the egg noodles in salted water per the package. Reserve 1/2 cup of the pasta water and drain.",
+          "Pat the beef dry and season with salt and pepper. Melt the butter in a large skillet over high heat. Sear the beef in a single layer, working in batches if needed, about 2 min per side until browned. Move it to a plate.",
+          "Lower the heat to medium-high. Add the mushrooms and onion and cook 5 min until golden and the mushrooms have released their liquid. Add the garlic and cook 1 min.",
+          "Sprinkle the flour over the vegetables and stir 1 min. Pour in the broth and Worcestershire, scraping up the browned bits, and simmer 3 min until thickened.",
+          "Take the pan off the heat and stir in the sour cream until smooth. Return the beef and any juices, add the noodles, and toss. Loosen with pasta water if needed and top with parsley."
+        ]
+      }
     },
     {
       "id": 257,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 17,
+        "recipe_detailed": [
+          "Toss the coleslaw mix with the mayo, apple cider vinegar, salt, and pepper. Refrigerate at least 10 min so the cabbage softens slightly and the dressing soaks in.",
+          "Warm the shredded brisket with the BBQ sauce in a skillet over medium, stirring often, 5-6 min until hot all the way through and the sauce clings to the meat. Add a splash of water if it gets too thick.",
+          "Split the slider buns and toast them cut-side up under the broiler 1-2 min until golden.",
+          "Pile brisket onto the bottom buns, add a few pickle chips and a scoop of slaw, and cap with the tops. Serve immediately so the buns stay crisp."
+        ]
+      }
     },
     {
       "id": 258,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 22,
+        "recipe_detailed": [
+          "Preheat oven to 400°F. Brown the ground beef in a skillet over medium-high until no pink remains (160°F). Drain the fat, add the taco seasoning and 2 tbsp water, and cook 1 min until the water evaporates.",
+          "Line a sheet pan with foil and spread the chips in a single, slightly overlapping layer. A single layer means every chip gets toppings.",
+          "Scatter the black beans, seasoned beef, and drained tomatoes with chilies evenly over the chips, then cover everything with the shredded cheese, edge to edge.",
+          "Bake uncovered 10-12 min until the cheese is completely melted and bubbling.",
+          "Top with jalapeños, dollops of sour cream and guacamole, and green onions. Serve straight from the pan."
+        ]
+      }
     },
     {
       "id": 259,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 12,
+        "recipe_detailed": [
+          "Whisk the lime juice, orange juice, garlic, olive oil, cumin, chili powder, and a generous pinch of salt. Add the skirt steak and turn to coat. Marinate 15-30 min; longer than an hour and the citrus makes the texture mushy.",
+          "Heat a grill or cast-iron skillet over high heat until it's smoking. Lift the steak from the marinade, pat it dry, and sear 3-4 min per side until well charred outside and medium-rare to medium inside.",
+          "Rest the steak 5 min, then slice it thinly against the grain. Skirt steak is chewy if you cut with the grain, so look for the direction of the fibers first.",
+          "Build bowls with warm jasmine rice, sliced steak, pico de gallo, and guacamole. Finish with a spoonful of sour cream and a squeeze of lime."
+        ]
+      }
     },
     {
       "id": 260,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 18,
+        "recipe_detailed": [
+          "Preheat oven to 375°F. Brown the ground beef with the onion and garlic over medium-high until no pink remains (160°F). Season with chili powder, cumin, salt, and pepper, then drain the fat.",
+          "Wrap the tortillas in a damp paper towel and microwave 30 seconds so they're soft and won't crack when rolled.",
+          "Spread 1 cup of the enchilada sauce over the bottom of a 9x13 baking dish.",
+          "Spoon a line of the beef mixture down the center of each tortilla, roll it up snugly, and set it seam-side down in the dish. Pack them in tightly side by side.",
+          "Pour the remaining sauce over the top so every tortilla is covered, then scatter the cheese evenly. Bake 20-25 min until the sauce bubbles and the cheese is melted. Rest 5 min and serve with sour cream and jalapeños."
+        ]
+      }
     },
     {
       "id": 261,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 11,
+        "recipe_detailed": [
+          "Preheat oven to 350°F. In a large bowl, soak the breadcrumbs in the milk for a couple of minutes until they soften. This panade keeps the loaf moist.",
+          "Add the ground beef, ground pork, eggs, grated onion, garlic, Worcestershire, salt, and pepper. Mix with your hands only until everything is evenly combined. Overworking it makes a dense loaf.",
+          "Press the mixture into a 9x5 loaf pan, or shape it into a loaf on a parchment-lined sheet pan for more crust.",
+          "Stir the ketchup, brown sugar, and vinegar together. Spread half over the top of the loaf.",
+          "Bake 45 min, spread on the remaining glaze, and bake about 15 min more until the center reads 160°F. Rest 10 min before slicing so it holds together."
+        ]
+      }
     },
     {
       "id": 318,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 22
       }
     },
     {
       "id": 319,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 19
       }
     },
     {
       "id": 320,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "mexican"
+        "satFat": 17
       }
     },
     {
       "id": 321,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 5
       }
     },
     {
       "id": 322,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "french"
+        "satFat": 21
       }
     },
     {
       "id": 323,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 9
       }
     },
     {
       "id": 324,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 3
       }
     },
     {
       "id": 325,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "mexican"
+        "satFat": 10
       }
     },
     {
       "id": 326,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 13
       }
     },
     {
       "id": 327,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 18
       }
     },
     {
       "id": 328,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 16
       }
     },
     {
       "id": 329,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 8
       }
     },
     {
       "id": 330,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "mexican"
+        "satFat": 14
       }
     },
     {
       "id": 331,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 12
       }
     },
     {
       "id": 332,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 8
       }
+    }
+  ],
+  "flags": [
+    {
+      "id": 150,
+      "note": "Servings is 2 for two 1.5-inch bone-in ribeyes plus 5 tbsp butter and cream. That works out to about 64 g sat fat and roughly 2,000 kcal per serving, versus the listed 680. A steak that thick normally serves 2, so servings: 4 is likely intended. If you change it, set satFat to 32 and cal to about 1,050."
+    },
+    {
+      "id": 171,
+      "note": "cal 450 looks low. 1.5 lb pork belly for 4 servings is about 700 kcal per serving from the belly alone; with egg and rice it's closer to 950."
+    },
+    {
+      "id": 175,
+      "note": "cal 370 looks low. Same 1.5 lb pork belly for 4 as id 171; estimate is about 800 kcal before rice."
+    },
+    {
+      "id": 254,
+      "note": "cal 680 looks low. 2 lb ribeye, a full jar of Cheez Whiz, and hoagie rolls for 4 is about 1,300 kcal per serving. Consider 1.5 lb beef and half a jar, or raise cal."
+    },
+    {
+      "id": 115,
+      "note": "cal 370 looks low for 1 lb ground pork plus 3 cups rice over 3 servings; estimate is about 720."
+    },
+    {
+      "id": 178,
+      "note": "cal 320 is below the pork alone (1.5 lb ground pork for 4 is about 450 kcal per serving); estimate is about 480 before rice."
+    },
+    {
+      "id": 10,
+      "note": "Name says Korean Beef Bowl but desc says 'Mongolian-style beef', and the dish is functionally Mongolian beef. Rename or rewrite the desc. Name changes affect the cuisine lookup key, so left for you."
     }
   ]
 }

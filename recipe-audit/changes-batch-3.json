@@ -1,150 +1,631 @@
 {
   "batch": 3,
-  "file": "batch-3-plant-based-breakfast.json",
-  "findings_summary": {
-    "Safety": [],
-    "Wrong": [
-      "id 128 (Red Beans & Rice with Sausage): protein='plant-based' but recipe contains Andouille sausage throughout. Andouille is a pork product. Fix: protein → 'pork'.",
-      "id 35 (Plant-Based Taco Bowls): recipe_detailed describes lentils or cauliflower rice as the protein base, but ingredients list '1.5 lb plant-based ground (Beyond/Impossible)'. The detailed steps describe a completely different protein from the ingredients."
-    ],
-    "Inconsistent": [
-      "id 33 (Lentil Veggie Soup): tip and tip2 say essentially the same thing — both describe red lentils dissolving/breaking down into the soup. Duplicate tip content.",
-      "id 128 (Red Beans & Rice): tip and tip2 both describe smashing beans for creaminess. Duplicate tip content."
-    ],
-    "Classification": [
-      "id 168 (Mujaddara): cuisine='indian' but Mujaddara is a classic Levantine/Middle Eastern dish. Fix: cuisine → 'middleeastern'.",
-      "id 170 (Shakshuka Verde): cuisine='middleeastern' but this recipe uses tomatillos, jalapeños, cotija, and corn tortillas — it is a Mexican-inspired green shakshuka. Fix: cuisine → 'mexican'.",
-      "id 226 (Lentil Bolognese): cuisine='mediterranean' but Bolognese is Italian. Fix: cuisine → 'italian'. (Also resolves duplicate cuisine map entry.)",
-      "Null cuisine assignments for 15 additional recipes (see changes block)."
-    ],
-    "Polish": [
-      "id 251 (Polenta Florentine): Missing recipe_detailed field. Not premium. Needs content written."
-    ]
-  },
   "changes": [
     {
+      "id": 31,
+      "reason": "No detailed steps; added them. Quick steps pickled the onion 10 min while the tip says at least 15; aligned to 15, added the salt the steps use, and updated time; added sat fat",
+      "set": {
+        "satFat": 2,
+        "time": 20,
+        "ingredients": [
+          "3 cans black beans, drained",
+          "12 small corn tortillas",
+          "3 avocados",
+          "1 red onion, thinly sliced",
+          "1/3 cup lime juice",
+          "1 tsp cumin",
+          "1 tsp chili powder",
+          "Salt",
+          "Fresh cilantro",
+          "Salsa"
+        ],
+        "recipe": [
+          "Quick-pickle onion in lime juice and a pinch of salt, at least 15 min.",
+          "Heat beans with cumin, chili powder, salt. Mash slightly.",
+          "Warm tortillas in dry skillet.",
+          "Fill with beans, avocado, pickled onion, cilantro, salsa."
+        ],
+        "recipe_detailed": [
+          "Start the onions first: toss the sliced red onion with the lime juice and a big pinch of salt in a small bowl. Let it sit at least 15 min, stirring once or twice, until the onion turns bright pink and softens.",
+          "Warm the black beans in a skillet over medium with the cumin, chili powder, a pinch of salt, and a splash of water. Once they're hot, mash about a third of them with a fork or potato masher so the filling holds together in the tortilla.",
+          "Heat a dry skillet over medium-high and warm the tortillas 30 seconds per side until soft and lightly spotted. Stack them in a clean towel to keep warm.",
+          "Slice the avocados. Fill each tortilla with beans, avocado, pickled onion, cilantro, and a spoonful of salsa. Drizzle a little of the pickling lime over the top."
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 6
+      }
+    },
+    {
       "id": 33,
-      "flags": "tip and tip2 are near-duplicates — both say red lentils dissolve into the soup. Differentiate or remove one.",
-      "set": {}
+      "reason": "tip2 repeated tip (red lentils dissolving); detailed steps used celery and smoked paprika that aren't in the ingredients and skipped the turmeric; added sat fat",
+      "set": {
+        "satFat": 0,
+        "tip2": "Bloom the cumin, turmeric, and coriander in the oil for a full minute before the liquid goes in. Raw ground spices taste dusty; toasted ones give the broth its warm, earthy backbone.",
+        "recipe_detailed": [
+          "Heat a drizzle of oil in a large pot over medium. Cook onion and carrots 5-6 min until the onion is soft and translucent. Add garlic and cook 1 min.",
+          "Add cumin, turmeric, and coriander. Stir for 30-60 seconds until fragrant. Add diced tomatoes, red lentils, and broth, and stir to combine.",
+          "Bring to a boil, then reduce to a simmer. Cook 15-20 min, stirring occasionally, until the lentils are completely soft and have dissolved into the broth, thickening it.",
+          "Stir in the kale and cook 3 min until wilted. Squeeze lemon juice in at the end to brighten the whole pot, and season with salt and pepper."
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 0
+      }
     },
     {
       "id": 35,
-      "flags": "recipe_detailed describes lentils or cauliflower rice as base protein, but ingredients specify 1.5 lb plant-based ground (Beyond/Impossible). Steps and ingredients describe different dishes. Needs human decision: align one to the other.",
-      "set": {}
+      "reason": "Detailed steps described lentil or cauliflower filling over rice; ingredients and quick steps use plant-based ground over romaine. tip2 rewritten to match; added sat fat",
+      "set": {
+        "satFat": 8,
+        "tip2": "Taste the cooked ground before it goes into the bowls. Plant-based ground is milder than beef, so it usually needs an extra pinch of salt and a squeeze of lime to taste like real taco meat.",
+        "recipe_detailed": [
+          "Heat a large skillet over medium-high. Add the plant-based ground in an even layer and leave it alone for 2 min so the bottom browns. Then break it up and cook 3 more min until browned all over.",
+          "Add taco seasoning and 2 tbsp water. Stir 1 min until the water evaporates and the spices coat the crumbles. Taste and adjust with salt and a squeeze of lime.",
+          "Warm the black beans in a small pot with a splash of water and a pinch of salt. Mash a few against the side of the pot for a creamier texture.",
+          "Build bowls: chopped romaine, seasoned ground, beans, sliced avocado, and salsa. Finish with lime wedges for squeezing over the top."
+        ]
+      }
     },
     {
       "id": 128,
+      "reason": "tip2 repeated tip (smashing beans); detailed steps cooked sausage with the vegetables and simmered up to 45 min for dried beans, but the recipe uses canned beans and browns the sausage first; added sat fat",
       "set": {
-        "protein": "pork"
-      },
-      "flags": "tip and tip2 are near-duplicates — both describe smashing beans for creaminess. Differentiate or remove one."
+        "satFat": 8,
+        "tip2": "Brown the Andouille well before anything else goes in the pot. The rendered fat is what you cook the trinity in, and it carries the smoky, spicy flavor through the whole dish.",
+        "recipe_detailed": [
+          "Brown the sliced Andouille in a large pot over medium-high, 5 min, until the edges are crisp and the fat has rendered. Remove the sausage and leave the drippings in the pot.",
+          "Add the Holy Trinity (onion, celery, and bell pepper) to the drippings and cook 6 min until soft. Add garlic, thyme, smoked paprika, cayenne, and bay leaves and stir 1 min until fragrant.",
+          "Add the drained beans and broth. Bring to a boil, then simmer 15 min. Toward the end, smash some of the beans against the side of the pot until the sauce turns thick and creamy.",
+          "Return the sausage and simmer 5 more min. Remove the bay leaves and season with salt and pepper. Serve over rice with hot sauce and sliced green onion."
+        ]
+      }
+    },
+    {
+      "id": 130,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 5
+      }
+    },
+    {
+      "id": 131,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 18
+      }
+    },
+    {
+      "id": 132,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 10
+      }
+    },
+    {
+      "id": 133,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 7
+      }
+    },
+    {
+      "id": 134,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 7
+      }
+    },
+    {
+      "id": 135,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 14
+      }
+    },
+    {
+      "id": 136,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
     },
     {
       "id": 137,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "italian"
+        "satFat": 9
+      }
+    },
+    {
+      "id": 138,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 14
+      }
+    },
+    {
+      "id": 139,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 25
+      }
+    },
+    {
+      "id": 140,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 25
+      }
+    },
+    {
+      "id": 141,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 1
+      }
+    },
+    {
+      "id": 142,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 144,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 1
+      }
+    },
+    {
+      "id": 145,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 8
       }
     },
     {
       "id": 146,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "mediterranean"
+        "satFat": 2
+      }
+    },
+    {
+      "id": 147,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 17
+      }
+    },
+    {
+      "id": 148,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 15
+      }
+    },
+    {
+      "id": 149,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 16
+      }
+    },
+    {
+      "id": 152,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 6
+      }
+    },
+    {
+      "id": 153,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 19
+      }
+    },
+    {
+      "id": 154,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 155,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 7
+      }
+    },
+    {
+      "id": 156,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 14
       }
     },
     {
       "id": 157,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 7
       }
     },
     {
       "id": 158,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 8
+      }
+    },
+    {
+      "id": 159,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 6
+      }
+    },
+    {
+      "id": 160,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 0
+      }
+    },
+    {
+      "id": 161,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 14
+      }
+    },
+    {
+      "id": 162,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 44
+      }
+    },
+    {
+      "id": 163,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 7
       }
     },
     {
       "id": 164,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "mexican"
+        "satFat": 17
+      }
+    },
+    {
+      "id": 165,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 8
+      }
+    },
+    {
+      "id": 166,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 10
+      }
+    },
+    {
+      "id": 167,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
       }
     },
     {
       "id": 168,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "middleeastern"
+        "satFat": 3
+      }
+    },
+    {
+      "id": 169,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 5
       }
     },
     {
       "id": 170,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "mexican"
-      }
-    },
-    {
-      "id": 226,
-      "set": {
-        "cuisine": "italian"
-      }
-    },
-    {
-      "id": 241,
-      "set": {
-        "cuisine": "american"
+        "satFat": 8
       }
     },
     {
       "id": 251,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them. Quick steps sauté in olive oil and poach with vinegar, neither of which was listed; added both; added sat fat",
+      "set": {
+        "satFat": 10,
+        "ingredients": [
+          "2 cups polenta",
+          "6 cups water or vegetable broth",
+          "1 cup Parmesan (grated)",
+          "2 tbsp butter",
+          "1 tbsp olive oil",
+          "1 lb fresh spinach",
+          "4 eggs",
+          "1 tbsp white vinegar",
+          "3 garlic cloves (sliced)",
+          "Pinch of nutmeg",
+          "Salt and pepper"
+        ],
+        "recipe_detailed": [
+          "Bring the water or broth to a boil with a big pinch of salt. Pour in the polenta in a slow stream while whisking constantly so it doesn't clump. Turn the heat to low and stir 5 min, then cook 15-20 min, stirring every few minutes and scraping the bottom, until thick and creamy with no gritty bite.",
+          "Stir in the butter and most of the Parmesan. Season with salt and pepper. If it thickens too much while you finish everything else, loosen it with a splash of hot water.",
+          "Heat the olive oil in a large skillet over medium. Add the sliced garlic and cook 1 min until fragrant but not browned. Add the spinach in handfuls, tossing until each batch wilts, 3-4 min total. Season with nutmeg, salt, and pepper.",
+          "Bring a wide pan of water to a bare simmer and add the vinegar. Crack each egg into a small cup, then slide it into the water. Poach 3 min for runny yolks and lift out with a slotted spoon.",
+          "Spoon the polenta into shallow bowls, top with the spinach and a poached egg, and finish with the remaining Parmesan and cracked pepper."
+        ]
+      }
+    },
+    {
+      "id": 226,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 1
+      }
+    },
+    {
+      "id": 227,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 6
+      }
+    },
+    {
+      "id": 228,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 1
+      }
+    },
+    {
+      "id": 229,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 8
+      }
+    },
+    {
+      "id": 230,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 0
+      }
+    },
+    {
+      "id": 231,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 5
+      }
+    },
+    {
+      "id": 232,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 6
+      }
+    },
+    {
+      "id": 233,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 234,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 2
+      }
+    },
+    {
+      "id": 235,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 236,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 19
+      }
+    },
+    {
+      "id": 237,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 1
+      }
+    },
+    {
+      "id": 238,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 239,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 10
+      }
+    },
+    {
+      "id": 240,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 19
+      }
+    },
+    {
+      "id": 241,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 4
+      }
+    },
+    {
+      "id": 242,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 5
+      }
+    },
+    {
+      "id": 243,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 26
+      }
+    },
+    {
+      "id": 244,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 245,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 10
+      }
+    },
+    {
+      "id": 246,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 11
+      }
+    },
+    {
+      "id": 247,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 4
+      }
+    },
+    {
+      "id": 248,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 2
+      }
+    },
+    {
+      "id": 249,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 250,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 20
+      }
     },
     {
       "id": 310,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 4
       }
     },
     {
       "id": 311,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "mexican"
+        "satFat": 18
       }
     },
     {
       "id": 312,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 19
       }
     },
     {
       "id": 313,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 16
       }
     },
     {
       "id": 314,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 16
       }
     },
     {
       "id": 315,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 12
       }
     },
     {
       "id": 316,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "mexican"
+        "satFat": 7
       }
     },
     {
       "id": 317,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 17
       }
+    }
+  ],
+  "flags": [
+    {
+      "id": 162,
+      "note": "Two 14 oz cans of full-fat coconut milk plus coconut oil for 4 servings gives about 44 g sat fat and roughly 650 kcal before rice (listed 380). One can of coconut milk plus 1 cup more broth would roughly halve both and still be creamy."
+    },
+    {
+      "id": 226,
+      "note": "cal 380 looks low. 1 lb pappardelle plus 1.5 cups dry lentils for 4 is about 700 kcal per serving."
+    },
+    {
+      "id": 165,
+      "note": "cal 430 looks low. 1 lb spaghetti for 4 is about 400 kcal per serving before the ricotta, oil, and pine nuts; estimate is about 700."
     }
   ]
 }

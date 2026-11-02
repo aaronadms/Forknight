@@ -1,223 +1,666 @@
 {
   "batch": 2,
-  "file": "batch-2-chicken-seafood.json",
-  "findings_summary": {
-    "Safety": [],
-    "Wrong": [
-      "id 252 (Chicken 65): Missing recipe_detailed field entirely. Not premium. Needs content written."
-    ],
-    "Inconsistent": [],
-    "Classification": [
-      "Null cuisine assignments for 24 recipes (see changes block).",
-      "Duplicate cuisine map resolutions applied in this batch: Chicken Parmesan → 'italian' (id 262 in missing-detailed group), Chicken Fried Rice → 'asian' (id 266 in missing-detailed group)."
-    ],
-    "Polish": [
-      "ids 262–270: All have 0 detailed steps (no recipe_detailed field) and are not premium. Flagged for content team.",
-      "id 262 Chicken Parmesan — needs recipe_detailed",
-      "id 263 Chicken Pot Pie — needs recipe_detailed",
-      "id 264 Chicken Alfredo — needs recipe_detailed",
-      "id 265 Buffalo Chicken Wraps — needs recipe_detailed",
-      "id 266 Chicken Fried Rice — needs recipe_detailed",
-      "id 267 Chicken Quesadillas — needs recipe_detailed",
-      "id 268 Honey Butter Chicken Biscuits — needs recipe_detailed",
-      "id 269 BBQ Chicken Pizza — needs recipe_detailed",
-      "id 270 Chicken & Waffles — needs recipe_detailed"
-    ]
-  },
   "changes": [
     {
       "id": 11,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 6
+      }
+    },
+    {
+      "id": 12,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
       }
     },
     {
       "id": 14,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 2
       }
     },
     {
-      "id": 24,
+      "id": 16,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 1
       }
     },
     {
-      "id": 29,
+      "id": 18,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 9
+      }
+    },
+    {
+      "id": 20,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 2
+      }
+    },
+    {
+      "id": 44,
+      "reason": "Same rice mix-up in reverse: named Cauliflower Fried Rice, desc and detailed steps use riced cauliflower, but ingredients and quick steps used jasmine rice. Switched to cauliflower, raised chicken from 2 to 3 cups (2 cups was light for 6 servings), added the cooking oil the steps call for, and aligned the detailed steps to cooked chicken. Recalculated cal; added sat fat",
+      "set": {
+        "satFat": 2,
+        "cal": 230,
+        "ingredients": [
+          "3 cups cooked chicken, diced",
+          "1 large head cauliflower, riced (about 5 cups)",
+          "3 eggs, beaten",
+          "1.5 cups frozen peas & carrots",
+          "4 tbsp low-sodium soy sauce",
+          "3 cloves garlic, minced",
+          "1 tbsp neutral oil",
+          "1.5 tsp sesame oil",
+          "Green onions"
+        ],
+        "recipe": [
+          "Squeeze riced cauliflower dry in a towel. Heat oil in a wok on high. Add cauliflower and cook 4-5 min.",
+          "Push aside. Scramble eggs in center, mix together.",
+          "Add chicken, peas & carrots, garlic. Stir fry 3 min.",
+          "Add soy sauce and sesame oil. Top with green onion."
+        ],
+        "tip": "Use the widest pan you have and don't crowd it. Cauliflower rice releases steam as it cooks, and spreading it thin lets that moisture escape so it browns instead of going soggy.",
+        "recipe_detailed": [
+          "Pulse cauliflower florets in a food processor until they look like rice. Spread on a clean towel, gather it up, and squeeze firmly to remove as much moisture as you can. This step makes or breaks the texture.",
+          "Heat the neutral oil in a wok or large skillet over high heat. Add the cauliflower rice in an even layer and let it sit 30 seconds at a time between tosses so it picks up color. Cook 4-5 min until tender with some golden bits.",
+          "Push everything to the sides. Pour the eggs into the center and scramble until just set, then break them up and mix through.",
+          "Add the diced cooked chicken, peas and carrots, and garlic. Stir fry 3 min until everything is hot. Add soy sauce and sesame oil, toss, and top with green onions."
+        ]
       }
     },
     {
       "id": 46,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 2
+      }
+    },
+    {
+      "id": 53,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 4
+      }
+    },
+    {
+      "id": 64,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 18
+      }
+    },
+    {
+      "id": 68,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 11
+      }
+    },
+    {
+      "id": 65,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 30
+      }
+    },
+    {
+      "id": 24,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 4
+      }
+    },
+    {
+      "id": 26,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 4
+      }
+    },
+    {
+      "id": 29,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 4
+      }
+    },
+    {
+      "id": 23,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 14
+      }
+    },
+    {
+      "id": 25,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 11
+      }
+    },
+    {
+      "id": 67,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 11
+      }
+    },
+    {
+      "id": 101,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 12
+      }
+    },
+    {
+      "id": 102,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 16
+      }
+    },
+    {
+      "id": 103,
+      "reason": "Quick steps built bowls on 'cauli rice' and cooked rice from scratch, but the ingredient is cooked jasmine rice; peppers are sautéed in oil that wasn't listed. Detailed steps described a different dish (raw thighs, homemade sauce, cilantro rice); rewritten. tip2 was about toasting dried chiles the recipe doesn't use; replaced; added sat fat",
+      "set": {
+        "satFat": 11,
+        "ingredients": [
+          "2 cups shredded chicken",
+          "1 cup red enchilada sauce",
+          "1 can black beans, drained",
+          "2 bell peppers, diced",
+          "1 tbsp olive oil",
+          "3 cups jasmine rice, cooked",
+          "1 cup shredded Mexican cheese",
+          "Sour cream",
+          "Fresh cilantro",
+          "Lime wedges"
+        ],
+        "recipe": [
+          "Warm chicken in enchilada sauce over medium heat, 5 min.",
+          "Sauté peppers in olive oil until tender.",
+          "Warm the cooked jasmine rice and black beans.",
+          "Build bowls: rice, peppers, beans, chicken.",
+          "Top with cheese, sour cream, cilantro, and lime."
+        ],
+        "tip2": "Let the chicken simmer in the enchilada sauce until most of the liquid is absorbed. Saucy but not soupy chicken keeps the rice from turning soggy in the bowl.",
+        "recipe_detailed": [
+          "Combine the shredded chicken and enchilada sauce in a skillet over medium heat. Simmer 5 min, stirring occasionally, until the chicken is hot and the sauce has thickened and clings to it.",
+          "In a second pan, heat the olive oil over medium-high. Add the diced peppers and cook 5-6 min, letting them sit long enough to char a little at the edges, until tender.",
+          "Warm the cooked rice and black beans, in the microwave or a covered pan with a splash of water, until steaming. Season the beans with a pinch of salt.",
+          "Build bowls: rice, peppers, beans, and enchilada chicken. Top with shredded cheese while everything is hot so it melts, then add sour cream, cilantro, and a squeeze of lime."
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 6
+      }
+    },
+    {
+      "id": 105,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 3
+      }
+    },
+    {
+      "id": 106,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 2
+      }
+    },
+    {
+      "id": 107,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 23
       }
     },
     {
       "id": 108,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 1
+      }
+    },
+    {
+      "id": 118,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 5
+      }
+    },
+    {
+      "id": 119,
+      "reason": "Quick steps tossed 'cauli rice' but the ingredient is jasmine rice. Detailed steps poached the salmon in coconut broth while the quick steps marinate and bake it; rewritten to the baked method. tip2 was about simmering a broth the recipe doesn't make; replaced; added sat fat",
+      "set": {
+        "satFat": 9,
+        "recipe": [
+          "Mix coconut milk, lime juice, garlic, honey. Marinate salmon 10 min.",
+          "Bake at 400°F 12-14 min until it flakes easily (145°F).",
+          "Toss warm jasmine rice with lime zest and cilantro.",
+          "Build bowls: rice, salmon, mango, avocado.",
+          "Squeeze extra lime over everything."
+        ],
+        "tip2": "Zest the limes before you juice them. The zest goes into the rice and carries more lime flavor than the juice, without the sourness.",
+        "recipe_detailed": [
+          "Preheat oven to 400°F. Zest both limes, then juice them. Whisk coconut milk, lime juice, garlic, and honey with a pinch of salt. Add salmon and turn to coat. Marinate 10 min while the oven heats.",
+          "Line a baking dish with parchment. Lay the salmon in it skin-side down and spoon a little marinade over the top. Bake 12-14 min until it flakes easily with a fork and reads 145°F in the thickest part.",
+          "Toss the warm jasmine rice with the lime zest, chopped cilantro, and a pinch of salt.",
+          "Build bowls: lime rice, salmon, diced mango, and sliced avocado. Squeeze extra lime over everything and serve."
+        ]
       }
     },
     {
       "id": 120,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 10
+      }
+    },
+    {
+      "id": 121,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 2
+      }
+    },
+    {
+      "id": 122,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 2
+      }
+    },
+    {
+      "id": 123,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 0
+      }
+    },
+    {
+      "id": 124,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 6
+      }
+    },
+    {
+      "id": 125,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 13
+      }
+    },
+    {
+      "id": 126,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 8
+      }
+    },
+    {
+      "id": 127,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 1
+      }
+    },
+    {
+      "id": 129,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 25
+      }
+    },
+    {
+      "id": 151,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 4
+      }
+    },
+    {
+      "id": 191,
+      "reason": "Added sat fat",
+      "set": {
+        "satFat": 21
       }
     },
     {
       "id": 252,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them, including a 165°F doneness check. Added salt, which the marinade uses; added sat fat",
+      "set": {
+        "satFat": 6,
+        "ingredients": [
+          "2 lb chicken thighs, cut into bite-sized pieces",
+          "1 cup plain yogurt",
+          "2 tbsp red chili powder",
+          "1 tsp turmeric",
+          "1 tbsp ginger-garlic paste",
+          "2 tbsp cornstarch",
+          "1 tbsp all-purpose flour",
+          "1 tsp salt",
+          "Oil for frying",
+          "1 tsp mustard seeds",
+          "10 fresh curry leaves",
+          "4 dried red chilies",
+          "2 tbsp soy sauce",
+          "1 tbsp vinegar",
+          "4 naan breads, warmed",
+          "2 cups jasmine rice, cooked"
+        ],
+        "recipe_detailed": [
+          "In a large bowl, mix the yogurt, 1 tbsp of the chili powder, turmeric, ginger-garlic paste, cornstarch, flour, and salt into a thick paste. Add the chicken and toss until every piece is coated. Marinate at least 15 min, or up to overnight in the fridge.",
+          "Heat 2 inches of oil in a heavy pot to 350°F. Fry the chicken in batches so the oil temperature doesn't crash, 6-8 min per batch, until deep golden and 165°F inside. Drain on a rack or paper towels.",
+          "In a wok or large skillet, heat 2 tbsp of the frying oil over medium-high. Add the mustard seeds and let them pop, about 30 seconds. Add the curry leaves and dried chilies and stir 15 seconds; they'll sizzle and crackle.",
+          "Add the remaining chili powder, soy sauce, and vinegar and stir 30 seconds until it turns into a glossy, fragrant sauce.",
+          "Add the fried chicken and toss until every piece is coated. Serve right away, while it's still crisp, with warm naan and jasmine rice."
+        ]
+      }
     },
     {
       "id": 262,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them, including a 165°F doneness check; added sat fat",
+      "set": {
+        "satFat": 12,
+        "recipe_detailed": [
+          "Put a big pot of salted water on for the spaghetti and preheat oven to 400°F. Cook the spaghetti per the package while you make the chicken.",
+          "Pound the chicken to an even 1/2-inch thickness and season both sides with salt and pepper. Mix the breadcrumbs and Parmesan in a shallow dish. Dip each piece in the beaten egg, let the excess drip off, then press firmly into the crumb mixture on both sides.",
+          "Heat the olive oil in a large skillet over medium-high. Fry the cutlets 3 min per side until deep golden. They don't need to be cooked through yet.",
+          "Move the cutlets to a baking sheet. Spoon marinara over each one and top with mozzarella.",
+          "Bake 12-15 min until the cheese is bubbly and golden and the chicken reads 165°F in the thickest part. Serve over spaghetti with warm marinara and fresh basil."
+        ]
+      }
     },
     {
       "id": 263,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 14,
+        "recipe_detailed": [
+          "Preheat oven to 425°F. Melt the butter in a large saucepan over medium. Add the onion, carrots, and celery and cook 5 min until starting to soften.",
+          "While the vegetables cook, toss the shredded chicken in a bowl with the poultry seasoning, garlic powder, and a generous pinch of salt and pepper.",
+          "Sprinkle the flour over the vegetables and stir 1 min until no dry flour remains. Slowly pour in the broth and then the milk, whisking constantly, and simmer about 5 min until thick enough to coat a spoon.",
+          "Season the sauce with salt and pepper, then stir in the chicken and frozen peas.",
+          "Fit one crust into a 9-inch pie dish and pour in the filling. Lay the second crust on top, trim and crimp the edges, and cut several generous steam vents. Bake 30-35 min until deep golden, setting a sheet pan underneath to catch drips. Rest 5 min before serving."
+        ]
+      }
     },
     {
       "id": 264,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them, including a 165°F doneness check; added sat fat",
+      "set": {
+        "satFat": 32,
+        "recipe_detailed": [
+          "Cook the fettuccine in heavily salted water per the package. Reserve 1 cup of the pasta water before draining.",
+          "Season the chicken with Italian seasoning, salt, and pepper. Sear in a large skillet over medium-high 6-7 min per side until golden and 165°F inside. Rest 5 min, then slice.",
+          "Lower the heat to medium and melt the butter in the same pan. Add the garlic and cook 1 min until fragrant.",
+          "Pour in the cream and simmer 2 min. Take the pan off the heat, then add the Parmesan a handful at a time, stirring until each addition melts into a smooth sauce.",
+          "Add the fettuccine and toss to coat, loosening with pasta water a splash at a time until the sauce is silky. Plate, top with the sliced chicken, and finish with parsley and extra Parmesan."
+        ]
+      }
     },
     {
       "id": 265,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them, including a 165°F doneness check; added sat fat",
+      "set": {
+        "satFat": 12,
+        "recipe_detailed": [
+          "Season the chicken tenders with salt and pepper. Sear in a lightly oiled skillet over medium-high 3-4 min per side until browned and 165°F inside.",
+          "Whisk the hot sauce and melted butter together in a large bowl. Add the cooked chicken and toss until every piece is coated.",
+          "Warm the tortillas in the microwave about 20 seconds so they're pliable and won't tear when rolled.",
+          "Lay out the tortillas and layer romaine, cherry tomatoes, and blue cheese crumbles down the center of each, leaving a border at the edges.",
+          "Add the Buffalo chicken and drizzle with blue cheese dressing. Fold in the sides, roll up tightly from the bottom, and slice each wrap on the diagonal."
+        ]
+      }
     },
     {
       "id": 266,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 3,
+        "recipe_detailed": [
+          "Break up any clumps in the cold rice with your hands before you start. Once the wok is hot, everything moves fast, so have all your ingredients ready next to the stove.",
+          "Heat the vegetable oil in a wok or large skillet over high heat until it just starts to smoke. Add the chicken and garlic and stir-fry 2 min until the garlic is fragrant and the chicken is hot.",
+          "Push everything to one side. Pour the eggs into the empty side and scramble until just set, then fold them into the chicken.",
+          "Add the rice and press it into an even layer. Let it sear without stirring 1-2 min to get some toasty bits, then stir-fry to combine.",
+          "Add the peas and carrots, then the soy sauce and oyster sauce, tossing until every grain is coated and the vegetables are hot. Drizzle with sesame oil, toss once more, and top with green onions."
+        ]
+      }
     },
     {
       "id": 267,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 19,
+        "recipe_detailed": [
+          "Heat the olive oil in a large skillet over medium. Add the pepper and onion and cook 4 min until soft. Move them to a plate and wipe out the pan.",
+          "Toss the shredded chicken with the taco seasoning until evenly coated. A splash of water helps the seasoning stick.",
+          "Lay out the tortillas. On half of each, layer a little cheese, then chicken and vegetables, then more cheese. Cheese on both sides holds everything together. Fold the bare half over.",
+          "Cook in the dry skillet over medium heat 2-3 min per side, pressing gently with a spatula, until golden and crisp and the cheese has melted.",
+          "Let them rest 1 min so the cheese sets, then cut into wedges. Serve with sour cream, salsa, and guacamole."
+        ]
+      }
     },
     {
       "id": 268,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them, including a 165°F doneness check; added sat fat",
+      "set": {
+        "satFat": 16,
+        "recipe_detailed": [
+          "Put the chicken tenders in the buttermilk and let them soak 10 min. Meanwhile, bake the biscuits per the package directions.",
+          "In a shallow dish, mix the flour with the garlic powder, paprika, and a generous pinch of salt and pepper.",
+          "Heat about 1 inch of oil in a heavy skillet to 350°F. Lift each tender from the buttermilk, let the excess drip off, and press it firmly into the seasoned flour on all sides.",
+          "Fry in batches 5-6 min, turning once, until deep golden and 165°F inside. Drain on a rack.",
+          "Stir the melted butter and honey together. Split the warm biscuits, tuck in the chicken, and drizzle the honey butter generously over the chicken and the cut sides of the biscuits."
+        ]
+      }
     },
     {
       "id": 269,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them; added sat fat",
+      "set": {
+        "satFat": 10,
+        "recipe_detailed": [
+          "Preheat oven to 450°F, or follow the dough package directions. Lightly oil a sheet pan and stretch the dough onto it as thin and even as you can. If it springs back, let it rest 5 min and try again.",
+          "Spread the BBQ sauce over the dough, all the way to the edges.",
+          "Scatter the shredded chicken evenly, then the red onion, then the cheese, so the cheese holds everything in place as it melts.",
+          "Bake 12-15 min until the crust is golden underneath and the cheese is bubbly. Check in the last 3 min, because BBQ sauce scorches faster than tomato sauce.",
+          "Let it cool 2 min, then top with fresh cilantro, slice, and serve."
+        ]
+      }
     },
     {
       "id": 270,
-      "flags": "Missing recipe_detailed. Not premium. Needs content written.",
-      "set": {}
+      "reason": "No detailed steps; added them, including a doneness temperature for bone-in pieces; added sat fat",
+      "set": {
+        "satFat": 15,
+        "recipe_detailed": [
+          "Whisk the buttermilk and hot sauce together. Add the chicken, turn to coat, and marinate at least 20 min, or overnight in the fridge for more flavor.",
+          "In a shallow dish, mix the flour with the cayenne, garlic powder, onion powder, and a generous pinch of salt and pepper.",
+          "Lift each piece from the buttermilk, let the excess drip off, and press it firmly into the seasoned flour on all sides. Let the coated pieces sit 5 min so the coating sets and stays on in the oil.",
+          "Heat 2 inches of oil in a heavy pot to 350°F. Fry a few pieces at a time 12-14 min, turning occasionally, until deep golden and at least 165°F next to the bone (175°F is even better for dark meat). Drain on a rack.",
+          "Toast the waffles, top with the chicken, and serve with plenty of maple syrup and hot sauce."
+        ]
+      }
     },
     {
       "id": 300,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 10
       }
     },
     {
       "id": 301,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 7
       }
     },
     {
       "id": 302,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 19
       }
     },
     {
       "id": 303,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 5
       }
     },
     {
       "id": 304,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 6
       }
     },
     {
       "id": 305,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "italian"
+        "satFat": 10
       }
     },
     {
       "id": 306,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 5
       }
     },
     {
       "id": 307,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 10
       }
     },
     {
       "id": 308,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 5
       }
     },
     {
       "id": 309,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 8
       }
     },
     {
       "id": 333,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 13
       }
     },
     {
       "id": 334,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 7
       }
     },
     {
       "id": 335,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "indian"
+        "satFat": 20
       }
     },
     {
       "id": 336,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 8
       }
     },
     {
       "id": 337,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "asian"
+        "satFat": 3
       }
     },
     {
       "id": 338,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "italian"
+        "satFat": 10
       }
     },
     {
       "id": 339,
+      "reason": "Added sat fat",
       "set": {
-        "cuisine": "american"
+        "satFat": 30
       }
+    }
+  ],
+  "flags": [
+    {
+      "id": 119,
+      "note": "Four salmon fillets for servings: 3, and cal 340 is far below the ingredients (about 850 kcal per serving with rice, avocado, and mango). Same 4-proteins-for-3-servings pattern as ids 23, 68, 107, and 118. Servings: 4 is probably what was meant for all five."
+    },
+    {
+      "id": 23,
+      "note": "4 salmon fillets for servings: 3; cal 320 vs an estimate of about 600 (4 tbsp butter). Likely should be servings: 4."
+    },
+    {
+      "id": 68,
+      "note": "4 chicken breasts for servings: 3; cal 320 vs an estimate of about 700 with the feta and dressing. Likely should be servings: 4."
+    },
+    {
+      "id": 107,
+      "note": "4 chicken breasts and 1 cup heavy cream for servings: 3; cal 450 vs an estimate of about 770. Likely should be servings: 4."
+    },
+    {
+      "id": 118,
+      "note": "4 salmon fillets for servings: 3; cal 290 vs an estimate of about 450. Likely should be servings: 4."
+    },
+    {
+      "id": 191,
+      "note": "cal 520 looks low. 3 lb skin-on chicken, flour coating, fried, plus mayo slaw and buttered corn for 4 is about 1,200 kcal per serving."
+    },
+    {
+      "id": 339,
+      "note": "cal 560 looks low. 8 skin-on thighs, a can of coconut milk, and 1.5 cups rice for 4 is about 1,150 kcal per serving."
+    },
+    {
+      "id": 267,
+      "note": "cal 530 looks low. Two large tortillas, 6 oz chicken, and 1/2 cup cheese per serving is about 1,000 kcal."
+    },
+    {
+      "id": 65,
+      "note": "cal 410 looks low. 1.5 lb sausage and 2 cups heavy cream for 6 is about 750 kcal per serving (and about 30 g sat fat)."
+    },
+    {
+      "id": 67,
+      "note": "cal 480 looks low. Two dough balls (about 2 lb) and 2 cups mozzarella for 3 servings is about 1,000 kcal."
+    },
+    {
+      "id": 262,
+      "note": "cal 650 looks low. Breaded chicken, 12 oz spaghetti, and 2 cups mozzarella for 4 is about 1,000 kcal per serving."
     }
   ]
 }
