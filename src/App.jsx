@@ -980,14 +980,6 @@ const MEALS = [
     recipe_detailed:["Slice eggplant into half-inch rounds. Salt both sides and spread on a rack for 30 min — you will see water bead on the surface. Rinse thoroughly and pat completely dry.","Set up a breading station: flour, beaten eggs, and seasoned breadcrumbs. Dredge eggplant in flour, then egg, then press firmly into breadcrumbs.","Fry in half an inch of oil over medium-high, 2-3 min per side, until deep golden. Drain on a wire rack.","Layer in a baking dish: marinara, eggplant, mozzarella, Parmesan. Repeat layers, ending with cheese. Bake at 375F for 25-30 min until bubbly and golden. Rest 10 min before serving."],
   },
 
-  { id:162, name:"Thai Green Curry (Veg)", protein:"plant-based", cal:650, satFat:44, time:25, servings:4,
-    desc:"Fragrant Thai green curry with tofu, zucchini, and Thai basil in creamy coconut broth",
-    ingredients:["1 block firm tofu, pressed and cubed","2 tbsp coconut oil","2-3 tbsp green curry paste","2 cans (14 oz) coconut milk","1 cup vegetable broth","2 zucchini, sliced","1 cup green beans","1 tbsp soy sauce","1 tbsp brown sugar","Lime juice","1 cup Thai basil","Jasmine rice"],
-    recipe:["Pan-fry tofu in coconut oil until golden, 8 min. Remove. Fry curry paste 1-2 min. Add one can coconut milk.","Add broth and second can coconut milk. Add vegetables. Season with soy, sugar, lime.","Add tofu and Thai basil. Serve over jasmine rice."],
-    tip:"Fry the curry paste in oil before adding liquid - this blooms the aromatics and is the step most home cooks skip.",
-    tip2:"Fry the green curry paste in coconut cream until the oil separates — you will see it start to pool around the paste. This cracking step blooms the paste and is where the soup transitions from flat to deeply layered.",
-    recipe_detailed:["Open the coconut milk and spoon the thick cream from the top into the pan. Heat over medium until simmering. Add green curry paste and fry in the cream 2-3 min, stirring constantly, until the oil separates and pools around the paste.","Add the thinner coconut milk, broth, and fish sauce or soy sauce to keep it vegan. Stir to combine and bring to a gentle simmer.","Add denser vegetables first and simmer 5-7 min. Add quick-cooking vegetables in the last 2 min.","Squeeze lime juice in at the very end. Taste — it should be fragrant, slightly spicy, and balanced. Serve over jasmine rice with extra lime wedges."],
-  },
 
   { id:163, name:"Roasted Beet & Feta Salad", protein:"plant-based", cal:310, satFat:7, time:40, servings:4,
     desc:"Roasted beets with creamy goat cheese, candied walnuts, and honey-dijon dressing over arugula",
@@ -1379,14 +1371,6 @@ const MEALS = [
     recipe_detailed:["Slice beef into strips and marinate briefly in soy sauce, cumin, and pepper. Slice peppers, red onion, and tomato into large pieces.","Get a wok or large skillet screaming hot. Add oil, then beef in a single layer. Sear 60 seconds without touching, toss, 30 more seconds. Remove.","In the same hot pan, add onion wedges and peppers. Stir fry 2 min until they char slightly. Add tomatoes, garlic, and aji amarillo paste. Cook 1 min.","Return beef. Add soy sauce, red wine vinegar, and fresh cilantro. Toss over highest heat for 1 min. Serve over white rice and with French fries on the side."],
   },
 
-  { id:183, name:"Hungarian Pork Goulash", protein:"pork", cal:400, satFat:11, time:50, servings:6,
-    desc:"A hearty pork stew rich with Hungarian sweet paprika, caraway, and potatoes",
-    ingredients:["2 lbs pork shoulder, cubed","3 tbsp Hungarian sweet paprika","1 tsp caraway seeds","2 onions, diced","3 garlic cloves","1 can diced tomatoes","2 cups broth","3 potatoes, cubed","2 tbsp lard or oil","1 green pepper, diced","1 tsp vinegar","Salt","Sour cream and egg noodles"],
-    recipe:["Cook onions in lard 10 min until very golden. Remove from heat. Stir in paprika - never fry paprika directly in hot fat.","Return to heat. Add garlic, caraway, pork. Coat everything. Add tomatoes, broth, green pepper. Simmer covered 30 min.","Add potatoes. Cook 20 more min. Finish with vinegar. Serve with sour cream and noodles."],
-    tip:"Always add paprika off the heat - it burns in seconds in hot fat. Let it bloom in residual warmth before returning to the burner.",
-    tip2:"Add the paprika off the heat or in very little fat — it burns easily and turns bitter. Stir it into the vegetables, then immediately add the liquid to stop the cooking.",
-    recipe_detailed:["Cut pork shoulder into 1.5-inch cubes. Brown in batches in a Dutch oven over high heat until deeply seared on all sides. Remove each batch to a plate.","Reduce heat to medium. Cook onion 5 min until soft. Remove from heat momentarily, add sweet paprika and stir for 30 seconds in residual heat. Add tomatoes immediately to stop the paprika cooking.","Return pork to the pot. Add broth, caraway seeds, marjoram, bay leaves, and diced peppers. Bring to a boil, then reduce to a low simmer.","Braise 1.5-2 hours until pork is very tender and the sauce has thickened. Stir in a spoonful of sour cream just before serving. Serve over egg noodles or spaetzle."],
-  },
 
   { id:184, name:"Pulled Pork Banh Mi", protein:"pork", cal:430, satFat:12, time:20, servings:4,
     desc:"Hoisin pulled pork with pickled daikon, jalapeño, and cilantro in a toasted baguette",
@@ -3954,7 +3938,6 @@ function MealSelector({currentMeal,onSelect,onClose,ratings={},usage={},favorite
     "Korean Bibimbap (Veg)":"asian",
     "Congee with Toppings":"asian",
     "Japanese Miso Breakfast Bowl":"asian",
-    "Thai Green Curry (Veg)":"asian",
     "Tofu Stir-Fry with Bok Choy":"asian",
     "Vegetable Gyoza":"asian",
     "Veggie Sushi Bowls":"asian",
@@ -5847,7 +5830,8 @@ return (
                           {meal?.isCustom&&<CustomRecipePreview meal={meal} C={C}/>}
                           {!isLeftoverRow&&(
                             <>
-                              <div style={{display:"flex",alignItems:"center",gap:8,flexWrap:"wrap",marginTop:16}}>
+                              {/* Pull left past the 20px protein icon + 10px gap so the row lines up with the card edge */}
+                              <div style={{display:"flex",alignItems:"center",gap:8,flexWrap:"wrap",marginTop:16,marginLeft:-30}}>
                                 {meal?.isCustom&&(
                                   <span style={{fontSize:9,fontWeight:700,color:C.accent,background:C.accentTint,padding:"2px 7px",borderRadius:8,letterSpacing:"0.04em",textTransform:"uppercase"}}>Custom</span>
                                 )}
@@ -5863,10 +5847,10 @@ return (
                                 )}
                                 {!meal?.isCustom&&(()=>{
                                   const hasOverride=!!d.servingsOverride;
-                                  const label=<><Users size={10} strokeWidth={2}/> serves {Math.round(mealServings*(nextIsLeftover?2:1))}</>;
-                                  const chipStyle={display:"flex",alignItems:"center",gap:4,fontSize:10,fontWeight:hasOverride?700:400,
+                                  const label=<><Users size={12} strokeWidth={2}/> serves {Math.round(mealServings*(nextIsLeftover?2:1))}</>;
+                                  const chipStyle={display:"flex",alignItems:"center",gap:5,fontSize:12,fontWeight:hasOverride?700:400,
                                     background:hasOverride?C.accentTint:C.subtle,color:hasOverride?C.accent:C.textSub,
-                                    padding:"2px 7px",borderRadius:8,border:"none",fontFamily:"inherit"};
+                                    padding:"2.4px 8.4px",borderRadius:10,border:"none",fontFamily:"inherit"};
                                   if(isDisabled) return <span style={chipStyle}>{label}</span>;
                                   return (
                                     <button aria-label="Change serving size for this meal"

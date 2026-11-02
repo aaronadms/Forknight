@@ -24,6 +24,8 @@ const CUISINES = ["american", "mexican", "italian", "asian", "indian", "mediterr
 const INT_FIELDS = ["cal", "satFat", "time", "servings"];
 const STRING_FIELDS = ["name", "desc", "tip", "tip2"];
 const ARRAY_FIELDS = ["ingredients", "recipe", "recipe_detailed"];
+// Recipes intentionally deleted from MEALS (Thai Green Curry, Hungarian Pork Goulash)
+const REMOVED_IDS = new Set([162, 183]);
 const ALLOWED = new Set(["protein", "cuisine", ...INT_FIELDS, ...STRING_FIELDS, ...ARRAY_FIELDS]);
 
 // ── Read App.jsx ──────────────────────────────────────────────────────────────
@@ -71,7 +73,11 @@ for (const f of files) {
   for (const c of list) {
     const where = `${f} id ${c.id}`;
     const meal = byId.get(c.id);
-    if (!meal) { errors.push(`${where}: no recipe with this id`); continue; }
+    if (!meal) {
+      // Recipes deleted after an audit pass (e.g. 162, 183) are skipped, not errors
+      if (REMOVED_IDS.has(c.id)) { warnings.push(`${where}: recipe was removed from the app; skipped`); continue; }
+      errors.push(`${where}: no recipe with this id`); continue;
+    }
     const set = c.set || {};
     for (const [k, v] of Object.entries(set)) {
       if (k === "id" || k === "premium") { errors.push(`${where}: "${k}" must not be changed`); continue; }
