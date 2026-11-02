@@ -195,14 +195,6 @@ const MEALS = [
     tip2:"Zucchini noodles release a lot of water as they cook. Toss them in the hot sauce for no more than 2 min — any longer and your sauce turns into soup.",
     recipe_detailed:["Heat oil in a large skillet over medium-high. Add onion, carrot, and celery and cook 5-7 min until softened. Add garlic, cook 1 min.","Add ground beef and cook 6-8 min, breaking into fine crumbles, until browned with no pink remaining. Drain excess fat — leave a thin layer for flavor.","Pour in crushed tomatoes, tomato paste, and herbs. Stir well, reduce heat to low, and simmer 20-25 min uncovered. The sauce should thicken and deepen in color.","Spiralize the zucchini into noodles. Add them to the sauce and toss gently for 1-2 min — just until warmed through. Season and serve immediately topped with Parmesan."],
   },
-  { id:10, name:"Korean Beef Bowl", protein:"beef", cal:520, satFat:3, time:25, servings:6,
-    desc:"Tender strips of Mongolian-style beef in a sweet-savory soy-ginger glaze over jasmine rice with green onions",
-    ingredients:["1.5 lb flank steak, thinly sliced against the grain","0.25 cup cornstarch","0.5 cup low-sodium soy sauce","0.5 cup brown sugar","1 tbsp hoisin sauce","4 cloves garlic, minced","1 tbsp fresh ginger, grated","0.25 tsp red pepper flakes","0.25 cup vegetable oil","3 cups jasmine rice, cooked","4 green onions, sliced","Sesame seeds"],
-    recipe:["Toss sliced flank steak with cornstarch to coat. Shake off excess.","Whisk soy sauce, brown sugar, hoisin, garlic, ginger, and red pepper flakes together.","Heat oil in wok over high heat. Sear beef in batches 1-2 min per side until caramelized. Remove and drain oil.","Return beef to pan, pour sauce over, toss 1-2 min until thickened and glossy.","Serve over jasmine rice topped with green onions and sesame seeds."],
-    tip:"Slice flank steak partially frozen for ultra-thin strips. High heat in batches gives caramelized beef, not steamed.",
-    tip2:"Sear in batches — never more than a single layer of beef in the pan. Crowding drops the pan temperature and the beef steams grey instead of caramelizing.",
-    recipe_detailed:["Slice the flank steak as thin as possible against the grain. If it is hard to slice thin, freeze for 20 min first — it firms up and cuts cleanly.","Toss sliced beef with cornstarch to coat lightly. This helps it caramelize and thickens the sauce later. Shake off any excess.","Whisk together soy sauce, brown sugar, hoisin, garlic, ginger, and red pepper flakes. Taste — it should be salty-sweet with a little heat.","Heat oil in a wok or large skillet over the highest heat your stove has. Add beef in a single layer, sear 60 seconds, toss briefly and cook 30 more seconds. Remove and repeat with remaining beef. Return all beef, pour sauce over, toss 1-2 min until glossy and thickened. Serve over jasmine rice with green onions and sesame seeds."],
-  },
 
   { id:43, name:"Egg Roll in a Bowl", protein:"beef", cal:360, satFat:7, time:12, servings:6,
     desc:"Ground beef, coleslaw mix, soy-ginger sauce",
@@ -3918,7 +3910,6 @@ function MealSelector({currentMeal,onSelect,onClose,ratings={},usage={},favorite
     "Shrimp Scampi Linguine":"italian",
     "Chicken Piccata with Capers":"italian",
     // Asian
-    "Korean Beef Bowl":"asian",
     "Egg Roll in a Bowl":"asian",
     "Beef & Cabbage Stir Fry":"asian",
     "Coconut Curry Chicken":"asian",

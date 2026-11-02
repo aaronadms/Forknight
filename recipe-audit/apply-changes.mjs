@@ -24,8 +24,8 @@ const CUISINES = ["american", "mexican", "italian", "asian", "indian", "mediterr
 const INT_FIELDS = ["cal", "satFat", "time", "servings"];
 const STRING_FIELDS = ["name", "desc", "tip", "tip2"];
 const ARRAY_FIELDS = ["ingredients", "recipe", "recipe_detailed"];
-// Recipes intentionally deleted from MEALS (Thai Green Curry, Hungarian Pork Goulash)
-const REMOVED_IDS = new Set([162, 183]);
+// Recipes intentionally deleted from MEALS (Korean Beef Bowl, Thai Green Curry, Hungarian Pork Goulash)
+const REMOVED_IDS = new Set([10, 162, 183]);
 const ALLOWED = new Set(["protein", "cuisine", ...INT_FIELDS, ...STRING_FIELDS, ...ARRAY_FIELDS]);
 
 // ── Read App.jsx ──────────────────────────────────────────────────────────────
